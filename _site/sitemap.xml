@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/blog/2013/12/01/wok/</loc>
+<lastmod>2013-12-01T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blog/2017/02/05/coem/</loc>
+<lastmod>2017-02-05T15:34:00-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blog/2019/02/01/unicours/</loc>
+<lastmod>2019-02-01T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blog/2019/02/05/monitor/</loc>
+<lastmod>2019-02-05T15:33:00-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blog/2020/12/01/alerte/</loc>
+<lastmod>2020-12-01T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blog/2020/12/01/erpsim/</loc>
+<lastmod>2020-12-01T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/work/</loc>
+</url>
+</urlset>
