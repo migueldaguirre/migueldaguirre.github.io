@@ -54,9 +54,6 @@ title: Work
             </a>
           </p>
           <p class='post-subtitle'>
-            {% katexmm %}
-            {{ post.subtitle }}
-            {% endkatexmm %}
           </p>
           <br>
           <p class='post-date'>
