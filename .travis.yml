@@ -1,6 +1,8 @@
 language: ruby
+rvm:
+  - 2.6.3
 before_script:
-- rm -rf public
+- chmod +x ./script/cibuild
 script:
 - bundle exec jekyll build
 branches:
