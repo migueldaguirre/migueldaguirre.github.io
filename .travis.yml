@@ -2,12 +2,12 @@ language: ruby
 rvm:
 - 2.6.3
 before_script:
-- pip install --usr awscli
+- pip install --user awscli
 - rm -rf public
 - bundle exec jekyll build
 script:
-- aws 3 sync public/ s3://davidaguirre.info --acl.public-read --delete
-- aws cloudfront crea-invalidation --distribution-id EM0KDMU0P3JN3 --paths '/'
+- aws 3 sync public/ s3://davidaguirre.info --acl public-read --delete
+- aws cloudfront create-invalidation --distribution-id EM0KDMU0P3JN3 --paths '/*'
 branches:
 only:
 - master
