@@ -10,4 +10,4 @@ script:
 - aws cloudfront create-invalidation --distribution-id EM0KDMU0P3JN3 --paths '/*'
 branches:
 only:
-- master
+  - master
