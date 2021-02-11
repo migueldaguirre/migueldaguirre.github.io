@@ -1,7 +1,7 @@
 language: ruby
 rvm:
 - 2.6.3
-- before script:
+before script:
 - pip install --usr awscli
 - rm -rf public
 - bundle exec jekyll build
