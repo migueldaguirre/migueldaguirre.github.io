@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-10T17:38:35-05:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Wireless Leak Detector Setup</title><link href="http://localhost:4000/blog/2020/12/01/alerte/" rel="alternate" type="text/html" title="Wireless Leak Detector Setup" /><published>2020-12-01T00:00:00-05:00</published><updated>2020-12-01T00:00:00-05:00</updated><id>http://localhost:4000/blog/2020/12/01/alerte</id><content type="html" xml:base="http://localhost:4000/blog/2020/12/01/alerte/">&lt;p&gt;(Under construction / February 2021)&lt;/p&gt;</content><author><name></name></author><summary type="html">(Under construction / February 2021)</summary></entry><entry><title type="html">Simulator Admin Console</title><link href="http://localhost:4000/blog/2020/12/01/erpsim/" rel="alternate" type="text/html" title="Simulator Admin Console" /><published>2020-12-01T00:00:00-05:00</published><updated>2020-12-01T00:00:00-05:00</updated><id>http://localhost:4000/blog/2020/12/01/erpsim</id><content type="html" xml:base="http://localhost:4000/blog/2020/12/01/erpsim/">&lt;p&gt;Decide what information in the ERPSim console is important, and when, how and where to display it better.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-16T10:24:24-05:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Wireless Leak Detector Setup</title><link href="http://localhost:4000/blog/2020/12/01/alerte/" rel="alternate" type="text/html" title="Wireless Leak Detector Setup" /><published>2020-12-01T00:00:00-05:00</published><updated>2020-12-01T00:00:00-05:00</updated><id>http://localhost:4000/blog/2020/12/01/alerte</id><content type="html" xml:base="http://localhost:4000/blog/2020/12/01/alerte/">&lt;p&gt;(Under construction / February 2021)&lt;/p&gt;
+
+&lt;p&gt;L’objectif principal était de déterminer les forces et faiblesses, en termes d’utilisabilité, des différentes étapes nécessaires à l’installation du détecteur sur l’application. Les résultats de ces tests serviront à informer l’équipe de développement des ajustements et modifications à considérer pour améliorer l’expérience de ses utilisateurs. Ces résultats permettront également de vérifier si les étapes d’installation sont suffisamment compréhensibles. Ce rapport présentera entre autres les résultats observés ainsi que les recommandations appropriées.&lt;/p&gt;
+
+&lt;h3 id=&quot;objectif&quot;&gt;Objectif&lt;/h3&gt;
+&lt;p&gt;Une version de l’application Desjardins Assurances et son module Alerte a été testé en novembre 2018 à l’aide de 12 participants correspondant aux utilisateurs cibles du service. Cette étude a évalué la manière dont les utilisateurs ont expérimenté le processus de connexion WIFI du détecteur d’humidité Roost (RSW 200A) via un téléphone mobile (iOS).&lt;/p&gt;
+
+&lt;h2 id=&quot;procedure&quot;&gt;Procedure&lt;/h2&gt;
+&lt;p&gt;Afin de rendre les tests aussi réalistes que possible, les participants ont dû installer le détecteur dans le confort de leur habitation où deux évaluateurs avec une expérience dans le domaine ont observé et guidé le processus de déroulement des tests. Les évaluateurs se sont également assurés que les utilisateurs conservent une certaine autonomie pour et qu’ils soient en mesure de prendre leurs propres décisions.&lt;/p&gt;
+
+&lt;p&gt;L’analyse des données a été basée sur les commentaires des participants lors de la réalisation des tâches demandées ainsi qu’une fois qu’ils les avaient accomplis. De plus, un questionnaire quantitatif a été distribué aux participants et analysé par la suite afin de fournir une comparaison de l’utilisabilité de l’application avec d’autres systèmes.&lt;/p&gt;
+
+&lt;h2 id=&quot;description-des-évaluations&quot;&gt;Description des évaluations&lt;/h2&gt;</content><author><name></name></author><summary type="html">(Under construction / February 2021)</summary></entry><entry><title type="html">Simulator Admin Console</title><link href="http://localhost:4000/blog/2020/12/01/erpsim/" rel="alternate" type="text/html" title="Simulator Admin Console" /><published>2020-12-01T00:00:00-05:00</published><updated>2020-12-01T00:00:00-05:00</updated><id>http://localhost:4000/blog/2020/12/01/erpsim</id><content type="html" xml:base="http://localhost:4000/blog/2020/12/01/erpsim/">&lt;h3 class=&quot;article-sub&quot;&gt;Challenge&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://erpsim.hec.ca/&quot; title=&quot;ERPsimLab Homepage&quot;&gt;ERPsimLab&lt;/a&gt; What: Specific units of information within the interface.
+Where: The position of each unit relative to other units and the overall structure (groups, hierarchies).
+When: At what point in the sequence of use (stages).
+How: Qualitative factors of information units.
+Important: Consensual judgment about relevance and coherence, and the subsequent choice (after reflection and discussion).&lt;/p&gt;
+
+&lt;p&gt;Decide what information in the ERPSim console is important, and when, how and where to display it better.&lt;/p&gt;
+
+&lt;h3 class=&quot;article-sub&quot;&gt;Outcome&lt;/h3&gt;
 
 &lt;p&gt;What: Specific units of information within the interface.
 Where: The position of each unit relative to other units and the overall structure (groups, hierarchies).
@@ -11,4 +33,88 @@ Improve in-game debriefing.
 Update to current usability patterns
 Prepare the interface for incremental improvement.&lt;/p&gt;
 
-&lt;p&gt;Modifying the ERPsim console structure, order, content and visual layout could bring better learnability for trainers, increased levels of engagement for students and a general higher perception of quality.&lt;/p&gt;</content><author><name></name></author><summary type="html">Decide what information in the ERPSim console is important, and when, how and where to display it better.</summary></entry><entry><title type="html">Supplies Price Monitor</title><link href="http://localhost:4000/blog/2019/02/05/monitor/" rel="alternate" type="text/html" title="Supplies Price Monitor" /><published>2019-02-05T15:33:00-05:00</published><updated>2019-02-05T15:33:00-05:00</updated><id>http://localhost:4000/blog/2019/02/05/monitor</id><content type="html" xml:base="http://localhost:4000/blog/2019/02/05/monitor/">&lt;p&gt;(Under construction / February 2021)&lt;/p&gt;</content><author><name></name></author><summary type="html">(Under construction / February 2021)</summary></entry><entry><title type="html">Dynamic Class Registration</title><link href="http://localhost:4000/blog/2019/02/01/unicours/" rel="alternate" type="text/html" title="Dynamic Class Registration" /><published>2019-02-01T00:00:00-05:00</published><updated>2019-02-01T00:00:00-05:00</updated><id>http://localhost:4000/blog/2019/02/01/unicours</id><content type="html" xml:base="http://localhost:4000/blog/2019/02/01/unicours/">&lt;p&gt;(Under construction / February 2021)&lt;/p&gt;</content><author><name></name></author><summary type="html">(Under construction / February 2021)</summary></entry><entry><title type="html">Portfolio of Services</title><link href="http://localhost:4000/blog/2017/02/05/coem/" rel="alternate" type="text/html" title="Portfolio of Services" /><published>2017-02-05T15:34:00-05:00</published><updated>2017-02-05T15:34:00-05:00</updated><id>http://localhost:4000/blog/2017/02/05/coem</id><content type="html" xml:base="http://localhost:4000/blog/2017/02/05/coem/">&lt;p&gt;(Under construction / February 2021)&lt;/p&gt;</content><author><name></name></author><summary type="html">(Under construction / February 2021)</summary></entry><entry><title type="html">Billing Process Experience</title><link href="http://localhost:4000/blog/2013/12/01/wok/" rel="alternate" type="text/html" title="Billing Process Experience" /><published>2013-12-01T00:00:00-05:00</published><updated>2013-12-01T00:00:00-05:00</updated><id>http://localhost:4000/blog/2013/12/01/wok</id><content type="html" xml:base="http://localhost:4000/blog/2013/12/01/wok/">&lt;p&gt;(Under construction / February 2021)&lt;/p&gt;</content><author><name></name></author><summary type="html">(Under construction / February 2021)</summary></entry></feed>
+&lt;p&gt;Modifying the ERPsim console structure, order, content and visual layout could bring better learnability for trainers, increased levels of engagement for students and a general higher perception of quality.&lt;/p&gt;
+
+&lt;h4&gt;Deliverables:&lt;/h4&gt;
+
+&lt;h2 class=&quot;article-sub&quot; id=&quot;process-title&quot;&gt;Process&lt;/h2&gt;
+
+&lt;h3 class=&quot;stage-title&quot;&gt;1. Information Gathering&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;h3 class=&quot;stage-title&quot;&gt;2. Use cases&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;h3 class=&quot;stage-title&quot;&gt;3. Workshop 1: Identify issues&lt;/h3&gt;
+&lt;p&gt;Inverviews made by Maxime for his thesis
+Organize them&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h3 class=&quot;stage-title&quot;&gt;4. Analysis of the current interface&lt;/h3&gt;
+&lt;p&gt;Dividing in components
+Indexing components&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h3 class=&quot;stage-title&quot;&gt;5. Wokshop 2 : Redesign &lt;/h3&gt;
+&lt;p&gt;Photos - Results&lt;/p&gt;
+&lt;div class=&quot;figure&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/workshop_b.jpg&quot; /&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/workshop_c.jpg&quot; /&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/workshop_d.jpg&quot; /&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 class=&quot;stage-title&quot;&gt;6. Design iterations &lt;/h3&gt;
+
+&lt;p&gt;Putting information together&lt;/p&gt;
+&lt;div class=&quot;figure&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/sketches.jpg&quot; style=&quot;width: 100%&quot; /&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;
+        Personal sketches done to synthesize the ideas gathered at the workshop.
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;figure&quot;&gt;
+&lt;img src=&quot;/assets/img/erpsim/Slide24.gif&quot; class=&quot;stage-photo&quot; id=&quot;animated-gif&quot; /&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;
+        First interactive prototype showing the flow of interactions.
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;h3 class=&quot;stage-title&quot;&gt;7. Development&lt;/h3&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;img src=&quot;/assets/img/erpsim/erpsim_state_diagram.jpg&quot; class=&quot;stage-photo&quot; /&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;
+         First state diagram for the front-end.
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;div class=&quot;figure&quot;&gt;
+&lt;img src=&quot;/assets/img/erpsim/erpsim_ctl_states.jpg&quot; class=&quot;stage-photo&quot; /&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;
+         Variations of a UI component across general front-end states.
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 class=&quot;stage-title&quot;&gt;7. Hand-off &lt;/h3&gt;
+&lt;p&gt;Final version in HTML
+Repository
+Developed
+ADOBE XD MODEL
+PROJECT LOG
+REPOSITORY (HEC Montréal)&lt;/p&gt;</content><author><name></name></author><summary type="html">Challenge</summary></entry><entry><title type="html">Supplies Price Monitor</title><link href="http://localhost:4000/blog/2019/02/05/monitor/" rel="alternate" type="text/html" title="Supplies Price Monitor" /><published>2019-02-05T15:33:00-05:00</published><updated>2019-02-05T15:33:00-05:00</updated><id>http://localhost:4000/blog/2019/02/05/monitor</id><content type="html" xml:base="http://localhost:4000/blog/2019/02/05/monitor/">&lt;p&gt;(Under construction / February 2021)&lt;/p&gt;</content><author><name></name></author><summary type="html">(Under construction / February 2021)</summary></entry><entry><title type="html">Dynamic Class Registration</title><link href="http://localhost:4000/blog/2019/02/01/unicours/" rel="alternate" type="text/html" title="Dynamic Class Registration" /><published>2019-02-01T00:00:00-05:00</published><updated>2019-02-01T00:00:00-05:00</updated><id>http://localhost:4000/blog/2019/02/01/unicours</id><content type="html" xml:base="http://localhost:4000/blog/2019/02/01/unicours/">&lt;p&gt;(Under construction / February 2021)&lt;/p&gt;</content><author><name></name></author><summary type="html">(Under construction / February 2021)</summary></entry><entry><title type="html">Portfolio of Services</title><link href="http://localhost:4000/blog/2017/02/05/coem/" rel="alternate" type="text/html" title="Portfolio of Services" /><published>2017-02-05T15:34:00-05:00</published><updated>2017-02-05T15:34:00-05:00</updated><id>http://localhost:4000/blog/2017/02/05/coem</id><content type="html" xml:base="http://localhost:4000/blog/2017/02/05/coem/">&lt;p&gt;(Under construction / February 2021)&lt;/p&gt;</content><author><name></name></author><summary type="html">(Under construction / February 2021)</summary></entry><entry><title type="html">Billing Process Experience</title><link href="http://localhost:4000/blog/2013/12/01/wok/" rel="alternate" type="text/html" title="Billing Process Experience" /><published>2013-12-01T00:00:00-05:00</published><updated>2013-12-01T00:00:00-05:00</updated><id>http://localhost:4000/blog/2013/12/01/wok</id><content type="html" xml:base="http://localhost:4000/blog/2013/12/01/wok/">&lt;p&gt;(Under construction / February 2021)&lt;/p&gt;</content><author><name></name></author><summary type="html">(Under construction / February 2021)</summary></entry></feed>

@@ -5,80 +5,87 @@ layout: empty
 
 <html>
 <head>
-    <title>M. David Aguirre | BA & UX</title>
-    <meta charset='UTF-8'>
-    <meta content='width=device-width, initial-scale=1' name='viewport'/>
-    <meta name='description' content='David Aguirre is a Designer and Business Analyst'>
-    <meta name='keywords' content='
-    ux,
-    it,
-    business analysis,
-    erp,
-    ui,
-    design thinking,
-    prototyping,
-    user research
-    '>
-    <meta name='author' content='David Aguirre'>
-    <link rel='shortcut icon' href='/favicon.png?v=e' />
-    <link href='/css/styles.css' rel='stylesheet'/>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="assets/img/favicon.png"/>
-
+  <title>David Aguirre | BA & UX</title>
+  <meta charset='UTF-8'>
+  <meta content='width=device-width, initial-scale=1' name='viewport'/>
+  <meta name='description' content='David Aguirre is a Designer and Business Analyst'>
+  <meta name='keywords' content='
+  ux,
+  it,
+  business analysis,
+  erp,
+  ui,
+  design thinking,
+  prototyping,
+  user research
+  '>
+  <meta name='author' content='David Aguirre'>
+  <link rel='shortcut icon' href='/favicon.png?v=e' />
+  <link href='/css/styles.css' rel='stylesheet'/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png"/>
 
 </head>
 <body>
-<!--     {% include nav.html %} -->
-<div class='nav'>
+  <!--     {% include nav.html %} -->
+  <div class='nav'>
     <ul class='wrap'>
-        <li><a id='about' class="selected" href='/'>About</a></li>
-        <li><a id='work' href='/work' >Work</a></li>
+      <li><a id='about' class="selected" href='/'>About</a></li>
+      <li><a id='work' href='/work' >Work</a></li>
     </ul>
-</div>
-    <div id='blog' class='wrap'>
-        <div id='intro'>
-                <h1>M. DAVID AGUIRRE</h1>
-                <h2 class="sub">Business Analysist & UX Designer</h2>
-        </div>
-        <div id="profile">
-                <p>
-                Designer. Currently studying Business Analysis and User Experience at HEC Montreal. My recent work focuses on content development for corporate eLearning, web development, and digital marketing in B2B IT services. Exploring the intersection of complexity, visual design, branding and information architecture.
-                </p>
-                <ul>
-                <li>Bring contextual awareness</li>
-                <li>Understand organizational dynamics</li>
-                <li>Organize and visualize the work-in progress</li>
-                <li>Build well-crafted design deliverables</li>
-                </ul>
-                <p>
-                After discovering an aptitude for motivating and managing creative teams, I have been leading the production of multimedia and web content for multiple clients, following Agile and PMI frameworks.
-                </p>
-                <p>
-                As a hobby I write speculative non-fiction about diverse subjects, ranging from eastern philosphy and theoretical physics to art, ethics and systemics.
-                </p>
-                <br>
-        </div>
-        <div id="contact">
-                <ul class="contact" >
-                        <li>
-                           <a href="https://www.linkedin.com/in/mdaguirre/"><i class="fab fa-linkedin">&nbsp;</i>/mdaguirre</a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/migueldaguirre"><i class="fab fa-github-square">&nbsp;</i>MiguelDAguirre</a>
-                        </li>
-                        <li>
-                           <a href="https://twitter.com/MiguelDAguirre"><i class="fab fa-twitter-square">&nbsp;</i>@MiguelDAguirre</a>
-                        </li>
-                        <li>
-                           <a href="tel:+14386805409"><i class="fas fa-phone-square-alt">&nbsp;</i>+1 438-680-5409</a>
-                        </li>
-                        <li>
-                           <a href = "mailto: david.aguirre@hec.ca"><i class="fas fa-envelope-square">&nbsp;</i>david.aguirre@hec.ca</a>
-                        </li>
-                </ul>
-        </div>
+  </div>
+  <div id='blog' class='wrap'>
+    <div id='intro'>
+      <h1>DAVID AGUIRRE</h1>
+      <h2 class="sub">Business Analysist & UX Designer</h2>
     </div>
-</body>
-</html>
+    <div id="profile">
+        <p>
+        I majored in Product and Communication Design at <em>Universidad de los Andes</em> and obtained a Graduate Diploma in Business Analysis in IT at <em>HEC Montréal</em>.</p>
+        <p>
+        Throughout my career, I understood that information flows and organisational structures are intertwined. So information design is about the artifacts as much as people around them.</p>
+        <p>
+        My goal as a professional is to apply <em class="md-color">design thinking</em>, <em class="md-color">integrative thinking</em> and <em class="md-color">systems thinking</em> to develop new forms of value in digital services.</p>
+        <br>
+  <div class="project-facts">
+    <div style="padding: 1em 1em 0em 1em;" class="md-color">
+    <strong style="text-align:center;">What can I bring to the table? </strong><br>
+          <p><span class="competencies-title">Process and Systems Visualization</span><br>
+          <span class="md-color">Build a <ins>shared vision</ins> between collaborators that allows them to navigate the intricacies of IT and business operations, using multiple tools for analysis and modelling like activity diagrams, process flowcharts, use cases, user flows, customer journey maps, service blueprints, value constellations, data models, state diagrams and application architectures.</span></p>
+          <p>
+          <span class="competencies-title">User and Context Awareness</span>
+          <br>
+          <span class="md-color">Reveal important <ins>particularities</ins> about users and their environments. Approaching Participatory  Lateral, empathic approach that designers are trained for.  Action Theory, Socio-technical, Usability, Human-centered (biases+emotions+cognition+interests). Investigate. Avoid cognitive biases and _ problem solving.</span>
+          </p>
+          <p><span class="competencies-title">Information Design and Digital Prototypes</span><br>
+          <span class="md-color">Excellence in typography and layout. Usability.
+          Define a test altenatives systematically. Form, the structure of information. From quick’n-cheap to high fidelity/interactive/development-ready prototypes. Formal requirements or user stories, solution and test. Defining problems and designing an ideal state are intertwined. Manage briefing and requirements.</span></p>
+      </div>
+      </div>
+    </div>
+      <br>
+      <div id="contact">
+      <p><strong style="text-align: center">Where can you find me?</strong></p>
+      <ul class="contact" >
+      <li>
+      <a href = "mailto: david.aguirre@hec.ca"><i class="fas fa-envelope-square">&nbsp;</i>david.aguirre@hec.ca</a>
+      </li>
+      <li>
+      <a href="https://www.linkedin.com/in/mdaguirre/"><i class="fab fa-linkedin">&nbsp;</i>/mdaguirre</a>
+      </li>
+      <li>
+      <a href="https://github.com/migueldaguirre"><i class="fab fa-github-square">&nbsp;</i>MiguelDAguirre</a>
+      </li>
+      <li>
+      <a href="https://twitter.com/MiguelDAguirre"><i class="fab fa-twitter-square">&nbsp;</i>@MiguelDAguirre</a>
+      </li>
+      <li>
+      <a href="tel:+14386805409"><i class="fas fa-phone-square-alt">&nbsp;</i>+1 438-680-5409</a>
+      </li>
+      </ul>
+      </div>
+      </div>
+    </body>
+    </html>

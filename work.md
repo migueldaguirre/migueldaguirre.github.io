@@ -31,7 +31,7 @@ layout: empty
   <!-- {% include nav.html %} -->
   <div class='nav'>
     <ul class='wrap'>
-      <li class="nav-name">DAVID AGUIRRE | BA & UX </li>
+      <span class="nav-name">DAVID AGUIRRE | BA & UX </span>
       <li><a id='about'  href='/'>About</a></li>
       <li><a id='work' class="selected" href='/work' >Work</a></li>
     </ul>
@@ -55,6 +55,7 @@ layout: empty
             </a>
           </p>
           <p class='post-subtitle'>
+            {{ post.subtitle }}
           </p>
           <br>
           <p class='post-date'>

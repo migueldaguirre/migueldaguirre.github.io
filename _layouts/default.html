@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>{{ page.title }}</title>
+    <title>{{ page.title }} | D. Aguirre</title>
     <meta charset='UTF-8'>
     <meta content='width=device-width, initial-scale=1' name='viewport'/>
 
@@ -20,12 +20,13 @@
     {% include mathjax.html %}
 </head>
 <body>
+
+        {% include nav.html %}
         <div class='content'>
-            {% include nav.html %}
             <div class='front-matter'>
-                <div class='wrap'>
+                <div class='wrap blog'>
                     <h1>{{ page.title }}</h1>
-                    <h4>{{ page.subtitle }}</h4>
+                    <h3>{{ page.subtitle }}</h3>
                     <div class='bylines'>
                         <div class='byline'>
                             <h3>Published</h3>
@@ -35,12 +36,28 @@
             <div class='clear'></div>
     </div>
 </div>
-<div class='wrap article'>
+<div class='wrap article blog'>
+        <div class="project-facts">
+                <ul>
+                <h3>Project Facts</h3>
+                        <li><span class="titles">Client:</span> {{ page.client }}</li>
+                        <li><span class="titles">Project Type: </span> {{ page.type }}</li>
+                        <li><span class="titles">Tools:</span> {{ page.tools }}</li>
+                        <li><span class="titles">My Role:</span> {{ page.role }}</li>
+                        <li><span class="titles">Collaborators:</span>
+                        {% assign people = page.collaborators | split: "," %}
+                        {% for person in people %}
+                        {% assign person_display = person | split: "*" %}
+                        {{ person_display[0] }}<i style="opacity: 0.6">{{ person_display[1] }}</i>{{ person_display[2]}}
+                        {% endfor %}
+                        </li>
+                </ul>
+        </div>
         {{ content }}
 </div>
 <div id='bibliography'>
         <div class='wrap'>
-    </div>
+        </div>
 </div>
 </div>
 </body>
