@@ -39,7 +39,7 @@ layout: empty
   <div id='blog' class='wrap'>
     <div id='intro'>
       <h1>DAVID AGUIRRE</h1>
-      <h2 class="sub">Business Analysist & UX Designer</h2>
+      <h2 class="sub">Business Analyst & UX Designer</h2>
     </div>
     <div id="profile">
         <p>
@@ -54,14 +54,14 @@ layout: empty
     <div style="padding: 1em 1em 0em 1em;" class="md-color">
     <strong style="text-align:center;">What do I bring to the table? </strong><br>
           <p><span class="competencies-title">Process and Systems Visualization</span><br>
-          <span class="md-color">Build a <ins>shared vision</ins> between collaborators that allows them to navigate the intricacies of IT and business operations, using multiple tools for analysis and modelling like activity diagrams, process flowcharts, use cases, user flows, customer journey maps, service blueprints, value constellations, data models, state diagrams and application architectures.</span></p>
+          <span class="md-color">Build a <ins>shared vision</ins> between collaborators that allows them to navigate the intricacies of IT and business operations, using multiple tools for analysis and modeling such as activity diagrams, process flowcharts, use cases, user flows, customer journey maps, service blueprints, value constellations, data models, state diagrams and application architectures.</span></p>
           <p>
           <span class="competencies-title">User and Context Awareness</span>
           <br>
-          <span class="md-color">Reveal important <ins>particularities</ins> about users and their environments, through user research, rapid assessment procedures, design probes, and participatory workshops; in order to understand physical and social constraints, map out the interactions between stakeholders, identify conflicting interests, spot opportunities, and point out biases.</span>
+          <span class="md-color">Reveal important <ins>particularities</ins> about users and their environments, through user research, rapid assessment procedures, design probes, and participatory workshops; to understand physical and social constraints, map out the interactions between stakeholders, identify conflicting interests, spot opportunities, and point out biases.</span>
           </p>
           <p><span class="competencies-title">Information Design and Prototyping</span><br>
-          <span class="md-color">Participate in the process of defining and modelling digital artefacts. This includes gathering, classifying and managing requirements, describing scope and features, generating and visualizing alternatives, developing prototypes, and executing tests. Giving special attention to usability and visual design (layout, typography, branding).</span></p>
+          <span class="md-color">Participate in the process of defining and modeling digital artifacts. This includes gathering, classifying, and managing requirements, describing scope and features, generating and visualizing alternatives, developing prototypes, and executing tests. Giving special attention to usability and visual design (layout, typography, branding).</span></p>
       </div>
       </div>
     </div>
