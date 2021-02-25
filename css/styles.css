@@ -14,6 +14,7 @@ html {
   margin-left: calc(100vw - 100%);
   background-color: white;
   filter: grayscale(0%);
+  hyphens: auto;
 }
 
 body {
@@ -201,11 +202,11 @@ font-family: -apple-system, 'Source Sans Pro', sans-serif;
 #blog {
   margin-top: 50px;
   margin-bottom: 100px;
-  padding: 0px 20px 0px 20px;
+  padding: 0px 0.5em 0px 0.5em;
 }
 
 .blog{
-  padding: 0px 20px 0px 20px;
+  padding: 0px 0.2em 0px 0em;
 }
 
 #blog #intro {
@@ -316,10 +317,8 @@ color: rgba(0,0,0,0.5);
   line-height: 1.5em;
 }
 
-.competencies-container ul{
-padding-left: 1em;
-padding-right: 1em;
-text-align: center;
+.competencies-container{
+  padding: 1em 1em 0 1em;
 }
 
 .competencies-icon{
@@ -333,12 +332,16 @@ text-align: center;
 .competencies-title{
   color: var(--md-color);
   font-weight: 600;
-  padding: 0em 0.35em 0.05em 0.35em;
+  padding: 0em 0em 0.05em 0em;
   margin-right: 0.5em;
-  line-height: 2.5em;
+  line-height: 1.5em;
   /* border: solid 2px rgba(41,78,103,0.1); */
   text-decoration: underline;
   font-size: 12pt;
+}
+
+.competencies-text{
+  margin-bottom: 1em;
 }
 
 .contact-title{
@@ -380,6 +383,7 @@ hr {
 @media (max-width: 450px) {
   .post-container {
     flex-direction: column;
+    margin: 0em 1em 0em 1em;
   }
   .post-container .project-thumbnail{
     display: none;
@@ -388,6 +392,16 @@ hr {
     display: none;
   }
 
+}
+
+@media (max-width: 450px) {
+.competencies-icon{
+display: block;
+float: left;
+padding-right: 1em;
+position: relative;
+top: -0em;
+}
 }
 
 .project-facts{
@@ -483,4 +497,18 @@ width: 100%;
 
 .md-color{
   color: var(--md-color);
+}
+
+.under-construction{
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+  /* IE 5-7 */
+  filter: alpha(opacity=20);
+  /* Netscape */
+  -moz-opacity: 0.2;
+  /* Safari 1.x */
+  -khtml-opacity: 0.2;
+  /* Good browsers */
+  opacity: 0.2;
+  pointer-events: none;
 }

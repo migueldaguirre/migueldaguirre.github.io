@@ -1,4 +1,4 @@
-I"5<html>
+I"ã<html>
 <head>
   <title>David Aguirre - Work</title>
   <meta charset="UTF-8" />
@@ -43,10 +43,11 @@
   <div id="blog" class="wrap">
     <div id="intro">
       <h1> PROJECTS </h1>
+      <p><i>(Under construction)</i></p>
     </div>
     <div id="posts" class="section">
       
-      <div class="post-container">
+      <div class="post-container under-construction">
       <a href="/blog/2020/12/01/erpsim/"> <img src="/assets/img/thumbnails/erpsim-tn.png" class="project-thumbnail" /></a>
         <div class="project-info-container">
           <div class="post-label">
@@ -71,7 +72,7 @@
       <hr />
       <span class="hidden">1</span>
       
-      <div class="post-container">
+      <div class="post-container under-construction">
       <a href="/blog/2020/12/01/alerte/"> <img src="/assets/img/thumbnails/alerte-tn.png" class="project-thumbnail" /></a>
         <div class="project-info-container">
           <div class="post-label">
@@ -96,7 +97,7 @@
       <hr />
       <span class="hidden">2</span>
       
-      <div class="post-container">
+      <div class="post-container under-construction">
       <a href="/blog/2019/11/05/monitor/"> <img src="/assets/img/thumbnails/monitor-tn.png" class="project-thumbnail" /></a>
         <div class="project-info-container">
           <div class="post-label">
@@ -121,7 +122,7 @@
       <hr />
       <span class="hidden">3</span>
       
-      <div class="post-container">
+      <div class="post-container under-construction">
       <a href="/blog/2019/11/04/brava/"> <img src="/assets/img/thumbnails/erpsim-tn.png" class="project-thumbnail" /></a>
         <div class="project-info-container">
           <div class="post-label">
@@ -146,7 +147,7 @@
       <hr />
       <span class="hidden">4</span>
       
-      <div class="post-container">
+      <div class="post-container under-construction">
       <a href="/blog/2019/02/01/unicours/"> <img src="/assets/img/thumbnails/unicours-tn.png" class="project-thumbnail" /></a>
         <div class="project-info-container">
           <div class="post-label">
@@ -171,7 +172,7 @@
       <hr />
       <span class="hidden">5</span>
       
-      <div class="post-container">
+      <div class="post-container under-construction">
       <a href="/blog/2017/02/05/coem/"> <img src="/assets/img/thumbnails/coem-tn.png" class="project-thumbnail" /></a>
         <div class="project-info-container">
           <div class="post-label">
@@ -196,7 +197,7 @@
       <hr />
       <span class="hidden">6</span>
       
-      <div class="post-container">
+      <div class="post-container under-construction">
       <a href="/blog/2013/12/01/wok/"> <img src="/assets/img/thumbnails/wok-tn.png" class="project-thumbnail" /></a>
         <div class="project-info-container">
           <div class="post-label">
