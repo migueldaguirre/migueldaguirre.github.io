@@ -201,7 +201,7 @@ font-family: -apple-system, 'Source Sans Pro', sans-serif;
 #blog {
   margin-top: 50px;
   margin-bottom: 100px;
-  padding: 0px 20px 0px 20px;
+  padding: 0em 0.5em 0em 0.5em;
 }
 
 .blog{
@@ -247,15 +247,11 @@ font-family: -apple-system, 'Source Sans Pro', sans-serif;
   margin-right: 2em;
   margin-top: 1.5em;
   border-radius: 3%;
-  filter: grayscale(0%);
   filter: drop-shadow(1px 3px 3px #B3B3B3);
   position: relative;
 
 }
 
-.project-thumbnail:hover{
-  filter: drop-shadow(0px 2px 2px #B3B3B3);
-}
 .post-container{
  display: flex;
  flex-direction: row;
@@ -316,10 +312,12 @@ color: rgba(0,0,0,0.5);
   line-height: 1.5em;
 }
 
-.competencies-container ul{
-padding-left: 1em;
-padding-right: 1em;
-text-align: center;
+.competencies-container{
+padding: 1em 2em 0em 2em;
+}
+
+.competencies-text{
+  margin-bottom: 2.5em;
 }
 
 .competencies-icon{
@@ -333,9 +331,8 @@ text-align: center;
 .competencies-title{
   color: var(--md-color);
   font-weight: 600;
-  padding: 0em 0.35em 0.05em 0.35em;
-  margin-right: 0.5em;
-  line-height: 2.5em;
+  /* padding: 0em 0.35em 0em 0.35em; */
+  line-height: 1.5em;
   /* border: solid 2px rgba(41,78,103,0.1); */
   text-decoration: underline;
   font-size: 12pt;
@@ -387,7 +384,26 @@ hr {
   .post-container .post-date{
     display: none;
   }
+}
 
+@media (max-width: 430px) {
+  .competencies-icon{
+    /* display: block; */
+    /* height: 2em; */
+    /* margin-left: auto;
+    margin-right: 0; */
+    float: left;
+    position: relative;
+    top: 0em;
+    padding-right: 0.5em;
+    /* height: 2em; */
+  }
+  .competencies-title{
+text-align: right;
+  }
+  .competencies-container{
+    padding: 1em 1em 0em 1em;
+  }
 }
 
 .project-facts{
@@ -483,4 +499,27 @@ width: 100%;
 
 .md-color{
   color: var(--md-color);
+}
+
+.under-construction{
+  opacity: 30%;
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+
+  /* IE 5-7 */
+  filter: alpha(opacity=30);
+
+  /* Netscape */
+  -moz-opacity: 0.3;
+
+  /* Safari 1.x */
+  -khtml-opacity: 0.3;
+
+  /* Good browsers */
+  opacity: 0.3;
+}
+
+.under-construction a{
+
+  pointer-events: none
 }

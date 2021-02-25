@@ -42,7 +42,7 @@ layout: empty
     </div>
     <div id='posts' class='section'>
       {% for post in site.posts %}
-      <div class='post-row' class="post-container">
+      <div class='post-row' class="post-container {% if post.underconstruction == true %}under-construction{% endif %}">
       <a href="{{ post.url }}"> <img src="{{ post.thumbnail | prepend: '/assets/img/thumbnails/' | append: '.png' | relative_url }}" class="project-thumbnail"></a>
         <div class="project-info-container">
           <div class="post-label">

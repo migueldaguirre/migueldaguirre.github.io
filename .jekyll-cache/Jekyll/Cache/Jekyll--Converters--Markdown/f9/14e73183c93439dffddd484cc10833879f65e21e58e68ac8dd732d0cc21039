@@ -1,4 +1,4 @@
-<html>
+I"¨<html>
 <head>
   <title>David Aguirre - Work</title>
   <meta charset="UTF-8" />
@@ -46,7 +46,7 @@
     </div>
     <div id="posts" class="section">
       
-      <div class="post-container under-construction">
+      <div class="post-container ">
       <a href="/blog/2020/12/01/erpsim/"> <img src="/assets/img/thumbnails/erpsim-tn.png" class="project-thumbnail" /></a>
         <div class="project-info-container">
           <div class="post-label">
@@ -225,4 +225,4 @@
   </div>
 </body>
 </html>
-
+:ET

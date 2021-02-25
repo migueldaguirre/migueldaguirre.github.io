@@ -1,4 +1,4 @@
-<html>
+I"œ<html>
 <head>
   <title>David Aguirre | BA &amp; UX</title>
   <meta charset="UTF-8" />
@@ -55,18 +55,18 @@
         My ultimate goal as a professional is to advance the disciplines of <em class="md-color">design thinking</em>, <em class="md-color">integrative thinking,</em> and <em class="md-color">systems thinking</em>, through practice, particularly in innovation management and socio-technical interventions.</p>
         <br />
   <div class="project-facts">
-    <div style="" class="competencies-container">
-    <strong>What do I bring to the table? </strong><br />
+    <div style="padding: 1em 1em 0em 1em;" class="">
+    <strong style="text-align:center;">What do I bring to the table? </strong><br />
           <p><img src="assets/img/about/competences_icon-17.png" class="competencies-icon" /><span class="competencies-title">Process and Systems Visualization</span></p>
-          <p class="competencies-text"><span>Build a <b>shared vision</b> between collaborators that allows them to navigate the intricacies of IT and business operations, using multiple tools for analysis and modeling such as activity diagrams, process flowcharts, use cases, user flows, customer journey maps, service blueprints, value constellations, data models, state diagrams and application architectures.</span></p>
+          <p><span class="">Build a <b>shared vision</b> between collaborators that allows them to navigate the intricacies of IT and business operations, using multiple tools for analysis and modeling such as activity diagrams, process flowcharts, use cases, user flows, customer journey maps, service blueprints, value constellations, data models, state diagrams and application architectures.</span></p>
           <p>
-          <img src="assets/img/about/competences_icon-15.png" class="competencies-icon" /><span class="competencies-title">User and Context Awareness</span></p>
-          <p class="competencies-text">
-          <span>Reveal important <b>particularities</b> about users and their environments, through user research, rapid assessment procedures, design probes, and participatory workshops; understanding physical and social constraints, mapping out interactions between stakeholders, identifying conflicting interests, spotting opportunities, and mitigating biases.</span>
+          <img src="assets/img/about/competences_icon-15.png" class="competencies-icon" /><span class="competencies-title">User and Context Awareness</span>
+          <br />
+          <span class="">Reveal important <b>particularities</b> about users and their environments, through user research, rapid assessment procedures, design probes, and participatory workshops; understanding physical and social constraints, mapping out interactions between stakeholders, identifying conflicting interests, spotting opportunities, and mitigating biases.</span>
           </p>
-          <p><img src="assets/img/about/competences_icon-16.png" class="competencies-icon" /><span class="competencies-title">Information Design and Prototyping</span></p>
-          <p class="competencies-text">
-          <span>Participate in the process of defining and modelling <b>solutions</b>. This includes gathering, classifying and managing requirements, describing scope and features, generating and visualizing alternatives, developing prototypes, and testing hypotheses. Giving special attention to usability and visual design (layout, typography, and aesthetics). </span></p>
+          <p><img src="assets/img/about/competences_icon-16.png" class="competencies-icon" /><span class="competencies-title">Information Design and Prototyping</span>
+          <br />
+          <span class="">Participate in the process of defining and modelling <b>solutions</b>. This includes gathering, classifying and managing requirements, describing scope and features, generating and visualizing alternatives, developing prototypes, and testing hypotheses. Giving special attention to usability and visual design (layout, typography, and aesthetics). </span></p>
       </div>
       </div>
     </div>
@@ -94,4 +94,4 @@
       </div>
     </body>
     </html>
-
+:ET
