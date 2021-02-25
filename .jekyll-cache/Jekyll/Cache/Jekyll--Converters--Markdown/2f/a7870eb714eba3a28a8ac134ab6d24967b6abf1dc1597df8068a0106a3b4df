@@ -1,4 +1,4 @@
-<html>
+I"5<html>
 <head>
   <title>David Aguirre - Work</title>
   <meta charset="UTF-8" />
@@ -97,6 +97,31 @@
       <span class="hidden">2</span>
       
       <div class="post-container">
+      <a href="/blog/2019/11/10/brava/"> <img src="/assets/img/thumbnails/erpsim-tn.png" class="project-thumbnail" /></a>
+        <div class="project-info-container">
+          <div class="post-label">
+            INFORMATION ARCHITECTURE
+          </div>
+          <p class="post-title">
+            <a href="/blog/2019/11/10/brava/">
+              Material Requirements Planning
+              <span class="title-client"><br />(Brava Triathlon)</span>
+            </a>
+          </p>
+          <p class="post-subtitle">
+            Structuring the Bill of Materials
+          </p>
+          <br />
+          <p class="post-date">
+          2019
+          </p>
+
+</div>
+      </div>
+      <hr />
+      <span class="hidden">3</span>
+      
+      <div class="post-container">
       <a href="/blog/2019/11/05/monitor/"> <img src="/assets/img/thumbnails/monitor-tn.png" class="project-thumbnail" /></a>
         <div class="project-info-container">
           <div class="post-label">
@@ -114,31 +139,6 @@
           <br />
           <p class="post-date">
           2018-19
-          </p>
-
-</div>
-      </div>
-      <hr />
-      <span class="hidden">3</span>
-      
-      <div class="post-container">
-      <a href="/blog/2019/11/04/brava/"> <img src="/assets/img/thumbnails/erpsim-tn.png" class="project-thumbnail" /></a>
-        <div class="project-info-container">
-          <div class="post-label">
-            INFORMATION ARCHITECTURE
-          </div>
-          <p class="post-title">
-            <a href="/blog/2019/11/04/brava/">
-              Material Requirements Planning
-              <span class="title-client"><br />(Brava Triathlon)</span>
-            </a>
-          </p>
-          <p class="post-subtitle">
-            Structuring the Bill of Materials
-          </p>
-          <br />
-          <p class="post-date">
-          2019
           </p>
 
 </div>
@@ -225,4 +225,4 @@
   </div>
 </body>
 </html>
-
+:ET

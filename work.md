@@ -43,7 +43,7 @@ layout: empty
     <div id='posts' class='section'>
       {% for post in site.posts %}
       <div class='post-row' class="post-container">
-        <img src="{{ post.thumbnail | prepend: '/assets/img/thumbnails/' | append: '.png' | relative_url }}" class="project-thumbnail">
+      <a href="{{ post.url }}"> <img src="{{ post.thumbnail | prepend: '/assets/img/thumbnails/' | append: '.png' | relative_url }}" class="project-thumbnail"></a>
         <div class="project-info-container">
           <div class="post-label">
             {{ post.keywords | upcase }}
