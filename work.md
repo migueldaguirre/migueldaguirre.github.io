@@ -52,8 +52,8 @@ layout: empty
           <p class='post-title'>
             <a href="{{ post.url }}">
               {{ post.title }}
-              <span class="title-client"><br>({{post.client}})</span>
             </a>
+              <span class="title-client"><br>({{post.client}})</span>
           </p>
           <p class='post-subtitle'>
             {{ post.subtitle }}

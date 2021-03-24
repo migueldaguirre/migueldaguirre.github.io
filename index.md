@@ -42,6 +42,7 @@ layout: empty
       <h2 class="sub">Business Analyst & UX Designer</h2>
     </div>
     <div id="profile">
+    <div class="article-text">
         <p>
         I'm a Designer working at the intersection of information systems, business, and user interfaces;
         with 4 years of experience in the IT industry, co-creating digital solutions that combine design-thinking and web technologies.</p>
@@ -49,7 +50,7 @@ layout: empty
         I majored in Product and Communication Design at <em>Universidad de los Andes</em>, Colombia, with a minor in Entrepreneurship Studies, and more recently, studied User Experience and Business Analysis in IT at <em>HEC Montréal</em>, obtaining a Specialized Graduate Diploma (DESS).</p>
         <p>
         My ultimate goal as a professional is to advance the disciplines of <em class="md-color">design thinking</em>, <em class="md-color">integrative thinking,</em> and <em class="md-color">systems thinking</em>, through practice, particularly in innovation management and socio-technical interventions.</p>
-        <br>
+        </div>
   <div class="project-facts">
     <div style="" class="competencies-container">
     <strong>What do I bring to the table? </strong><br>
