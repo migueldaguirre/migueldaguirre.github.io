@@ -393,6 +393,9 @@ hr {
 }
 
 @media (max-width: 450px) {
+  .html{
+    font-size: 13px;
+  }
   .post-container {
     flex-direction: column;
     margin: 0em 1em 0em 1em;
@@ -426,6 +429,7 @@ top: -0em;
   line-height: 1.8em;
   padding-left: 1em;
   padding-right: 1em;
+  font-size: 1em;
 }
 
   .project-facts .titles{
