@@ -38,7 +38,6 @@ layout: empty
   </div>
   <div id='blog' class='wrap'>
     <div id='intro'>
-      <h1>Projects</h1>
     </div>
     <div id='posts' class='section'>
       {% for post in site.posts %}

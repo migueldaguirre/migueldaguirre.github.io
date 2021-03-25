@@ -1,4 +1,4 @@
-<html>
+I"Ž<html>
 <head>
   <title>David Aguirre - Work</title>
   <meta charset="UTF-8" />
@@ -70,7 +70,7 @@
       <hr />
       <span class="hidden">1</span>
       
-      <div class="post-container ">
+      <div class="post-container under-construction">
       <a href="/blog/2020/12/01/alerte/"> <img src="/assets/img/thumbnails/alerte-tn.png" class="project-thumbnail" /></a>
         <div class="project-info-container">
           <div class="post-label">
@@ -195,7 +195,7 @@
       <hr />
       <span class="hidden">6</span>
       
-      <div class="post-container ">
+      <div class="post-container under-construction">
       <a href="/blog/2013/12/01/wok/"> <img src="/assets/img/thumbnails/wok-tn.png" class="project-thumbnail" /></a>
         <div class="project-info-container">
           <div class="post-label">
@@ -224,4 +224,4 @@
   </div>
 </body>
 </html>
-
+:ET

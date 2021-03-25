@@ -1,4 +1,4 @@
-I"¦<html>
+I"F<html>
 <head>
   <title>David Aguirre - Work</title>
   <meta charset="UTF-8" />
@@ -42,7 +42,6 @@
   </div>
   <div id="blog" class="wrap">
     <div id="intro">
-      <h1>Projects</h1>
     </div>
     <div id="posts" class="section">
       
@@ -71,7 +70,7 @@
       <hr />
       <span class="hidden">1</span>
       
-      <div class="post-container under-construction">
+      <div class="post-container ">
       <a href="/blog/2020/12/01/alerte/"> <img src="/assets/img/thumbnails/alerte-tn.png" class="project-thumbnail" /></a>
         <div class="project-info-container">
           <div class="post-label">
@@ -96,7 +95,7 @@
       <hr />
       <span class="hidden">2</span>
       
-      <div class="post-container under-construction">
+      <div class="post-container ">
       <a href="/blog/2019/11/05/monitor/"> <img src="/assets/img/thumbnails/monitor-tn.png" class="project-thumbnail" /></a>
         <div class="project-info-container">
           <div class="post-label">
@@ -121,7 +120,7 @@
       <hr />
       <span class="hidden">3</span>
       
-      <div class="post-container under-construction">
+      <div class="post-container ">
       <a href="/blog/2019/11/04/brava/"> <img src="/assets/img/thumbnails/erpsim-tn.png" class="project-thumbnail" /></a>
         <div class="project-info-container">
           <div class="post-label">
@@ -196,7 +195,7 @@
       <hr />
       <span class="hidden">6</span>
       
-      <div class="post-container under-construction">
+      <div class="post-container ">
       <a href="/blog/2013/12/01/wok/"> <img src="/assets/img/thumbnails/wok-tn.png" class="project-thumbnail" /></a>
         <div class="project-info-container">
           <div class="post-label">
