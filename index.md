@@ -38,7 +38,7 @@ layout: empty
   </div>
   <div id='blog' class='wrap'>
     <div id='intro'>
-      <h1>DAVID AGUIRRE</h1>
+      <h1>David Aguirre</h1>
       <h2 class="sub">Business Analyst & UX Designer</h2>
     </div>
     <div id="profile">
@@ -52,7 +52,7 @@ layout: empty
         My ultimate goal as a professional is to advance the disciplines of <em class="md-color">design thinking</em>, <em class="md-color">integrative thinking,</em> and <em class="md-color">systems thinking</em>, through practice, particularly in innovation management and socio-technical interventions.</p>
         </div>
   <div class="project-facts">
-    <div style="" class="competencies-container">
+    <div class="competencies-container">
     <strong>What do I bring to the table? </strong><br>
           <p><img src="assets/img/about/competences_icon-17.png" class="competencies-icon"><span class="competencies-title">Process and Systems Visualization</span></p>
           <p class="competencies-text"><span >Build a <b>shared vision</b> between collaborators that allows them to navigate the intricacies of IT and business operations, using multiple tools for analysis and modeling such as activity diagrams, process flowcharts, use cases, user flows, customer journey maps, service blueprints, value constellations, data models, state diagrams and application architectures.</span></p>

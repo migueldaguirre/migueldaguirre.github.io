@@ -1,21 +1,18 @@
 :root{
   --md-color:#223E82;
   --md-color:#223882;
-  /* --md-color:#185177; */
   --md-grey: rgba(0,0,0,0.7);
 }
-
-
 
 html {
   font-family: -apple-system, 'Source Sans Pro', sans-serif;
   color: rgba(0, 0, 0, 0.7);
-  text-size-adjust: none;
+  /* text-size-adjust: none; */
   margin-left: calc(100vw - 100%);
   background-color: #f3f5f7;
   filter: grayscale(0%);
   hyphens: auto;
-  -webkit-appearance: none;
+  font-size: 16px;
 }
 
 body {
@@ -40,14 +37,13 @@ h5,
 h6 {
   font-family: -apple-system, 'Source Sans Pro', sans-serif;
   color: var(--md-color);
-
 }
 h1 {
-
+font-size: 2.2em;
 }
 
 p{
-    line-height: 1.5em;
+    line-height: 1.7em;
     color: rgba(0,0,0,0.7);
 }
 .clear {
@@ -155,7 +151,7 @@ font-family: -apple-system, 'Source Sans Pro', sans-serif;
 }
 .article h2 {
   font-size: 26px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
   padding-bottom: 1rem;
   padding-top: 1em;
 }
@@ -202,12 +198,12 @@ font-family: -apple-system, 'Source Sans Pro', sans-serif;
 }
 .article hr {
   border-bottom: none;
-  border-top: 1px solid rgba(0, 0, 0, 0.7);
-  margin: 33px auto;
-  width: 70px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 1em 0 3em 0;
+  width:20em;
 }
 #bibliography {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 #bibliography ol.bibliography {
   padding-left: 15px;
@@ -226,7 +222,6 @@ font-family: -apple-system, 'Source Sans Pro', sans-serif;
 }
 
 #blog #intro {
-  font-size: 14px;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -234,6 +229,7 @@ font-family: -apple-system, 'Source Sans Pro', sans-serif;
 #blog #intro .sub{
   font-weight: 300;
   color: var(--md-color);
+  margin-top: -1em;
 }
 
 #blog .quote {
@@ -334,7 +330,7 @@ color: rgba(0,0,0,0.5);
 }
 
 .competencies-container{
-  padding: 1em 5% 0 5%;
+  padding: 1em 1em 0 1em;
 }
 
 .competencies-icon{
@@ -352,8 +348,8 @@ color: rgba(0,0,0,0.5);
   margin-right: 0.5em;
   line-height: 1.5em;
   /* border: solid 2px rgba(41,78,103,0.1); */
-  text-decoration: underline;
-  font-size: 12pt;
+  text-decoration: none;
+  font-size: 1.1em;
 }
 
 .competencies-text{
@@ -428,6 +424,8 @@ top: -0em;
   border-left: solid;
   border-color: var(--md-color);
   line-height: 1.8em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
   .project-facts .titles{
@@ -444,15 +442,18 @@ top: -0em;
 }
 
 .article-sub{
-  text-align: center;
+  text-align: left;
 }
 
 .stage-title{
-  text-align: center;
+  text-align: left;
+  font-size: 1.4em;
 }
 
 #process-title{
   color: var(--md-color);
+  text-align: center;
+  margin: 2em 0 1em 0;
 }
 
 .stage-photo{
