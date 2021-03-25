@@ -7,12 +7,11 @@
 html {
   font-family: -apple-system, 'Source Sans Pro', sans-serif;
   color: rgba(0, 0, 0, 0.7);
-  /* text-size-adjust: none; */
   margin-left: calc(100vw - 100%);
   background-color: #f3f5f7;
   filter: grayscale(0%);
   hyphens: auto;
-  font-size: 16px;
+  /* font-size: 16px; */
 }
 
 body {
@@ -126,7 +125,7 @@ font-family: -apple-system, 'Source Sans Pro', sans-serif;
   line-height: 1.6em;
 }
 .article {
-  font-size: 15px;
+  font-size: 1em;
   line-height: 1.6em;
   color: rgba(0, 0, 0, 0.8);
   margin-top: 50px;
@@ -286,7 +285,7 @@ font-size: 1em;
 color: rgba(0,0,0,0.5);
 }
 #blog .post-title a {
-  font-size: 22px;
+  font-size: 1.37em;
   text-decoration: none;
   font-weight: 600;
 }
@@ -396,6 +395,11 @@ hr {
   .html{
     font-size: 13px;
   }
+
+  .html li{
+    font-size: 13px;
+  }
+
   .post-container {
     flex-direction: column;
     margin: 0em 1em 0em 1em;
@@ -439,6 +443,7 @@ top: -0em;
 
 .project-facts li {
   list-style-type: none;
+  font-size: 1em;
 }
 
 #profile{
