@@ -396,6 +396,11 @@ hr {
   .html{
     font-size: 13px;
   }
+
+  .html li{
+    font-size: 13px;
+  }
+  
   .post-container {
     flex-direction: column;
     margin: 0em 1em 0em 1em;
