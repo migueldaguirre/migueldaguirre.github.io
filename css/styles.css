@@ -431,8 +431,8 @@ top: -0em;
   border-left: solid;
   border-color: var(--md-color);
   line-height: 1.8em;
-  padding-left: 1em;
-  padding-right: 1em;
+  /* padding-left: 1em;
+  padding-right: 1em; */
   font-size: 1em;
 }
 
