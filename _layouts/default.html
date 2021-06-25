@@ -25,6 +25,9 @@
         <div class='content'>
             <div class='front-matter'>
                 <div class='wrap blog'>
+                <div class="post-label-onpage">
+                        {{ page.keywords | upcase }}
+                 </div>
                     <h1>{{ page.title }}</h1>
                     <h3>{{ page.subtitle }}</h3>
                     <div class='bylines'>
