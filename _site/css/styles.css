@@ -1,7 +1,8 @@
 :root{
   --md-color:#223E82;
   --md-color:#223882;
-  --md-grey: rgba(0,0,0,0.7);
+  --md-color:black;
+  --md-grey: rgba(0,0,0,0.8);
 }
 
 html {
@@ -333,6 +334,23 @@ color: rgba(0,0,0,0.5);
   line-height: 1.5em;
 }
 
+.post-label-onpage{
+  border: none;
+  background-color: var(--md-color);
+  color:white;
+  max-width: fit-content;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 2em;
+  margin-bottom: 0em;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  letter-spacing: 0.6;
+  opacity: 0.8;
+  line-height: 1.5em;
+}
+
+
 .competencies-container{
   padding: 1em 1em 0 1em;
 }
@@ -343,6 +361,7 @@ color: rgba(0,0,0,0.5);
   padding-right: 0.4em;
   padding-left: 0.4em;
   top:0.5em;
+  filter: grayscale(100%);
 }
 
 .competencies-title{

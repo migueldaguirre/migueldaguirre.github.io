@@ -1,4 +1,4 @@
-<html>
+I"�<html>
 <head>
   <title>David Aguirre - Work</title>
   <meta charset="UTF-8" />
@@ -28,7 +28,7 @@
 
 <div class='nav' >
     <ul class='wrap'>
-        <span class="nav-name">DAVID AGUIRRE | BA & UX </span>
+        <span class="nav-name"><img src="/assets/img/favicon.png"><img src="/assets/favicon.png">DAVID AGUIRRE | BA & UX </span>
         <li><a id='about' href='/'>About</a></li>
         <li><a id='work' href='/work' >Work</a></li>
     </ul>
@@ -59,7 +59,7 @@
               <span class="title-client"><br />(ERPsimLab, HEC Montréal)</span>
           </p>
           <p class="post-subtitle">
-            Updating and improving the front-end.
+            From elicitation to implementation.
           </p>
           <br />
           <p class="post-date">
@@ -134,7 +134,7 @@
               <span class="title-client"><br />(HEC Montréal)</span>
           </p>
           <p class="post-subtitle">
-            Reimagining the experience of enrolling into university courses through a single-page web-app.
+            Reimagining the the experience of enrolling into university courses through a single-page web-app.
           </p>
           <br />
           <p class="post-date">
@@ -184,7 +184,7 @@
               <span class="title-client"><br />(WOK / Lao Kao | Restaurant Chain)</span>
           </p>
           <p class="post-subtitle">
-            Exploring and testing alternatives for improving the Billing Experience by doing a end-to-end design-thinking process.
+            Exploring and testing alternatives for improving the Billing Experience at a Leading Restaurant Chain
           </p>
           <br />
           <p class="post-date">
@@ -200,4 +200,4 @@
   </div>
 </body>
 </html>
-
+:ET
