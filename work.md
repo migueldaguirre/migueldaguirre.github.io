@@ -42,16 +42,18 @@ layout: empty
     <div id='posts' class='section'>
       {% for post in site.posts %}
       <div class='post-row' class="post-container {% if post.underconstruction == true %}under-construction{% endif %}">
-      <a href="{{ post.url }}"> <img src="{{ post.thumbnail | prepend: '/assets/img/thumbnails/' | append: '.png' | relative_url }}" class="project-thumbnail"></a>
+      <a href="{{ post.url }}">
+        <img src="{{ post.thumbnail | prepend: '/assets/img/thumbnails/' | append: '.png' | relative_url }}" class="project-thumbnail">
+        </a>
         <div class="project-info-container">
           <div class="post-label">
             {{ post.keywords | upcase }}
           </div>
+        <img src="{{post.client-logo}}" class="logo-thumbnail"><br>
           <p class='post-title'>
             <a href="{{ post.url }}">
               {{ post.title }}
             </a>
-              <span class="title-client"><br>({{post.client}})</span>
           </p>
           <p class='post-subtitle'>
             {{ post.subtitle }}
