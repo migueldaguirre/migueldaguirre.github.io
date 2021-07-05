@@ -1,4 +1,4 @@
-<html>
+I"Ç#<html>
 <head>
   <title>David Aguirre - Work</title>
   <meta charset="UTF-8" />
@@ -20,6 +20,7 @@
   <link href="/css/styles.css" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap" rel="stylesheet" />
+
 </head>
 <body>
   <!--     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -60,12 +61,13 @@
             </a>
           </p>
           <p class="post-subtitle">
-            Improving usability, ease of learning and branding with a new user interface.
+            Improving usability, ease of learning and branding through new front-end interactions.
           </p>
           <br />
           <p class="post-date">
           2020
           </p>
+
 </div>
       </div>
       <hr />
@@ -92,6 +94,7 @@
           <p class="post-date">
           2018
           </p>
+
 </div>
       </div>
       <hr />
@@ -118,6 +121,7 @@
           <p class="post-date">
           2018-19
           </p>
+
 </div>
       </div>
       <hr />
@@ -144,6 +148,7 @@
           <p class="post-date">
           2019
           </p>
+
 </div>
       </div>
       <hr />
@@ -170,6 +175,7 @@
           <p class="post-date">
           2019
           </p>
+
 </div>
       </div>
       <hr />
@@ -196,6 +202,7 @@
           <p class="post-date">
           2019
           </p>
+
 </div>
       </div>
       <hr />
@@ -222,6 +229,7 @@
           <p class="post-date">
           2017
           </p>
+
 </div>
       </div>
       <hr />
@@ -248,6 +256,7 @@
           <p class="post-date">
           2013
           </p>
+
 </div>
       </div>
       <hr />
@@ -257,4 +266,4 @@
   </div>
 </body>
 </html>
-
+:ET

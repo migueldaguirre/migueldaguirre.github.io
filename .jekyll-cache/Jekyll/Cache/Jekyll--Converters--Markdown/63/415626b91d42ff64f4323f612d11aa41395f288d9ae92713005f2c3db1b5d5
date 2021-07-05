@@ -1,4 +1,4 @@
-<html>
+I"z$<html>
 <head>
   <title>David Aguirre - Work</title>
   <meta charset="UTF-8" />
@@ -40,6 +40,9 @@
       <li><a id="work" class="selected" href="/work">Work</a></li>
     </ul>
   </div>
+    <div style="z-index:2; background-color:yellow; width:hv%; text-align: center; height: 2em;">
+      <p>Access will be granted upon request
+    &lt;/div&gt;
   <div id="blog" class="wrap">
     <div id="intro">
     </div>
@@ -255,6 +258,7 @@
       
     </div>
   </div>
-</body>
-</html>
-
+&lt;/body&gt;
+&lt;/html&gt;
+</p></div></body></html>
+:ET

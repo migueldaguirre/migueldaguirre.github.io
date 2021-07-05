@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-07-05T13:55:24-04:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">IoT Water and Freeze Detector Setup</title><link href="http://localhost:4000/blog/2020/12/01/alerte/" rel="alternate" type="text/html" title="IoT Water and Freeze Detector Setup" /><published>2020-12-01T00:00:00-05:00</published><updated>2020-12-01T00:00:00-05:00</updated><id>http://localhost:4000/blog/2020/12/01/alerte</id><content type="html" xml:base="http://localhost:4000/blog/2020/12/01/alerte/">&lt;p&gt;(Under construction / February 2021)&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-07-05T17:38:21-04:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">IoT Water and Freeze Detector Setup</title><link href="http://localhost:4000/blog/2020/12/01/alerte/" rel="alternate" type="text/html" title="IoT Water and Freeze Detector Setup" /><published>2020-12-01T00:00:00-05:00</published><updated>2020-12-01T00:00:00-05:00</updated><id>http://localhost:4000/blog/2020/12/01/alerte</id><content type="html" xml:base="http://localhost:4000/blog/2020/12/01/alerte/">&lt;p&gt;(Under construction / February 2021)&lt;/p&gt;
 
 &lt;p&gt;L’objectif principal était de déterminer les forces et faiblesses, en termes d’utilisabilité, des différentes étapes nécessaires à l’installation du détecteur sur l’application. Les résultats de ces tests serviront à informer l’équipe de développement des ajustements et modifications à considérer pour améliorer l’expérience de ses utilisateurs. Ces résultats permettront également de vérifier si les étapes d’installation sont suffisamment compréhensibles. Ce rapport présentera entre autres les résultats observés ainsi que les recommandations appropriées.&lt;/p&gt;
 
@@ -112,7 +112,7 @@ Stages of use and components&lt;/div&gt;
 &lt;hr /&gt;
 
 &lt;div class=&quot;article-text&quot;&gt;
-&lt;h3 class=&quot;stage-title&quot;&gt;3. Workshop 1: Identify Issues&lt;/h3&gt;
+&lt;h3 class=&quot;stage-title&quot;&gt;3. First Workshop: Identify Issues&lt;/h3&gt;
 &lt;/div&gt;
 &lt;div class=&quot;figure&quot;&gt;
 &lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/reqs_erpsim-1.jpg&quot; style=&quot;width: 100%&quot; /&gt;
@@ -138,7 +138,7 @@ Stages of use and components&lt;/div&gt;
   &lt;/div&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1620317525/workshop_b_gz19tf.jpg&quot; /&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1624560881/ERPsim/workshop_b_dxtes7.jpg&quot; /&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
     Participant presenting his ideas during the workshop.
     &lt;/div&gt;
@@ -266,7 +266,70 @@ Reinvent the online experience for enrolling into university courses by setting 
 Concept Testing
 
 Refining the idea: Card sorting
-&lt;/div&gt;</content><author><name></name></author><summary type="html">(Under construction / June 2021)</summary></entry><entry><title type="html">Materials Planning for an Apparel Manufacturing Startup</title><link href="http://localhost:4000/blog/2019/10/01/brava/" rel="alternate" type="text/html" title="Materials Planning for an Apparel Manufacturing Startup" /><published>2019-10-01T21:11:00-04:00</published><updated>2019-10-01T21:11:00-04:00</updated><id>http://localhost:4000/blog/2019/10/01/brava</id><content type="html" xml:base="http://localhost:4000/blog/2019/10/01/brava/">&lt;p&gt;(More details coming soon / March 2021)&lt;/p&gt;</content><author><name></name></author><summary type="html">(More details coming soon / March 2021)</summary></entry><entry><title type="html">Laptop Sales Backstage Process</title><link href="http://localhost:4000/blog/2019/09/01/coop/" rel="alternate" type="text/html" title="Laptop Sales Backstage Process" /><published>2019-09-01T21:11:00-04:00</published><updated>2019-09-01T21:11:00-04:00</updated><id>http://localhost:4000/blog/2019/09/01/coop</id><content type="html" xml:base="http://localhost:4000/blog/2019/09/01/coop/">&lt;p&gt;(More details coming soon / March 2021)&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">(Under construction / June 2021)</summary></entry><entry><title type="html">Apparel Materials Planning Demo</title><link href="http://localhost:4000/blog/2019/10/01/brava/" rel="alternate" type="text/html" title="Apparel Materials Planning Demo" /><published>2019-10-01T21:11:00-04:00</published><updated>2019-10-01T21:11:00-04:00</updated><id>http://localhost:4000/blog/2019/10/01/brava</id><content type="html" xml:base="http://localhost:4000/blog/2019/10/01/brava/">&lt;h3 class=&quot;article-sub&quot;&gt;Challenge&lt;/h3&gt;
+&lt;div class=&quot;article-text&quot;&gt;
+&lt;p&gt;We aim to improve the experience of instructors and students using the ERPsim Console.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h3 class=&quot;article-sub&quot;&gt;Outcome&lt;/h3&gt;
+&lt;div class=&quot;article-text&quot;&gt;
+&lt;p&gt;We aim to improve the experience of instructors and students using the ERPsim Console.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 class=&quot;process-title&quot;&gt;Process&lt;/h2&gt;
+
+&lt;div class=&quot;article-text&quot;&gt;
+&lt;h3 class=&quot;stage-title&quot;&gt;1. Context&lt;/h3&gt;
+Talk about the client
+&lt;/div&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1625510470/Brava/bravaxls-15_xwclob.png&quot; style=&quot;width: 100%&quot; /&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;
+        Workplan diagram.
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1625494045/Brava/Brava_Process_As_Is-06_cmhgf7.png&quot; style=&quot;width: 100%&quot; /&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;
+        Workplan diagram.
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1625494040/Brava/Brava_Process_As_Is-07_xyxkff.png&quot; style=&quot;width: 100%&quot; /&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;
+        Workplan diagram.
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1625492460/Brava/Brava_Process_As_Is_Nov_24-14_bevqcw.png&quot; style=&quot;width: 100%&quot; /&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;
+        Workplan diagram.
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1625492459/Brava/Brava_Process_As_Is_Nov_24-16_rk1tch.png&quot; style=&quot;width: 100%&quot; /&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;
+        Workplan diagram.
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1625494034/Brava/Brava_Process_As_Is-08_zkbqpy.png&quot; style=&quot;width: 100%&quot; /&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;
+        Workplan diagram.
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1625494027/Brava/Brava_Process_As_Is-10_yi8lyi.png&quot; style=&quot;width: 100%&quot; /&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;
+        Workplan diagram.
+    &lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Challenge We aim to improve the experience of instructors and students using the ERPsim Console. Outcome We aim to improve the experience of instructors and students using the ERPsim Console.</summary></entry><entry><title type="html">Laptop Sales Backstage Process</title><link href="http://localhost:4000/blog/2019/09/01/coop/" rel="alternate" type="text/html" title="Laptop Sales Backstage Process" /><published>2019-09-01T21:11:00-04:00</published><updated>2019-09-01T21:11:00-04:00</updated><id>http://localhost:4000/blog/2019/09/01/coop</id><content type="html" xml:base="http://localhost:4000/blog/2019/09/01/coop/">&lt;p&gt;(More details coming soon / March 2021)&lt;/p&gt;
 
 &lt;p&gt;Préparer une soumission
 Verification de disponibilité

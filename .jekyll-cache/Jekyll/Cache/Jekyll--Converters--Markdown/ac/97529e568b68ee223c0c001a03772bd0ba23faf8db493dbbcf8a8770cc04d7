@@ -1,4 +1,4 @@
-<html>
+I"E&<html>
 <head>
   <title>David Aguirre - Work</title>
   <meta charset="UTF-8" />
@@ -20,6 +20,7 @@
   <link href="/css/styles.css" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap" rel="stylesheet" />
+
 </head>
 <body>
   <!--     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -48,6 +49,7 @@
       <div class="post-container ">
       <a href="/blog/2020/12/01/erpsim/">
         <img src="/assets/img/thumbnails/erpsim-tn.png" class="project-thumbnail" />
+        <p style="text-decoration: none; font-display: italic;">Featured</p>
         </a>
         <div class="project-info-container">
           <div class="post-label">
@@ -60,12 +62,13 @@
             </a>
           </p>
           <p class="post-subtitle">
-            Improving usability, ease of learning and branding with a new user interface.
+            Improving usability, ease of learning and branding through new front-end interactions.
           </p>
           <br />
           <p class="post-date">
           2020
           </p>
+
 </div>
       </div>
       <hr />
@@ -74,6 +77,7 @@
       <div class="post-container ">
       <a href="/blog/2020/12/01/alerte/">
         <img src="/assets/img/thumbnails/alerte-tn.png" class="project-thumbnail" />
+        <p style="text-decoration: none; font-display: italic;">Featured</p>
         </a>
         <div class="project-info-container">
           <div class="post-label">
@@ -92,6 +96,7 @@
           <p class="post-date">
           2018
           </p>
+
 </div>
       </div>
       <hr />
@@ -100,6 +105,7 @@
       <div class="post-container ">
       <a href="/blog/2019/11/05/monitor/">
         <img src="/assets/img/thumbnails/monitor-tn.png" class="project-thumbnail" />
+        <p style="text-decoration: none; font-display: italic;">Featured</p>
         </a>
         <div class="project-info-container">
           <div class="post-label">
@@ -118,6 +124,7 @@
           <p class="post-date">
           2018-19
           </p>
+
 </div>
       </div>
       <hr />
@@ -126,6 +133,7 @@
       <div class="post-container ">
       <a href="/blog/2019/11/01/unicours/">
         <img src="/assets/img/thumbnails/unicours-tn.png" class="project-thumbnail" />
+        <p style="text-decoration: none; font-display: italic;">Featured</p>
         </a>
         <div class="project-info-container">
           <div class="post-label">
@@ -144,6 +152,7 @@
           <p class="post-date">
           2019
           </p>
+
 </div>
       </div>
       <hr />
@@ -152,6 +161,7 @@
       <div class="post-container ">
       <a href="/blog/2019/10/01/brava/">
         <img src="/assets/img/thumbnails/brava-tn.png" class="project-thumbnail" />
+        <p style="text-decoration: none; font-display: italic;">Featured</p>
         </a>
         <div class="project-info-container">
           <div class="post-label">
@@ -164,12 +174,13 @@
             </a>
           </p>
           <p class="post-subtitle">
-            Visualizing the material requirements planning and procurement process of a manufacturing startup.
+            Visualizing the material requirements planning and procurement process through an ERP demo, for a manufacturing startup.
           </p>
           <br />
           <p class="post-date">
           2019
           </p>
+
 </div>
       </div>
       <hr />
@@ -178,6 +189,7 @@
       <div class="post-container ">
       <a href="/blog/2019/09/01/coop/">
         <img src="/assets/img/thumbnails/coop-tn.png" class="project-thumbnail" />
+        <p style="text-decoration: none; font-display: italic;">Featured</p>
         </a>
         <div class="project-info-container">
           <div class="post-label">
@@ -196,6 +208,7 @@
           <p class="post-date">
           2019
           </p>
+
 </div>
       </div>
       <hr />
@@ -204,6 +217,7 @@
       <div class="post-container ">
       <a href="/blog/2017/02/05/coem/">
         <img src="/assets/img/thumbnails/coem-tn.png" class="project-thumbnail" />
+        <p style="text-decoration: none; font-display: italic;">Featured</p>
         </a>
         <div class="project-info-container">
           <div class="post-label">
@@ -222,6 +236,7 @@
           <p class="post-date">
           2017
           </p>
+
 </div>
       </div>
       <hr />
@@ -230,6 +245,7 @@
       <div class="post-container ">
       <a href="/blog/2013/12/01/wok/">
         <img src="/assets/img/thumbnails/wok-tn.png" class="project-thumbnail" />
+        <p style="text-decoration: none; font-display: italic;">Featured</p>
         </a>
         <div class="project-info-container">
           <div class="post-label">
@@ -248,6 +264,7 @@
           <p class="post-date">
           2013
           </p>
+
 </div>
       </div>
       <hr />
@@ -257,4 +274,4 @@
   </div>
 </body>
 </html>
-
+:ET

@@ -1,4 +1,4 @@
-<html>
+I"8$<html>
 <head>
   <title>David Aguirre - Work</title>
   <meta charset="UTF-8" />
@@ -41,6 +41,8 @@
     </ul>
   </div>
   <div id="blog" class="wrap">
+    <div style="z-index:2; background-color:yellow; width:hv%; text-align: center;">Access will be granted upon request
+    </div>
     <div id="intro">
     </div>
     <div id="posts" class="section">
@@ -257,4 +259,4 @@
   </div>
 </body>
 </html>
-
+:ET
