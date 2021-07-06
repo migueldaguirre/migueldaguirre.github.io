@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-07-05T17:38:21-04:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">IoT Water and Freeze Detector Setup</title><link href="http://localhost:4000/blog/2020/12/01/alerte/" rel="alternate" type="text/html" title="IoT Water and Freeze Detector Setup" /><published>2020-12-01T00:00:00-05:00</published><updated>2020-12-01T00:00:00-05:00</updated><id>http://localhost:4000/blog/2020/12/01/alerte</id><content type="html" xml:base="http://localhost:4000/blog/2020/12/01/alerte/">&lt;p&gt;(Under construction / February 2021)&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-07-05T19:04:18-04:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">IoT Water and Freeze Detector Setup</title><link href="http://localhost:4000/blog/2020/12/01/alerte/" rel="alternate" type="text/html" title="IoT Water and Freeze Detector Setup" /><published>2020-12-01T00:00:00-05:00</published><updated>2020-12-01T00:00:00-05:00</updated><id>http://localhost:4000/blog/2020/12/01/alerte</id><content type="html" xml:base="http://localhost:4000/blog/2020/12/01/alerte/">&lt;p&gt;(Under construction / February 2021)&lt;/p&gt;
 
 &lt;p&gt;L’objectif principal était de déterminer les forces et faiblesses, en termes d’utilisabilité, des différentes étapes nécessaires à l’installation du détecteur sur l’application. Les résultats de ces tests serviront à informer l’équipe de développement des ajustements et modifications à considérer pour améliorer l’expérience de ses utilisateurs. Ces résultats permettront également de vérifier si les étapes d’installation sont suffisamment compréhensibles. Ce rapport présentera entre autres les résultats observés ainsi que les recommandations appropriées.&lt;/p&gt;
 
@@ -168,6 +168,14 @@ Stages of use and components&lt;/div&gt;
         First interactive prototype showing the flow of interactions.
     &lt;/div&gt;
   &lt;/div&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;img src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1625525971/ERPsim/IMG_2956_brhm3k.jpg&quot; class=&quot;stage-photo&quot; id=&quot;animated-gif&quot; /&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;
+        First interactive prototype showing the flow of interactions.
+    &lt;/div&gt;
+  &lt;/div&gt;
+
 &lt;div class=&quot;figure&quot;&gt;
 &lt;img src=&quot;/assets/img/erpsim/erpsim_ctl_states.jpg&quot; class=&quot;stage-photo&quot; /&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
@@ -185,32 +193,12 @@ Stages of use and components&lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;div class=&quot;figure&quot;&gt;
-&lt;img src=&quot;/assets/img/erpsim/version.png&quot; class=&quot;stage-photo&quot; /&gt;
+&lt;img src=&quot;__&quot; class=&quot;stage-photo&quot; /&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
          Front-end components repository.
     &lt;/div&gt;
   &lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;!-- &lt;h3 class=&quot;stage-title&quot;&gt;7. Final version&lt;/h3&gt;
-&lt;img src=&quot;/assets/img/erpsim/final_prototype/ERPsimUI2020_Page_01.jpg&quot; class=&quot;stage-photo&quot;&gt;
-&lt;br&gt;
-&lt;img src=&quot;/assets/img/erpsim/final_prototype/ERPsimUI2020_Page_02.jpg&quot; class=&quot;stage-photo&quot;&gt;
-&lt;br /&gt;
-&lt;img src=&quot;/assets/img/erpsim/final_prototype/ERPsimUI2020_Page_04.jpg&quot; class=&quot;stage-photo&quot;&gt;
-&lt;img src=&quot;/assets/img/erpsim/final_prototype/ERPsimUI2020_Page_05.jpg&quot; class=&quot;stage-photo&quot;&gt;
-&lt;img src=&quot;/assets/img/erpsim/final_prototype/ERPsimUI2020_Page_06.jpg&quot; class=&quot;stage-photo&quot;&gt;
-&lt;img src=&quot;/assets/img/erpsim/final_prototype/ERPsimUI2020_Page_07.jpg&quot; class=&quot;stage-photo&quot;&gt;
-&lt;img src=&quot;/assets/img/erpsim/final_prototype/ERPsimUI2020_Page_08.jpg&quot; class=&quot;stage-photo&quot;&gt;
-&lt;img src=&quot;/assets/img/erpsim/final_prototype/ERPsimUI2020_Page_09.jpg&quot; class=&quot;stage-photo&quot;&gt;
-&lt;img src=&quot;/assets/img/erpsim/final_prototype/ERPsimUI2020_Page_10.jpg&quot; class=&quot;stage-photo&quot;&gt;
-&lt;img src=&quot;/assets/img/erpsim/final_prototype/ERPsimUI2020_Page_11.jpg&quot; class=&quot;stage-photo&quot;&gt;
-&lt;img src=&quot;/assets/img/erpsim/final_prototype/ERPsimUI2020_Page_12.jpg&quot; class=&quot;stage-photo&quot;&gt;
-&lt;img src=&quot;/assets/img/erpsim/final_prototype/ERPsimUI2020_Page_13.jpg&quot; class=&quot;stage-photo&quot;&gt;
-&lt;img src=&quot;/assets/img/erpsim/final_prototype/ERPsimUI2020_Page_14.jpg&quot; class=&quot;stage-photo&quot;&gt;
-&lt;img src=&quot;/assets/img/erpsim/final_prototype/ERPsimUI2020_Page_15.jpg&quot; class=&quot;stage-photo&quot;&gt;
-&lt;img src=&quot;/assets/img/erpsim/final_prototype/ERPsimUI2020_Page_16.jpg&quot; class=&quot;stage-photo&quot;&gt; --&gt;</content><author><name></name></author><summary type="html">Challenge We aim to improve the experience of instructors and students using the ERPsim Console. The underlying hypothesis is that perceived quality, ease of learning and student engagement can all be enhanced by intervening the graphical user interface: layout and control components, data tables and graphics, and the sequence in which information is displayed or accessed. It is expected that this will have a positive impact in reducing the friction of “adoption” by instructors and improving the debriefing phase of simulations thus positively impacting student learning.</summary></entry><entry><title type="html">Crowd-Sourced Price Monitoring Web-App</title><link href="http://localhost:4000/blog/2019/11/05/monitor/" rel="alternate" type="text/html" title="Crowd-Sourced Price Monitoring Web-App" /><published>2019-11-05T15:33:00-05:00</published><updated>2019-11-05T15:33:00-05:00</updated><id>http://localhost:4000/blog/2019/11/05/monitor</id><content type="html" xml:base="http://localhost:4000/blog/2019/11/05/monitor/">&lt;p&gt;(Under construction / February 2021)&lt;/p&gt;
+&lt;hr /&gt;</content><author><name></name></author><summary type="html">Challenge We aim to improve the experience of instructors and students using the ERPsim Console. The underlying hypothesis is that perceived quality, ease of learning and student engagement can all be enhanced by intervening the graphical user interface: layout and control components, data tables and graphics, and the sequence in which information is displayed or accessed. It is expected that this will have a positive impact in reducing the friction of “adoption” by instructors and improving the debriefing phase of simulations thus positively impacting student learning.</summary></entry><entry><title type="html">Crowd-Sourced Price Monitoring Web-App</title><link href="http://localhost:4000/blog/2019/11/05/monitor/" rel="alternate" type="text/html" title="Crowd-Sourced Price Monitoring Web-App" /><published>2019-11-05T15:33:00-05:00</published><updated>2019-11-05T15:33:00-05:00</updated><id>http://localhost:4000/blog/2019/11/05/monitor</id><content type="html" xml:base="http://localhost:4000/blog/2019/11/05/monitor/">&lt;p&gt;(Under construction / February 2021)&lt;/p&gt;
 
 &lt;h3 class=&quot;article-sub&quot;&gt;Challenge&lt;/h3&gt;
 &lt;p&gt;Libertad vigilada (reportar los precios)
