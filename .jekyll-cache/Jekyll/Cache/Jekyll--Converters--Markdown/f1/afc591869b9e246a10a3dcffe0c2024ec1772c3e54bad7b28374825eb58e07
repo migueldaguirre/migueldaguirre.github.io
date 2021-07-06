@@ -1,19 +1,6 @@
----
-layout: default
-title: Dynamic Class Enrollment Platform
-date: 2019-11-01
-subtitle: Reimagining the experience of enrolling into university courses through a single-page web-app.
-keywords: Interaction design | Concept
-published: yes
-client: HEC MontrÃ©al
-client-logo: https://res.cloudinary.com/davidaguirre-info/image/upload/v1625501346/Logos/logo-hec_ijors5.png
-year: 2019
-thumbnail: unicours-tn
-underconstruction: false
----
-(Under construction / June 2021)
+I"ª<p>(Under construction / June 2021)</p>
 
-<br>
+<p><br /></p>
 <h3 class="article-sub">Context</h3>
 <div class="article-text">
 <p>As an exercise in the UX Design course within the MSc. in User Experience in a Business Context. Following a systemic/structured process of empathizing, ideation, user testing and iterative prototyping.
@@ -26,3 +13,5 @@ Reinvent the online experience for enrolling into university courses by setting 
 Concept Testing
 
 Refining the idea: Card sorting
+</div>
+:ET
