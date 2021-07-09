@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-07-05T19:04:18-04:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">IoT Water and Freeze Detector Setup</title><link href="http://localhost:4000/blog/2020/12/01/alerte/" rel="alternate" type="text/html" title="IoT Water and Freeze Detector Setup" /><published>2020-12-01T00:00:00-05:00</published><updated>2020-12-01T00:00:00-05:00</updated><id>http://localhost:4000/blog/2020/12/01/alerte</id><content type="html" xml:base="http://localhost:4000/blog/2020/12/01/alerte/">&lt;p&gt;(Under construction / February 2021)&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-07-09T00:12:47-04:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">IoT Water and Freeze Detector Setup</title><link href="http://localhost:4000/blog/2020/12/01/alerte/" rel="alternate" type="text/html" title="IoT Water and Freeze Detector Setup" /><published>2020-12-01T00:00:00-05:00</published><updated>2020-12-01T00:00:00-05:00</updated><id>http://localhost:4000/blog/2020/12/01/alerte</id><content type="html" xml:base="http://localhost:4000/blog/2020/12/01/alerte/">&lt;p&gt;(Under construction / February 2021)&lt;/p&gt;
 
 &lt;p&gt;L’objectif principal était de déterminer les forces et faiblesses, en termes d’utilisabilité, des différentes étapes nécessaires à l’installation du détecteur sur l’application. Les résultats de ces tests serviront à informer l’équipe de développement des ajustements et modifications à considérer pour améliorer l’expérience de ses utilisateurs. Ces résultats permettront également de vérifier si les étapes d’installation sont suffisamment compréhensibles. Ce rapport présentera entre autres les résultats observés ainsi que les recommandations appropriées.&lt;/p&gt;
 
@@ -16,7 +16,7 @@
 Show a test plan
 Optimisely.com
 Inspectlet
-Quick and dirty&lt;/p&gt;</content><author><name></name></author><summary type="html">(Under construction / February 2021)</summary></entry><entry><title type="html">ERPsim Administration Console UI</title><link href="http://localhost:4000/blog/2020/12/01/erpsim/" rel="alternate" type="text/html" title="ERPsim Administration Console UI" /><published>2020-12-01T00:00:00-05:00</published><updated>2020-12-01T00:00:00-05:00</updated><id>http://localhost:4000/blog/2020/12/01/erpsim</id><content type="html" xml:base="http://localhost:4000/blog/2020/12/01/erpsim/">&lt;!-- [ERPsimLab](https://erpsim.hec.ca/ &quot;ERPsimLab Homepage&quot;)  --&gt;
+Quick and dirty&lt;/p&gt;</content><author><name></name></author><summary type="html">(Under construction / February 2021)</summary></entry><entry><title type="html">ERPsim Admin Console Front-End</title><link href="http://localhost:4000/blog/2020/12/01/erpsim/" rel="alternate" type="text/html" title="ERPsim Admin Console Front-End" /><published>2020-12-01T00:00:00-05:00</published><updated>2020-12-01T00:00:00-05:00</updated><id>http://localhost:4000/blog/2020/12/01/erpsim</id><content type="html" xml:base="http://localhost:4000/blog/2020/12/01/erpsim/">&lt;!-- [ERPsimLab](https://erpsim.hec.ca/ &quot;ERPsimLab Homepage&quot;)  --&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h3 class=&quot;article-sub&quot;&gt;Challenge&lt;/h3&gt;
 &lt;div class=&quot;article-text&quot;&gt;
@@ -54,20 +54,21 @@ ERPsim is a business simulation game for SAP ERP and SAP S/4HANA in which partic
 &lt;/div&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/pml.jpg&quot; style=&quot;width: 100%&quot; /&gt;
-    &lt;div class=&quot;figure-caption&quot; id=&quot;lightbox&quot;&gt;
-Context of use &lt;/div&gt;
+&lt;div class=&quot;figure-caption&quot;&gt;Context of use &lt;/div&gt;
+&lt;img class=&quot;stage-photo lightbox&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1625527951/ERPsim/components-12_wqn1tm.png&quot; style=&quot;width: 100%&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;figure&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/stages1.jpg&quot; style=&quot;width: 100%&quot; /&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/stages1.jpg&quot; style=&quot;width: 100%&quot; /&gt;
-    &lt;div class=&quot;figure-caption&quot;&gt;
-Stages &lt;/div&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;Simulation application ecosystem&lt;/div&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/erpsimarch.jpg&quot; style=&quot;width: 100%&quot; /&gt;
 &lt;/div&gt;
+
 &lt;div class=&quot;figure&quot;&gt;
+&lt;div class=&quot;figure-caption&quot;&gt;Future scenarios of use&lt;/div&gt;
 &lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/scenarios.jpg&quot; style=&quot;width: 100%&quot; /&gt;
-    &lt;div class=&quot;figure-caption&quot;&gt;
-Future scenarios of use    &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;article-text&quot;&gt;
@@ -77,12 +78,6 @@ intervening the graphical user interface: layout and control components, data ta
 sequence in which information is displayed or accessed. It is expected that this will have a positive impact
 in reducing the friction of “adoption” by instructors and improving the debriefing phase of simulations thus
 positively impacting student learning.
-&lt;/div&gt;
-
-&lt;div class=&quot;figure&quot;&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/erpsimarch.jpg&quot; style=&quot;width: 100%&quot; /&gt;
-    &lt;div class=&quot;figure-caption&quot;&gt;
-Simulation application ecosystem&lt;/div&gt;
 &lt;/div&gt;
 
 &lt;hr /&gt;
@@ -97,16 +92,10 @@ in reducing the friction of “adoption” by instructors and improving the debr
 positively impacting student learning.
 &lt;/div&gt;
 &lt;div class=&quot;figure&quot;&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/workplan.png&quot; style=&quot;width: 100%&quot; /&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
-        Workplan diagram.
+      Workplan diagram.
     &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;figure&quot;&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/components.jpg&quot; style=&quot;width: 100%&quot; /&gt;
-    &lt;div class=&quot;figure-caption&quot;&gt;
-Stages of use and components&lt;/div&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/workplan.png&quot; style=&quot;width: 100%&quot; /&gt;
 &lt;/div&gt;
 
 &lt;hr /&gt;
@@ -128,27 +117,27 @@ Stages of use and components&lt;/div&gt;
 &lt;/div&gt;
 &lt;hr /&gt;
 
-&lt;h3 class=&quot;stage-title&quot;&gt;4. Wokshop 2 : Redesign &lt;/h3&gt;
+&lt;h3 class=&quot;stage-title&quot;&gt;4. Second Workshop : Redesign &lt;/h3&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/workshop_a.jpg&quot; /&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
     Users working at redesigning specific components of the interface.
     &lt;/div&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/workshop_a.jpg&quot; /&gt;
   &lt;/div&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1624560881/ERPsim/workshop_b_dxtes7.jpg&quot; /&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
     Participant presenting his ideas during the workshop.
     &lt;/div&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1624560881/ERPsim/workshop_b_dxtes7.jpg&quot; /&gt;
   &lt;/div&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/workshop_c.jpg&quot; /&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
     Sketches created by participants during the workshop.
     &lt;/div&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/workshop_c.jpg&quot; /&gt;
 &lt;/div&gt;
 
 &lt;hr /&gt;
@@ -156,51 +145,40 @@ Stages of use and components&lt;/div&gt;
 &lt;h3 class=&quot;stage-title&quot;&gt;6. Design iterations &lt;/h3&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/sketches.jpg&quot; style=&quot;width: 100%&quot; /&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
         Personal sketches done to synthesize the ideas gathered at the workshop.
     &lt;/div&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/sketches.jpg&quot; style=&quot;width: 100%&quot; /&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;First digital sketches.&lt;/div&gt;
+&lt;img src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1625527949/ERPsim/components-11_bozfpg.png&quot; class=&quot;stage-photo&quot; id=&quot;animated-gif&quot; /&gt;
+  &lt;/div&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;First interactive prototype showing the flow of interactions.&lt;/div&gt;
 &lt;img src=&quot;/assets/img/erpsim/Slide24.gif&quot; class=&quot;stage-photo&quot; id=&quot;animated-gif&quot; /&gt;
-    &lt;div class=&quot;figure-caption&quot;&gt;
-        First interactive prototype showing the flow of interactions.
-    &lt;/div&gt;
   &lt;/div&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
-&lt;img src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1625525971/ERPsim/IMG_2956_brhm3k.jpg&quot; class=&quot;stage-photo&quot; id=&quot;animated-gif&quot; /&gt;
-    &lt;div class=&quot;figure-caption&quot;&gt;
-        First interactive prototype showing the flow of interactions.
-    &lt;/div&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;Notes on component resizing.&lt;/div&gt;
+&lt;img src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1625526988/ERPsim/IMG_2956_wnnbuj.jpg&quot; class=&quot;stage-photo&quot; id=&quot;animated-gif&quot; /&gt;
   &lt;/div&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;Variations of a UI component across general front-end states.&lt;/div&gt;
 &lt;img src=&quot;/assets/img/erpsim/erpsim_ctl_states.jpg&quot; class=&quot;stage-photo&quot; /&gt;
-    &lt;div class=&quot;figure-caption&quot;&gt;
-         Variations of a UI component across general front-end states.
-    &lt;/div&gt;
   &lt;/div&gt;
 &lt;hr /&gt;
 
 &lt;h3 class=&quot;stage-title&quot;&gt;7. Development&lt;/h3&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;First state diagram for the front-end.&lt;/div&gt;
 &lt;img src=&quot;/assets/img/erpsim/erpsim_state_diagram.jpg&quot; class=&quot;stage-photo&quot; /&gt;
-    &lt;div class=&quot;figure-caption&quot;&gt;
-         First state diagram for the front-end.
-    &lt;/div&gt;
   &lt;/div&gt;
-&lt;div class=&quot;figure&quot;&gt;
-&lt;img src=&quot;__&quot; class=&quot;stage-photo&quot; /&gt;
-    &lt;div class=&quot;figure-caption&quot;&gt;
-         Front-end components repository.
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;hr /&gt;</content><author><name></name></author><summary type="html">Challenge We aim to improve the experience of instructors and students using the ERPsim Console. The underlying hypothesis is that perceived quality, ease of learning and student engagement can all be enhanced by intervening the graphical user interface: layout and control components, data tables and graphics, and the sequence in which information is displayed or accessed. It is expected that this will have a positive impact in reducing the friction of “adoption” by instructors and improving the debriefing phase of simulations thus positively impacting student learning.</summary></entry><entry><title type="html">Crowd-Sourced Price Monitoring Web-App</title><link href="http://localhost:4000/blog/2019/11/05/monitor/" rel="alternate" type="text/html" title="Crowd-Sourced Price Monitoring Web-App" /><published>2019-11-05T15:33:00-05:00</published><updated>2019-11-05T15:33:00-05:00</updated><id>http://localhost:4000/blog/2019/11/05/monitor</id><content type="html" xml:base="http://localhost:4000/blog/2019/11/05/monitor/">&lt;p&gt;(Under construction / February 2021)&lt;/p&gt;
-
-&lt;h3 class=&quot;article-sub&quot;&gt;Challenge&lt;/h3&gt;
+&lt;hr /&gt;</content><author><name></name></author><summary type="html">Challenge We aim to improve the experience of instructors and students using the ERPsim Console. The underlying hypothesis is that perceived quality, ease of learning and student engagement can all be enhanced by intervening the graphical user interface: layout and control components, data tables and graphics, and the sequence in which information is displayed or accessed. It is expected that this will have a positive impact in reducing the friction of “adoption” by instructors and improving the debriefing phase of simulations thus positively impacting student learning.</summary></entry><entry><title type="html">Crowd-Sourced Price Monitoring Web-App</title><link href="http://localhost:4000/blog/2019/11/05/monitor/" rel="alternate" type="text/html" title="Crowd-Sourced Price Monitoring Web-App" /><published>2019-11-05T15:33:00-05:00</published><updated>2019-11-05T15:33:00-05:00</updated><id>http://localhost:4000/blog/2019/11/05/monitor</id><content type="html" xml:base="http://localhost:4000/blog/2019/11/05/monitor/">&lt;h3 class=&quot;article-sub&quot;&gt;Challenge&lt;/h3&gt;
 &lt;p&gt;Libertad vigilada (reportar los precios)
 Variación de precios:
 Importados (mayormente)
@@ -238,8 +216,9 @@ No ofrecía confiabilidad sobre la fuente de información. A través de terceros
 &lt;h3 class=&quot;stage-title&quot;&gt;User flow&lt;/h3&gt;
 &lt;h3 class=&quot;stage-title&quot;&gt;Elastic Search Autocomplete&lt;/h3&gt;
 &lt;h3 class=&quot;stage-title&quot;&gt;TRM Scheduler&lt;/h3&gt;
+&lt;h3 class=&quot;stage-title&quot;&gt;Analyses allowed by the data in the app&lt;/h3&gt;
 &lt;p&gt;USD - COP currency API&lt;/p&gt;
-&lt;hr /&gt;</content><author><name></name></author><summary type="html">(Under construction / February 2021)</summary></entry><entry><title type="html">Dynamic Class Enrollment Platform</title><link href="http://localhost:4000/blog/2019/11/01/unicours/" rel="alternate" type="text/html" title="Dynamic Class Enrollment Platform" /><published>2019-11-01T00:00:00-04:00</published><updated>2019-11-01T00:00:00-04:00</updated><id>http://localhost:4000/blog/2019/11/01/unicours</id><content type="html" xml:base="http://localhost:4000/blog/2019/11/01/unicours/">&lt;p&gt;(Under construction / June 2021)&lt;/p&gt;
+&lt;hr /&gt;</content><author><name></name></author><summary type="html">Challenge Libertad vigilada (reportar los precios) Variación de precios: Importados (mayormente) Terminados Materias primas - Fabricación local Sujetos al mercado cambiario Variaciones todos los meses TRM, cambia todos los días No existe un único precio nacional. Costos de logística Condiciones de negociación (Crédito o contado) Tipos de mercado Tamaño de los negocios (volumen) Es conveniente tener claridad de los cambios que se van presentando, en tiempo real.</summary></entry><entry><title type="html">Dynamic Class Enrollment Platform</title><link href="http://localhost:4000/blog/2019/11/01/unicours/" rel="alternate" type="text/html" title="Dynamic Class Enrollment Platform" /><published>2019-11-01T00:00:00-04:00</published><updated>2019-11-01T00:00:00-04:00</updated><id>http://localhost:4000/blog/2019/11/01/unicours</id><content type="html" xml:base="http://localhost:4000/blog/2019/11/01/unicours/">&lt;p&gt;(Under construction / June 2021)&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
@@ -254,7 +233,25 @@ Reinvent the online experience for enrolling into university courses by setting 
 Concept Testing
 
 Refining the idea: Card sorting
-&lt;/div&gt;</content><author><name></name></author><summary type="html">(Under construction / June 2021)</summary></entry><entry><title type="html">Apparel Materials Planning Demo</title><link href="http://localhost:4000/blog/2019/10/01/brava/" rel="alternate" type="text/html" title="Apparel Materials Planning Demo" /><published>2019-10-01T21:11:00-04:00</published><updated>2019-10-01T21:11:00-04:00</updated><id>http://localhost:4000/blog/2019/10/01/brava</id><content type="html" xml:base="http://localhost:4000/blog/2019/10/01/brava/">&lt;h3 class=&quot;article-sub&quot;&gt;Challenge&lt;/h3&gt;
+
+
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1625711479/Unicours/cardsorting_unicours-07_ccd7ra.png&quot; style=&quot;width: 100%&quot; /&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;
+        Card Sorting
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1624568434/Unicours/presentation_Unicours_1_2_persona_tp0rhb.jpg&quot; style=&quot;width: 100%&quot; /&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;
+        Prototype
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;</content><author><name></name></author><summary type="html">(Under construction / June 2021)</summary></entry><entry><title type="html">Material Procurement Demo</title><link href="http://localhost:4000/blog/2019/10/01/brava/" rel="alternate" type="text/html" title="Material Procurement Demo" /><published>2019-10-01T21:11:00-04:00</published><updated>2019-10-01T21:11:00-04:00</updated><id>http://localhost:4000/blog/2019/10/01/brava</id><content type="html" xml:base="http://localhost:4000/blog/2019/10/01/brava/">&lt;h3 class=&quot;article-sub&quot;&gt;Challenge&lt;/h3&gt;
 &lt;div class=&quot;article-text&quot;&gt;
 &lt;p&gt;We aim to improve the experience of instructors and students using the ERPsim Console.&lt;/p&gt;
 &lt;/div&gt;
@@ -313,9 +310,9 @@ Talk about the client
 &lt;/div&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1625494027/Brava/Brava_Process_As_Is-10_yi8lyi.png&quot; style=&quot;width: 100%&quot; /&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1625717353/Brava/Brava_Process_Prototype-16_n8tlvu.png&quot; style=&quot;width: 100%&quot; /&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
-        Workplan diagram.
+        Prototype
     &lt;/div&gt;
 &lt;/div&gt;</content><author><name></name></author><summary type="html">Challenge We aim to improve the experience of instructors and students using the ERPsim Console. Outcome We aim to improve the experience of instructors and students using the ERPsim Console.</summary></entry><entry><title type="html">Laptop Sales Backstage Process</title><link href="http://localhost:4000/blog/2019/09/01/coop/" rel="alternate" type="text/html" title="Laptop Sales Backstage Process" /><published>2019-09-01T21:11:00-04:00</published><updated>2019-09-01T21:11:00-04:00</updated><id>http://localhost:4000/blog/2019/09/01/coop</id><content type="html" xml:base="http://localhost:4000/blog/2019/09/01/coop/">&lt;p&gt;(More details coming soon / March 2021)&lt;/p&gt;
 

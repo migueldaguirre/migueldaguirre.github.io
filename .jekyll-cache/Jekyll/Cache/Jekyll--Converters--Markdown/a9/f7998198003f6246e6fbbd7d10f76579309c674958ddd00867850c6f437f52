@@ -1,4 +1,4 @@
-I"�<!-- [ERPsimLab](https://erpsim.hec.ca/ "ERPsimLab Homepage")  -->
+I"X<!-- [ERPsimLab](https://erpsim.hec.ca/ "ERPsimLab Homepage")  -->
 <p><br /></p>
 <h3 class="article-sub">Challenge</h3>
 <div class="article-text">
@@ -36,20 +36,17 @@ ERPsim is a business simulation game for SAP ERP and SAP S/4HANA in which partic
 </div>
 
 <div class="figure">
-<img class="stage-photo" src="/assets/img/erpsim/pml.jpg" style="width: 100%" />
-    <div class="figure-caption" id="lightbox">
-Context of use </div>
+<img class="stage-photo" src="/assets/img/erpsim/stages1.jpg" style="width: 100%" />
 </div>
 
 <div class="figure">
-<img class="stage-photo" src="/assets/img/erpsim/stages1.jpg" style="width: 100%" />
-    <div class="figure-caption">
-Stages </div>
+<div class="figure-caption">Context of use </div>
+<img class="stage-photo lightbox" src="https://res.cloudinary.com/davidaguirre-info/image/upload/v1625527951/ERPsim/components-12_wqn1tm.png" style="width: 100%" />
 </div>
+
 <div class="figure">
+<div class="figure-caption">Future scenarios of use</div>
 <img class="stage-photo" src="/assets/img/erpsim/scenarios.jpg" style="width: 100%" />
-    <div class="figure-caption">
-Future scenarios of use    </div>
 </div>
 
 <div class="article-text">
@@ -79,10 +76,10 @@ in reducing the friction of “adoption” by instructors and improving the debr
 positively impacting student learning.
 </div>
 <div class="figure">
-<img class="stage-photo" src="/assets/img/erpsim/workplan.png" style="width: 100%" />
     <div class="figure-caption">
         Workplan diagram.
     </div>
+<img class="stage-photo" src="/assets/img/erpsim/workplan.png" style="width: 100%" />
 </div>
 
 <div class="figure">
@@ -127,10 +124,10 @@ Stages of use and components</div>
   </div>
 
 <div class="figure">
-<img class="stage-photo" src="/assets/img/erpsim/workshop_c.jpg" />
     <div class="figure-caption">
     Sketches created by participants during the workshop.
     </div>
+<img class="stage-photo" src="/assets/img/erpsim/workshop_c.jpg" />
 </div>
 
 <hr />
@@ -138,47 +135,42 @@ Stages of use and components</div>
 <h3 class="stage-title">6. Design iterations </h3>
 
 <div class="figure">
-<img class="stage-photo" src="/assets/img/erpsim/sketches.jpg" style="width: 100%" />
     <div class="figure-caption">
         Personal sketches done to synthesize the ideas gathered at the workshop.
     </div>
+<img class="stage-photo" src="/assets/img/erpsim/sketches.jpg" style="width: 100%" />
 </div>
 
 <div class="figure">
+    <div class="figure-caption">First digital sketches.</div>
+<img src="https://res.cloudinary.com/davidaguirre-info/image/upload/v1625527949/ERPsim/components-11_bozfpg.png" class="stage-photo" id="animated-gif" />
+  </div>
+
+<div class="figure">
+    <div class="figure-caption">First interactive prototype showing the flow of interactions.</div>
 <img src="/assets/img/erpsim/Slide24.gif" class="stage-photo" id="animated-gif" />
-    <div class="figure-caption">
-        First interactive prototype showing the flow of interactions.
-    </div>
   </div>
 
 <div class="figure">
-<img src="https://res.cloudinary.com/davidaguirre-info/image/upload/v1625525971/ERPsim/IMG_2956_brhm3k.jpg" class="stage-photo" id="animated-gif" />
-    <div class="figure-caption">
-        First interactive prototype showing the flow of interactions.
-    </div>
+    <div class="figure-caption">Notes on component resizing.</div>
+<img src="https://res.cloudinary.com/davidaguirre-info/image/upload/v1625526988/ERPsim/IMG_2956_wnnbuj.jpg" class="stage-photo" id="animated-gif" />
   </div>
 
 <div class="figure">
+    <div class="figure-caption">Variations of a UI component across general front-end states.</div>
 <img src="/assets/img/erpsim/erpsim_ctl_states.jpg" class="stage-photo" />
-    <div class="figure-caption">
-         Variations of a UI component across general front-end states.
-    </div>
   </div>
 <hr />
 
 <h3 class="stage-title">7. Development</h3>
 
 <div class="figure">
+    <div class="figure-caption">First state diagram for the front-end.</div>
 <img src="/assets/img/erpsim/erpsim_state_diagram.jpg" class="stage-photo" />
-    <div class="figure-caption">
-         First state diagram for the front-end.
-    </div>
   </div>
 <div class="figure">
+    <div class="figure-caption">Front-end components repository.</div>
 <img src="__" class="stage-photo" />
-    <div class="figure-caption">
-         Front-end components repository.
-    </div>
   </div>
 <hr />
 
