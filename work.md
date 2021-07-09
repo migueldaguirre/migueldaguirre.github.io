@@ -35,35 +35,33 @@ layout: empty
       <li><a id='work' class="selected" href='/work' >Work</a></li>
     </ul>
   </div>
-  <div id='blog' class='wrap'>
+  <div id='blog' class=''>
     <div id='intro'>
+      <br>
     </div>
-    <div id='posts' class='section'>
+    <div id='posts' class='section mosaic-container'>
       {% for post in site.posts %}
+        <a href="{{ post.url }}" style="text-decoration: none;">
       <div class='post-row' class="post-container {% if post.underconstruction == true %}under-construction{% endif %}">
-      <a href="{{ post.url }}">
-        <img src="{{ post.thumbnail | prepend: '/assets/img/thumbnails/' | append: '.png' | relative_url }}" class="project-thumbnail">
-        </a>
-        <div class="project-info-container">
-          <div class="post-label">
-            {{ post.keywords | upcase }}
-          </div>
-        <img src="{{post.client-logo}}" class="logo-thumbnail"><br>
-          <p class='post-title'>
-            <a href="{{ post.url }}">
+          <img src="{{ post.thumbnail | prepend: '/assets/img/thumbnails/' | append: '.png' | relative_url }}" class="project-thumbnail">
+          <div class="project-info-container">
+            <div class="post-label">
+              {{ post.keywords | upcase }}
+            </div>
+            <img src="{{post.client-logo}}" class="logo-thumbnail"><br>
+            <h2 class='post-title'>
               {{ post.title }}
-            </a>
-          </p>
-          <p class='post-subtitle'>
-            {{ post.subtitle }}
-          </p>
-          <br>
-          <p class='post-date'>
-          {{ post.year}}
-          </p>
-</div>
-      </div>
-      <hr>
+            </h2>
+            <p class='post-subtitle'>
+              {{ post.subtitle }}
+            </p>
+            <br>
+            <p class='post-date'>
+              {{ post.year}}
+            </p>
+          </div>
+        </div>
+      </a>
       <span class='hidden'>{{ forloop.index }}</span>
       {% endfor %}
     </div>

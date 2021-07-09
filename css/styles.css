@@ -1,7 +1,8 @@
 :root{
   --md-color:#223E82;
   --md-color:#223882;
-  --md-color:black;
+  --md-color:#1C3D4F;
+
   --md-grey: rgba(0,0,0,0.8);
   --md-light-grey: rgba(0,0,0,0.1);
 }
@@ -256,11 +257,13 @@ margin-bottom: 3em;
   font-size: 14px;
   font-weight: bold;
   margin-top: 0px;
-
+  display: none;
 }
+
 #blog .post-title {
   display: inline-block;
   margin-bottom: 0;
+  font-weight: 500;
 }
 
 .project-thumbnail{
@@ -268,29 +271,43 @@ margin-bottom: 3em;
   min-height: 130px;
   max-width: 130px;
   max-height: 130px;
-  order: 1;
-  margin-right: 2em;
-  margin-top: 1.5em;
-  border-radius: 3%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
   filter: grayscale(100%);
-  /* filter: drop-shadow(1px 3px 3px #B3B3B3); */
   border: 1px solid  rgba(0,0,0,0.1);
-  position: relative;
 }
 
 .project-thumbnail:hover{
   /* filter: drop-shadow(0px 2px 2px #B3B3B3); */
   filter: grayscale(0%);
-
 }
 .post-container{
- display: flex;
- flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  max-width:350px;
+  flex-direction: column;
+  text-align: center;
+  padding: 1em;
+  border: 1px solid transparent;
+}
 
+.post-container:hover{
+    border: 1px solid #4881A0;
+    border-radius: 10px;
+    z-index: 1;
+    scale: 110%;
+    background-color: #F7F7F9;
+}
+.post-container:hover .project-thumbnail{
+filter: grayscale(0%);
+}
+
+.post-container:hover .post-label{
+  border-color: red;
 }
 
 .project-info-container{
- order: 2;
  width: 100%;
 }
 
@@ -329,8 +346,8 @@ color: rgba(0,0,0,0.5);
 
 #blog .post-label{
   border: 1px solid var(--md-color);
-  background-color:  var(--md-color);
-  color:white;
+  background-color:  white;
+  color:var(--md-color);
   max-width: fit-content;
   font-size: 12px;
   font-weight: 600;
@@ -341,6 +358,8 @@ color: rgba(0,0,0,0.5);
   letter-spacing: 0.6;
   opacity: 0.8;
   line-height: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .post-label-onpage{
@@ -441,10 +460,9 @@ hr {
   .post-container {
     flex-direction: column;
     margin: 0em 1em 0em 1em;
-/*    padding-left: 1em;
-*//*    border-left: 4px solid black;
-*/    text-align: center;
+    text-align: center;
     margin-bottom: 1em;
+    padding: auto;
   }
   .post-container .project-thumbnail{
     /*display: none;*/
@@ -483,6 +501,7 @@ hr {
   /* padding-left: 1em;
   padding-right: 1em; */
   font-size: 1em;
+  padding-top: 0.1em;
 }
 
   .project-facts .titles{
@@ -612,4 +631,13 @@ width: 100%;
 .profile-picture{
   border-radius: 50%;
   height: 100px;
+}
+
+.mosaic-container{
+    display: flex;
+    flex-flow: wrap;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
 }
