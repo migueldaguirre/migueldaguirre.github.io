@@ -1,4 +1,4 @@
-<html>
+I"˜<html>
 <head>
   <title>David Aguirre | BA &amp; UX</title>
   <meta charset="UTF-8" />
@@ -80,23 +80,23 @@
       <h2>Where can you find me?</h2>
       <ul class="contact">
       <li>
-      <a href="mailto: david.aguirre@hec.ca"><i class="fas fa-envelope-square" style="color:  #FBAD4F">&nbsp;</i>Email: <u>david.aguirre@hec.ca</u></a>
+      <a href="mailto: david.aguirre@hec.ca"><i class="fas fa-envelope-square">&nbsp;</i>Email: <u>david.aguirre@hec.ca</u></a>
       </li>
       <li>
-      <a href="https://www.linkedin.com/in/mdaguirre/"><i class="fab fa-linkedin" style="color:  #0e76a8">&nbsp;</i>LinkedIn: <u>/mdaguirre</u></a>
+      <a href="https://www.linkedin.com/in/mdaguirre/"><i class="fab fa-linkedin">&nbsp;</i>LinkedIn: <u>/mdaguirre</u></a>
       </li>
       <li>
-      <a href="https://github.com/migueldaguirre"><i class="fab fa-github-square" style="color:  black">&nbsp;</i>Github: <u>MiguelDAguirre</u></a>
+      <a href="https://github.com/migueldaguirre"><i class="fab fa-github-square">&nbsp;</i>Github: <u>MiguelDAguirre</u></a>
       </li>
       <li>
-      <a href="https://twitter.com/MiguelDAguirre"><i class="fab fa-twitter-square" style="color:#1DA1F2">&nbsp;</i>Twitter: <u>@MiguelDAguirre</u></a>
+      <a href="https://twitter.com/MiguelDAguirre"><i class="fab fa-twitter-square">&nbsp;</i>Twitter: <u>@MiguelDAguirre</u></a>
       </li>
       <li>
-      <a href="tel:+14386805409"><i class="fas fa-phone-square-alt" style="color:#51C85D">&nbsp;</i>Phone: <u>+1 438-680-5409</u></a>
+      <a href="tel:+14386805409"><i class="fas fa-phone-square-alt">&nbsp;</i>Phone: <u>+1 438-680-5409</u></a>
       </li>
       </ul>
       </div>
       </div>
     </body>
     </html>
-
+:ET
