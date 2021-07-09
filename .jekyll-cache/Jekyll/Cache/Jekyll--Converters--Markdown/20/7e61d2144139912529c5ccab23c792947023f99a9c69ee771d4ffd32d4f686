@@ -1,4 +1,4 @@
-I"·$<html>
+I"N$<html>
 <head>
   <title>David Aguirre - Work</title>
   <meta charset="UTF-8" />
@@ -51,11 +51,11 @@
           <img src="/assets/img/thumbnails/erpsim-tn.png" class="project-thumbnail" />
           <div class="project-info-container">
             <div class="post-label">
-              UI DESIGN &amp; FRONT-END DEVELOPMENT
+              INTERACTION DESIGN &amp; DEVELOPMENT
             </div>
             <img src="https://res.cloudinary.com/davidaguirre-info/image/upload/v1625501346/Logos/logo-hec_ijors5.png" class="logo-thumbnail" /><br />
             <h2 class="post-title">
-              <bold>ERPsim Admin Console Front-End</bold>
+              ERPsim Admin Console Front-End
             </h2>
             <p class="post-subtitle">
               Building a new user interface to improve usability, ease of learning and branding.
@@ -78,7 +78,7 @@
             </div>
             <img src="https://res.cloudinary.com/davidaguirre-info/image/upload/v1625501345/Logos/logo-desjardins_rh3wif.png" class="logo-thumbnail" /><br />
             <h2 class="post-title">
-              <bold>IoT Water and Freeze Detector Setup</bold>
+              IoT Water and Freeze Detector Setup
             </h2>
             <p class="post-subtitle">
               A look into the experience of installing and synchronizing a IoT device, as part of a property insurance service.
@@ -101,7 +101,7 @@
             </div>
             <img src="https://res.cloudinary.com/davidaguirre-info/image/upload/v1625501345/Logos/logo-avgust_wj5upv.png" class="logo-thumbnail" /><br />
             <h2 class="post-title">
-              <bold>Crowd-Sourced Price Monitoring Web-App</bold>
+              Crowd-Sourced Price Monitoring Web-App
             </h2>
             <p class="post-subtitle">
               Developing a tool for tracking prices in the agro-chemical supplies market.
@@ -124,7 +124,7 @@
             </div>
             <img src="https://res.cloudinary.com/davidaguirre-info/image/upload/v1625501346/Logos/logo-hec_ijors5.png" class="logo-thumbnail" /><br />
             <h2 class="post-title">
-              <bold>Dynamic Class Enrollment Platform</bold>
+              Dynamic Class Enrollment Platform
             </h2>
             <p class="post-subtitle">
               Reimagining the experience of enrolling into university courses through a single-page web application.
@@ -147,7 +147,7 @@
             </div>
             <img src="https://res.cloudinary.com/davidaguirre-info/image/upload/v1625504054/Logos/logo-brava_txhtdd.png" class="logo-thumbnail" /><br />
             <h2 class="post-title">
-              <bold>Material Procurement Demo</bold>
+              Material Procurement Demo
             </h2>
             <p class="post-subtitle">
               Explaining how an apparel manufacturing startup could use an ERP system to fulfill its material procurement process.
@@ -170,7 +170,7 @@
             </div>
             <img src="https://res.cloudinary.com/davidaguirre-info/image/upload/v1625501345/Logos/logo-coop_x9wrvd.png" class="logo-thumbnail" /><br />
             <h2 class="post-title">
-              <bold>Laptop Sales Backstage Process</bold>
+              Laptop Sales Backstage Process
             </h2>
             <p class="post-subtitle">
               Mapping internal information flows and activities, to enable business process optimization.
@@ -193,7 +193,7 @@
             </div>
             <img src="https://res.cloudinary.com/davidaguirre-info/image/upload/v1625501345/Logos/logo-coem_xaiv9p.png" class="logo-thumbnail" /><br />
             <h2 class="post-title">
-              <bold>Product &amp; Service Portfolio Structure</bold>
+              Product &amp; Service Portfolio Structure
             </h2>
             <p class="post-subtitle">
               Structuring an IT integratorâ€™s extensive portfolio of solutions for better communication.
@@ -216,7 +216,7 @@
             </div>
             <img src="https://res.cloudinary.com/davidaguirre-info/image/upload/v1625501345/Logos/logo-wok_xmefpm.png" class="logo-thumbnail" /><br />
             <h2 class="post-title">
-              <bold>Billing Experience at a Leading Restaurant Chain</bold>
+              Billing Experience at a Leading Restaurant Chain
             </h2>
             <p class="post-subtitle">
               Exploring and testing alternatives for improving the billing experience through an end-to-end design-thinking process.

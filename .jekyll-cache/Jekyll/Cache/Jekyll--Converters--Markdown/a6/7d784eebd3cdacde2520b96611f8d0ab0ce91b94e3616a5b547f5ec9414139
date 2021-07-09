@@ -1,4 +1,4 @@
-I"_&<html>
+I"N$<html>
 <head>
   <title>David Aguirre - Work</title>
   <meta charset="UTF-8" />
@@ -51,14 +51,14 @@
           <img src="/assets/img/thumbnails/erpsim-tn.png" class="project-thumbnail" />
           <div class="project-info-container">
             <div class="post-label">
-              UI DESIGN &amp; FRONT-END DEVELOPMENT
+              INTERACTION DESIGN &amp; DEVELOPMENT
             </div>
             <img src="https://res.cloudinary.com/davidaguirre-info/image/upload/v1625501346/Logos/logo-hec_ijors5.png" class="logo-thumbnail" /><br />
-            <p class="post-title" style="font-size: 1.37em; text-decoration: none; font-weight: 600;">
+            <h2 class="post-title">
               ERPsim Admin Console Front-End
-            </p>
+            </h2>
             <p class="post-subtitle">
-              Building a new user interface to improve usability, ease of learning and branding.
+              Building a new user interface to improve usability, mobility and ease of learning.
             </p>
             <br />
             <p class="post-date">
@@ -77,9 +77,9 @@
               USER EXPERIENCE EVALUATION
             </div>
             <img src="https://res.cloudinary.com/davidaguirre-info/image/upload/v1625501345/Logos/logo-desjardins_rh3wif.png" class="logo-thumbnail" /><br />
-            <p class="post-title" style="font-size: 1.37em; text-decoration: none; font-weight: 600;">
+            <h2 class="post-title">
               IoT Water and Freeze Detector Setup
-            </p>
+            </h2>
             <p class="post-subtitle">
               A look into the experience of installing and synchronizing a IoT device, as part of a property insurance service.
             </p>
@@ -100,9 +100,9 @@
               FULL-STACK WEB DEVELOPMENT
             </div>
             <img src="https://res.cloudinary.com/davidaguirre-info/image/upload/v1625501345/Logos/logo-avgust_wj5upv.png" class="logo-thumbnail" /><br />
-            <p class="post-title" style="font-size: 1.37em; text-decoration: none; font-weight: 600;">
+            <h2 class="post-title">
               Crowd-Sourced Price Monitoring Web-App
-            </p>
+            </h2>
             <p class="post-subtitle">
               Developing a tool for tracking prices in the agro-chemical supplies market.
             </p>
@@ -123,9 +123,9 @@
               INTERACTION DESIGN | CONCEPT
             </div>
             <img src="https://res.cloudinary.com/davidaguirre-info/image/upload/v1625501346/Logos/logo-hec_ijors5.png" class="logo-thumbnail" /><br />
-            <p class="post-title" style="font-size: 1.37em; text-decoration: none; font-weight: 600;">
+            <h2 class="post-title">
               Dynamic Class Enrollment Platform
-            </p>
+            </h2>
             <p class="post-subtitle">
               Reimagining the experience of enrolling into university courses through a single-page web application.
             </p>
@@ -146,9 +146,9 @@
               BUSINESS PROCESS MODELLING
             </div>
             <img src="https://res.cloudinary.com/davidaguirre-info/image/upload/v1625504054/Logos/logo-brava_txhtdd.png" class="logo-thumbnail" /><br />
-            <p class="post-title" style="font-size: 1.37em; text-decoration: none; font-weight: 600;">
+            <h2 class="post-title">
               Material Procurement Demo
-            </p>
+            </h2>
             <p class="post-subtitle">
               Explaining how an apparel manufacturing startup could use an ERP system to fulfill its material procurement process.
             </p>
@@ -169,9 +169,9 @@
               BUSINESS PROCESS MODELLING
             </div>
             <img src="https://res.cloudinary.com/davidaguirre-info/image/upload/v1625501345/Logos/logo-coop_x9wrvd.png" class="logo-thumbnail" /><br />
-            <p class="post-title" style="font-size: 1.37em; text-decoration: none; font-weight: 600;">
+            <h2 class="post-title">
               Laptop Sales Backstage Process
-            </p>
+            </h2>
             <p class="post-subtitle">
               Mapping internal information flows and activities, to enable business process optimization.
             </p>
@@ -192,9 +192,9 @@
               INFORMATION ARCHITECTURE
             </div>
             <img src="https://res.cloudinary.com/davidaguirre-info/image/upload/v1625501345/Logos/logo-coem_xaiv9p.png" class="logo-thumbnail" /><br />
-            <p class="post-title" style="font-size: 1.37em; text-decoration: none; font-weight: 600;">
+            <h2 class="post-title">
               Product &amp; Service Portfolio Structure
-            </p>
+            </h2>
             <p class="post-subtitle">
               Structuring an IT integrator’s extensive portfolio of solutions for better communication.
             </p>
@@ -215,9 +215,9 @@
               SERVICE DESIGN
             </div>
             <img src="https://res.cloudinary.com/davidaguirre-info/image/upload/v1625501345/Logos/logo-wok_xmefpm.png" class="logo-thumbnail" /><br />
-            <p class="post-title" style="font-size: 1.37em; text-decoration: none; font-weight: 600;">
+            <h2 class="post-title">
               Billing Experience at a Leading Restaurant Chain
-            </p>
+            </h2>
             <p class="post-subtitle">
               Exploring and testing alternatives for improving the billing experience through an end-to-end design-thinking process.
             </p>
