@@ -1,6 +1,4 @@
-I"�<p>(Under construction / February 2021)</p>
-
-<h3 class="article-sub">Challenge</h3>
+I"�<h3 class="article-sub">Challenge</h3>
 <p>Libertad vigilada (reportar los precios)
 Variación de precios:
 Importados (mayormente)
@@ -38,6 +36,7 @@ No ofrecía confiabilidad sobre la fuente de información. A través de terceros
 <h3 class="stage-title">User flow</h3>
 <h3 class="stage-title">Elastic Search Autocomplete</h3>
 <h3 class="stage-title">TRM Scheduler</h3>
+<h3 class="stage-title">Analyses allowed by the data in the app</h3>
 <p>USD - COP currency API</p>
 <hr />
 
