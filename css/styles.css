@@ -361,22 +361,23 @@ color: rgba(0,0,0,0.5);
 
 
 .competencies-container{
-  padding: 1em 1em 0 1em;
+  padding: 0.01em 1em 0 1em;
 }
 
 .competencies-icon{
-  height:1.7em; 
+  height:2em;
   position: relative;
   padding-right: 0.4em;
   padding-left: 0.4em;
   top:0.5em;
-  filter: grayscale(100%);
+  /*filter: grayscale(100%);*/
+/*  opacity: 50%;*/
 }
 
 
 .competencies-title{
-  color: var(--md-color);
-  font-weight: 600;
+  color: #577586;
+  font-weight: 500;
   padding: 0em 0em 0.05em 0em;
   margin-right: 0.5em;
   line-height: 1.5em;
@@ -472,7 +473,6 @@ hr {
 .project-facts{
   width: 100%;
   background-color: rgba(0,0,0,0.03);
-  padding-top: 0.2em;
   padding-bottom: 0.5em;
   border-left: solid;
   border-color: var(--md-color);
@@ -606,6 +606,7 @@ width: 100%;
   filter: grayscale(0%);
 }
 
-.flec{
-
+.profile-picture{
+  border-radius: 50%;
+  height: 100px;
 }
