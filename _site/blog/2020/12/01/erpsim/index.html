@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="/assets/img/favicon.png"/>
-
+    <link href='/css/lightbox.css' rel='stylesheet'/>
     <script type='text/x-mathjax-config'>
 MathJax.Hub.Config({
   jax: ['input/TeX', 'output/HTML-CSS'],
@@ -60,7 +60,8 @@ MathJax.Hub.Config({
     </div>
 </div>
 <div class='wrap article blog'>
-        <img src= "https://res.cloudinary.com/davidaguirre-info/image/upload/v1625631938/ERPsim/Portada_Pantallas_4-04_o45yag.png" class="header-image">
+        <a href="https://res.cloudinary.com/davidaguirre-info/image/upload/v1625631938/ERPsim/Portada_Pantallas_4-04_o45yag.png" data-lightbox="image-1" data-title="My caption">
+       <img src= "https://res.cloudinary.com/davidaguirre-info/image/upload/v1625631938/ERPsim/Portada_Pantallas_4-04_o45yag.png" class="header-image"></a>
 
         <div class="project-facts">
                 <ul>
@@ -136,12 +137,19 @@ positively impacting student learning.</p>
 ERPsim is a business simulation game for SAP ERP and SAP S/4HANA in which participants use a real ERP system to manage their virtual company in a competitive market. Win or lose, participants will improve their knowledge of business processes and their understanding of how ERP systems are effective at managing those processes.
 </div>
 
-<div class="figure">
+<div class="figure" style="margin-bottom: 0px;">
 <div class="figure-caption">Context of use </div>
-<img class="stage-photo lightbox" src="https://res.cloudinary.com/davidaguirre-info/image/upload/v1625527951/ERPsim/components-12_wqn1tm.png" style="width: 100%" />
+<a href="https://res.cloudinary.com/davidaguirre-info/image/upload/v1625808428/ERPsim/PML-12_rj8y2t.png" data-lightbox="image-1" data-title="My caption">
+<img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/q_10/v1625808428/ERPsim/PML-12_rj8y2t.png" style="width: 100%; margin-bottom: 0px;" /></a>
 </div>
+
 <div class="figure">
-<img class="stage-photo" src="/assets/img/erpsim/stages1.jpg" style="width: 100%" />
+<a href="https://res.cloudinary.com/davidaguirre-info/image/upload/v1625808420/ERPsim/PML-13_alyxcu.png" data-lightbox="image-1" data-title="My caption">
+<img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/v1625808420/ERPsim/PML-13_alyxcu.png" style="width: 100%" /></a>
+</div>
+
+<div class="figure">
+  <a href="/assets/img/erpsim/stages1.jpg" data-lightbox="image-2" data-title="My caption"><img class="stage-photo" src="/assets/img/erpsim/stages1.jpg" style="width: 100%" /></a>
 </div>
 
 <div class="figure">
@@ -270,7 +278,16 @@ positively impacting student learning.
         </div>
 </div>
 </div>
-    <script type="text/javascript" src="/js/lightbox.js"></script>
-    <link href='/css/lightbox.css' rel='stylesheet'/>
+    <script src="/js/lightbox-plus-jquery.js"></script>
+    <script>
+        lightbox.option({
+    'disableScrolling':false,
+    'maxHeight': 1000,
+    'fitImagesInViewport': true,
+    'imageFadeDuration': 400,
+    'resizeDuration': 500,
+    'showImageNumberLabel':false
+    })
+</script>
 </body>
 </html>
