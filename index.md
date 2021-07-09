@@ -38,7 +38,8 @@ layout: empty
   </div>
   <div id='blog' class='wrap'>
     <div id='intro'>
-      <h1>David Aguirre</h1>
+      <img src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_400/v1625816252/Profile_Whatsapp_d0lnik.jpg" class="profile-picture">
+      <h1 style="margin-top:0.2em">David Aguirre</h1>
       <h2 class="sub">Business Analyst & UX Designer</h2>
     </div>
     <div id="profile">
@@ -52,10 +53,10 @@ layout: empty
         In 2021, I became a certified Application Associate in <em>Integrated Business Processes with SAP S/4 HANA</em>, following my interest in large-scale business applications.</p>
         <p>
         My long-term goal as a professional is to advance the disciplines of <em class="md-color">design thinking</em>, <em class="md-color">integrative thinking,</em> and <em class="md-color">systems thinking</em> through practice, particularly in innovation management and socio-technical interventions.</p>
-        </div>
+        </div><hr>
+    <h2 style="text-align:center">What do I bring to the table?</h2>
   <div class="project-facts">
     <div class="competencies-container">
-    <strong>What do I bring to the table? </strong><br>
           <p><img src="assets/img/about/competences_icon-17.png" class="competencies-icon"><span class="competencies-title">Process and Systems Visualization</span></p>
           <p class="competencies-text"><span >Build a <b>shared vision</b> between collaborators that allows them to navigate the intricacies of IT and business operations, using multiple tools for descriptive modeling such as activity diagrams, process flowcharts, use cases, user flows, customer journey maps, service blueprints, value constellations, data models, state diagrams and application architectures.</span></p>
           <p>
@@ -70,23 +71,23 @@ layout: empty
       </div>
     </div>
       <br>
-      <div id="contact">
-      <p><strong style="text-align: center">Where can you find me?</strong></p>
+      <div id="contact" style="text-align:left">
+      <h2 >Where can you find me?</h2>
       <ul class="contact" >
       <li>
-      <a href = "mailto: david.aguirre@hec.ca"><i class="fas fa-envelope-square">&nbsp;</i>david.aguirre@hec.ca</a>
+      <a href = "mailto: david.aguirre@hec.ca"><i class="fas fa-envelope-square">&nbsp;</i>Email: <u style="color: black">david.aguirre@hec.ca</u></a>
       </li>
       <li>
-      <a href="https://www.linkedin.com/in/mdaguirre/"><i class="fab fa-linkedin">&nbsp;</i>/mdaguirre</a>
+      <a href="https://www.linkedin.com/in/mdaguirre/"><i class="fab fa-linkedin">&nbsp;</i>LinkedIn: <u style="color: black">/mdaguirre</u></a>
       </li>
       <li>
-      <a href="https://github.com/migueldaguirre"><i class="fab fa-github-square">&nbsp;</i>MiguelDAguirre</a>
+      <a href="https://github.com/migueldaguirre"><i class="fab fa-github-square">&nbsp;</i>Github: <u style="color: black">MiguelDAguirre</u></a>
       </li>
       <li>
-      <a href="https://twitter.com/MiguelDAguirre"><i class="fab fa-twitter-square">&nbsp;</i>@MiguelDAguirre</a>
+      <a href="https://twitter.com/MiguelDAguirre"><i class="fab fa-twitter-square">&nbsp;</i>Twitter:<u style="color: black">@MiguelDAguirre</u></a>
       </li>
       <li>
-      <a href="tel:+14386805409"><i class="fas fa-phone-square-alt">&nbsp;</i>+1 438-680-5409</a>
+      <a href="tel:+14386805409"><i class="fas fa-phone-square-alt">&nbsp;</i>Phone: <u style="color: black">+1 438-680-5409</u></a>
       </li>
       </ul>
       </div>
