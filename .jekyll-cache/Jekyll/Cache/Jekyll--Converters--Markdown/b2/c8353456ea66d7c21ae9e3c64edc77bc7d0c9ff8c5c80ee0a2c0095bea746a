@@ -1,0 +1,45 @@
+I"�<p>(Under construction / February 2021)</p>
+
+<p>L’objectif principal était de déterminer les forces et faiblesses, en termes d’utilisabilité, des différentes étapes nécessaires à l’installation du détecteur sur l’application. Les résultats de ces tests serviront à informer l’équipe de développement des ajustements et modifications à considérer pour améliorer l’expérience de ses utilisateurs. Ces résultats permettront également de vérifier si les étapes d’installation sont suffisamment compréhensibles. Ce rapport présentera entre autres les résultats observés ainsi que les recommandations appropriées.</p>
+
+<h3 id="objectif">Objectif</h3>
+<p>Une version de l’application Desjardins Assurances et son module Alerte a été testé en novembre 2018 à l’aide de 12 participants correspondant aux utilisateurs cibles du service. Cette étude a évalué la manière dont les utilisateurs ont expérimenté le processus de connexion WIFI du détecteur d’humidité Roost (RSW 200A) via un téléphone mobile (iOS).</p>
+
+<h2 id="procedure">Procedure</h2>
+<p>Afin de rendre les tests aussi réalistes que possible, les participants ont dû installer le détecteur dans le confort de leur habitation où deux évaluateurs avec une expérience dans le domaine ont observé et guidé le processus de déroulement des tests. Les évaluateurs se sont également assurés que les utilisateurs conservent une certaine autonomie pour et qu’ils soient en mesure de prendre leurs propres décisions.</p>
+
+<p>L’analyse des données a été basée sur les commentaires des participants lors de la réalisation des tâches demandées ainsi qu’une fois qu’ils les avaient accomplis. De plus, un questionnaire quantitatif a été distribué aux participants et analysé par la suite afin de fournir une comparaison de l’utilisabilité de l’application avec d’autres systèmes.</p>
+
+<h2 id="description-des-évaluations">Description des évaluations</h2>
+
+<div class="figure">
+  <div class="figure-caption">Features to evaluate - Scope</div>
+  <a href="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465706/Desjardins/Test_Desjardins-13_gsxkav.png" data-lightbox="image-3"><img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465706/Desjardins/Test_Desjardins-13_gsxkav.png" style="width: 100%" /></a>
+</div>
+
+<div class="figure">
+  <div class="figure-caption">Test plan</div>
+  <a href="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465706/Desjardins/Test_Desjardins-12_iuhkov.png" data-lightbox="image-3"><img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465706/Desjardins/Test_Desjardins-12_iuhkov.png" style="width: 100%" /></a>
+</div>
+
+<div class="figure">
+  <div class="figure-caption">Visits</div>
+  <a href="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626467593/Desjardins/photo_comp-02_ndxtub.png" data-lightbox="image-3"><img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626467593/Desjardins/photo_comp-02_ndxtub.png" style="width: 100%" /></a>
+</div>
+
+<div class="figure">
+  <div class="figure-caption">Screens</div>
+  <a href="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465707/Desjardins/Test_Desjardins-14_mzakiz.png" data-lightbox="image-3"><img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465707/Desjardins/Test_Desjardins-14_mzakiz.png" style="width: 100%" /></a>
+</div>
+
+<div class="figure">
+  <div class="figure-caption">System Usability Scale (SUS)</div>
+  <a style="text-align:center" href="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465706/Desjardins/Test_Desjardins-15_ugemv1.png" data-lightbox="image-3"><img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465706/Desjardins/Test_Desjardins-15_ugemv1.png" style="width: 100%;" /></a>
+</div>
+
+<div class="figure">
+  <div class="figure-caption">Recommendations</div>
+  <a href="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465708/Desjardins/Test_Desjardins_Recomm_dhima0.png" data-lightbox="image-3"><img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465708/Desjardins/Test_Desjardins_Recomm_dhima0.png" style="width: 100%" /></a>
+</div>
+
+:ET

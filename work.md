@@ -35,10 +35,11 @@ layout: empty
       <li><a id='work' class="selected" href='/work' >Work</a></li>
     </ul>
   </div>
-  <div id='blog' class=''>
-    <div id='intro'>
       <br>
+    <div id='intro' style="margin-left: auto; margin-right: auto; text-align:center; width: 100%;border: 1px solid gainsboro; color: var(--md-color); padding-top:1em; padding-bottom:1em; max-width:600px; border-radius: 5px; opacity: 40%">
+<span>Content is under construction</span> (<span id="datetime"></span>) <br>
     </div>
+  <div id='blog' class=''>
     <div id='posts' class='section mosaic-container'>
       {% for post in site.posts %}
         <a href="{{ post.url }}" style="text-decoration: none;">
@@ -67,4 +68,8 @@ layout: empty
     </div>
   </div>
 </body>
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+</script>
 </html>

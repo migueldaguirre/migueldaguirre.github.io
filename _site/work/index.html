@@ -40,10 +40,11 @@
       <li><a id="work" class="selected" href="/work">Work</a></li>
     </ul>
   </div>
-  <div id="blog" class="">
-    <div id="intro">
       <br />
+    <div id="intro" style="margin-left: auto; margin-right: auto; text-align:center; width: 100%;border: 1px solid gainsboro; color: var(--md-color); padding-top:1em; padding-bottom:1em; max-width:600px; border-radius: 5px; opacity: 40%">
+<span>Content is under construction</span> (<span id="datetime"></span>) <br />
     </div>
+  <div id="blog" class="">
     <div id="posts" class="section mosaic-container">
       
         <a href="/blog/2020/12/01/erpsim/" style="text-decoration: none;">
@@ -162,7 +163,7 @@
       <span class="hidden">5</span>
       
         <a href="/blog/2019/09/01/coop/" style="text-decoration: none;">
-      <div class="post-container ">
+      <div class="post-container under-construction">
           <img src="/assets/img/thumbnails/coop-tn.png" class="project-thumbnail" />
           <div class="project-info-container">
             <div class="post-label">
@@ -208,7 +209,7 @@
       <span class="hidden">7</span>
       
         <a href="/blog/2013/12/01/wok/" style="text-decoration: none;">
-      <div class="post-container ">
+      <div class="post-container under-construction">
           <img src="/assets/img/thumbnails/wok-tn.png" class="project-thumbnail" />
           <div class="project-info-container">
             <div class="post-label">
@@ -233,5 +234,9 @@
     </div>
   </div>
 </body>
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+</script>
 </html>
 
