@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-07-16T16:37:19-04:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">IoT Water and Freeze Detector Setup</title><link href="http://localhost:4000/blog/2020/12/01/alerte/" rel="alternate" type="text/html" title="IoT Water and Freeze Detector Setup" /><published>2020-12-01T00:00:00-05:00</published><updated>2020-12-01T00:00:00-05:00</updated><id>http://localhost:4000/blog/2020/12/01/alerte</id><content type="html" xml:base="http://localhost:4000/blog/2020/12/01/alerte/">&lt;p&gt;(Under construction / February 2021)&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-07-27T08:45:22-06:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">IoT Water and Freeze Detector Setup</title><link href="http://localhost:4000/blog/2020/12/01/alerte/" rel="alternate" type="text/html" title="IoT Water and Freeze Detector Setup" /><published>2020-12-01T00:00:00-07:00</published><updated>2020-12-01T00:00:00-07:00</updated><id>http://localhost:4000/blog/2020/12/01/alerte</id><content type="html" xml:base="http://localhost:4000/blog/2020/12/01/alerte/">&lt;p&gt;(Under construction / February 2021)&lt;/p&gt;
 
 &lt;p&gt;L’objectif principal était de déterminer les forces et faiblesses, en termes d’utilisabilité, des différentes étapes nécessaires à l’installation du détecteur sur l’application. Les résultats de ces tests serviront à informer l’équipe de développement des ajustements et modifications à considérer pour améliorer l’expérience de ses utilisateurs. Ces résultats permettront également de vérifier si les étapes d’installation sont suffisamment compréhensibles. Ce rapport présentera entre autres les résultats observés ainsi que les recommandations appropriées.&lt;/p&gt;
 
@@ -40,7 +40,7 @@
 &lt;div class=&quot;figure&quot;&gt;
   &lt;div class=&quot;figure-caption&quot;&gt;Recommendations&lt;/div&gt;
   &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465708/Desjardins/Test_Desjardins_Recomm_dhima0.png&quot; data-lightbox=&quot;image-3&quot;&gt;&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465708/Desjardins/Test_Desjardins_Recomm_dhima0.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">(Under construction / February 2021)</summary></entry><entry><title type="html">ERPsim Admin Console Front-End</title><link href="http://localhost:4000/blog/2020/12/01/erpsim/" rel="alternate" type="text/html" title="ERPsim Admin Console Front-End" /><published>2020-12-01T00:00:00-05:00</published><updated>2020-12-01T00:00:00-05:00</updated><id>http://localhost:4000/blog/2020/12/01/erpsim</id><content type="html" xml:base="http://localhost:4000/blog/2020/12/01/erpsim/">&lt;!-- [ERPsimLab](https://erpsim.hec.ca/ &quot;ERPsimLab Homepage&quot;)  --&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">(Under construction / February 2021)</summary></entry><entry><title type="html">ERPsim Admin Console Front-End</title><link href="http://localhost:4000/blog/2020/12/01/erpsim/" rel="alternate" type="text/html" title="ERPsim Admin Console Front-End" /><published>2020-12-01T00:00:00-07:00</published><updated>2020-12-01T00:00:00-07:00</updated><id>http://localhost:4000/blog/2020/12/01/erpsim</id><content type="html" xml:base="http://localhost:4000/blog/2020/12/01/erpsim/">&lt;!-- [ERPsimLab](https://erpsim.hec.ca/ &quot;ERPsimLab Homepage&quot;)  --&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h3 class=&quot;article-sub&quot;&gt;Challenge&lt;/h3&gt;
 &lt;div class=&quot;article-text&quot;&gt;
@@ -192,7 +192,7 @@ ERPsim is a business simulation game for SAP ERP and SAP S/4HANA in which partic
     &lt;div class=&quot;figure-caption&quot;&gt;First state diagram for the front-end.&lt;/div&gt;
 &lt;img src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626312882/ERPsim/ERPsimViz-02_qsrvfs.png&quot; class=&quot;stage-photo&quot; /&gt;
   &lt;/div&gt;
-&lt;hr /&gt;</content><author><name></name></author><summary type="html">Challenge We aim to improve the experience of instructors and students using the ERPsim Console. The underlying hypothesis is that perceived quality, ease of learning and student engagement can all be enhanced by intervening the graphical user interface: layout and control components, data tables and graphics, and the sequence in which information is displayed or accessed. It is expected that this will have a positive impact in reducing the friction of “adoption” by instructors and improving the debriefing phase of simulations thus positively impacting student learning.</summary></entry><entry><title type="html">Crowd-Sourced Price Monitoring Web-App</title><link href="http://localhost:4000/blog/2019/11/05/monitor/" rel="alternate" type="text/html" title="Crowd-Sourced Price Monitoring Web-App" /><published>2019-11-05T15:33:00-05:00</published><updated>2019-11-05T15:33:00-05:00</updated><id>http://localhost:4000/blog/2019/11/05/monitor</id><content type="html" xml:base="http://localhost:4000/blog/2019/11/05/monitor/">&lt;h3 class=&quot;article-sub&quot;&gt;Challenge&lt;/h3&gt;
+&lt;hr /&gt;</content><author><name></name></author><summary type="html">Challenge We aim to improve the experience of instructors and students using the ERPsim Console. The underlying hypothesis is that perceived quality, ease of learning and student engagement can all be enhanced by intervening the graphical user interface: layout and control components, data tables and graphics, and the sequence in which information is displayed or accessed. It is expected that this will have a positive impact in reducing the friction of “adoption” by instructors and improving the debriefing phase of simulations thus positively impacting student learning.</summary></entry><entry><title type="html">Crowd-Sourced Price Monitoring Web-App</title><link href="http://localhost:4000/blog/2019/11/05/monitor/" rel="alternate" type="text/html" title="Crowd-Sourced Price Monitoring Web-App" /><published>2019-11-05T13:33:00-07:00</published><updated>2019-11-05T13:33:00-07:00</updated><id>http://localhost:4000/blog/2019/11/05/monitor</id><content type="html" xml:base="http://localhost:4000/blog/2019/11/05/monitor/">&lt;h3 class=&quot;article-sub&quot;&gt;Challenge&lt;/h3&gt;
 &lt;p&gt;Libertad vigilada (reportar los precios)
 Variación de precios:
 Importados (mayormente)
@@ -349,7 +349,7 @@ Mecanismo para recordar.&lt;/p&gt;
 Precios mayoristas
 Boletín mensual.&lt;/p&gt;
 
-&lt;p&gt;RESULTADO:&lt;/p&gt;</content><author><name></name></author><summary type="html">Challenge Libertad vigilada (reportar los precios) Variación de precios: Importados (mayormente) Terminados Materias primas - Fabricación local Sujetos al mercado cambiario Variaciones todos los meses TRM, cambia todos los días No existe un único precio nacional. Costos de logística Condiciones de negociación (Crédito o contado) Tipos de mercado Tamaño de los negocios (volumen) Es conveniente tener claridad de los cambios que se van presentando, en tiempo real.</summary></entry><entry><title type="html">Dynamic Class Enrollment Platform</title><link href="http://localhost:4000/blog/2019/11/01/unicours/" rel="alternate" type="text/html" title="Dynamic Class Enrollment Platform" /><published>2019-11-01T00:00:00-04:00</published><updated>2019-11-01T00:00:00-04:00</updated><id>http://localhost:4000/blog/2019/11/01/unicours</id><content type="html" xml:base="http://localhost:4000/blog/2019/11/01/unicours/">&lt;p&gt;(Under construction / June 2021)&lt;/p&gt;
+&lt;p&gt;RESULTADO:&lt;/p&gt;</content><author><name></name></author><summary type="html">Challenge Libertad vigilada (reportar los precios) Variación de precios: Importados (mayormente) Terminados Materias primas - Fabricación local Sujetos al mercado cambiario Variaciones todos los meses TRM, cambia todos los días No existe un único precio nacional. Costos de logística Condiciones de negociación (Crédito o contado) Tipos de mercado Tamaño de los negocios (volumen) Es conveniente tener claridad de los cambios que se van presentando, en tiempo real.</summary></entry><entry><title type="html">Dynamic Class Enrollment Platform</title><link href="http://localhost:4000/blog/2019/11/01/unicours/" rel="alternate" type="text/html" title="Dynamic Class Enrollment Platform" /><published>2019-11-01T00:00:00-06:00</published><updated>2019-11-01T00:00:00-06:00</updated><id>http://localhost:4000/blog/2019/11/01/unicours</id><content type="html" xml:base="http://localhost:4000/blog/2019/11/01/unicours/">&lt;p&gt;(Under construction / June 2021)&lt;/p&gt;
 &lt;div&gt;
 &lt;br /&gt;
 &lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
@@ -363,8 +363,6 @@ Concept Testing
 Refining the idea: Card sorting
 
 &lt;/div&gt;
-
-
 
 &lt;div class=&quot;figure&quot;&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
@@ -478,9 +476,12 @@ width: 80%;margin-left: auto;margin-right: auto;&quot; /&gt;
 
 
 
-&lt;/div&gt;</content><author><name></name></author><summary type="html">(Under construction / June 2021) Context As an exercise in the UX Design course within the MSc. in User Experience in a Business Context. Following a systemic/structured process of empathizing, ideation, user testing and iterative prototyping.</summary></entry><entry><title type="html">Material Procurement Demo</title><link href="http://localhost:4000/blog/2019/10/01/brava/" rel="alternate" type="text/html" title="Material Procurement Demo" /><published>2019-10-01T21:11:00-04:00</published><updated>2019-10-01T21:11:00-04:00</updated><id>http://localhost:4000/blog/2019/10/01/brava</id><content type="html" xml:base="http://localhost:4000/blog/2019/10/01/brava/">&lt;h3 class=&quot;article-sub&quot;&gt;Challenge&lt;/h3&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">(Under construction / June 2021) Context As an exercise in the UX Design course within the MSc. in User Experience in a Business Context. Following a systemic/structured process of empathizing, ideation, user testing and iterative prototyping.</summary></entry><entry><title type="html">Material Procurement Demo</title><link href="http://localhost:4000/blog/2019/10/01/brava/" rel="alternate" type="text/html" title="Material Procurement Demo" /><published>2019-10-01T19:11:00-06:00</published><updated>2019-10-01T19:11:00-06:00</updated><id>http://localhost:4000/blog/2019/10/01/brava</id><content type="html" xml:base="http://localhost:4000/blog/2019/10/01/brava/">&lt;h3 class=&quot;article-sub&quot;&gt;Goal&lt;/h3&gt;
 &lt;div class=&quot;article-text&quot;&gt;
-&lt;p&gt;We aim to improve the experience of instructors and students using the ERPsim Console.&lt;/p&gt;
+&lt;p&gt;Offrir une suggestion d’un système ERP afin de répondre aux besoins et de résoudre les problématiques soulevées en lien avec la gestion de la chaîne d’approvisionnement. Suite à une comparaison de plusieurs ERP sur le marché nous recommandons l’ERP Quickbooks Premier. Par contre, en raison des limitations dans le cadre du cours, nous avons implanté un prototype fonctionnel avec l’ERP Odoo.
+
+Puisque le processus de la chaîne d’approvisionnement comprend de nombreux processus et étapes complexes, il nous était impossible de couvrir l’entièreté du processus. Tout d’abord, la contrainte reliée à la courte durée du mandat (moins de 6 semaines) nous obligeait à sélectionner une partie du processus. De plus, l’industrie du textile et le processus de fabrication des vêtements sont beaucoup plus complexes qu’un simple détaillant en commerce de détail. En effet, la complexité par rapport à la gestion d’inventaire et le calcul des besoins des matières premières avec plusieurs unités de mesure dont en aire pour représenter la surface de tissu nécessaire (en m2 ou en pi2), en rouleau pour l’achat des tissus et en unité de produits finis nous a limité pour la proposition de prototype. Ainsi, nous avons considéré, dans le cadre de ce mandat, le processus d’approvisionnement de matière première (tissu) auprès du fournisseur principal.
+&lt;/p&gt;
 &lt;/div&gt;
 &lt;h3 class=&quot;article-sub&quot;&gt;Outcome&lt;/h3&gt;
 &lt;div class=&quot;article-text&quot;&gt;
@@ -500,6 +501,10 @@ Talk about the client
         Workplan diagram.
     &lt;/div&gt;
 &lt;/div&gt;
+
+&lt;p&gt;La compagnie ne possède actuellement aucun système automatisé pour passer les commandes auprès de ses fournisseurs. Tous les calculs sont effectués dans divers fichiers Excel qui ne sont pas reliés entre eux et toute l’information est inscrite à la main à plusieurs reprises plutôt que de relier les cellules entre elles. Les commandes quant à elles sont effectuées dans un fichier PDF qui est modifié à la main par la compagnie pour passer chaque commande. Ces façons de faire sont certainement propices à des erreurs dans la saisie des données.
+Une seconde problématique est liée à la structure des produits. Brava offre des vêtements de qualité, par contre leurs articles sont composés de multiples morceaux différents qui rendent la standardisation des processus et leur intégration dans un progiciel très complexe.
+La troisième problématique dans le processus d’approvisionnement de l’entreprise est due au manque de précision dans les prévisions de la demande. L’estimation de la quantité de tissus est très arbitraire et pour cette raison les quantités commandées ne sont pas aussi juste qu’elles pourraient réellement l’être. Une précision dans les prévisions permet évidemment d’éviter des pénuries, mais aussi d’avoir des excédants de stocks de matières premières. Sachant que Brava est une petite entreprise, elle n’est pas en mesure d’immobiliser beaucoup d’argent en stock de matières. Il serait donc à leur avantage d’améliorer leur processus d’approvisionnement pour être le plus précis dans les quantités commandées.&lt;/p&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
 &lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1625494045/Brava/Brava_Process_As_Is-06_cmhgf7.png&quot; style=&quot;width: 100%&quot; /&gt;
@@ -541,16 +546,16 @@ Talk about the client
     &lt;div class=&quot;figure-caption&quot;&gt;
         Prototype
     &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Challenge We aim to improve the experience of instructors and students using the ERPsim Console. Outcome We aim to improve the experience of instructors and students using the ERPsim Console.</summary></entry><entry><title type="html">Laptop Sales Backstage Process</title><link href="http://localhost:4000/blog/2019/09/01/coop/" rel="alternate" type="text/html" title="Laptop Sales Backstage Process" /><published>2019-09-01T21:11:00-04:00</published><updated>2019-09-01T21:11:00-04:00</updated><id>http://localhost:4000/blog/2019/09/01/coop</id><content type="html" xml:base="http://localhost:4000/blog/2019/09/01/coop/">&lt;p&gt;(More details coming soon / March 2021)&lt;/p&gt;
-
-&lt;p&gt;Préparer une soumission
-Verification de disponibilité
-Soumission produit spécial
-Finaliser la soumission
-Soumission d’un produit indisponible
-Sous-Processus, Convertir la soumission en commande
-Sous-Processus, Perparation d’une machine
-Sous-Processus, Paiement et livraison&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Goal Offrir une suggestion d’un système ERP afin de répondre aux besoins et de résoudre les problématiques soulevées en lien avec la gestion de la chaîne d’approvisionnement. Suite à une comparaison de plusieurs ERP sur le marché nous recommandons l’ERP Quickbooks Premier. Par contre, en raison des limitations dans le cadre du cours, nous avons implanté un prototype fonctionnel avec l’ERP Odoo.</summary></entry><entry><title type="html">Laptop Sales Backstage Process</title><link href="http://localhost:4000/blog/2019/09/01/coop/" rel="alternate" type="text/html" title="Laptop Sales Backstage Process" /><published>2019-09-01T19:11:00-06:00</published><updated>2019-09-01T19:11:00-06:00</updated><id>http://localhost:4000/blog/2019/09/01/coop</id><content type="html" xml:base="http://localhost:4000/blog/2019/09/01/coop/">&lt;ul&gt;
+&lt;li&gt;Préparer une soumission&lt;/li&gt;
+&lt;li&gt;Verification de disponibilité&lt;/li&gt;
+&lt;li&gt;Soumission produit spécial&lt;/li&gt;
+&lt;li&gt;Finaliser la soumission&lt;/li&gt;
+&lt;li&gt;Soumission d'un produit indisponible&lt;/li&gt;
+&lt;li&gt;Sous-Processus, Convertir la soumission en commande&lt;/li&gt;
+&lt;li&gt;Sous-Processus, Perparation d'une machine&lt;/li&gt;
+&lt;li&gt;Sous-Processus, Paiement et livraison&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Documented observations&lt;/li&gt;
@@ -559,7 +564,7 @@ Sous-Processus, Paiement et livraison&lt;/p&gt;
   &lt;li&gt;Process (To Be)&lt;/li&gt;
   &lt;li&gt;Improvement descriptions&lt;/li&gt;
   &lt;li&gt;Decision document&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><summary type="html">(More details coming soon / March 2021)</summary></entry><entry><title type="html">Product &amp;amp; Service Portfolio Structure</title><link href="http://localhost:4000/blog/2017/02/05/coem/" rel="alternate" type="text/html" title="Product &amp;amp; Service Portfolio Structure" /><published>2017-02-05T15:34:00-05:00</published><updated>2017-02-05T15:34:00-05:00</updated><id>http://localhost:4000/blog/2017/02/05/coem</id><content type="html" xml:base="http://localhost:4000/blog/2017/02/05/coem/">&lt;h2 class=&quot;process-title&quot;&gt;Process&lt;/h2&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Préparer une soumission Verification de disponibilité Soumission produit spécial Finaliser la soumission Soumission d'un produit indisponible Sous-Processus, Convertir la soumission en commande Sous-Processus, Perparation d'une machine Sous-Processus, Paiement et livraison</summary></entry><entry><title type="html">Product &amp;amp; Service Portfolio Structure</title><link href="http://localhost:4000/blog/2017/02/05/coem/" rel="alternate" type="text/html" title="Product &amp;amp; Service Portfolio Structure" /><published>2017-02-05T13:34:00-07:00</published><updated>2017-02-05T13:34:00-07:00</updated><id>http://localhost:4000/blog/2017/02/05/coem</id><content type="html" xml:base="http://localhost:4000/blog/2017/02/05/coem/">&lt;h2 class=&quot;process-title&quot;&gt;Process&lt;/h2&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
@@ -622,7 +627,7 @@ Sous-Processus, Paiement et livraison&lt;/p&gt;
         Styled content
     &lt;/div&gt;
 &lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626450626/Coem/Artboard_28_0.75x-100_xsmvlg.jpg&quot; style=&quot;width: 100%&quot; /&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Process</summary></entry><entry><title type="html">Billing Experience at a Leading Restaurant Chain</title><link href="http://localhost:4000/blog/2013/12/01/wok/" rel="alternate" type="text/html" title="Billing Experience at a Leading Restaurant Chain" /><published>2013-12-01T00:00:00-05:00</published><updated>2013-12-01T00:00:00-05:00</updated><id>http://localhost:4000/blog/2013/12/01/wok</id><content type="html" xml:base="http://localhost:4000/blog/2013/12/01/wok/">&lt;p&gt;(More details coming soon / March 2021)&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Process</summary></entry><entry><title type="html">Billing Experience at a Leading Restaurant Chain</title><link href="http://localhost:4000/blog/2013/12/01/wok/" rel="alternate" type="text/html" title="Billing Experience at a Leading Restaurant Chain" /><published>2013-12-01T00:00:00-07:00</published><updated>2013-12-01T00:00:00-07:00</updated><id>http://localhost:4000/blog/2013/12/01/wok</id><content type="html" xml:base="http://localhost:4000/blog/2013/12/01/wok/">&lt;p&gt;(More details coming soon / March 2021)&lt;/p&gt;
 
 &lt;p&gt;Defining personas based on behavior observation&lt;/p&gt;
 
@@ -634,4 +639,12 @@ Sous-Processus, Paiement et livraison&lt;/p&gt;
   &lt;li&gt;Ideas and Prototyping&lt;/li&gt;
   &lt;li&gt;Deliverables&lt;/li&gt;
   &lt;li&gt;Results&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">(More details coming soon / March 2021)</summary></entry></feed>
+&lt;/ul&gt;
+
+&lt;html&gt;
+&lt;body&gt;
+    &lt;object data=&quot;your_url_to_pdf&quot; type=&quot;application/pdf&quot;&gt;
+        &lt;embed src=&quot;your_url_to_pdf&quot; type=&quot;application/pdf&quot; /&gt;
+    &lt;/object&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content><author><name></name></author><summary type="html">(More details coming soon / March 2021)</summary></entry></feed>
