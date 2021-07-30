@@ -1,0 +1,64 @@
+I"<h3 class="article-sub">Context</h3>
+<div class="article-text">
+<p>
+Describe Desjardins assurance
+</p>
+</div>
+
+<h3 class="article-sub">Context</h3>
+<div class="article-text">
+<p>
+  The main objective was to determine the strengths and weaknesses, in terms of usability, of the various steps required to install the detector on the application. The results of these tests will be used to inform the development team of adjustments and modifications to consider to improve the experience of its users. These results will also make it possible to verify whether the installation steps are sufficiently understandable. This report will present, among other things, the results observed as well as the appropriate recommendations.
+</p>
+  </div>
+
+<h2 id="procedure">Procedure</h2>
+
+<p>Une version de l’application Desjardins Assurances et son module Alerte a été testé en novembre 2018 à l’aide de 12 participants correspondant aux utilisateurs cibles du service. Cette étude a évalué la manière dont les utilisateurs ont expérimenté le processus de connexion WIFI du détecteur d’humidité Roost (RSW 200A) via un téléphone mobile (iOS).</p>
+
+<p>Afin de rendre les tests aussi réalistes que possible, les participants ont dû installer le détecteur dans le confort de leur habitation où deux évaluateurs avec une expérience dans le domaine ont observé et guidé le processus de déroulement des tests. Les évaluateurs se sont également assurés que les utilisateurs conservent une certaine autonomie pour et qu’ils soient en mesure de prendre leurs propres décisions.</p>
+
+<p>L’analyse des données a été basée sur les commentaires des participants lors de la réalisation des tâches demandées ainsi qu’une fois qu’ils les avaient accomplis. De plus, un questionnaire quantitatif a été distribué aux participants et analysé par la suite afin de fournir une comparaison de l’utilisabilité de l’application avec d’autres systèmes.</p>
+
+<div class="figure">
+  <div class="figure-caption">Features to evaluate - Scope</div>
+  <a href="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465706/Desjardins/Test_Desjardins-13_gsxkav.png" data-lightbox="image-3"><img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465706/Desjardins/Test_Desjardins-13_gsxkav.png" style="width: 100%" /></a>
+</div>
+
+<div class="figure">
+  <div class="figure-caption">Test plan</div>
+  <a href="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465706/Desjardins/Test_Desjardins-12_iuhkov.png" data-lightbox="image-3"><img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465706/Desjardins/Test_Desjardins-12_iuhkov.png" style="width: 100%" /></a>
+</div>
+
+<h2 id="description-des-évaluations">Description des évaluations</h2>
+
+<div class="figure">
+  <div class="figure-caption">Visits</div>
+  <a href="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626467593/Desjardins/photo_comp-02_ndxtub.png" data-lightbox="image-3"><img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626467593/Desjardins/photo_comp-02_ndxtub.png" style="width: 100%" /></a>
+</div>
+
+<div class="figure">
+  <div class="figure-caption">Tested flow</div>
+  <a href="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465707/Desjardins/Test_Desjardins-14_mzakiz.png" data-lightbox="image-3"><img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465707/Desjardins/Test_Desjardins-14_mzakiz.png" style="width: 100%" /></a>
+</div>
+
+<div class="figure">
+  <div class="figure-caption">System Usability Scale (SUS)</div>
+  <a style="text-align:center" href="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465706/Desjardins/Test_Desjardins-15_ugemv1.png" data-lightbox="image-3"><img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465706/Desjardins/Test_Desjardins-15_ugemv1.png" style="width: 100%;" /></a>
+</div>
+
+<div class="figure">
+  <div class="figure-caption">Recommendations</div>
+  <a href="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465708/Desjardins/Test_Desjardins_Recomm_dhima0.png" data-lightbox="image-3"><img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465708/Desjardins/Test_Desjardins_Recomm_dhima0.png" style="width: 100%" /></a>
+</div>
+
+<h3 class="article-sub">Deliverables</h3>
+<div class="article-text">
+<iframe src="https://drive.google.com/file/d/1RNcJrwdk_WrX5M28BFgBu5-V0qqIgA9U/preview" style="width: 100%; height: 470px;" allow="autoplay" frameborder="0"></iframe>
+</div>
+
+<p><br /><br /></p>
+<div class="figure-caption">Complete ISO/9241 Usability Report</div>
+<iframe src="https://drive.google.com/file/d/1d2IWgFuyJw7fB6sZ69vIajrVlwCvWY4q/preview" style="width: 100%; height: 370px;" allow="autoplay" frameborder="0"></iframe>
+
+:ET

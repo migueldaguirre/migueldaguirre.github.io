@@ -1,11 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-07-27T08:45:22-06:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">IoT Water and Freeze Detector Setup</title><link href="http://localhost:4000/blog/2020/12/01/alerte/" rel="alternate" type="text/html" title="IoT Water and Freeze Detector Setup" /><published>2020-12-01T00:00:00-07:00</published><updated>2020-12-01T00:00:00-07:00</updated><id>http://localhost:4000/blog/2020/12/01/alerte</id><content type="html" xml:base="http://localhost:4000/blog/2020/12/01/alerte/">&lt;p&gt;(Under construction / February 2021)&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-07-29T18:52:31-06:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">IoT Water and Freeze Detector Setup</title><link href="http://localhost:4000/blog/2020/12/01/alerte/" rel="alternate" type="text/html" title="IoT Water and Freeze Detector Setup" /><published>2020-12-01T00:00:00-07:00</published><updated>2020-12-01T00:00:00-07:00</updated><id>http://localhost:4000/blog/2020/12/01/alerte</id><content type="html" xml:base="http://localhost:4000/blog/2020/12/01/alerte/">&lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
+&lt;div class=&quot;article-text&quot;&gt;
+&lt;p&gt;
+Describe Desjardins assurance
+&lt;/p&gt;
+&lt;/div&gt;
 
-&lt;p&gt;L’objectif principal était de déterminer les forces et faiblesses, en termes d’utilisabilité, des différentes étapes nécessaires à l’installation du détecteur sur l’application. Les résultats de ces tests serviront à informer l’équipe de développement des ajustements et modifications à considérer pour améliorer l’expérience de ses utilisateurs. Ces résultats permettront également de vérifier si les étapes d’installation sont suffisamment compréhensibles. Ce rapport présentera entre autres les résultats observés ainsi que les recommandations appropriées.&lt;/p&gt;
-
-&lt;h3 id=&quot;objectif&quot;&gt;Objectif&lt;/h3&gt;
-&lt;p&gt;Une version de l’application Desjardins Assurances et son module Alerte a été testé en novembre 2018 à l’aide de 12 participants correspondant aux utilisateurs cibles du service. Cette étude a évalué la manière dont les utilisateurs ont expérimenté le processus de connexion WIFI du détecteur d’humidité Roost (RSW 200A) via un téléphone mobile (iOS).&lt;/p&gt;
+&lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
+&lt;div class=&quot;article-text&quot;&gt;
+&lt;p&gt;
+  The main objective was to determine the strengths and weaknesses, in terms of usability, of the various steps required to install the detector on the application. The results of these tests will be used to inform the development team of adjustments and modifications to consider to improve the experience of its users. These results will also make it possible to verify whether the installation steps are sufficiently understandable. This report will present, among other things, the results observed as well as the appropriate recommendations.
+&lt;/p&gt;
+  &lt;/div&gt;
 
 &lt;h2 id=&quot;procedure&quot;&gt;Procedure&lt;/h2&gt;
+
+&lt;p&gt;Une version de l’application Desjardins Assurances et son module Alerte a été testé en novembre 2018 à l’aide de 12 participants correspondant aux utilisateurs cibles du service. Cette étude a évalué la manière dont les utilisateurs ont expérimenté le processus de connexion WIFI du détecteur d’humidité Roost (RSW 200A) via un téléphone mobile (iOS).&lt;/p&gt;
+
 &lt;p&gt;Afin de rendre les tests aussi réalistes que possible, les participants ont dû installer le détecteur dans le confort de leur habitation où deux évaluateurs avec une expérience dans le domaine ont observé et guidé le processus de déroulement des tests. Les évaluateurs se sont également assurés que les utilisateurs conservent une certaine autonomie pour et qu’ils soient en mesure de prendre leurs propres décisions.&lt;/p&gt;
 
 &lt;p&gt;L’analyse des données a été basée sur les commentaires des participants lors de la réalisation des tâches demandées ainsi qu’une fois qu’ils les avaient accomplis. De plus, un questionnaire quantitatif a été distribué aux participants et analysé par la suite afin de fournir une comparaison de l’utilisabilité de l’application avec d’autres systèmes.&lt;/p&gt;
@@ -40,7 +50,35 @@
 &lt;div class=&quot;figure&quot;&gt;
   &lt;div class=&quot;figure-caption&quot;&gt;Recommendations&lt;/div&gt;
   &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465708/Desjardins/Test_Desjardins_Recomm_dhima0.png&quot; data-lightbox=&quot;image-3&quot;&gt;&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465708/Desjardins/Test_Desjardins_Recomm_dhima0.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">(Under construction / February 2021)</summary></entry><entry><title type="html">ERPsim Admin Console Front-End</title><link href="http://localhost:4000/blog/2020/12/01/erpsim/" rel="alternate" type="text/html" title="ERPsim Admin Console Front-End" /><published>2020-12-01T00:00:00-07:00</published><updated>2020-12-01T00:00:00-07:00</updated><id>http://localhost:4000/blog/2020/12/01/erpsim</id><content type="html" xml:base="http://localhost:4000/blog/2020/12/01/erpsim/">&lt;!-- [ERPsimLab](https://erpsim.hec.ca/ &quot;ERPsimLab Homepage&quot;)  --&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;deliverables&quot;&gt;Deliverables&lt;/h2&gt;
+&lt;div class=&quot;figure&quot;&gt;
+&lt;div class=&quot;figure-caption&quot;&gt;Executive summary&lt;/div&gt;
+&lt;iframe src=&quot;https://drive.google.com/file/d/1RNcJrwdk_WrX5M28BFgBu5-V0qqIgA9U/preview&quot; style=&quot;width: 100%; height: 470px;&quot; allow=&quot;autoplay&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;figure&quot;&gt;
+&lt;div class=&quot;figure-caption&quot;&gt;Complete ISO/9241 Usability Report&lt;/div&gt;
+&lt;iframe src=&quot;https://drive.google.com/file/d/1d2IWgFuyJw7fB6sZ69vIajrVlwCvWY4q/preview&quot; style=&quot;width: 100%; height: 370px;&quot; allow=&quot;autoplay&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Context Describe Desjardins assurance</summary></entry><entry><title type="html">ERPsim Admin Console Front-End</title><link href="http://localhost:4000/blog/2020/12/01/erpsim/" rel="alternate" type="text/html" title="ERPsim Admin Console Front-End" /><published>2020-12-01T00:00:00-07:00</published><updated>2020-12-01T00:00:00-07:00</updated><id>http://localhost:4000/blog/2020/12/01/erpsim</id><content type="html" xml:base="http://localhost:4000/blog/2020/12/01/erpsim/">&lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
+&lt;div class=&quot;article-text&quot;&gt;
+&lt;p&gt;&lt;strong&gt;ERPsimLab&lt;/strong&gt; is an academic laboratory that develops curricula on management information systems and data analysis, by repurposing business software into learning platforms.
+&lt;/p&gt;
+&lt;p&gt;
+The first version of the ERP simulator was developed in 2008, upon a SAP system.
+&lt;/p&gt;
+&lt;p&gt;
+It is currently being used in 170 universities around the world at Bacherlors, Masters and MBA levels.
+&lt;/p&gt;
+&lt;p&gt;
+The simulator administration console is a web application used by teachers and trainers for setting up and controlling the simulations. Incremental improvements were made since its development, but some underlying structures  were no longer
+Some of the lables adn tools were deemed unintuitive, and the frontend was not optimized for multiple screens. Responsive Uodate + Better looking UI. Appeal + New features - Improving Post Game Debriefing. Improve the debrefing and visualization, eliminate ambiguities and make the steup process simpler, more understandable for new users.
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;!-- [ERPsimLab](https://erpsim.hec.ca/ &quot;ERPsimLab Homepage&quot;)  --&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h3 class=&quot;article-sub&quot;&gt;Challenge&lt;/h3&gt;
 &lt;div class=&quot;article-text&quot;&gt;
@@ -49,8 +87,9 @@ hypothesis is that perceived quality, ease of learning and student engagement ca
 intervening the graphical user interface: layout and control components, data tables and graphics, and the
 sequence in which information is displayed or accessed. It is expected that this will have a positive impact
 in reducing the friction of “adoption” by instructors and improving the debriefing phase of simulations thus
-positively impacting student learning.
+positively impacting student learning.&lt;/p&gt;
 
+&lt;p&gt;
 &lt;ol&gt;
 &lt;li&gt;Simplify first time usage (Ease of Learning)&lt;/li&gt;
 &lt;li&gt;Improve the in-game debriefing experience&lt;/li&gt;
@@ -58,7 +97,7 @@ positively impacting student learning.
 &lt;li&gt;Prepare the interface for incremental improvement&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/p&gt;
-&lt;br /&gt;
+
 &lt;/div&gt;
 
 &lt;h2 class=&quot;process-title&quot;&gt;Process&lt;/h2&gt;
@@ -192,7 +231,7 @@ ERPsim is a business simulation game for SAP ERP and SAP S/4HANA in which partic
     &lt;div class=&quot;figure-caption&quot;&gt;First state diagram for the front-end.&lt;/div&gt;
 &lt;img src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626312882/ERPsim/ERPsimViz-02_qsrvfs.png&quot; class=&quot;stage-photo&quot; /&gt;
   &lt;/div&gt;
-&lt;hr /&gt;</content><author><name></name></author><summary type="html">Challenge We aim to improve the experience of instructors and students using the ERPsim Console. The underlying hypothesis is that perceived quality, ease of learning and student engagement can all be enhanced by intervening the graphical user interface: layout and control components, data tables and graphics, and the sequence in which information is displayed or accessed. It is expected that this will have a positive impact in reducing the friction of “adoption” by instructors and improving the debriefing phase of simulations thus positively impacting student learning.</summary></entry><entry><title type="html">Crowd-Sourced Price Monitoring Web-App</title><link href="http://localhost:4000/blog/2019/11/05/monitor/" rel="alternate" type="text/html" title="Crowd-Sourced Price Monitoring Web-App" /><published>2019-11-05T13:33:00-07:00</published><updated>2019-11-05T13:33:00-07:00</updated><id>http://localhost:4000/blog/2019/11/05/monitor</id><content type="html" xml:base="http://localhost:4000/blog/2019/11/05/monitor/">&lt;h3 class=&quot;article-sub&quot;&gt;Challenge&lt;/h3&gt;
+&lt;hr /&gt;</content><author><name></name></author><summary type="html">Context ERPsimLab is an academic laboratory that develops curricula on management information systems and data analysis, by repurposing business software into learning platforms. The first version of the ERP simulator was developed in 2008, upon a SAP system. It is currently being used in 170 universities around the world at Bacherlors, Masters and MBA levels. The simulator administration console is a web application used by teachers and trainers for setting up and controlling the simulations. Incremental improvements were made since its development, but some underlying structures were no longer Some of the lables adn tools were deemed unintuitive, and the frontend was not optimized for multiple screens. Responsive Uodate + Better looking UI. Appeal + New features - Improving Post Game Debriefing. Improve the debrefing and visualization, eliminate ambiguities and make the steup process simpler, more understandable for new users.</summary></entry><entry><title type="html">Crowd-Sourced Price Monitoring Web-App</title><link href="http://localhost:4000/blog/2019/11/05/monitor/" rel="alternate" type="text/html" title="Crowd-Sourced Price Monitoring Web-App" /><published>2019-11-05T13:33:00-07:00</published><updated>2019-11-05T13:33:00-07:00</updated><id>http://localhost:4000/blog/2019/11/05/monitor</id><content type="html" xml:base="http://localhost:4000/blog/2019/11/05/monitor/">&lt;h3 class=&quot;article-sub&quot;&gt;Challenge&lt;/h3&gt;
 &lt;p&gt;Libertad vigilada (reportar los precios)
 Variación de precios:
 Importados (mayormente)
@@ -233,6 +272,33 @@ No ofrecía confiabilidad sobre la fuente de información. A través de terceros
 &lt;h3 class=&quot;stage-title&quot;&gt;Analyses allowed by the data in the app&lt;/h3&gt;
 &lt;p&gt;USD - COP currency API&lt;/p&gt;
 &lt;hr /&gt;
+
+&lt;p&gt;CHALLENGE:
+Tool to track markup prices (competitors)
+Offers from a couple of marketing companies:
+Price monitoring service
+Once a month the report.
+Compare one product of the company against two others.
+They charged per product. 70 products.
+Now about 90.
+They did not guarantee that the price was per presentation, warehouse, end user.
+It did not offer reliability about the source of information. Through third parties.&lt;/p&gt;
+
+&lt;p&gt;CONTEXT:
+Probation (report prices)
+Price variation:
+Imported (mostly)
+Finished
+Raw Materials - Local Manufacture
+Subject to the exchange market
+Variations every month
+TRM, changes every day
+There is no single national price.
+Logistics costs
+Trading conditions (credit or cash)
+Market types
+Business size (volume)
+It is convenient to be clear about the changes that are being presented, in real time.&lt;/p&gt;
 
 &lt;p&gt;RETO:
 Herramienta para hacer el seguimiento de los precios de marcado (competidores)
@@ -349,7 +415,25 @@ Mecanismo para recordar.&lt;/p&gt;
 Precios mayoristas
 Boletín mensual.&lt;/p&gt;
 
-&lt;p&gt;RESULTADO:&lt;/p&gt;</content><author><name></name></author><summary type="html">Challenge Libertad vigilada (reportar los precios) Variación de precios: Importados (mayormente) Terminados Materias primas - Fabricación local Sujetos al mercado cambiario Variaciones todos los meses TRM, cambia todos los días No existe un único precio nacional. Costos de logística Condiciones de negociación (Crédito o contado) Tipos de mercado Tamaño de los negocios (volumen) Es conveniente tener claridad de los cambios que se van presentando, en tiempo real.</summary></entry><entry><title type="html">Dynamic Class Enrollment Platform</title><link href="http://localhost:4000/blog/2019/11/01/unicours/" rel="alternate" type="text/html" title="Dynamic Class Enrollment Platform" /><published>2019-11-01T00:00:00-06:00</published><updated>2019-11-01T00:00:00-06:00</updated><id>http://localhost:4000/blog/2019/11/01/unicours</id><content type="html" xml:base="http://localhost:4000/blog/2019/11/01/unicours/">&lt;p&gt;(Under construction / June 2021)&lt;/p&gt;
+&lt;p&gt;RESULTADO:&lt;/p&gt;
+
+&lt;p&gt;FUNCIONALES
+Comparativo de productos homólogos: Misma composición, formulación y presentación.
+Para participar en licitaciones - cotizaciones.
+Comparar con productos sustitutos, competidores directos.
+Experiencia del analista
+Dinámica de precios. Como reaccionan a las tazas de cambio.
+Calcular los márgenes de ganancia que tienen las compañías.
+Cuando se compara con los costos de importación (información pública).
+Ver quiénes están reportando (Control interno de la activad de los vendedores).
+Entender en qué zonas … distinciones. (e.g. Regiones donde se vende más barato o más caro).
+Ver la competitividad por región.
+ Ibagué, Saldaña, Lérida ( 5 - 10 % en el precio).
+52 vendedores.
+Caso de uso:
+Lectura rápida de un producto:
+Enviar mensaje a los vendedores sobre un producto específico
+En día, tener 40-50 datos/lecturas/observaciones&lt;/p&gt;</content><author><name></name></author><summary type="html">Challenge Libertad vigilada (reportar los precios) Variación de precios: Importados (mayormente) Terminados Materias primas - Fabricación local Sujetos al mercado cambiario Variaciones todos los meses TRM, cambia todos los días No existe un único precio nacional. Costos de logística Condiciones de negociación (Crédito o contado) Tipos de mercado Tamaño de los negocios (volumen) Es conveniente tener claridad de los cambios que se van presentando, en tiempo real.</summary></entry><entry><title type="html">Dynamic Class Enrollment Platform</title><link href="http://localhost:4000/blog/2019/11/01/unicours/" rel="alternate" type="text/html" title="Dynamic Class Enrollment Platform" /><published>2019-11-01T00:00:00-06:00</published><updated>2019-11-01T00:00:00-06:00</updated><id>http://localhost:4000/blog/2019/11/01/unicours</id><content type="html" xml:base="http://localhost:4000/blog/2019/11/01/unicours/">&lt;p&gt;(Under construction / June 2021)&lt;/p&gt;
 &lt;div&gt;
 &lt;br /&gt;
 &lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
@@ -361,6 +445,15 @@ Boletín mensual.&lt;/p&gt;
 Reinvent the online experience for enrolling into university courses by setting up a course selection system that can be used by all schools in Quebec to standardize practices in the community and give students a better experience. Using the current platform as a staring point.
 Concept Testing
 Refining the idea: Card sorting
+
+As an exercise in the UX Design course within the MSc. in User Experience in a Business Context. Following a systemic/structured process of empathizing, ideation, user testing and iterative prototyping.
+
+Card sorting for defining information hierarchy.
+All the information that was relevant during each step of the enrollment process. Then was prioritized using card sorting software.
+
+The heart of the experience is like going shopping in a store or an e-commerce site. The goal is to find one's way easily inside, to choose the product that perfectly meets our expectations, to be able to buy it without stress and to exchange it in the future if one wishes.
+
+
 
 &lt;/div&gt;
 
@@ -564,7 +657,20 @@ La troisième problématique dans le processus d’approvisionnement de l’entr
   &lt;li&gt;Process (To Be)&lt;/li&gt;
   &lt;li&gt;Improvement descriptions&lt;/li&gt;
   &lt;li&gt;Decision document&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><summary type="html">Préparer une soumission Verification de disponibilité Soumission produit spécial Finaliser la soumission Soumission d'un produit indisponible Sous-Processus, Convertir la soumission en commande Sous-Processus, Perparation d'une machine Sous-Processus, Paiement et livraison</summary></entry><entry><title type="html">Product &amp;amp; Service Portfolio Structure</title><link href="http://localhost:4000/blog/2017/02/05/coem/" rel="alternate" type="text/html" title="Product &amp;amp; Service Portfolio Structure" /><published>2017-02-05T13:34:00-07:00</published><updated>2017-02-05T13:34:00-07:00</updated><id>http://localhost:4000/blog/2017/02/05/coem</id><content type="html" xml:base="http://localhost:4000/blog/2017/02/05/coem/">&lt;h2 class=&quot;process-title&quot;&gt;Process&lt;/h2&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Préparer une soumission Verification de disponibilité Soumission produit spécial Finaliser la soumission Soumission d'un produit indisponible Sous-Processus, Convertir la soumission en commande Sous-Processus, Perparation d'une machine Sous-Processus, Paiement et livraison</summary></entry><entry><title type="html">Product &amp;amp; Service Portfolio Structure</title><link href="http://localhost:4000/blog/2017/02/05/coem/" rel="alternate" type="text/html" title="Product &amp;amp; Service Portfolio Structure" /><published>2017-02-05T13:34:00-07:00</published><updated>2017-02-05T13:34:00-07:00</updated><id>http://localhost:4000/blog/2017/02/05/coem</id><content type="html" xml:base="http://localhost:4000/blog/2017/02/05/coem/">&lt;p&gt;Web-site re-structuring
+Sorting workshop with individual experts&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;General Sales Manager&lt;/li&gt;
+  &lt;li&gt;Technical Architect Manager&lt;/li&gt;
+  &lt;li&gt;General Service Commercial Manager&lt;/li&gt;
+  &lt;li&gt;Consulting and Enterprise Architecture Director&lt;/li&gt;
+  &lt;li&gt;Multiple account managers from SMB, CTM &amp;amp; EPG Segments
+Website architecture
+Soluton Architecture
+Renaming - Grouping&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 class=&quot;process-title&quot;&gt;Process&lt;/h2&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
@@ -627,7 +733,7 @@ La troisième problématique dans le processus d’approvisionnement de l’entr
         Styled content
     &lt;/div&gt;
 &lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626450626/Coem/Artboard_28_0.75x-100_xsmvlg.jpg&quot; style=&quot;width: 100%&quot; /&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Process</summary></entry><entry><title type="html">Billing Experience at a Leading Restaurant Chain</title><link href="http://localhost:4000/blog/2013/12/01/wok/" rel="alternate" type="text/html" title="Billing Experience at a Leading Restaurant Chain" /><published>2013-12-01T00:00:00-07:00</published><updated>2013-12-01T00:00:00-07:00</updated><id>http://localhost:4000/blog/2013/12/01/wok</id><content type="html" xml:base="http://localhost:4000/blog/2013/12/01/wok/">&lt;p&gt;(More details coming soon / March 2021)&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Web-site re-structuring Sorting workshop with individual experts General Sales Manager Technical Architect Manager General Service Commercial Manager Consulting and Enterprise Architecture Director Multiple account managers from SMB, CTM &amp;amp; EPG Segments Website architecture Soluton Architecture Renaming - Grouping</summary></entry><entry><title type="html">Billing Experience at a Leading Restaurant Chain</title><link href="http://localhost:4000/blog/2013/12/01/wok/" rel="alternate" type="text/html" title="Billing Experience at a Leading Restaurant Chain" /><published>2013-12-01T00:00:00-07:00</published><updated>2013-12-01T00:00:00-07:00</updated><id>http://localhost:4000/blog/2013/12/01/wok</id><content type="html" xml:base="http://localhost:4000/blog/2013/12/01/wok/">&lt;p&gt;(More details coming soon / March 2021)&lt;/p&gt;
 
 &lt;p&gt;Defining personas based on behavior observation&lt;/p&gt;
 
@@ -641,10 +747,28 @@ La troisième problématique dans le processus d’approvisionnement de l’entr
   &lt;li&gt;Results&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;html&gt;
-&lt;body&gt;
-    &lt;object data=&quot;your_url_to_pdf&quot; type=&quot;application/pdf&quot;&gt;
-        &lt;embed src=&quot;your_url_to_pdf&quot; type=&quot;application/pdf&quot; /&gt;
-    &lt;/object&gt;
-&lt;/body&gt;
-&lt;/html&gt;</content><author><name></name></author><summary type="html">(More details coming soon / March 2021)</summary></entry></feed>
+&lt;p&gt;WOK is one of Bogota’s most beloved chain of restaurants. Exemplar in sustainable supply chain management and highest sellling chain restaurants in Colombia. 19 “restaurants” in Bogota.&lt;/p&gt;
+
+&lt;p&gt;They have been partnering with the Design School at Universidad de los Andes, to explore design solution to their operations and value. — Rethink the billing process, from a clients and waiter’s perspective. To gain fresh perspectives that could illuminate new interventions.&lt;/p&gt;
+
+&lt;p&gt;Observation, Passive and Participatory:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Understanding behavior
+  -
+Process Analysis and Visualization:&lt;/li&gt;
+  &lt;li&gt;Interpreting the observations, giving structure.&lt;/li&gt;
+  &lt;li&gt;Defining Client Profiles (Segments-Personas) based
+  on observations
+Inmediate Improvements:&lt;/li&gt;
+  &lt;li&gt;Some potential improvements were identified and     inmediatly implemented
+Ideas and prototyping:
+  -
+Deliverables:
+  -
+Results:&lt;/li&gt;
+  &lt;li&gt;One step was transformed&lt;/li&gt;
+  &lt;li&gt;Paying boxes were updated, changed.&lt;/li&gt;
+  &lt;li&gt;Interactions, names, acknowledgement.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;iframe src=&quot;https://drive.google.com/file/d/1rBOrNi7xvBsTC85pbPaEnesykg7Pr-dK/preview&quot; style=&quot;width: 100%; height: 500px;&quot; allow=&quot;autoplay&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;</content><author><name></name></author><summary type="html">(More details coming soon / March 2021)</summary></entry></feed>

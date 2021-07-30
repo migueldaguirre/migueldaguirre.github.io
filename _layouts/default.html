@@ -16,32 +16,33 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="/assets/img/favicon.png"/>
     <link href='/css/lightbox.css' rel='stylesheet'/>
-    <link rel="apple-touch-icon" href="assets/favicon.png"/>
+    <link rel="apple-touch-icon" href="assets/img/favicon.png"/>
 
     {% include mathjax.html %}
 </head>
 <body>
-
         {% include nav.html %}
-        <div class='content'>
-            <div class='front-matter'>
-                <div class='wrap blog'>
+<div class='content'>
+    <div class='front-matter'>
+        <div class='wrap blog'>
                 <div class="post-label-onpage">
                         {{ page.keywords | upcase }}
-                 </div>
-                 <br>
-        <a href="{{ page.photo }}" data-lightbox="image-0">
-       <img src= "{{ page.photo }}" class="header-image"></a>
-                    <h1>{{ page.title }}</h1>
-                    <h3 class="on-article-subtitle">{{ page.subtitle }}</h3>
-            </div>
-            <div class='clear'></div>
-    </div>
+                </div>
+                <br>
+                <a href="{{ page.photo }}" data-lightbox="image-0">
+                       <img src= "{{ page.photo }}" class="header-image"></a>
+                       <h1>{{ page.title }}</h1>
+                       <h3 class="on-article-subtitle">{{ page.subtitle }}</h3>
+               </div>
+               <div class='clear'></div>
+       </div>
 </div>
+
 <div class='wrap article blog'>
+
         <div class="project-facts">
                 <ul>
-                <h3 class="article-sub project-facts-title">Project Facts</h3>
+                        <h3 class="article-sub project-facts-title">Project Facts</h3>
                         <li><span class="titles">Client:</span> {{ page.client }}</li>
                         <li><span class="titles">Project Type: </span> {{ page.type }}</li>
                         <li><span class="titles">Tools:</span> {{ page.tools }}</li>
@@ -49,11 +50,11 @@
                 </ul>
                 <div style="width:100%; height: 3px; background-color:gainsboro;"> </div>
                 <ul>
-                <li><span class="credits">Collaborators:</span>
-                        {% assign people = page.collaborators | split: "," %}
-                        {% for person in people %}
-                        {% assign person_display = person | split: "*" %}
-                        {{ person_display[0] }}<i style="opacity: 0.6">{{ person_display[1] }}</i>{{ person_display[2]}}
+                        <li><span class="credits">Collaborators:</span>
+                                {% assign people = page.collaborators | split: "," %}
+                                {% for person in people %}
+                                {% assign person_display = person | split: "*" %}
+                                {{ person_display[0] }}<i style="opacity: 0.6">{{ person_display[1] }}</i>{{ person_display[2]}}
                         {% endfor %}</li>
                 </ul>
 
@@ -65,13 +66,13 @@
         </div>
 </div>
 </div>
-    <script src="/js/lightbox-plus-jquery.js"></script>
-    <script>
+<script src="/js/lightbox-plus-jquery.js"></script>
+<script>
         lightbox.option({
-    'disableScrolling':false,
-    'maxHeight': 1000,
-    'fitImagesInViewport': true,
-    'showImageNumberLabel':false
+            'disableScrolling':false,
+            'maxHeight': 1000,
+            'fitImagesInViewport': true,
+            'showImageNumberLabel':false
     })
 </script>
 </body>
