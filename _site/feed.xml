@@ -1,68 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-07-29T18:52:31-06:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">IoT Water and Freeze Detector Setup</title><link href="http://localhost:4000/blog/2020/12/01/alerte/" rel="alternate" type="text/html" title="IoT Water and Freeze Detector Setup" /><published>2020-12-01T00:00:00-07:00</published><updated>2020-12-01T00:00:00-07:00</updated><id>http://localhost:4000/blog/2020/12/01/alerte</id><content type="html" xml:base="http://localhost:4000/blog/2020/12/01/alerte/">&lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
-&lt;div class=&quot;article-text&quot;&gt;
-&lt;p&gt;
-Describe Desjardins assurance
-&lt;/p&gt;
-&lt;/div&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-08-06T13:14:49-06:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">ERPsim Admin Console Front-End</title><link href="http://localhost:4000/blog/2021/07/10/erpsim/" rel="alternate" type="text/html" title="ERPsim Admin Console Front-End" /><published>2021-07-10T00:00:00-06:00</published><updated>2021-07-10T00:00:00-06:00</updated><id>http://localhost:4000/blog/2021/07/10/erpsim</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/10/erpsim/">&lt;div style=&quot;padding:75% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/583229819?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;ERPSIM Console App Recording.mp4&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
 
 &lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
-&lt;div class=&quot;article-text&quot;&gt;
-&lt;p&gt;
-  The main objective was to determine the strengths and weaknesses, in terms of usability, of the various steps required to install the detector on the application. The results of these tests will be used to inform the development team of adjustments and modifications to consider to improve the experience of its users. These results will also make it possible to verify whether the installation steps are sufficiently understandable. This report will present, among other things, the results observed as well as the appropriate recommendations.
-&lt;/p&gt;
-  &lt;/div&gt;
-
-&lt;h2 id=&quot;procedure&quot;&gt;Procedure&lt;/h2&gt;
-
-&lt;p&gt;Une version de l’application Desjardins Assurances et son module Alerte a été testé en novembre 2018 à l’aide de 12 participants correspondant aux utilisateurs cibles du service. Cette étude a évalué la manière dont les utilisateurs ont expérimenté le processus de connexion WIFI du détecteur d’humidité Roost (RSW 200A) via un téléphone mobile (iOS).&lt;/p&gt;
-
-&lt;p&gt;Afin de rendre les tests aussi réalistes que possible, les participants ont dû installer le détecteur dans le confort de leur habitation où deux évaluateurs avec une expérience dans le domaine ont observé et guidé le processus de déroulement des tests. Les évaluateurs se sont également assurés que les utilisateurs conservent une certaine autonomie pour et qu’ils soient en mesure de prendre leurs propres décisions.&lt;/p&gt;
-
-&lt;p&gt;L’analyse des données a été basée sur les commentaires des participants lors de la réalisation des tâches demandées ainsi qu’une fois qu’ils les avaient accomplis. De plus, un questionnaire quantitatif a été distribué aux participants et analysé par la suite afin de fournir une comparaison de l’utilisabilité de l’application avec d’autres systèmes.&lt;/p&gt;
-
-&lt;div class=&quot;figure&quot;&gt;
-  &lt;div class=&quot;figure-caption&quot;&gt;Features to evaluate - Scope&lt;/div&gt;
-  &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465706/Desjardins/Test_Desjardins-13_gsxkav.png&quot; data-lightbox=&quot;image-3&quot;&gt;&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465706/Desjardins/Test_Desjardins-13_gsxkav.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;figure&quot;&gt;
-  &lt;div class=&quot;figure-caption&quot;&gt;Test plan&lt;/div&gt;
-  &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465706/Desjardins/Test_Desjardins-12_iuhkov.png&quot; data-lightbox=&quot;image-3&quot;&gt;&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465706/Desjardins/Test_Desjardins-12_iuhkov.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;description-des-évaluations&quot;&gt;Description des évaluations&lt;/h2&gt;
-
-&lt;div class=&quot;figure&quot;&gt;
-  &lt;div class=&quot;figure-caption&quot;&gt;Visits&lt;/div&gt;
-  &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626467593/Desjardins/photo_comp-02_ndxtub.png&quot; data-lightbox=&quot;image-3&quot;&gt;&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626467593/Desjardins/photo_comp-02_ndxtub.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;figure&quot;&gt;
-  &lt;div class=&quot;figure-caption&quot;&gt;Tested flow&lt;/div&gt;
-  &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465707/Desjardins/Test_Desjardins-14_mzakiz.png&quot; data-lightbox=&quot;image-3&quot;&gt;&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465707/Desjardins/Test_Desjardins-14_mzakiz.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;figure&quot;&gt;
-  &lt;div class=&quot;figure-caption&quot;&gt;System Usability Scale (SUS)&lt;/div&gt;
-  &lt;a style=&quot;text-align:center&quot; href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465706/Desjardins/Test_Desjardins-15_ugemv1.png&quot; data-lightbox=&quot;image-3&quot;&gt;&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465706/Desjardins/Test_Desjardins-15_ugemv1.png&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;figure&quot;&gt;
-  &lt;div class=&quot;figure-caption&quot;&gt;Recommendations&lt;/div&gt;
-  &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465708/Desjardins/Test_Desjardins_Recomm_dhima0.png&quot; data-lightbox=&quot;image-3&quot;&gt;&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465708/Desjardins/Test_Desjardins_Recomm_dhima0.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;deliverables&quot;&gt;Deliverables&lt;/h2&gt;
-&lt;div class=&quot;figure&quot;&gt;
-&lt;div class=&quot;figure-caption&quot;&gt;Executive summary&lt;/div&gt;
-&lt;iframe src=&quot;https://drive.google.com/file/d/1RNcJrwdk_WrX5M28BFgBu5-V0qqIgA9U/preview&quot; style=&quot;width: 100%; height: 470px;&quot; allow=&quot;autoplay&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;figure&quot;&gt;
-&lt;div class=&quot;figure-caption&quot;&gt;Complete ISO/9241 Usability Report&lt;/div&gt;
-&lt;iframe src=&quot;https://drive.google.com/file/d/1d2IWgFuyJw7fB6sZ69vIajrVlwCvWY4q/preview&quot; style=&quot;width: 100%; height: 370px;&quot; allow=&quot;autoplay&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Context Describe Desjardins assurance</summary></entry><entry><title type="html">ERPsim Admin Console Front-End</title><link href="http://localhost:4000/blog/2020/12/01/erpsim/" rel="alternate" type="text/html" title="ERPsim Admin Console Front-End" /><published>2020-12-01T00:00:00-07:00</published><updated>2020-12-01T00:00:00-07:00</updated><id>http://localhost:4000/blog/2020/12/01/erpsim</id><content type="html" xml:base="http://localhost:4000/blog/2020/12/01/erpsim/">&lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
 &lt;div class=&quot;article-text&quot;&gt;
 &lt;p&gt;&lt;strong&gt;ERPsimLab&lt;/strong&gt; is an academic laboratory that develops curricula on management information systems and data analysis, by repurposing business software into learning platforms.
 &lt;/p&gt;
@@ -118,7 +57,13 @@ ERPsim is a business simulation game for SAP ERP and SAP S/4HANA in which partic
 &lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1625808420/ERPsim/PML-13_alyxcu.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
 &lt;/div&gt;
 
+&lt;div class=&quot;figure-caption&quot;&gt;Original UI&lt;/div&gt;
+&lt;div style=&quot;padding:54.88% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/583253082?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;Legacy UI&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;div class=&quot;figure&quot;&gt;
+      &lt;div class=&quot;figure-caption&quot;&gt;Sequence&lt;/div&gt;
   &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1624560879/ERPsim/stages1_z0ecnp.jpg&quot; data-lightbox=&quot;image-3&quot;&gt;&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1624560879/ERPsim/stages1_z0ecnp.jpg&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
 &lt;/div&gt;
 
@@ -231,7 +176,38 @@ ERPsim is a business simulation game for SAP ERP and SAP S/4HANA in which partic
     &lt;div class=&quot;figure-caption&quot;&gt;First state diagram for the front-end.&lt;/div&gt;
 &lt;img src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626312882/ERPsim/ERPsimViz-02_qsrvfs.png&quot; class=&quot;stage-photo&quot; /&gt;
   &lt;/div&gt;
-&lt;hr /&gt;</content><author><name></name></author><summary type="html">Context ERPsimLab is an academic laboratory that develops curricula on management information systems and data analysis, by repurposing business software into learning platforms. The first version of the ERP simulator was developed in 2008, upon a SAP system. It is currently being used in 170 universities around the world at Bacherlors, Masters and MBA levels. The simulator administration console is a web application used by teachers and trainers for setting up and controlling the simulations. Incremental improvements were made since its development, but some underlying structures were no longer Some of the lables adn tools were deemed unintuitive, and the frontend was not optimized for multiple screens. Responsive Uodate + Better looking UI. Appeal + New features - Improving Post Game Debriefing. Improve the debrefing and visualization, eliminate ambiguities and make the steup process simpler, more understandable for new users.</summary></entry><entry><title type="html">Crowd-Sourced Price Monitoring Web-App</title><link href="http://localhost:4000/blog/2019/11/05/monitor/" rel="alternate" type="text/html" title="Crowd-Sourced Price Monitoring Web-App" /><published>2019-11-05T13:33:00-07:00</published><updated>2019-11-05T13:33:00-07:00</updated><id>http://localhost:4000/blog/2019/11/05/monitor</id><content type="html" xml:base="http://localhost:4000/blog/2019/11/05/monitor/">&lt;h3 class=&quot;article-sub&quot;&gt;Challenge&lt;/h3&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;First state diagram for the front-end.&lt;/div&gt;
+&lt;img src=&quot;/assets/img/erpsim/monitoring_screenshots.gif&quot; class=&quot;stage-photo&quot; id=&quot;animated-gif&quot; /&gt;
+  &lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;iframe src=&quot;https://drive.google.com/file/d/1eiqLl0Hn0jTagWXFEmX9cK7_aUiFYOLE/preview&quot; width=&quot;100%&quot; height=&quot;480&quot; allow=&quot;autoplay&quot;&gt;&lt;/iframe&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Crowd-Sourced Price Monitoring Web-App</title><link href="http://localhost:4000/blog/2021/07/09/monitor/" rel="alternate" type="text/html" title="Crowd-Sourced Price Monitoring Web-App" /><published>2021-07-09T00:00:00-06:00</published><updated>2021-07-09T00:00:00-06:00</updated><id>http://localhost:4000/blog/2021/07/09/monitor</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/09/monitor/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div style=&quot;padding:62.5% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/583836820?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;Avg Monitor Recording wide&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;figure&quot; style=&quot;margin-bottom: 0px;&quot;&gt;
+&lt;div class=&quot;figure-caption&quot;&gt;Git Repository&lt;/div&gt;
+&lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628276952/AVGMonitor/User_Stories2-04-05_psukro.png&quot; data-lightbox=&quot;image-1&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628276952/AVGMonitor/User_Stories2-04-05_psukro.png&quot; style=&quot;width: 100%; margin-bottom: 0px;&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;figure&quot; style=&quot;margin-bottom: 0px;&quot;&gt;
+&lt;div class=&quot;figure-caption&quot;&gt;Git Repository&lt;/div&gt;
+&lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628277217/AVGMonitor/Sketch_class_diagram-023-03_qhvvhx.png&quot; data-lightbox=&quot;image-1&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628277217/AVGMonitor/Sketch_class_diagram-023-03_qhvvhx.png&quot; style=&quot;width: 100%; margin-bottom: 0px;&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;figure&quot; style=&quot;margin-bottom: 0px;&quot;&gt;
+&lt;div class=&quot;figure-caption&quot;&gt;Git Repository&lt;/div&gt;
+&lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628127886/AVGMonitor/github.com_migueldaguirre_AVMonitor_tree_69e69d88beca79c93e2327edc757b04710dae440_1_vrswhu.png&quot; data-lightbox=&quot;image-1&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628127886/AVGMonitor/github.com_migueldaguirre_AVMonitor_tree_69e69d88beca79c93e2327edc757b04710dae440_1_vrswhu.png&quot; style=&quot;width: 100%; margin-bottom: 0px;&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h3 class=&quot;article-sub&quot;&gt;Challenge&lt;/h3&gt;
 &lt;p&gt;Libertad vigilada (reportar los precios)
 Variación de precios:
 Importados (mayormente)
@@ -433,13 +409,93 @@ Ver la competitividad por región.
 Caso de uso:
 Lectura rápida de un producto:
 Enviar mensaje a los vendedores sobre un producto específico
-En día, tener 40-50 datos/lecturas/observaciones&lt;/p&gt;</content><author><name></name></author><summary type="html">Challenge Libertad vigilada (reportar los precios) Variación de precios: Importados (mayormente) Terminados Materias primas - Fabricación local Sujetos al mercado cambiario Variaciones todos los meses TRM, cambia todos los días No existe un único precio nacional. Costos de logística Condiciones de negociación (Crédito o contado) Tipos de mercado Tamaño de los negocios (volumen) Es conveniente tener claridad de los cambios que se van presentando, en tiempo real.</summary></entry><entry><title type="html">Dynamic Class Enrollment Platform</title><link href="http://localhost:4000/blog/2019/11/01/unicours/" rel="alternate" type="text/html" title="Dynamic Class Enrollment Platform" /><published>2019-11-01T00:00:00-06:00</published><updated>2019-11-01T00:00:00-06:00</updated><id>http://localhost:4000/blog/2019/11/01/unicours</id><content type="html" xml:base="http://localhost:4000/blog/2019/11/01/unicours/">&lt;p&gt;(Under construction / June 2021)&lt;/p&gt;
-&lt;div&gt;
-&lt;br /&gt;
+En día, tener 40-50 datos/lecturas/observaciones&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">IoT Water and Freeze Detector Setup</title><link href="http://localhost:4000/blog/2021/07/08/alerte/" rel="alternate" type="text/html" title="IoT Water and Freeze Detector Setup" /><published>2021-07-08T00:00:00-06:00</published><updated>2021-07-08T00:00:00-06:00</updated><id>http://localhost:4000/blog/2021/07/08/alerte</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/08/alerte/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;figure&quot;&gt;
+  &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626467593/Desjardins/photo_comp-02_ndxtub.png&quot; data-lightbox=&quot;image-3&quot;&gt;&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626467593/Desjardins/photo_comp-02_ndxtub.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
 &lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
 &lt;div class=&quot;article-text&quot;&gt;
+&lt;p&gt;
+Describe Desjardins assurance
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
+&lt;div class=&quot;article-text&quot;&gt;
+&lt;p&gt;
+  The main objective was to determine the strengths and weaknesses, in terms of usability, of the various steps required to install the detector on the application. The results of these tests will be used to inform the development team of adjustments and modifications to consider to improve the experience of its users. These results will also make it possible to verify whether the installation steps are sufficiently understandable. This report will present, among other things, the results observed as well as the appropriate recommendations.
+&lt;/p&gt;
+  &lt;/div&gt;
+
+&lt;h2 id=&quot;procedure&quot;&gt;Procedure&lt;/h2&gt;
+
+&lt;p&gt;Une version de l’application Desjardins Assurances et son module Alerte a été testé en novembre 2018 à l’aide de 12 participants correspondant aux utilisateurs cibles du service. Cette étude a évalué la manière dont les utilisateurs ont expérimenté le processus de connexion WIFI du détecteur d’humidité Roost (RSW 200A) via un téléphone mobile (iOS).&lt;/p&gt;
+
+&lt;p&gt;Afin de rendre les tests aussi réalistes que possible, les participants ont dû installer le détecteur dans le confort de leur habitation où deux évaluateurs avec une expérience dans le domaine ont observé et guidé le processus de déroulement des tests. Les évaluateurs se sont également assurés que les utilisateurs conservent une certaine autonomie pour et qu’ils soient en mesure de prendre leurs propres décisions.&lt;/p&gt;
+
+&lt;p&gt;L’analyse des données a été basée sur les commentaires des participants lors de la réalisation des tâches demandées ainsi qu’une fois qu’ils les avaient accomplis. De plus, un questionnaire quantitatif a été distribué aux participants et analysé par la suite afin de fournir une comparaison de l’utilisabilité de l’application avec d’autres systèmes.&lt;/p&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+  &lt;div class=&quot;figure-caption&quot;&gt;Features to evaluate - Scope&lt;/div&gt;
+  &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465706/Desjardins/Test_Desjardins-13_gsxkav.png&quot; data-lightbox=&quot;image-3&quot;&gt;&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465706/Desjardins/Test_Desjardins-13_gsxkav.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+  &lt;div class=&quot;figure-caption&quot;&gt;Test plan&lt;/div&gt;
+  &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465706/Desjardins/Test_Desjardins-12_iuhkov.png&quot; data-lightbox=&quot;image-3&quot;&gt;&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465706/Desjardins/Test_Desjardins-12_iuhkov.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;description-des-évaluations&quot;&gt;Description des évaluations&lt;/h2&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+  &lt;div class=&quot;figure-caption&quot;&gt;Tested flow&lt;/div&gt;
+  &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465707/Desjardins/Test_Desjardins-14_mzakiz.png&quot; data-lightbox=&quot;image-3&quot;&gt;&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465707/Desjardins/Test_Desjardins-14_mzakiz.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+  &lt;div class=&quot;figure-caption&quot;&gt;System Usability Scale (SUS)&lt;/div&gt;
+  &lt;a style=&quot;text-align:center&quot; href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465706/Desjardins/Test_Desjardins-15_ugemv1.png&quot; data-lightbox=&quot;image-3&quot;&gt;&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465706/Desjardins/Test_Desjardins-15_ugemv1.png&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+  &lt;div class=&quot;figure-caption&quot;&gt;Recommendations&lt;/div&gt;
+  &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465708/Desjardins/Test_Desjardins_Recomm_dhima0.png&quot; data-lightbox=&quot;image-3&quot;&gt;&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626465708/Desjardins/Test_Desjardins_Recomm_dhima0.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;deliverables&quot;&gt;Deliverables&lt;/h2&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;div class=&quot;figure-caption&quot;&gt;Complete ISO/9241 Usability Report&lt;/div&gt;
+&lt;iframe src=&quot;https://drive.google.com/file/d/1d2IWgFuyJw7fB6sZ69vIajrVlwCvWY4q/preview&quot; style=&quot;width: 100%; height: 470px;&quot; allow=&quot;autoplay&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;div class=&quot;figure-caption&quot;&gt;Executive summary&lt;/div&gt;
+&lt;iframe src=&quot;https://drive.google.com/file/d/1RNcJrwdk_WrX5M28BFgBu5-V0qqIgA9U/preview&quot; style=&quot;width: 100%; height: 470px;&quot; allow=&quot;autoplay&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Dynamic Class Enrollment Platform</title><link href="http://localhost:4000/blog/2021/07/08/unicours/" rel="alternate" type="text/html" title="Dynamic Class Enrollment Platform" /><published>2021-07-08T00:00:00-06:00</published><updated>2021-07-08T00:00:00-06:00</updated><id>http://localhost:4000/blog/2021/07/08/unicours</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/08/unicours/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div style=&quot;padding:62.5% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/583841479?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;Video Mobile Unicours&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div style=&quot;padding:56.25% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/583978982?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;Course Enrollment - Flow&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div&gt;
+&lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
+&lt;div class=&quot;article-text&quot;&gt;
+
+
+
+
+
+
 &lt;p&gt;As an exercise in the UX Design course within the MSc. in User Experience in a Business Context. Following a systemic/structured process of empathizing, ideation, user testing and iterative prototyping.
 &lt;/p&gt;
+
+
 
 ### Challenge
 Reinvent the online experience for enrolling into university courses by setting up a course selection system that can be used by all schools in Quebec to standardize practices in the community and give students a better experience. Using the current platform as a staring point.
@@ -453,14 +509,59 @@ All the information that was relevant during each step of the enrollment process
 
 The heart of the experience is like going shopping in a store or an e-commerce site. The goal is to find one's way easily inside, to choose the product that perfectly meets our expectations, to be able to buy it without stress and to exchange it in the future if one wishes.
 
+This text was developed during / as part of the UX design course with the MSC in User Experience in a Business Context, at HEC Montréal.
 
+The main objective was to explore alternative interactions fro an existing experience, while applying a well structured process for ideation, exploration and prototyping.
 
+Getting some exposure / experience using standard tools like personas, user journeys, value diagrams, ideation, etc.
+
+The prototype was built on Axure 9.0. and had three cycles of iteration - user testing.
+
+After defining our persona, we made 10 interviews. This provided content for detailing the profiles as well as confirmation about the relevance of the project.
+
+The values / principles behind the new interface were:
+Enhance visibility during the process.
+
+Explore alternatives for fragmented / multiscreen flows.
+
+This was particularly important because the consequences / effects of some choices were not evident right away.
+
+The linear interaction didn’t allow for visualizing the calendar
+
+Remove the need for keeping the information in another file
+Include new features
+
+Sequences in which most of the contextual elements are persistent, a sen sense of space, of physicality, as a tangible artifact.
+
+The case for single page applications vs. Multiscreen
+
+We decided to make a card sorting, to decide which elements were more relevant and also how they were related to each other. Todo so, we used Optimal Workshop. And got responses from x people
+
+Icons, colors, contrast, legibility
+
+Feature prioritization - Value vs. Effort
+
+Summary of notes / value proposition
+
+Result: Outcome: A single page web app with a fluid (non-fragmented interaction) that is also adaptive. It includes all the features previously available in the original version.
+
+&lt;/div&gt;
+
+&lt;h3 class=&quot;stage-title&quot;&gt;Discovery and Concept Development&lt;/h3&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;
+        Scope
+    &lt;/div&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_500/v1625711042/Unicours/Inscription-cours-dessin_dvoqzf.png&quot; style=&quot;display: block;
+width: 80%;margin-left: auto;margin-right: auto;&quot; /&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
         Persona
     &lt;/div&gt;
+
 &lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1624568434/Unicours/presentation_Unicours_1_2_persona_tp0rhb.jpg&quot; style=&quot;width: 100%&quot; /&gt;
 &lt;/div&gt;
 
@@ -478,7 +579,6 @@ The heart of the experience is like going shopping in a store or an e-commerce s
 &lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1200/v1624568434/Unicours/presentation_Unicours_1_3._Exp_copy_esmdaw.jpg&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/div&gt;
 
-
 &lt;div class=&quot;figure&quot;&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
         Ideas 1
@@ -493,12 +593,24 @@ The heart of the experience is like going shopping in a store or an e-commerce s
 &lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626301789/Unicours/IMG_1169_emaei9.jpg&quot; style=&quot;width: 100%&quot; /&gt;
 &lt;/div&gt;
 
+
+&lt;!-- &lt;div class=&quot;figure&quot;&gt;
+    &lt;div class='figure-caption'&gt;
+        Concept
+    &lt;/div&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1628261139/Unicours/Illustrations_xazyrm.jpg&quot; style=&quot;display: block;
+width: 80%;margin-left: auto;margin-right: auto;&quot;&gt;
+&lt;/div&gt; --&gt;
+
 &lt;div class=&quot;figure&quot;&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
-        Card Sorting
+        Idea prioritisation
     &lt;/div&gt;
 &lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1625675731/Unicours/Priorisation-05_erb6au.png&quot; style=&quot;width: 100%&quot; /&gt;
 &lt;/div&gt;
+
+&lt;h3 class=&quot;stage-title&quot;&gt;Design and Prototyping&lt;/h3&gt;
+
 
 &lt;div class=&quot;figure&quot;&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
@@ -506,6 +618,21 @@ The heart of the experience is like going shopping in a store or an e-commerce s
     &lt;/div&gt;
 &lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1625711479/Unicours/cardsorting_unicours-07_ccd7ra.png&quot; style=&quot;width: 100%&quot; /&gt;
 &lt;/div&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;
+        Sketches
+    &lt;/div&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628258593/Unicours/Unicours_sketches-06_ht3tlz.png&quot; style=&quot;width: 100%;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;
+        Concept
+    &lt;/div&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1624568431/Unicours/Grid-01_baurqb.png&quot; style=&quot;width: 100%;&quot; /&gt;
+&lt;/div&gt;
+
 
 &lt;div class=&quot;figure&quot;&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
@@ -521,35 +648,23 @@ The heart of the experience is like going shopping in a store or an e-commerce s
 &lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1625713959/Unicours/Iconos-02-01_iza7sa.png&quot; style=&quot;width: 100%&quot; /&gt;
 &lt;/div&gt;
 
-&lt;!-- &lt;div class=&quot;figure&quot;&gt;
-    &lt;div class='figure-caption'&gt;
-        Concept
-    &lt;/div&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_500/v1625711042/Unicours/Inscription-cours-dessin_dvoqzf.png&quot; style=&quot;display: block;
-width: 80%;margin-left: auto;margin-right: auto;&quot;&gt;
-&lt;/div&gt;
- --&gt;
-
-&lt;div class=&quot;figure&quot;&gt;
-    &lt;div class=&quot;figure-caption&quot;&gt;
-        Concept
-    &lt;/div&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1624568431/Unicours/Grid-01_baurqb.png&quot; style=&quot;width: 100%;&quot; /&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;figure&quot;&gt;
-    &lt;div class=&quot;figure-caption&quot;&gt;
-        Sketches
-    &lt;/div&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1625711010/Unicours/Unicours_sketches-06_mkulwv.png&quot; style=&quot;width: 100%;&quot; /&gt;
-&lt;/div&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
         Usability Bastien
     &lt;/div&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1625675809/Unicours/bastien-02_qhfc4u.png&quot; style=&quot;width: 100%;&quot; /&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1625670741/Unicours/Screenshot_Unicours_z20s23.jpg&quot; style=&quot;width: 100%;&quot; /&gt;
 &lt;/div&gt;
+
+
+&lt;div class=&quot;figure&quot;&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;
+        Screenshoot
+    &lt;/div&gt;
+
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628257333/Unicours/Screen_Shot_2021-07-07_at_14.24.08_wr7l4t.png&quot; style=&quot;width: 100%;&quot; /&gt;
+&lt;/div&gt;
+
 
 &lt;div class=&quot;figure&quot;&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
@@ -559,105 +674,12 @@ width: 80%;margin-left: auto;margin-right: auto;&quot;&gt;
 &lt;/div&gt;
 
 
-&lt;div class=&quot;figure&quot;&gt;
-    &lt;div class=&quot;figure-caption&quot;&gt;
-        Sequence
-    &lt;/div&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1625670702/Unicours/UnicoursInterface2_vd00qn.gif&quot; style=&quot;display: block;
-width: 80%;margin-left: auto;margin-right: auto;&quot; /&gt;
-&lt;/div&gt;
+https://et35qh.axshare.com/#g=1&amp;amp;p=principale__post-tests_&amp;amp;c=1
 
 
 
-&lt;/div&gt;</content><author><name></name></author><summary type="html">(Under construction / June 2021) Context As an exercise in the UX Design course within the MSc. in User Experience in a Business Context. Following a systemic/structured process of empathizing, ideation, user testing and iterative prototyping.</summary></entry><entry><title type="html">Material Procurement Demo</title><link href="http://localhost:4000/blog/2019/10/01/brava/" rel="alternate" type="text/html" title="Material Procurement Demo" /><published>2019-10-01T19:11:00-06:00</published><updated>2019-10-01T19:11:00-06:00</updated><id>http://localhost:4000/blog/2019/10/01/brava</id><content type="html" xml:base="http://localhost:4000/blog/2019/10/01/brava/">&lt;h3 class=&quot;article-sub&quot;&gt;Goal&lt;/h3&gt;
-&lt;div class=&quot;article-text&quot;&gt;
-&lt;p&gt;Offrir une suggestion d’un système ERP afin de répondre aux besoins et de résoudre les problématiques soulevées en lien avec la gestion de la chaîne d’approvisionnement. Suite à une comparaison de plusieurs ERP sur le marché nous recommandons l’ERP Quickbooks Premier. Par contre, en raison des limitations dans le cadre du cours, nous avons implanté un prototype fonctionnel avec l’ERP Odoo.
 
-Puisque le processus de la chaîne d’approvisionnement comprend de nombreux processus et étapes complexes, il nous était impossible de couvrir l’entièreté du processus. Tout d’abord, la contrainte reliée à la courte durée du mandat (moins de 6 semaines) nous obligeait à sélectionner une partie du processus. De plus, l’industrie du textile et le processus de fabrication des vêtements sont beaucoup plus complexes qu’un simple détaillant en commerce de détail. En effet, la complexité par rapport à la gestion d’inventaire et le calcul des besoins des matières premières avec plusieurs unités de mesure dont en aire pour représenter la surface de tissu nécessaire (en m2 ou en pi2), en rouleau pour l’achat des tissus et en unité de produits finis nous a limité pour la proposition de prototype. Ainsi, nous avons considéré, dans le cadre de ce mandat, le processus d’approvisionnement de matière première (tissu) auprès du fournisseur principal.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;h3 class=&quot;article-sub&quot;&gt;Outcome&lt;/h3&gt;
-&lt;div class=&quot;article-text&quot;&gt;
-&lt;p&gt;We aim to improve the experience of instructors and students using the ERPsim Console.&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;h2 class=&quot;process-title&quot;&gt;Process&lt;/h2&gt;
-
-&lt;div class=&quot;article-text&quot;&gt;
-&lt;h3 class=&quot;stage-title&quot;&gt;1. Context&lt;/h3&gt;
-Talk about the client
-&lt;/div&gt;
-
-&lt;div class=&quot;figure&quot;&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1625510470/Brava/bravaxls-15_xwclob.png&quot; style=&quot;width: 100%&quot; /&gt;
-    &lt;div class=&quot;figure-caption&quot;&gt;
-        Workplan diagram.
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;La compagnie ne possède actuellement aucun système automatisé pour passer les commandes auprès de ses fournisseurs. Tous les calculs sont effectués dans divers fichiers Excel qui ne sont pas reliés entre eux et toute l’information est inscrite à la main à plusieurs reprises plutôt que de relier les cellules entre elles. Les commandes quant à elles sont effectuées dans un fichier PDF qui est modifié à la main par la compagnie pour passer chaque commande. Ces façons de faire sont certainement propices à des erreurs dans la saisie des données.
-Une seconde problématique est liée à la structure des produits. Brava offre des vêtements de qualité, par contre leurs articles sont composés de multiples morceaux différents qui rendent la standardisation des processus et leur intégration dans un progiciel très complexe.
-La troisième problématique dans le processus d’approvisionnement de l’entreprise est due au manque de précision dans les prévisions de la demande. L’estimation de la quantité de tissus est très arbitraire et pour cette raison les quantités commandées ne sont pas aussi juste qu’elles pourraient réellement l’être. Une précision dans les prévisions permet évidemment d’éviter des pénuries, mais aussi d’avoir des excédants de stocks de matières premières. Sachant que Brava est une petite entreprise, elle n’est pas en mesure d’immobiliser beaucoup d’argent en stock de matières. Il serait donc à leur avantage d’améliorer leur processus d’approvisionnement pour être le plus précis dans les quantités commandées.&lt;/p&gt;
-
-&lt;div class=&quot;figure&quot;&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1625494045/Brava/Brava_Process_As_Is-06_cmhgf7.png&quot; style=&quot;width: 100%&quot; /&gt;
-    &lt;div class=&quot;figure-caption&quot;&gt;
-        Workplan diagram.
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;figure&quot;&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1625494040/Brava/Brava_Process_As_Is-07_xyxkff.png&quot; style=&quot;width: 100%&quot; /&gt;
-    &lt;div class=&quot;figure-caption&quot;&gt;
-        Workplan diagram.
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;figure&quot;&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1625492460/Brava/Brava_Process_As_Is_Nov_24-14_bevqcw.png&quot; style=&quot;width: 100%&quot; /&gt;
-    &lt;div class=&quot;figure-caption&quot;&gt;
-        Workplan diagram.
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;figure&quot;&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1625492459/Brava/Brava_Process_As_Is_Nov_24-16_rk1tch.png&quot; style=&quot;width: 100%&quot; /&gt;
-    &lt;div class=&quot;figure-caption&quot;&gt;
-        Workplan diagram.
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;figure&quot;&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1625494034/Brava/Brava_Process_As_Is-08_zkbqpy.png&quot; style=&quot;width: 100%&quot; /&gt;
-    &lt;div class=&quot;figure-caption&quot;&gt;
-        Workplan diagram.
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;figure&quot;&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1625717353/Brava/Brava_Process_Prototype-16_n8tlvu.png&quot; style=&quot;width: 100%&quot; /&gt;
-    &lt;div class=&quot;figure-caption&quot;&gt;
-        Prototype
-    &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Goal Offrir une suggestion d’un système ERP afin de répondre aux besoins et de résoudre les problématiques soulevées en lien avec la gestion de la chaîne d’approvisionnement. Suite à une comparaison de plusieurs ERP sur le marché nous recommandons l’ERP Quickbooks Premier. Par contre, en raison des limitations dans le cadre du cours, nous avons implanté un prototype fonctionnel avec l’ERP Odoo.</summary></entry><entry><title type="html">Laptop Sales Backstage Process</title><link href="http://localhost:4000/blog/2019/09/01/coop/" rel="alternate" type="text/html" title="Laptop Sales Backstage Process" /><published>2019-09-01T19:11:00-06:00</published><updated>2019-09-01T19:11:00-06:00</updated><id>http://localhost:4000/blog/2019/09/01/coop</id><content type="html" xml:base="http://localhost:4000/blog/2019/09/01/coop/">&lt;ul&gt;
-&lt;li&gt;Préparer une soumission&lt;/li&gt;
-&lt;li&gt;Verification de disponibilité&lt;/li&gt;
-&lt;li&gt;Soumission produit spécial&lt;/li&gt;
-&lt;li&gt;Finaliser la soumission&lt;/li&gt;
-&lt;li&gt;Soumission d'un produit indisponible&lt;/li&gt;
-&lt;li&gt;Sous-Processus, Convertir la soumission en commande&lt;/li&gt;
-&lt;li&gt;Sous-Processus, Perparation d'une machine&lt;/li&gt;
-&lt;li&gt;Sous-Processus, Paiement et livraison&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Documented observations&lt;/li&gt;
-  &lt;li&gt;Process (As Is)&lt;/li&gt;
-  &lt;li&gt;Value analysis&lt;/li&gt;
-  &lt;li&gt;Process (To Be)&lt;/li&gt;
-  &lt;li&gt;Improvement descriptions&lt;/li&gt;
-  &lt;li&gt;Decision document&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><summary type="html">Préparer une soumission Verification de disponibilité Soumission produit spécial Finaliser la soumission Soumission d'un produit indisponible Sous-Processus, Convertir la soumission en commande Sous-Processus, Perparation d'une machine Sous-Processus, Paiement et livraison</summary></entry><entry><title type="html">Product &amp;amp; Service Portfolio Structure</title><link href="http://localhost:4000/blog/2017/02/05/coem/" rel="alternate" type="text/html" title="Product &amp;amp; Service Portfolio Structure" /><published>2017-02-05T13:34:00-07:00</published><updated>2017-02-05T13:34:00-07:00</updated><id>http://localhost:4000/blog/2017/02/05/coem</id><content type="html" xml:base="http://localhost:4000/blog/2017/02/05/coem/">&lt;p&gt;Web-site re-structuring
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Context</summary></entry><entry><title type="html">Product &amp;amp; Service Portfolio Structure</title><link href="http://localhost:4000/blog/2021/07/06/coem/" rel="alternate" type="text/html" title="Product &amp;amp; Service Portfolio Structure" /><published>2021-07-06T00:00:00-06:00</published><updated>2021-07-06T00:00:00-06:00</updated><id>http://localhost:4000/blog/2021/07/06/coem</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/06/coem/">&lt;p&gt;Web-site re-structuring
 Sorting workshop with individual experts&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;General Sales Manager&lt;/li&gt;
@@ -676,7 +698,7 @@ Renaming - Grouping&lt;/li&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
         Workplan
     &lt;/div&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626445006/Coem/Plan_de_Trabajo_byl4vi.png&quot; style=&quot;width: 100%&quot; /&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628262265/Coem/Plan_de_Trabajo_-_Scope-01_seokc7.png&quot; style=&quot;width: 100%&quot; /&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
@@ -733,42 +755,4 @@ Renaming - Grouping&lt;/li&gt;
         Styled content
     &lt;/div&gt;
 &lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626450626/Coem/Artboard_28_0.75x-100_xsmvlg.jpg&quot; style=&quot;width: 100%&quot; /&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Web-site re-structuring Sorting workshop with individual experts General Sales Manager Technical Architect Manager General Service Commercial Manager Consulting and Enterprise Architecture Director Multiple account managers from SMB, CTM &amp;amp; EPG Segments Website architecture Soluton Architecture Renaming - Grouping</summary></entry><entry><title type="html">Billing Experience at a Leading Restaurant Chain</title><link href="http://localhost:4000/blog/2013/12/01/wok/" rel="alternate" type="text/html" title="Billing Experience at a Leading Restaurant Chain" /><published>2013-12-01T00:00:00-07:00</published><updated>2013-12-01T00:00:00-07:00</updated><id>http://localhost:4000/blog/2013/12/01/wok</id><content type="html" xml:base="http://localhost:4000/blog/2013/12/01/wok/">&lt;p&gt;(More details coming soon / March 2021)&lt;/p&gt;
-
-&lt;p&gt;Defining personas based on behavior observation&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Observation: Passive and Participatory&lt;/li&gt;
-  &lt;li&gt;Process analysis and visualization&lt;/li&gt;
-  &lt;li&gt;Defining client profiles (Segments-Personas based on behavior)&lt;/li&gt;
-  &lt;li&gt;Immediate improvements&lt;/li&gt;
-  &lt;li&gt;Ideas and Prototyping&lt;/li&gt;
-  &lt;li&gt;Deliverables&lt;/li&gt;
-  &lt;li&gt;Results&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;WOK is one of Bogota’s most beloved chain of restaurants. Exemplar in sustainable supply chain management and highest sellling chain restaurants in Colombia. 19 “restaurants” in Bogota.&lt;/p&gt;
-
-&lt;p&gt;They have been partnering with the Design School at Universidad de los Andes, to explore design solution to their operations and value. — Rethink the billing process, from a clients and waiter’s perspective. To gain fresh perspectives that could illuminate new interventions.&lt;/p&gt;
-
-&lt;p&gt;Observation, Passive and Participatory:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Understanding behavior
-  -
-Process Analysis and Visualization:&lt;/li&gt;
-  &lt;li&gt;Interpreting the observations, giving structure.&lt;/li&gt;
-  &lt;li&gt;Defining Client Profiles (Segments-Personas) based
-  on observations
-Inmediate Improvements:&lt;/li&gt;
-  &lt;li&gt;Some potential improvements were identified and     inmediatly implemented
-Ideas and prototyping:
-  -
-Deliverables:
-  -
-Results:&lt;/li&gt;
-  &lt;li&gt;One step was transformed&lt;/li&gt;
-  &lt;li&gt;Paying boxes were updated, changed.&lt;/li&gt;
-  &lt;li&gt;Interactions, names, acknowledgement.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;iframe src=&quot;https://drive.google.com/file/d/1rBOrNi7xvBsTC85pbPaEnesykg7Pr-dK/preview&quot; style=&quot;width: 100%; height: 500px;&quot; allow=&quot;autoplay&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;</content><author><name></name></author><summary type="html">(More details coming soon / March 2021)</summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Web-site re-structuring Sorting workshop with individual experts General Sales Manager Technical Architect Manager General Service Commercial Manager Consulting and Enterprise Architecture Director Multiple account managers from SMB, CTM &amp;amp; EPG Segments Website architecture Soluton Architecture Renaming - Grouping</summary></entry></feed>

@@ -37,9 +37,9 @@ layout: empty
     </ul>
   </div>
       <br>
-    <div id='intro' style="margin-left: auto; margin-right: auto; text-align:center; width: 100%;border: 1px solid gainsboro; color: var(--md-color); padding-top:1em; padding-bottom:1em; max-width:600px; border-radius: 5px; opacity: 40%">
+<!--     <div id='intro' style="margin-left: auto; margin-right: auto; text-align:center; width: 100%;border: 1px solid gainsboro; color: var(--md-color); padding-top:1em; padding-bottom:1em; max-width:600px; border-radius: 5px; opacity: 40%">
 <span>Content is under construction</span> (<span id="datetime"></span>) <br>
-    </div>
+    </div> -->
   <div id='blog' class=''>
     <div id='posts' class='section mosaic-container'>
       {% for post in site.posts %}
