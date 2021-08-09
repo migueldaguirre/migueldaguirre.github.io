@@ -1,53 +1,84 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-08-06T16:24:46-06:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">ERPsim Admin Console Front-End</title><link href="http://localhost:4000/blog/2021/07/10/erpsim/" rel="alternate" type="text/html" title="ERPsim Admin Console Front-End" /><published>2021-07-10T00:00:00-06:00</published><updated>2021-07-10T00:00:00-06:00</updated><id>http://localhost:4000/blog/2021/07/10/erpsim</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/10/erpsim/">&lt;div style=&quot;padding:75% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/583229819?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;ERPSIM Console App Recording.mp4&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-&lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
-
-&lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-08-08T19:18:07-06:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">ERPsim Admin Console Front-End</title><link href="http://localhost:4000/blog/2021/07/10/erpsim/" rel="alternate" type="text/html" title="ERPsim Admin Console Front-End" /><published>2021-07-10T00:00:00-06:00</published><updated>2021-07-10T00:00:00-06:00</updated><id>http://localhost:4000/blog/2021/07/10/erpsim</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/10/erpsim/">&lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
 &lt;div class=&quot;article-text&quot;&gt;
-&lt;p&gt;&lt;strong&gt;ERPsimLab&lt;/strong&gt; is an academic laboratory that develops curricula on management information systems and data analysis, by repurposing business software into learning platforms.
+&lt;p&gt;&lt;a href=&quot;https://erpsim.hec.ca/&quot;&gt;&lt;strong&gt;ERPsimLab&lt;/strong&gt;&lt;/a&gt; is an academic laboratory that develops curricula on management information systems and data analysis, by repurposing business software into learning platforms.
 &lt;/p&gt;
 &lt;p&gt;
-The first version of the ERP simulator was developed in 2008, upon a SAP system.
+Their main product is the &lt;strong&gt;ERPsim&lt;/strong&gt;, a business simulation game for SAP ERP and SAP S/4HANA in which participants use a real ERP system to manage their virtual company in a simulated market. It is currently being used in 170 universities around the world at courses in Bacherlors, Masters and MBA levels.
 &lt;/p&gt;
 &lt;p&gt;
-It is currently being used in 170 universities around the world at Bacherlors, Masters and MBA levels.
-&lt;/p&gt;
-&lt;p&gt;
-The simulator administration console is a web application used by teachers and trainers for setting up and controlling the simulations. Incremental improvements were made since its development, but some underlying structures  were no longer
-Some of the lables adn tools were deemed unintuitive, and the frontend was not optimized for multiple screens. Responsive Uodate + Better looking UI. Appeal + New features - Improving Post Game Debriefing. Improve the debrefing and visualization, eliminate ambiguities and make the steup process simpler, more understandable for new users.
 &lt;/p&gt;
 &lt;/div&gt;
 
-&lt;!-- [ERPsimLab](https://erpsim.hec.ca/ &quot;ERPsimLab Homepage&quot;)  --&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h3 class=&quot;article-sub&quot;&gt;Challenge&lt;/h3&gt;
 &lt;div class=&quot;article-text&quot;&gt;
-&lt;p&gt;We aim to improve the experience of instructors and students using the ERPsim Console. The underlying
-hypothesis is that perceived quality, ease of learning and student engagement can all be enhanced by
-intervening the graphical user interface: layout and control components, data tables and graphics, and the
-sequence in which information is displayed or accessed. It is expected that this will have a positive impact
-in reducing the friction of “adoption” by instructors and improving the debriefing phase of simulations thus
-positively impacting student learning.&lt;/p&gt;
 
 &lt;p&gt;
-&lt;ol&gt;
-&lt;li&gt;Simplify first time usage (Ease of Learning)&lt;/li&gt;
-&lt;li&gt;Improve the in-game debriefing experience&lt;/li&gt;
-&lt;li&gt;Update to current usability standards&lt;/li&gt;
-&lt;li&gt;Prepare the interface for incremental improvement&lt;/li&gt;
+Improve the experience of using the ERPsim Simulation Administration Console, for instructors and students, by:
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;ol style=&quot;color: rgba(0,0,0,0.8);&quot;&gt;
+&lt;li&gt;Simplifying first time usage (ease of learning)&lt;/li&gt;
+&lt;li&gt;Making the game debriefing data more revelant and focused&lt;/li&gt;
+&lt;li&gt;Updating visual components to current standards of the web&lt;/li&gt;
+&lt;li&gt;Preparing the interface for incremental development&lt;/li&gt;
+&lt;li&gt;Adapting the content to multiple screen sizes (tablet, mobile, desktop)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/p&gt;
 
+&lt;p&gt;
+Whith the hypothesis that perceived quality, ease of learning and student engagement can all be enhanced by
+intervening the graphical user interface: layout and control components, data tables and graphics, and the
+sequence in which information is displayed or accessed.
+
+&lt;!-- It is expected that this will have a positive impact in reducing the friction of “adoption” by instructors and improving the debriefing phase of simulations thus positively impacting student learning.
+
+The simulator administration console is a web application used by teachers and trainers for setting up and controlling the simulations. Incremental improvements were made since its development, but some underlying structures  were no longer
+Some of the lables adn tools were deemed unintuitive, and the frontend was not optimized for multiple screens. Responsive Uodate + Better looking UI. Appeal + New features - Improving Post Game Debriefing. Improve the debrefing and visualization, eliminate ambiguities and make the steup process simpler, more understandable for new users. --&gt;
+&lt;/p&gt;
 &lt;/div&gt;
+
+&lt;h3 class=&quot;article-sub&quot;&gt;Outcome&lt;/h3&gt;
+
+&lt;div class=&quot;article-text&quot;&gt;
+&lt;p&gt;
+An upgrade from the previous application.
+Briging together comments and reviews users.
+Application, developed using React.JS
+HTML components
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;figure-caption&quot;&gt;Implemented application&lt;/div&gt;
+&lt;div style=&quot;padding:75% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/583229819?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;ERPSIM Console App Recording.mp4&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
 
 &lt;h2 class=&quot;process-title&quot;&gt;Process&lt;/h2&gt;
 
 &lt;div class=&quot;article-text&quot;&gt;
-&lt;h3 class=&quot;stage-title&quot;&gt;1. Context&lt;/h3&gt;
-ERPsim is a business simulation game for SAP ERP and SAP S/4HANA in which participants use a real ERP system to manage their virtual company in a competitive market. Win or lose, participants will improve their knowledge of business processes and their understanding of how ERP systems are effective at managing those processes.
+&lt;h3 class=&quot;stage-title&quot;&gt;1. Context of use&lt;/h3&gt;
+Three stages : Briefing, Game and Debriefing.
+The console is used throughtout the experience.
+Is the main software component of their product.
+&lt;/div&gt;
+
+&lt;div class=&quot;figure-caption&quot;&gt;Original user interface of the administration console&lt;/div&gt;
+&lt;div style=&quot;padding:54.88% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/583253082?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;Legacy UI&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;Applications involved in an ERPsim simulation.&lt;/div&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/erpsimarch.jpg&quot; style=&quot;width: 100%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+      &lt;div class=&quot;figure-caption&quot;&gt;Stages of use of the console&lt;/div&gt;
+  &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1624560879/ERPsim/stages1_z0ecnp.jpg&quot; data-lightbox=&quot;image-3&quot;&gt;&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1624560879/ERPsim/stages1_z0ecnp.jpg&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;figure&quot; style=&quot;margin-bottom: 0px;&quot;&gt;
-&lt;div class=&quot;figure-caption&quot;&gt;Context of use &lt;/div&gt;
+&lt;div class=&quot;figure-caption&quot;&gt;Components of the interface and their context of use&lt;/div&gt;
 &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1625808428/ERPsim/PML-12_rj8y2t.png&quot; data-lightbox=&quot;image-1&quot;&gt;
 &lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1625808428/ERPsim/PML-12_rj8y2t.png&quot; style=&quot;width: 100%; margin-bottom: 0px;&quot; /&gt;&lt;/a&gt;
 &lt;/div&gt;
@@ -56,36 +87,17 @@ ERPsim is a business simulation game for SAP ERP and SAP S/4HANA in which partic
 &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1625808420/ERPsim/PML-13_alyxcu.png&quot; data-lightbox=&quot;image-2&quot;&gt;
 &lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1625808420/ERPsim/PML-13_alyxcu.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
 &lt;/div&gt;
-
-&lt;div class=&quot;figure-caption&quot;&gt;Original UI&lt;/div&gt;
-&lt;div style=&quot;padding:54.88% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/583253082?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;Legacy UI&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-&lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;figure&quot;&gt;
-      &lt;div class=&quot;figure-caption&quot;&gt;Sequence&lt;/div&gt;
-  &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1624560879/ERPsim/stages1_z0ecnp.jpg&quot; data-lightbox=&quot;image-3&quot;&gt;&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1624560879/ERPsim/stages1_z0ecnp.jpg&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;figure&quot;&gt;
-    &lt;div class=&quot;figure-caption&quot;&gt;Simulation application ecosystem&lt;/div&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/erpsimarch.jpg&quot; style=&quot;width: 100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;figure&quot;&gt;
-&lt;div class=&quot;figure-caption&quot;&gt;Future scenarios of use&lt;/div&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/scenarios.jpg&quot; style=&quot;width: 100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
+&lt;!-- &lt;div class=&quot;figure&quot;&gt;
+&lt;div class='figure-caption'&gt;Future scenarios of use&lt;/div&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/scenarios.jpg&quot; style=&quot;width: 100%&quot;&gt;
+&lt;/div&gt; --&gt;
 &lt;div class=&quot;article-text&quot;&gt;
-&lt;h3 class=&quot;stage-title&quot;&gt;2. Scope and Workplan&lt;/h3&gt;
+&lt;h3 class=&quot;stage-title&quot;&gt;2. Scope&lt;/h3&gt;
 
 &lt;/div&gt;
 &lt;div class=&quot;figure&quot;&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
-      Workplan diagram.
+      Workplan.
     &lt;/div&gt;
 &lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/workplan.png&quot; style=&quot;width: 100%&quot; /&gt;
 &lt;/div&gt;
@@ -94,18 +106,20 @@ ERPsim is a business simulation game for SAP ERP and SAP S/4HANA in which partic
 
 &lt;div class=&quot;article-text&quot;&gt;
 &lt;h3 class=&quot;stage-title&quot;&gt;3. First Workshop: Identify Issues&lt;/h3&gt;
+&lt;p&gt;The objective of the first workshop was to consolidate all information and
+  &lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;figure&quot;&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/reqs_erpsim-1.jpg&quot; style=&quot;width: 100%&quot; /&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
         Workshop handouts
     &lt;/div&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/reqs_erpsim-1.jpg&quot; style=&quot;width: 100%&quot; /&gt;
 &lt;/div&gt;
 &lt;div class=&quot;figure&quot;&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/reqs_erpsim-2.jpg&quot; style=&quot;width: 100%&quot; /&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
         Notes and comments by component.
     &lt;/div&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/reqs_erpsim-2.jpg&quot; style=&quot;width: 100%&quot; /&gt;
 &lt;/div&gt;
 &lt;hr /&gt;
 
@@ -144,13 +158,14 @@ ERPsim is a business simulation game for SAP ERP and SAP S/4HANA in which partic
 &lt;/div&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
-    &lt;div class=&quot;figure-caption&quot;&gt;First digital sketches.&lt;/div&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;Layout sketches, defining the structure and distribution of information&lt;/div&gt;
 &lt;img src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1625527949/ERPsim/components-11_bozfpg.png&quot; class=&quot;stage-photo&quot; id=&quot;animated-gif&quot; /&gt;
   &lt;/div&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
+  &lt;a href=&quot;/assets/img/erpsim/Slide24.gif&quot; data-lightbox=&quot;image-1&quot;&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;First interactive prototype showing the flow of interactions.&lt;/div&gt;
-&lt;img src=&quot;/assets/img/erpsim/Slide24.gif&quot; class=&quot;stage-photo&quot; id=&quot;animated-gif&quot; /&gt;
+&lt;img src=&quot;/assets/img/erpsim/Slide24.gif&quot; class=&quot;stage-photo&quot; id=&quot;animated-gif&quot; /&gt;&lt;/a&gt;
   &lt;/div&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
@@ -167,65 +182,40 @@ ERPsim is a business simulation game for SAP ERP and SAP S/4HANA in which partic
 &lt;h3 class=&quot;stage-title&quot;&gt;7. Development&lt;/h3&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
-    &lt;div class=&quot;figure-caption&quot;&gt;First state diagram for the front-end.&lt;/div&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;State diagram for the front-end. This diagram was used to describe the user flow within different views inside the console.&lt;/div&gt;
 &lt;img src=&quot;/assets/img/erpsim/erpsim_state_diagram.jpg&quot; class=&quot;stage-photo&quot; /&gt;
   &lt;/div&gt;
 &lt;hr /&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
-    &lt;div class=&quot;figure-caption&quot;&gt;First state diagram for the front-end.&lt;/div&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;New data visulizations implemented in the console&lt;/div&gt;
 &lt;img src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626312882/ERPsim/ERPsimViz-02_qsrvfs.png&quot; class=&quot;stage-photo&quot; /&gt;
   &lt;/div&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
-    &lt;div class=&quot;figure-caption&quot;&gt;First state diagram for the front-end.&lt;/div&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;Simulation monitor displays&lt;/div&gt;
 &lt;img src=&quot;/assets/img/erpsim/monitoring_screenshots.gif&quot; class=&quot;stage-photo&quot; id=&quot;animated-gif&quot; /&gt;
   &lt;/div&gt;
-&lt;hr /&gt;
 
-&lt;iframe src=&quot;https://drive.google.com/file/d/1eiqLl0Hn0jTagWXFEmX9cK7_aUiFYOLE/preview&quot; width=&quot;100%&quot; height=&quot;480&quot; allow=&quot;autoplay&quot;&gt;&lt;/iframe&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Crowd-Sourced Price Monitoring Web-App</title><link href="http://localhost:4000/blog/2021/07/09/monitor/" rel="alternate" type="text/html" title="Crowd-Sourced Price Monitoring Web-App" /><published>2021-07-09T00:00:00-06:00</published><updated>2021-07-09T00:00:00-06:00</updated><id>http://localhost:4000/blog/2021/07/09/monitor</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/09/monitor/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;figure&quot;&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;Final prototype before development.&lt;/div&gt;
+&lt;iframe src=&quot;https://drive.google.com/file/d/1eiqLl0Hn0jTagWXFEmX9cK7_aUiFYOLE/preview&quot; width=&quot;100%&quot; height=&quot;480&quot; allow=&quot;autoplay&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Context ERPsimLab is an academic laboratory that develops curricula on management information systems and data analysis, by repurposing business software into learning platforms. Their main product is the ERPsim, a business simulation game for SAP ERP and SAP S/4HANA in which participants use a real ERP system to manage their virtual company in a simulated market. It is currently being used in 170 universities around the world at courses in Bacherlors, Masters and MBA levels.</summary></entry><entry><title type="html">Crowd-Sourced Price Monitoring Web-App</title><link href="http://localhost:4000/blog/2021/07/09/monitor/" rel="alternate" type="text/html" title="Crowd-Sourced Price Monitoring Web-App" /><published>2021-07-09T00:00:00-06:00</published><updated>2021-07-09T00:00:00-06:00</updated><id>http://localhost:4000/blog/2021/07/09/monitor</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/09/monitor/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;div style=&quot;padding:62.5% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/583836820?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;Avg Monitor Recording wide&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
 &lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;figure&quot; style=&quot;margin-bottom: 0px;&quot;&gt;
-&lt;div class=&quot;figure-caption&quot;&gt;Git Repository&lt;/div&gt;
-&lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628276952/AVGMonitor/User_Stories2-04-05_psukro.png&quot; data-lightbox=&quot;image-1&quot;&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628276952/AVGMonitor/User_Stories2-04-05_psukro.png&quot; style=&quot;width: 100%; margin-bottom: 0px;&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;
 
-&lt;div class=&quot;figure&quot; style=&quot;margin-bottom: 0px;&quot;&gt;
-&lt;div class=&quot;figure-caption&quot;&gt;Git Repository&lt;/div&gt;
-&lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628277217/AVGMonitor/Sketch_class_diagram-023-03_qhvvhx.png&quot; data-lightbox=&quot;image-1&quot;&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628277217/AVGMonitor/Sketch_class_diagram-023-03_qhvvhx.png&quot; style=&quot;width: 100%; margin-bottom: 0px;&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;figure&quot; style=&quot;margin-bottom: 0px;&quot;&gt;
-&lt;div class=&quot;figure-caption&quot;&gt;Git Repository&lt;/div&gt;
-&lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628288523/AVGMonitor/12-02_lehr0a.png&quot; data-lightbox=&quot;image-1&quot;&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628288523/AVGMonitor/12-02_lehr0a.png&quot; style=&quot;width: 100%; margin-bottom: 0px;&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;figure&quot; style=&quot;margin-bottom: 0px;&quot;&gt;
-&lt;div class=&quot;figure-caption&quot;&gt;Git Repository&lt;/div&gt;
-&lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628288522/AVGMonitor/12-01_ue3ian.png&quot; data-lightbox=&quot;image-1&quot;&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628288522/AVGMonitor/12-01_ue3ian.png&quot; style=&quot;width: 100%; margin-bottom: 0px;&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;figure&quot; style=&quot;margin-bottom: 0px;&quot;&gt;
-&lt;div class=&quot;figure-caption&quot;&gt;Git Repository&lt;/div&gt;
-&lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628288528/AVGMonitor/Class_Diagram_AVG_Monitor-01_xydvbv.png&quot; data-lightbox=&quot;image-1&quot;&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628288528/AVGMonitor/Class_Diagram_AVG_Monitor-01_xydvbv.png&quot; style=&quot;width: 100%; margin-bottom: 0px;&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;figure&quot; style=&quot;margin-bottom: 0px;&quot;&gt;
-&lt;div class=&quot;figure-caption&quot;&gt;Git Repository&lt;/div&gt;
-&lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628127886/AVGMonitor/github.com_migueldaguirre_AVMonitor_tree_69e69d88beca79c93e2327edc757b04710dae440_1_vrswhu.png&quot; data-lightbox=&quot;image-1&quot;&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628127886/AVGMonitor/github.com_migueldaguirre_AVMonitor_tree_69e69d88beca79c93e2327edc757b04710dae440_1_vrswhu.png&quot; style=&quot;width: 100%; margin-bottom: 0px;&quot; /&gt;&lt;/a&gt;
-&lt;/div&gt;
+&lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
+&lt;div class=&quot;article-text&quot;&gt;
+&lt;p&gt;Libertad vigilada (reportar los precios)
+Variación de precios:
+Importados (mayormente)
+&lt;/p&gt;&lt;/div&gt;
 
 &lt;h3 class=&quot;article-sub&quot;&gt;Challenge&lt;/h3&gt;
+&lt;div class=&quot;article-text&quot;&gt;
 &lt;p&gt;Libertad vigilada (reportar los precios)
 Variación de precios:
 Importados (mayormente)
@@ -239,22 +229,72 @@ Costos de logística
 Condiciones de negociación (Crédito o contado)
 Tipos de mercado
 Tamaño de los negocios (volumen)
-Es conveniente tener claridad de los cambios que se van presentando, en tiempo real.&lt;/p&gt;
+Es conveniente tener claridad de los cambios que se van presentando, en tiempo real.
+&lt;/p&gt;&lt;/div&gt;
 
 &lt;h3 class=&quot;article-sub&quot;&gt;Outcome&lt;/h3&gt;
+&lt;div class=&quot;article-text&quot;&gt;
 &lt;p&gt;Herramienta para hacer el seguimiento de los precios de marcado (competidores)
-Tool to follow/monitor prices on the market (competitors)&lt;/p&gt;
-
-&lt;p&gt;They received offers from marketing firms:&lt;/p&gt;
-
-&lt;p&gt;Ofertas de un par de empresas de marketing:
+Tool to follow/monitor prices on the market (competitors)
+They received offers from marketing firms:
+Ofertas de un par de empresas de marketing:
 Servicio de monitoreo de precios
 Una vez por mes el reporte.
 Comparar un producto de la empresa frente a otros dos.
 Cobraban por producto. 70 productos.
 Ahora cerca de 90.
 No garantizaban que el precio fuera por presentación, almacén, usuario final.
-No ofrecía confiabilidad sobre la fuente de información. A través de terceros.&lt;/p&gt;
+No ofrecía confiabilidad sobre la fuente de información. A través de terceros.
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;div class=&quot;figure-caption&quot;&gt;Initial user stories&lt;/div&gt;
+&lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628276952/AVGMonitor/User_Stories2-04-05_psukro.png&quot; data-lightbox=&quot;image-1&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628276952/AVGMonitor/User_Stories2-04-05_psukro.png&quot; style=&quot;width: 100%; margin-bottom: 0px;&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;div class=&quot;figure-caption&quot;&gt;First sketch of the data models for the application, made with the client during the briefing meeting.&lt;/div&gt;
+&lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628277217/AVGMonitor/Sketch_class_diagram-023-03_qhvvhx.png&quot; data-lightbox=&quot;image-1&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628277217/AVGMonitor/Sketch_class_diagram-023-03_qhvvhx.png&quot; style=&quot;width: 100%; margin-bottom: 0px;&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;div class=&quot;figure-caption&quot;&gt;Sequence diagram visualizing the creation of a new price record, made after development.&lt;/div&gt;
+&lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628288523/AVGMonitor/12-02_lehr0a.png&quot; data-lightbox=&quot;image-1&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628288523/AVGMonitor/12-02_lehr0a.png&quot; style=&quot;width: 100%; margin-bottom: 0px;&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;div class=&quot;figure-caption&quot;&gt;Sequence diagram depicting the tasks executed when the application is deployed.&lt;/div&gt;
+&lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628288522/AVGMonitor/12-01_ue3ian.png&quot; data-lightbox=&quot;image-1&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628288522/AVGMonitor/12-01_ue3ian.png&quot; style=&quot;width: 100%; margin-bottom: 0px;&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;figure&quot; style=&quot;margin-bottom: 0px;&quot;&gt;
+&lt;div class=&quot;figure-caption&quot;&gt;Class diagram of the completed application.&lt;a href=&quot;https://www.google.com&quot;&gt;(See full-size image)&lt;/a&gt;&lt;/div&gt;
+&lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628288528/AVGMonitor/Class_Diagram_AVG_Monitor-01_xydvbv.png&quot; data-lightbox=&quot;image-1&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628288528/AVGMonitor/Class_Diagram_AVG_Monitor-01_xydvbv.png&quot; style=&quot;width: 100%; margin-bottom: 0px;&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;figure&quot; style=&quot;margin-bottom: 0px;&quot;&gt;
+&lt;div class=&quot;figure-caption&quot;&gt;Git Repository&lt;/div&gt;
+&lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628127886/AVGMonitor/github.com_migueldaguirre_AVMonitor_tree_69e69d88beca79c93e2327edc757b04710dae440_1_vrswhu.png&quot; data-lightbox=&quot;image-1&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628127886/AVGMonitor/github.com_migueldaguirre_AVMonitor_tree_69e69d88beca79c93e2327edc757b04710dae440_1_vrswhu.png&quot; style=&quot;width: 100%; margin-bottom: 0px;&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h3 class=&quot;article-sub&quot;&gt;Outcome&lt;/h3&gt;
 
 &lt;h2 class=&quot;article-sub&quot; id=&quot;process-title&quot;&gt;Process&lt;/h2&gt;
 
@@ -710,67 +750,128 @@ Soluton Architecture
 Renaming - Grouping&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
+&lt;div class=&quot;article-text&quot;&gt;
+&lt;p&gt;
+  &lt;a href=&quot;https://www.coem.co&quot;&gt;Controles Empresariales&lt;/a&gt; // Software, hardware, and consulting services integrator, serving 30% of Microsoft’s market share in Colombia.// Software de Gestión, Consultoría en Procesos, Administración de Recursos, Aplicaciones Web, Manejo de Seguridad y Soluciones de Infraestructura.
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3 class=&quot;article-sub&quot;&gt;Challenge&lt;/h3&gt;
+&lt;div class=&quot;article-text&quot;&gt;
+&lt;p&gt;
+  &lt;a href=&quot;https://www.controlesempresariales.com/&quot;&gt;Controles Empresariales&lt;/a&gt; // Software, hardware, and consulting services integrator, serving 30% of Microsoft’s market share in Colombia.// Software de Gestión, Consultoría en Procesos, Administración de Recursos, Aplicaciones Web, Manejo de Seguridad y Soluciones de Infraestructura.
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3 class=&quot;article-sub&quot;&gt;Outcome&lt;/h3&gt;
+&lt;div class=&quot;article-text&quot;&gt;
+&lt;p&gt;
+ Content maketing / unified languge and structure / website structure / Categorías para mercadeo / Taxonomy for classifying new products / Improved visibility
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;Website with content&lt;/div&gt;
+&lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626450626/Coem/Artboard_28_0.75x-100_xsmvlg.jpg&quot; data-lightbox=&quot;image-1&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626450626/Coem/Artboard_28_0.75x-100_xsmvlg.jpg&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
 &lt;h2 class=&quot;process-title&quot;&gt;Process&lt;/h2&gt;
+
+&lt;div class=&quot;article-text&quot;&gt;
+&lt;h3 class=&quot;stage-title&quot;&gt;1. Scope&lt;/h3&gt;
+&lt;p&gt;
+  Redesign the website.
+  Marketing.
+  Implement a content marketing.
+  Organize the portfolio was foundamental for further progress in marketing initiatives.
+
+&lt;/p&gt;
+&lt;/div&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
         Workplan
     &lt;/div&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628262265/Coem/Plan_de_Trabajo_-_Scope-01_seokc7.png&quot; style=&quot;width: 100%&quot; /&gt;
+    &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628262265/Coem/Plan_de_Trabajo_-_Scope-01_seokc7.png&quot; data-lightbox=&quot;image-1&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628262265/Coem/Plan_de_Trabajo_-_Scope-01_seokc7.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;article-text&quot;&gt;
+&lt;h3 class=&quot;stage-title&quot;&gt;2. Interviews&lt;/h3&gt;
+&lt;p&gt;
+  Building mind map of all the content produced by the company.
+  Gathering information.
+  Combining products, with concepts.
+&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
         Solutions
     &lt;/div&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626446377/Coem/Mapa_Soluciones_COEM-01_psdik3.png&quot; style=&quot;width: 100%&quot; /&gt;
+    &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626446377/Coem/Mapa_Soluciones_COEM-01_psdik3.png&quot; data-lightbox=&quot;image-1&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626446377/Coem/Mapa_Soluciones_COEM-01_psdik3.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
         Products and partners
     &lt;/div&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_900/v1626446219/Coem/Fabricantes_Coem_gfw6np.jpg&quot; /&gt;
+    &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_900/v1626446219/Coem/Fabricantes_Coem_gfw6np.jpg&quot; data-lightbox=&quot;image-1&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_900/v1626446219/Coem/Fabricantes_Coem_gfw6np.jpg&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;
+        Consolidated categories identified in the card sorting interviews
+    &lt;/div&gt;
+    &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626446202/Coem/Iconos_soluciones_componentes-01_xkpsyu.png&quot; data-lightbox=&quot;image-1&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626446202/Coem/Iconos_soluciones_componentes-01_xkpsyu.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
         Website structure
     &lt;/div&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_500/v1626445014/Coem/Picture1_z5h3lk.png&quot; /&gt;
+    &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628456510/Soluciones_Print-03_hhko2q.png&quot; data-lightbox=&quot;image-1&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628456510/Soluciones_Print-03_hhko2q.png&quot; /&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
         Website structure 2
     &lt;/div&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626446207/Coem/Mapa_WebCoem_componentes-01_lerlax.png&quot; style=&quot;width: 100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;figure&quot;&gt;
-    &lt;div class=&quot;figure-caption&quot;&gt;
-        Categories, results from card sorting
-    &lt;/div&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626446202/Coem/Iconos_soluciones_componentes-01_xkpsyu.png&quot; style=&quot;width: 100%&quot; /&gt;
+    &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626446207/Coem/Mapa_WebCoem_componentes-01_lerlax.png&quot; data-lightbox=&quot;image-1&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626446207/Coem/Mapa_WebCoem_componentes-01_lerlax.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
         Basic style guides
     &lt;/div&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626446224/Coem/styles-03_kveudf.png&quot; style=&quot;width: 100%&quot; /&gt;
+    &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626446224/Coem/styles-03_kveudf.png&quot; data-lightbox=&quot;image-1&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626446224/Coem/styles-03_kveudf.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+    &lt;div class=&quot;figure-caption&quot;&gt;
+        Print 1
+    &lt;/div&gt;
+        &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628456510/Soluciones_Print-02_qiuq60.png&quot; data-lightbox=&quot;image-1&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628456510/Soluciones_Print-02_qiuq60.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;figure&quot;&gt;
+    &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1500/v1628456510/Soluciones_Print-01_xlxj3v.png&quot; data-lightbox=&quot;image-1&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1500/v1628456510/Soluciones_Print-01_xlxj3v.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
         Website structure 2
     &lt;/div&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626445396/Coem/wireframes-04_y5muwp.png&quot; style=&quot;width: 100%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;figure&quot;&gt;
-    &lt;div class=&quot;figure-caption&quot;&gt;
-        Styled content
-    &lt;/div&gt;
-&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626450626/Coem/Artboard_28_0.75x-100_xsmvlg.jpg&quot; style=&quot;width: 100%&quot; /&gt;
+    &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626445396/Coem/wireframes-04_y5muwp.png&quot; data-lightbox=&quot;image-1&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626445396/Coem/wireframes-04_y5muwp.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
 &lt;/div&gt;</content><author><name></name></author><summary type="html">Web-site re-structuring Sorting workshop with individual experts General Sales Manager Technical Architect Manager General Service Commercial Manager Consulting and Enterprise Architecture Director Multiple account managers from SMB, CTM &amp;amp; EPG Segments Website architecture Soluton Architecture Renaming - Grouping</summary></entry></feed>

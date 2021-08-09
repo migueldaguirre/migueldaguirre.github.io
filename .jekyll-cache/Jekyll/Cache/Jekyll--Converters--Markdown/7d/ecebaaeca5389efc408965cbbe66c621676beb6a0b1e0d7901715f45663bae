@@ -1,0 +1,204 @@
+I"�$<h3 class="article-sub">Context</h3>
+<div class="article-text">
+<p><a href="https://erpsim.hec.ca/"><strong>ERPsimLab</strong></a> is an academic laboratory that develops curricula on management information systems and data analysis, by repurposing business software into learning platforms.
+</p>
+<p>
+Their main product is the <strong>ERPsim</strong>, a business simulation game for SAP ERP and SAP S/4HANA in which participants use a real ERP system to manage their virtual company in a simulated market. It is currently being used in 170 universities around the world at courses in Bacherlors, Masters and MBA levels.
+</p>
+<p>
+</p>
+</div>
+
+<h3 class="article-sub">Challenge</h3>
+<div class="article-text">
+
+<p>
+Improve the experience of using the ERPsim Simulation Administration Console, for instructors and students, by:
+</p>
+
+<p>
+<ol style="color: rgba(0,0,0,0.8);">
+<li>Simplifying first time usage (ease of learning)</li>
+<li>Making the game debriefing data more revelant and focused</li>
+<li>Updating visual components to current standards of the web</li>
+<li>Preparing the interface for incremental development</li>
+<li>Adapting the content to multiple screen sizes (tablet, mobile, desktop)</li>
+</ol>
+</p>
+
+<p>
+Whith the hypothesis that perceived quality, ease of learning and student engagement can all be enhanced by
+intervening the graphical user interface: layout and control components, data tables and graphics, and the
+sequence in which information is displayed or accessed.
+
+<!-- It is expected that this will have a positive impact in reducing the friction of “adoption” by instructors and improving the debriefing phase of simulations thus positively impacting student learning.
+
+The simulator administration console is a web application used by teachers and trainers for setting up and controlling the simulations. Incremental improvements were made since its development, but some underlying structures  were no longer
+Some of the lables adn tools were deemed unintuitive, and the frontend was not optimized for multiple screens. Responsive Uodate + Better looking UI. Appeal + New features - Improving Post Game Debriefing. Improve the debrefing and visualization, eliminate ambiguities and make the steup process simpler, more understandable for new users. -->
+</p>
+</div>
+
+<h3 class="article-sub">Outcome</h3>
+
+<div class="article-text">
+<p>
+An upgrade from the previous application.
+Briging together comments and reviews users.
+Application, developed using React.JS
+HTML components
+</p>
+</div>
+<div class="figure-caption">Implemented application</div>
+<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/583229819?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="ERPSIM Console App Recording.mp4"></iframe></div>
+<script src="https://player.vimeo.com/api/player.js"></script>
+
+<h2 class="process-title">Process</h2>
+
+<div class="article-text">
+<h3 class="stage-title">1. Context of use</h3>
+Three stages : Briefing, Game and Debriefing.
+The console is used throughtout the experience.
+Is the main software component of their product.
+</div>
+
+<div class="figure-caption">Original user interface of the administration console</div>
+<div style="padding:54.88% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/583253082?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Legacy UI"></iframe></div>
+<script src="https://player.vimeo.com/api/player.js"></script>
+
+<p><br /></p>
+
+<div class="figure">
+    <div class="figure-caption">Applications involved in an ERPsim simulation.</div>
+<img class="stage-photo" src="/assets/img/erpsim/erpsimarch.jpg" style="width: 100%" />
+</div>
+
+<div class="figure">
+      <div class="figure-caption">Stages of use of the console</div>
+  <a href="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1624560879/ERPsim/stages1_z0ecnp.jpg" data-lightbox="image-3"><img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1624560879/ERPsim/stages1_z0ecnp.jpg" style="width: 100%" /></a>
+</div>
+
+<div class="figure" style="margin-bottom: 0px;">
+<div class="figure-caption">Components of the interface and their context of use</div>
+<a href="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1625808428/ERPsim/PML-12_rj8y2t.png" data-lightbox="image-1">
+<img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1625808428/ERPsim/PML-12_rj8y2t.png" style="width: 100%; margin-bottom: 0px;" /></a>
+</div>
+
+<div class="figure">
+<a href="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1625808420/ERPsim/PML-13_alyxcu.png" data-lightbox="image-2">
+<img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1625808420/ERPsim/PML-13_alyxcu.png" style="width: 100%" /></a>
+</div>
+<!-- <div class="figure">
+<div class='figure-caption'>Future scenarios of use</div>
+<img class="stage-photo" src="/assets/img/erpsim/scenarios.jpg" style="width: 100%">
+</div> -->
+<div class="article-text">
+<h3 class="stage-title">2. Scope</h3>
+
+</div>
+<div class="figure">
+    <div class="figure-caption">
+      Workplan.
+    </div>
+<img class="stage-photo" src="/assets/img/erpsim/workplan.png" style="width: 100%" />
+</div>
+
+<hr />
+
+<div class="article-text">
+<h3 class="stage-title">3. First Workshop: Identify Issues</h3>
+<p>The objective of the first workshop was to consolidate all information and
+  </p>
+</div>
+<div class="figure">
+    <div class="figure-caption">
+        Workshop handouts
+    </div>
+<img class="stage-photo" src="/assets/img/erpsim/reqs_erpsim-1.jpg" style="width: 100%" />
+</div>
+<div class="figure">
+    <div class="figure-caption">
+        Notes and comments by component.
+    </div>
+<img class="stage-photo" src="/assets/img/erpsim/reqs_erpsim-2.jpg" style="width: 100%" />
+</div>
+<hr />
+
+<h3 class="stage-title">4. Second Workshop : Redesign </h3>
+
+<div class="figure">
+    <div class="figure-caption">
+    Users working at redesigning specific components of the interface.
+    </div>
+<img class="stage-photo" src="/assets/img/erpsim/workshop_a.jpg" />
+  </div>
+
+<div class="figure">
+    <div class="figure-caption">
+    Participant presenting his ideas during the workshop.
+    </div>
+<img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/v1624560881/ERPsim/workshop_b_dxtes7.jpg" />
+  </div>
+
+<div class="figure">
+    <div class="figure-caption">
+    Sketches created by participants during the workshop.
+    </div>
+<img class="stage-photo" src="/assets/img/erpsim/workshop_c.jpg" />
+</div>
+
+<hr />
+
+<h3 class="stage-title">6. Design iterations </h3>
+
+<div class="figure">
+    <div class="figure-caption">
+        Personal sketches done to synthesize the ideas gathered at the workshop.
+    </div>
+<img class="stage-photo" src="/assets/img/erpsim/sketches.jpg" style="width: 100%" />
+</div>
+
+<div class="figure">
+    <div class="figure-caption">Layout sketches, defining the structure and distribution of information</div>
+<img src="https://res.cloudinary.com/davidaguirre-info/image/upload/v1625527949/ERPsim/components-11_bozfpg.png" class="stage-photo" id="animated-gif" />
+  </div>
+
+<div class="figure">
+  <a href="/assets/img/erpsim/Slide24.gif" data-lightbox="image-1">
+    <div class="figure-caption">First interactive prototype showing the flow of interactions.</div>
+<img src="/assets/img/erpsim/Slide24.gif" class="stage-photo" id="animated-gif" /></a>
+  </div>
+
+<div class="figure">
+    <div class="figure-caption">Notes on component resizing.</div>
+<img src="https://res.cloudinary.com/davidaguirre-info/image/upload/v1625526988/ERPsim/IMG_2956_wnnbuj.jpg" class="stage-photo" id="animated-gif" />
+  </div>
+
+<div class="figure">
+    <div class="figure-caption">Variations of a UI component across general front-end states.</div>
+<img src="/assets/img/erpsim/erpsim_ctl_states.jpg" class="stage-photo" />
+  </div>
+<hr />
+
+<h3 class="stage-title">7. Development</h3>
+
+<div class="figure">
+    <div class="figure-caption">State diagram for the front-end. This diagram was used to describe the user flow within different views inside the console.</div>
+<img src="/assets/img/erpsim/erpsim_state_diagram.jpg" class="stage-photo" />
+  </div>
+<hr />
+
+<div class="figure">
+    <div class="figure-caption">New data visulizations implemented in the console</div>
+<img src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626312882/ERPsim/ERPsimViz-02_qsrvfs.png" class="stage-photo" />
+  </div>
+
+<div class="figure">
+    <div class="figure-caption">Simulation monitor displays</div>
+<img src="/assets/img/erpsim/monitoring_screenshots.gif" class="stage-photo" id="animated-gif" />
+  </div>
+
+<div class="figure">
+    <div class="figure-caption">Final prototype before development.</div>
+<iframe src="https://drive.google.com/file/d/1eiqLl0Hn0jTagWXFEmX9cK7_aUiFYOLE/preview" width="100%" height="480" allow="autoplay"></iframe>
+</div>
+:ET
