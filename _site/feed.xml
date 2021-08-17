@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-08-08T19:18:07-06:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">ERPsim Admin Console Front-End</title><link href="http://localhost:4000/blog/2021/07/10/erpsim/" rel="alternate" type="text/html" title="ERPsim Admin Console Front-End" /><published>2021-07-10T00:00:00-06:00</published><updated>2021-07-10T00:00:00-06:00</updated><id>http://localhost:4000/blog/2021/07/10/erpsim</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/10/erpsim/">&lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-08-17T16:45:42-04:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">ERPsim Admin Console Front-End</title><link href="http://localhost:4000/blog/2021/07/10/erpsim/" rel="alternate" type="text/html" title="ERPsim Admin Console Front-End" /><published>2021-07-10T00:00:00-04:00</published><updated>2021-07-10T00:00:00-04:00</updated><id>http://localhost:4000/blog/2021/07/10/erpsim</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/10/erpsim/">&lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
 &lt;div class=&quot;article-text&quot;&gt;
 &lt;p&gt;&lt;a href=&quot;https://erpsim.hec.ca/&quot;&gt;&lt;strong&gt;ERPsimLab&lt;/strong&gt;&lt;/a&gt; is an academic laboratory that develops curricula on management information systems and data analysis, by repurposing business software into learning platforms.
 &lt;/p&gt;
@@ -15,7 +15,6 @@ Their main product is the &lt;strong&gt;ERPsim&lt;/strong&gt;, a business simula
 &lt;p&gt;
 Improve the experience of using the ERPsim Simulation Administration Console, for instructors and students, by:
 &lt;/p&gt;
-
 &lt;p&gt;
 &lt;ol style=&quot;color: rgba(0,0,0,0.8);&quot;&gt;
 &lt;li&gt;Simplifying first time usage (ease of learning)&lt;/li&gt;
@@ -87,10 +86,12 @@ Is the main software component of their product.
 &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1625808420/ERPsim/PML-13_alyxcu.png&quot; data-lightbox=&quot;image-2&quot;&gt;
 &lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1625808420/ERPsim/PML-13_alyxcu.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
 &lt;/div&gt;
+
 &lt;!-- &lt;div class=&quot;figure&quot;&gt;
 &lt;div class='figure-caption'&gt;Future scenarios of use&lt;/div&gt;
 &lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/scenarios.jpg&quot; style=&quot;width: 100%&quot;&gt;
 &lt;/div&gt; --&gt;
+
 &lt;div class=&quot;article-text&quot;&gt;
 &lt;h3 class=&quot;stage-title&quot;&gt;2. Scope&lt;/h3&gt;
 
@@ -106,7 +107,7 @@ Is the main software component of their product.
 
 &lt;div class=&quot;article-text&quot;&gt;
 &lt;h3 class=&quot;stage-title&quot;&gt;3. First Workshop: Identify Issues&lt;/h3&gt;
-&lt;p&gt;The objective of the first workshop was to consolidate all information and
+&lt;p&gt;The objective of the first workshop was to consolidate comments, issue reports,
   &lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;figure&quot;&gt;
@@ -200,7 +201,7 @@ Is the main software component of their product.
 &lt;div class=&quot;figure&quot;&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;Final prototype before development.&lt;/div&gt;
 &lt;iframe src=&quot;https://drive.google.com/file/d/1eiqLl0Hn0jTagWXFEmX9cK7_aUiFYOLE/preview&quot; width=&quot;100%&quot; height=&quot;480&quot; allow=&quot;autoplay&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Context ERPsimLab is an academic laboratory that develops curricula on management information systems and data analysis, by repurposing business software into learning platforms. Their main product is the ERPsim, a business simulation game for SAP ERP and SAP S/4HANA in which participants use a real ERP system to manage their virtual company in a simulated market. It is currently being used in 170 universities around the world at courses in Bacherlors, Masters and MBA levels.</summary></entry><entry><title type="html">Crowd-Sourced Price Monitoring Web-App</title><link href="http://localhost:4000/blog/2021/07/09/monitor/" rel="alternate" type="text/html" title="Crowd-Sourced Price Monitoring Web-App" /><published>2021-07-09T00:00:00-06:00</published><updated>2021-07-09T00:00:00-06:00</updated><id>http://localhost:4000/blog/2021/07/09/monitor</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/09/monitor/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Context ERPsimLab is an academic laboratory that develops curricula on management information systems and data analysis, by repurposing business software into learning platforms. Their main product is the ERPsim, a business simulation game for SAP ERP and SAP S/4HANA in which participants use a real ERP system to manage their virtual company in a simulated market. It is currently being used in 170 universities around the world at courses in Bacherlors, Masters and MBA levels.</summary></entry><entry><title type="html">Crowd-Sourced Price Monitoring Web-App</title><link href="http://localhost:4000/blog/2021/07/09/monitor/" rel="alternate" type="text/html" title="Crowd-Sourced Price Monitoring Web-App" /><published>2021-07-09T00:00:00-04:00</published><updated>2021-07-09T00:00:00-04:00</updated><id>http://localhost:4000/blog/2021/07/09/monitor</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/09/monitor/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;div style=&quot;padding:62.5% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/583836820?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;Avg Monitor Recording wide&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
 &lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
@@ -212,6 +213,25 @@ Is the main software component of their product.
 &lt;p&gt;Libertad vigilada (reportar los precios)
 Variación de precios:
 Importados (mayormente)
+Avgust Crop Protection operations in Colombia consist on comercialization of &quot;agricultural inputs&quot;.
+**Some of the products are highly comoditized.
+**They experience tight competition.
+**Substitue products
+**Calculate margins of competitors + Compare with import pricing
+**How certain products behave through time. Capturing that information for longterm analysis.
+**Provide information for pricing.
+**Concurrence / Competiton per region
+**Control who has access to what information.
+**
+
+Regions in Colombia are diverse. Climates and crops.
+High variations in pricing for those products from region to region.
+Volatility of th Colombian currency.
+
+Managers need precise information, comming from the regions, which are mostly rural.
+
+Compiling information thrugh a callcenter
+
 &lt;/p&gt;&lt;/div&gt;
 
 &lt;h3 class=&quot;article-sub&quot;&gt;Challenge&lt;/h3&gt;
@@ -234,7 +254,22 @@ Es conveniente tener claridad de los cambios que se van presentando, en tiempo r
 
 &lt;h3 class=&quot;article-sub&quot;&gt;Outcome&lt;/h3&gt;
 &lt;div class=&quot;article-text&quot;&gt;
-&lt;p&gt;Herramienta para hacer el seguimiento de los precios de marcado (competidores)
+&lt;p&gt;
+  An MVP with the following features:
+  Allows to register the price for a product in a specific municipality in Colombia, including other relavant details. ()
+  &amp;lt;o;&amp;gt;
+    &lt;li&gt;Compare homologous products&lt;/li&gt;
+    &lt;li&gt;Search tool inside entries&lt;/li&gt;
+    &lt;li&gt;Currency conversion for each e&lt;/li&gt;
+    &lt;li&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;/li&gt;
+&lt;/p&gt;
+
+It allows to:
+Participate in quotes (licitaciones)
+Roles
+&lt;p&gt;
+ Herramienta para hacer el seguimiento de los precios de marcado (competidores)
 Tool to follow/monitor prices on the market (competitors)
 They received offers from marketing firms:
 Ofertas de un par de empresas de marketing:
@@ -467,7 +502,7 @@ Ver la competitividad por región.
 Caso de uso:
 Lectura rápida de un producto:
 Enviar mensaje a los vendedores sobre un producto específico
-En día, tener 40-50 datos/lecturas/observaciones&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">IoT Water and Freeze Detector Setup</title><link href="http://localhost:4000/blog/2021/07/08/alerte/" rel="alternate" type="text/html" title="IoT Water and Freeze Detector Setup" /><published>2021-07-08T00:00:00-06:00</published><updated>2021-07-08T00:00:00-06:00</updated><id>http://localhost:4000/blog/2021/07/08/alerte</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/08/alerte/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+En día, tener 40-50 datos/lecturas/observaciones&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">IoT Water and Freeze Detector Setup</title><link href="http://localhost:4000/blog/2021/07/08/alerte/" rel="alternate" type="text/html" title="IoT Water and Freeze Detector Setup" /><published>2021-07-08T00:00:00-04:00</published><updated>2021-07-08T00:00:00-04:00</updated><id>http://localhost:4000/blog/2021/07/08/alerte</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/08/alerte/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;div class=&quot;figure&quot;&gt;
   &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626467593/Desjardins/photo_comp-02_ndxtub.png&quot; data-lightbox=&quot;image-3&quot;&gt;&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626467593/Desjardins/photo_comp-02_ndxtub.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
 &lt;/div&gt;
@@ -532,7 +567,7 @@ Describe Desjardins assurance
 &lt;div class=&quot;figure&quot;&gt;
 &lt;div class=&quot;figure-caption&quot;&gt;Executive summary&lt;/div&gt;
 &lt;iframe src=&quot;https://drive.google.com/file/d/1RNcJrwdk_WrX5M28BFgBu5-V0qqIgA9U/preview&quot; style=&quot;width: 100%; height: 470px;&quot; allow=&quot;autoplay&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Dynamic Class Enrollment Platform</title><link href="http://localhost:4000/blog/2021/07/08/unicours/" rel="alternate" type="text/html" title="Dynamic Class Enrollment Platform" /><published>2021-07-08T00:00:00-06:00</published><updated>2021-07-08T00:00:00-06:00</updated><id>http://localhost:4000/blog/2021/07/08/unicours</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/08/unicours/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Dynamic Class Enrollment Platform</title><link href="http://localhost:4000/blog/2021/07/08/unicours/" rel="alternate" type="text/html" title="Dynamic Class Enrollment Platform" /><published>2021-07-08T00:00:00-04:00</published><updated>2021-07-08T00:00:00-04:00</updated><id>http://localhost:4000/blog/2021/07/08/unicours</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/08/unicours/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;div style=&quot;padding:62.5% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/583841479?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;Video Mobile Unicours&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
 &lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
 
@@ -737,7 +772,7 @@ https://et35qh.axshare.com/#g=1&amp;amp;p=principale__post-tests_&amp;amp;c=1
 
 
 
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Context</summary></entry><entry><title type="html">Product &amp;amp; Service Portfolio Structure</title><link href="http://localhost:4000/blog/2021/07/06/coem/" rel="alternate" type="text/html" title="Product &amp;amp; Service Portfolio Structure" /><published>2021-07-06T00:00:00-06:00</published><updated>2021-07-06T00:00:00-06:00</updated><id>http://localhost:4000/blog/2021/07/06/coem</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/06/coem/">&lt;p&gt;Web-site re-structuring
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Context</summary></entry><entry><title type="html">Product &amp;amp; Service Portfolio Structure</title><link href="http://localhost:4000/blog/2021/07/06/coem/" rel="alternate" type="text/html" title="Product &amp;amp; Service Portfolio Structure" /><published>2021-07-06T00:00:00-04:00</published><updated>2021-07-06T00:00:00-04:00</updated><id>http://localhost:4000/blog/2021/07/06/coem</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/06/coem/">&lt;p&gt;Web-site re-structuring
 Sorting workshop with individual experts&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;General Sales Manager&lt;/li&gt;

@@ -1,9 +1,35 @@
-I"�,<p><br /></p>
+I"}2<p><br /></p>
 
 <div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/583836820?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Avg Monitor Recording wide"></iframe></div>
 <script src="https://player.vimeo.com/api/player.js"></script>
 
 <p><br /></p>
+
+<h3 class="article-sub">Context</h3>
+<div class="article-text">
+<p>Libertad vigilada (reportar los precios)
+Variación de precios:
+Importados (mayormente)
+Avgust Crop Protection operations in Colombia consist on comercialization of "agricultural inputs".
+**Some of the products are highly comoditized.
+**They experience tight competition.
+**Substitue products
+**Calculate margins of competitors + Compare with import pricing
+**How certain products behave through time. Capturing that information for longterm analysis.
+**Provide information for pricing.
+**Concurrence / Competiton per region
+**Control who has access to what information.
+**
+
+Regions in Colombia are diverse. Climates and crops.
+High variations in pricing for those products from region to region.
+Volatility of th Colombian currency.
+
+Managers need precise information, comming from the regions, which are mostly rural.
+
+Compiling information thrugh a callcenter
+
+</p></div>
 
 <h3 class="article-sub">Challenge</h3>
 <div class="article-text">
@@ -26,11 +52,23 @@ Es conveniente tener claridad de los cambios que se van presentando, en tiempo r
 <h3 class="article-sub">Outcome</h3>
 <div class="article-text">
 <p>
-Herramienta para hacer el seguimiento de los precios de marcado (competidores)
+  An MVP with the following features:
+  Allows to register the price for a product in a specific municipality in Colombia, including other relavant details. ()
+  &lt;o;&gt;
+    <li>Compare homologous products</li>
+    <li>Search tool inside entries</li>
+    <li>Currency conversion for each e</li>
+    <li></li>
+    <li></li>
+</p>
+
+It allows to:
+Participate in quotes (licitaciones)
+Roles
+<p>
+ Herramienta para hacer el seguimiento de los precios de marcado (competidores)
 Tool to follow/monitor prices on the market (competitors)
-
 They received offers from marketing firms:
-
 Ofertas de un par de empresas de marketing:
 Servicio de monitoreo de precios
 Una vez por mes el reporte.
@@ -39,8 +77,8 @@ Cobraban por producto. 70 productos.
 Ahora cerca de 90.
 No garantizaban que el precio fuera por presentación, almacén, usuario final.
 No ofrecía confiabilidad sobre la fuente de información. A través de terceros.
-<p>
-&lt;/div&gt;
+</p>
+</div>
 
 <div class="figure">
 <div class="figure-caption">Initial user stories</div>
@@ -48,7 +86,7 @@ No ofrecía confiabilidad sobre la fuente de información. A través de terceros
 <img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628276952/AVGMonitor/User_Stories2-04-05_psukro.png" style="width: 100%; margin-bottom: 0px;" /></a>
 </div>
 
-<br />
+<p><br /></p>
 
 <div class="figure">
 <div class="figure-caption">First sketch of the data models for the application, made with the client during the briefing meeting.</div>
@@ -56,7 +94,7 @@ No ofrecía confiabilidad sobre la fuente de información. A través de terceros
 <img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628277217/AVGMonitor/Sketch_class_diagram-023-03_qhvvhx.png" style="width: 100%; margin-bottom: 0px;" /></a>
 </div>
 
-<br />
+<p><br /></p>
 
 <div class="figure">
 <div class="figure-caption">Sequence diagram visualizing the creation of a new price record, made after development.</div>
@@ -64,7 +102,7 @@ No ofrecía confiabilidad sobre la fuente de información. A través de terceros
 <img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628288523/AVGMonitor/12-02_lehr0a.png" style="width: 100%; margin-bottom: 0px;" /></a>
 </div>
 
-<br />
+<p><br /></p>
 
 <div class="figure">
 <div class="figure-caption">Sequence diagram depicting the tasks executed when the application is deployed.</div>
@@ -72,7 +110,7 @@ No ofrecía confiabilidad sobre la fuente de información. A través de terceros
 <img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628288522/AVGMonitor/12-01_ue3ian.png" style="width: 100%; margin-bottom: 0px;" /></a>
 </div>
 
-<br />
+<p><br /></p>
 
 <div class="figure" style="margin-bottom: 0px;">
 <div class="figure-caption">Class diagram of the completed application.<a href="https://www.google.com">(See full-size image)</a></div>
@@ -80,7 +118,7 @@ No ofrecía confiabilidad sobre la fuente de información. A través de terceros
 <img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628288528/AVGMonitor/Class_Diagram_AVG_Monitor-01_xydvbv.png" style="width: 100%; margin-bottom: 0px;" /></a>
 </div>
 
-<br />
+<p><br /></p>
 
 <div class="figure" style="margin-bottom: 0px;">
 <div class="figure-caption">Git Repository</div>
@@ -98,11 +136,10 @@ No ofrecía confiabilidad sobre la fuente de información. A través de terceros
 <h3 class="stage-title">Elastic Search Autocomplete</h3>
 <h3 class="stage-title">TRM Scheduler</h3>
 <h3 class="stage-title">Analyses allowed by the data in the app</h3>
-USD - COP currency API
+<p>USD - COP currency API</p>
 <hr />
 
-
-CHALLENGE:
+<p>CHALLENGE:
 Tool to track markup prices (competitors)
 Offers from a couple of marketing companies:
 Price monitoring service
@@ -111,9 +148,9 @@ Compare one product of the company against two others.
 They charged per product. 70 products.
 Now about 90.
 They did not guarantee that the price was per presentation, warehouse, end user.
-It did not offer reliability about the source of information. Through third parties.
+It did not offer reliability about the source of information. Through third parties.</p>
 
-CONTEXT:
+<p>CONTEXT:
 Probation (report prices)
 Price variation:
 Imported (mostly)
@@ -127,27 +164,24 @@ Logistics costs
 Trading conditions (credit or cash)
 Market types
 Business size (volume)
-It is convenient to be clear about the changes that are being presented, in real time.
+It is convenient to be clear about the changes that are being presented, in real time.</p>
 
-
-
-RETO:
+<p>RETO:
 Herramienta para hacer el seguimiento de los precios de marcado (competidores)
-Tool to follow/monitor prices on the market (competitors)
+Tool to follow/monitor prices on the market (competitors)</p>
 
-They received offers from marketing firms:
+<p>They received offers from marketing firms:</p>
 
-Ofertas de un par de empresas de marketing:
+<p>Ofertas de un par de empresas de marketing:
 Servicio de monitoreo de precios
 Una vez por mes el reporte.
 Comparar un producto de la empresa frente a otros dos.
 Cobraban por producto. 70 productos.
 Ahora cerca de 90.
 No garantizaban que el precio fuera por presentación, almacén, usuario final.
-No ofrecía confiabilidad sobre la fuente de información. A través de terceros.
+No ofrecía confiabilidad sobre la fuente de información. A través de terceros.</p>
 
-
-CONTEXTO:
+<p>CONTEXTO:
 Libertad vigilada (reportar los precios)
 Variación de precios:
 Importados (mayormente)
@@ -161,27 +195,25 @@ Costos de logística
 Condiciones de negociación (Crédito o contado)
 Tipos de mercado
 Tamaño de los negocios (volumen)
-Es conveniente tener claridad de los cambios que se van presentando, en tiempo real.
+Es conveniente tener claridad de los cambios que se van presentando, en tiempo real.</p>
 
-ANTECEDENTES:
+<p>ANTECEDENTES:
 Formatos en excel
 Difíciles de consolidar por la
 Ortografía
 Nomenclatura
 Vendedores enviaban la información y alguien realizaba la consolidación
-“Marshall de precios” (Jr. Mercadeo)
+“Marshall de precios” (Jr. Mercadeo)</p>
 
-En Avgust;
+<p>En Avgust;
 Focal point (Ventas). Recibía los precios.
 Momentos en que no se reportaba precios.
 Dificultad para reportar. Tener acceso a excel.
 Encuestas de precios para los distribuidores y usuarios finales.
 No era bien recibido. (Contestar encuestas).
-Necesidad de tener datos.
+Necesidad de tener datos.</p>
 
-
-
-FUNCIONALES
+<p>FUNCIONALES
 Comparativo de productos homólogos: Misma composición, formulación y presentación.
 Para participar en licitaciones - cotizaciones.
 Comparar con productos sustitutos, competidores directos.
@@ -197,10 +229,9 @@ Ver la competitividad por región.
 Caso de uso:
 Lectura rápida de un producto:
 Enviar mensaje a los vendedores sobre un producto específico
-En día, tener 40-50 datos/lecturas/observaciones
+En día, tener 40-50 datos/lecturas/observaciones</p>
 
-
-CASOS DE USO:
+<p>CASOS DE USO:
 ???
 Cada vez que se visita a un cliente, ellos tienen acceso a precios. Tanto a nivel de usuario final como de distribuidores.
 Ingresan datos cuando es solicitado
@@ -212,9 +243,9 @@ La información debe ser visible en un teléfono móvil.
 Requiere la actualización de productos.
 REPRESENTANTE TÉCNICO COMERCIAL
 LOGÍSTICA
-COORDINADOR DE ZONA
+COORDINADOR DE ZONA</p>
 
-GERENTES
+<p>GERENTES
 Como GM debo conocer la zona y municipio de un registro, que pueden variar debido al tipo de cliente (Algunos cotizan, los más organizados. En Antioquia los plazos son más cortos : los precios son más agresivos, menor margen.)
 Origen.
 Conocer el precio en pesos y dólares, según la taza del día.  (Debido a variación diaria, tomar decisiones de importación).
@@ -223,36 +254,36 @@ Define el precio del producto, por lo tanto debe asegurar que el precio sea comp
 Se utiliza para las licitaciones, listas de precios, análisis de mercado, planes de marketing, importaciones,
 Como gerente, necesito poder manipular los datos en excel.
 Ver las variaciones históricas. Series de tiempo.
-(Costo de reposición de inventario).
+(Costo de reposición de inventario).</p>
 
+<p>GERENTE DE VENTAS (Carlos Rodríguez)
+GERENTE DE MARKETING (Cristina Garzón)</p>
 
-GERENTE DE VENTAS (Carlos Rodríguez)
-GERENTE DE MARKETING (Cristina Garzón)
+<p>Precio a almacén vs. Precio a usuario final</p>
 
-Precio a almacén vs. Precio a usuario final
-
-- ADMIN
+<ul>
+  <li>ADMIN
 DESARROLLADOR
 Periódicamente, debe insertar nuevos productos
-Periódicamente debe agregar nuevos usuarios o eliminar usuarios antiguos.
+Periódicamente debe agregar nuevos usuarios o eliminar usuarios antiguos.</li>
+</ul>
 
+<p>SHORTCOMINGS:</p>
 
-SHORTCOMINGS:
-
-Fácil acceso.
+<p>Fácil acceso.
 Presión.
 Incetivos : Mayor numero de reportes.
-Mecanismo para recordar.
+Mecanismo para recordar.</p>
 
-Power BI
+<p>Power BI</p>
 
-DANE : SISTEMA DE INFORMACIÓN DE PRECIOS DEL SECTOR AGROPECUARIO (SIPSA)
+<p>DANE : SISTEMA DE INFORMACIÓN DE PRECIOS DEL SECTOR AGROPECUARIO (SIPSA)
 Precios mayoristas
-Boletín mensual.
+Boletín mensual.</p>
 
-RESULTADO:
+<p>RESULTADO:</p>
 
-FUNCIONALES
+<p>FUNCIONALES
 Comparativo de productos homólogos: Misma composición, formulación y presentación.
 Para participar en licitaciones - cotizaciones.
 Comparar con productos sustitutos, competidores directos.
@@ -268,9 +299,6 @@ Ver la competitividad por región.
 Caso de uso:
 Lectura rápida de un producto:
 Enviar mensaje a los vendedores sobre un producto específico
-En día, tener 40-50 datos/lecturas/observaciones
+En día, tener 40-50 datos/lecturas/observaciones</p>
 
-
-
-</p></p></div>
 :ET

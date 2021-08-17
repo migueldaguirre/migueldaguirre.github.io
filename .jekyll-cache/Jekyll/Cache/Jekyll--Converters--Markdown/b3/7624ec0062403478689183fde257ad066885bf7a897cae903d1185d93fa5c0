@@ -1,4 +1,4 @@
-I"s"<h3 class="article-sub">Context</h3>
+I"“$<h3 class="article-sub">Context</h3>
 <div class="article-text">
 <p><a href="https://erpsim.hec.ca/"><strong>ERPsimLab</strong></a> is an academic laboratory that develops curricula on management information systems and data analysis, by repurposing business software into learning platforms.
 </p>
@@ -15,9 +15,8 @@ Their main product is the <strong>ERPsim</strong>, a business simulation game fo
 <p>
 Improve the experience of using the ERPsim Simulation Administration Console, for instructors and students, by:
 </p>
-
 <p>
-<ol>
+<ol style="color: rgba(0,0,0,0.8);">
 <li>Simplifying first time usage (ease of learning)</li>
 <li>Making the game debriefing data more revelant and focused</li>
 <li>Updating visual components to current standards of the web</li>
@@ -27,7 +26,7 @@ Improve the experience of using the ERPsim Simulation Administration Console, fo
 </p>
 
 <p>
-The underlying hypothesis was that perceived quality, ease of learning and student engagement can all be enhanced by
+Whith the hypothesis that perceived quality, ease of learning and student engagement can all be enhanced by
 intervening the graphical user interface: layout and control components, data tables and graphics, and the
 sequence in which information is displayed or accessed.
 
@@ -39,10 +38,16 @@ Some of the lables adn tools were deemed unintuitive, and the frontend was not o
 </div>
 
 <h3 class="article-sub">Outcome</h3>
+
 <div class="article-text">
-
+<p>
+An upgrade from the previous application.
+Briging together comments and reviews users.
+Application, developed using React.JS
+HTML components
+</p>
 </div>
-
+<div class="figure-caption">Implemented application</div>
 <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/583229819?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="ERPSIM Console App Recording.mp4"></iframe></div>
 <script src="https://player.vimeo.com/api/player.js"></script>
 
@@ -55,13 +60,24 @@ The console is used throughtout the experience.
 Is the main software component of their product.
 </div>
 
+<div class="figure-caption">Original user interface of the administration console</div>
+<div style="padding:54.88% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/583253082?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Legacy UI"></iframe></div>
+<script src="https://player.vimeo.com/api/player.js"></script>
+
+<p><br /></p>
+
 <div class="figure">
-      <div class="figure-caption">Sequence</div>
+    <div class="figure-caption">Applications involved in an ERPsim simulation.</div>
+<img class="stage-photo" src="/assets/img/erpsim/erpsimarch.jpg" style="width: 100%" />
+</div>
+
+<div class="figure">
+      <div class="figure-caption">Stages of use of the console</div>
   <a href="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1624560879/ERPsim/stages1_z0ecnp.jpg" data-lightbox="image-3"><img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1624560879/ERPsim/stages1_z0ecnp.jpg" style="width: 100%" /></a>
 </div>
 
 <div class="figure" style="margin-bottom: 0px;">
-<div class="figure-caption">Sequence of use.  </div>
+<div class="figure-caption">Components of the interface and their context of use</div>
 <a href="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1625808428/ERPsim/PML-12_rj8y2t.png" data-lightbox="image-1">
 <img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1625808428/ERPsim/PML-12_rj8y2t.png" style="width: 100%; margin-bottom: 0px;" /></a>
 </div>
@@ -71,31 +87,18 @@ Is the main software component of their product.
 <img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1625808420/ERPsim/PML-13_alyxcu.png" style="width: 100%" /></a>
 </div>
 
-<div class="figure-caption">Original user interface of the administration console</div>
-<div style="padding:54.88% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/583253082?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Legacy UI"></iframe></div>
-<script src="https://player.vimeo.com/api/player.js"></script>
-
-<p><br /></p>
-
-<div class="figure">
-    <div class="figure-caption">Simulation application ecosystem</div>
-<img class="stage-photo" src="/assets/img/erpsim/erpsimarch.jpg" style="width: 100%" />
-</div>
-
-<div class="figure">
-<div class="figure-caption">Future scenarios of use</div>
-<img class="stage-photo" src="/assets/img/erpsim/scenarios.jpg" style="width: 100%" />
-</div>
-
-<hr />
+<!-- <div class="figure">
+<div class='figure-caption'>Future scenarios of use</div>
+<img class="stage-photo" src="/assets/img/erpsim/scenarios.jpg" style="width: 100%">
+</div> -->
 
 <div class="article-text">
-<h3 class="stage-title">2. Scope and Workplan</h3>
+<h3 class="stage-title">2. Scope</h3>
 
 </div>
 <div class="figure">
     <div class="figure-caption">
-      Workplan diagram.
+      Workplan.
     </div>
 <img class="stage-photo" src="/assets/img/erpsim/workplan.png" style="width: 100%" />
 </div>
@@ -104,6 +107,8 @@ Is the main software component of their product.
 
 <div class="article-text">
 <h3 class="stage-title">3. First Workshop: Identify Issues</h3>
+<p>The objective of the first workshop was to consolidate comments, issue reports,
+  </p>
 </div>
 <div class="figure">
     <div class="figure-caption">
@@ -178,22 +183,23 @@ Is the main software component of their product.
 <h3 class="stage-title">7. Development</h3>
 
 <div class="figure">
-    <div class="figure-caption">First state diagram for the front-end.</div>
+    <div class="figure-caption">State diagram for the front-end. This diagram was used to describe the user flow within different views inside the console.</div>
 <img src="/assets/img/erpsim/erpsim_state_diagram.jpg" class="stage-photo" />
   </div>
 <hr />
 
 <div class="figure">
-    <div class="figure-caption">First state diagram for the front-end.</div>
+    <div class="figure-caption">New data visulizations implemented in the console</div>
 <img src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626312882/ERPsim/ERPsimViz-02_qsrvfs.png" class="stage-photo" />
   </div>
 
 <div class="figure">
-    <div class="figure-caption">First state diagram for the front-end.</div>
+    <div class="figure-caption">Simulation monitor displays</div>
 <img src="/assets/img/erpsim/monitoring_screenshots.gif" class="stage-photo" id="animated-gif" />
   </div>
-<hr />
 
+<div class="figure">
+    <div class="figure-caption">Final prototype before development.</div>
 <iframe src="https://drive.google.com/file/d/1eiqLl0Hn0jTagWXFEmX9cK7_aUiFYOLE/preview" width="100%" height="480" allow="autoplay"></iframe>
-
+</div>
 :ET
