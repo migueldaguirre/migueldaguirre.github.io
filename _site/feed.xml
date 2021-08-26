@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-08-08T19:18:07-06:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">ERPsim Admin Console Front-End</title><link href="http://localhost:4000/blog/2021/07/10/erpsim/" rel="alternate" type="text/html" title="ERPsim Admin Console Front-End" /><published>2021-07-10T00:00:00-06:00</published><updated>2021-07-10T00:00:00-06:00</updated><id>http://localhost:4000/blog/2021/07/10/erpsim</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/10/erpsim/">&lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-08-26T12:21:39-04:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">ERPsim Admin Console Front-End</title><link href="http://localhost:4000/blog/2021/07/10/erpsim/" rel="alternate" type="text/html" title="ERPsim Admin Console Front-End" /><published>2021-07-10T00:00:00-04:00</published><updated>2021-07-10T00:00:00-04:00</updated><id>http://localhost:4000/blog/2021/07/10/erpsim</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/10/erpsim/">&lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
 &lt;div class=&quot;article-text&quot;&gt;
 &lt;p&gt;&lt;a href=&quot;https://erpsim.hec.ca/&quot;&gt;&lt;strong&gt;ERPsimLab&lt;/strong&gt;&lt;/a&gt; is an academic laboratory that develops curricula on management information systems and data analysis, by repurposing business software into learning platforms.
 &lt;/p&gt;
@@ -15,9 +15,8 @@ Their main product is the &lt;strong&gt;ERPsim&lt;/strong&gt;, a business simula
 &lt;p&gt;
 Improve the experience of using the ERPsim Simulation Administration Console, for instructors and students, by:
 &lt;/p&gt;
-
 &lt;p&gt;
-&lt;ol style=&quot;color: rgba(0,0,0,0.8);&quot;&gt;
+&lt;ol style=&quot;color: rgba(0,0,0,0.8); font-size:1.1em;&quot;&gt;
 &lt;li&gt;Simplifying first time usage (ease of learning)&lt;/li&gt;
 &lt;li&gt;Making the game debriefing data more revelant and focused&lt;/li&gt;
 &lt;li&gt;Updating visual components to current standards of the web&lt;/li&gt;
@@ -48,34 +47,70 @@ Application, developed using React.JS
 HTML components
 &lt;/p&gt;
 &lt;/div&gt;
-&lt;div class=&quot;figure-caption&quot;&gt;Implemented application&lt;/div&gt;
-&lt;div style=&quot;padding:75% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/583229819?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;ERPSIM Console App Recording.mp4&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;div style=&quot;padding:54.88% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/583229819?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;ERPSIM Console App Recording.mp4&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
 &lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
 
-&lt;h2 class=&quot;process-title&quot;&gt;Process&lt;/h2&gt;
+&lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt;
+&lt;hr id=&quot;process-start&quot; /&gt;
 
-&lt;div class=&quot;article-text&quot;&gt;
-&lt;h3 class=&quot;stage-title&quot;&gt;1. Context of use&lt;/h3&gt;
-Three stages : Briefing, Game and Debriefing.
-The console is used throughtout the experience.
-Is the main software component of their product.
+&lt;p&gt;&lt;button id=&quot;toggle&quot; class=&quot;process-toggle-title&quot;&gt;&lt;span class=&quot;competencies-title-process&quot;&gt;&lt;span id=&quot;showhide&quot;&gt;Show&lt;/span&gt; Process&lt;span class=&quot;down-arrow-accordion&quot;&gt;▼&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;process-content&quot; style=&quot;display: none&quot;&gt;
+
+
+&lt;div class=&quot;scrollspy&quot;&gt;
+&lt;nav id=&quot;navbar-example2&quot; class=&quot;navbar navbar-light bg-light px-3&quot;&gt;
+  &lt;a class=&quot;navbar-brand process-index-title&quot; href=&quot;#process-start&quot;&gt;Process Index&lt;/a&gt;
+  &lt;ol class=&quot;nav nav-pills&quot;&gt;
+    &lt;li class=&quot;nav-item&quot;&gt;
+      &lt;a class=&quot;process-index-subtitle&quot; href=&quot;#scrollspyIndex1&quot;&gt;Context of Use&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;nav-item&quot;&gt;
+      &lt;a class=&quot;process-index-subtitle&quot; href=&quot;#scrollspyIndex2&quot;&gt;Scope&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;nav-item&quot;&gt;
+      &lt;a class=&quot;process-index-subtitle&quot; href=&quot;#scrollspyIndex3&quot;&gt;1st Workshop: Identify Issues&lt;/a&gt;
+ &lt;/li&gt;
+    &lt;li class=&quot;nav-item&quot;&gt;
+      &lt;a class=&quot;process-index-subtitle&quot; href=&quot;#scrollspyIndex4&quot;&gt;2nd Workshop: Redesign&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;nav-item&quot;&gt;
+      &lt;a class=&quot;process-index-subtitle&quot; href=&quot;#scrollspyIndex5&quot;&gt;Design Iterations&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;nav-item&quot;&gt;
+      &lt;a class=&quot;process-index-subtitle&quot; href=&quot;#scrollspyIndex6&quot;&gt;Development&lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+
+&lt;a class=&quot;hide-process-scrollspy&quot; href=&quot;#&quot;&gt;(Back to top)&lt;/a&gt;
+&lt;/nav&gt;
 &lt;/div&gt;
 
-&lt;div class=&quot;figure-caption&quot;&gt;Original user interface of the administration console&lt;/div&gt;
-&lt;div style=&quot;padding:54.88% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/583253082?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;Legacy UI&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-&lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
+&lt;div class=&quot;article-text&quot;&gt;
+  &lt;h3 class=&quot;stage-title&quot; id=&quot;scrollspyIndex1&quot;&gt;1. Context of use&lt;/h3&gt;
+  &lt;p&gt;
+  Three stages : Briefing, Game and Debriefing.
+  The console is used throughtout the experience.
+  Is the main software component of their product.
+  &lt;/p&gt;
+  &lt;/div&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;figure-caption&quot;&gt;Original user interface of the administration console&lt;/div&gt;
+&lt;div style=&quot;padding:54.88% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/583253082?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;Legacy UI&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
+&lt;br /&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;Applications involved in an ERPsim simulation.&lt;/div&gt;
 &lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/erpsimarch.jpg&quot; style=&quot;width: 100%&quot; /&gt;
 &lt;/div&gt;
 
+
 &lt;div class=&quot;figure&quot;&gt;
       &lt;div class=&quot;figure-caption&quot;&gt;Stages of use of the console&lt;/div&gt;
   &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1624560879/ERPsim/stages1_z0ecnp.jpg&quot; data-lightbox=&quot;image-3&quot;&gt;&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1624560879/ERPsim/stages1_z0ecnp.jpg&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
 &lt;/div&gt;
+
 
 &lt;div class=&quot;figure&quot; style=&quot;margin-bottom: 0px;&quot;&gt;
 &lt;div class=&quot;figure-caption&quot;&gt;Components of the interface and their context of use&lt;/div&gt;
@@ -87,12 +122,14 @@ Is the main software component of their product.
 &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1625808420/ERPsim/PML-13_alyxcu.png&quot; data-lightbox=&quot;image-2&quot;&gt;
 &lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1625808420/ERPsim/PML-13_alyxcu.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
 &lt;/div&gt;
+
 &lt;!-- &lt;div class=&quot;figure&quot;&gt;
 &lt;div class='figure-caption'&gt;Future scenarios of use&lt;/div&gt;
 &lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/scenarios.jpg&quot; style=&quot;width: 100%&quot;&gt;
 &lt;/div&gt; --&gt;
+
 &lt;div class=&quot;article-text&quot;&gt;
-&lt;h3 class=&quot;stage-title&quot;&gt;2. Scope&lt;/h3&gt;
+&lt;h3 class=&quot;stage-title&quot; id=&quot;scrollspyIndex2&quot;&gt;2. Scope&lt;/h3&gt;
 
 &lt;/div&gt;
 &lt;div class=&quot;figure&quot;&gt;
@@ -103,10 +140,9 @@ Is the main software component of their product.
 &lt;/div&gt;
 
 &lt;hr /&gt;
-
 &lt;div class=&quot;article-text&quot;&gt;
-&lt;h3 class=&quot;stage-title&quot;&gt;3. First Workshop: Identify Issues&lt;/h3&gt;
-&lt;p&gt;The objective of the first workshop was to consolidate all information and
+&lt;h3 class=&quot;stage-title&quot; id=&quot;scrollspyIndex3&quot;&gt;3. First Workshop: Identify Issues&lt;/h3&gt;
+&lt;p&gt;The objective of the first workshop was to consolidate comments, issue reports,
   &lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;figure&quot;&gt;
@@ -123,7 +159,7 @@ Is the main software component of their product.
 &lt;/div&gt;
 &lt;hr /&gt;
 
-&lt;h3 class=&quot;stage-title&quot;&gt;4. Second Workshop : Redesign &lt;/h3&gt;
+&lt;h3 class=&quot;stage-title&quot; id=&quot;scrollspyIndex4&quot;&gt;4. Second Workshop : Redesign &lt;/h3&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
@@ -147,8 +183,7 @@ Is the main software component of their product.
 &lt;/div&gt;
 
 &lt;hr /&gt;
-
-&lt;h3 class=&quot;stage-title&quot;&gt;6. Design iterations &lt;/h3&gt;
+&lt;h3 class=&quot;stage-title&quot; id=&quot;scrollspyIndex5&quot;&gt;5. Design iterations &lt;/h3&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
@@ -157,16 +192,20 @@ Is the main software component of their product.
 &lt;img class=&quot;stage-photo&quot; src=&quot;/assets/img/erpsim/sketches.jpg&quot; style=&quot;width: 100%&quot; /&gt;
 &lt;/div&gt;
 
+
 &lt;div class=&quot;figure&quot;&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;Layout sketches, defining the structure and distribution of information&lt;/div&gt;
 &lt;img src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1625527949/ERPsim/components-11_bozfpg.png&quot; class=&quot;stage-photo&quot; id=&quot;animated-gif&quot; /&gt;
   &lt;/div&gt;
+
+
 
 &lt;div class=&quot;figure&quot;&gt;
   &lt;a href=&quot;/assets/img/erpsim/Slide24.gif&quot; data-lightbox=&quot;image-1&quot;&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;First interactive prototype showing the flow of interactions.&lt;/div&gt;
 &lt;img src=&quot;/assets/img/erpsim/Slide24.gif&quot; class=&quot;stage-photo&quot; id=&quot;animated-gif&quot; /&gt;&lt;/a&gt;
   &lt;/div&gt;
+
 
 &lt;div class=&quot;figure&quot;&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;Notes on component resizing.&lt;/div&gt;
@@ -178,8 +217,7 @@ Is the main software component of their product.
 &lt;img src=&quot;/assets/img/erpsim/erpsim_ctl_states.jpg&quot; class=&quot;stage-photo&quot; /&gt;
   &lt;/div&gt;
 &lt;hr /&gt;
-
-&lt;h3 class=&quot;stage-title&quot;&gt;7. Development&lt;/h3&gt;
+&lt;h3 class=&quot;stage-title&quot; id=&quot;scrollspyIndex6&quot;&gt;6. Development&lt;/h3&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;State diagram for the front-end. This diagram was used to describe the user flow within different views inside the console.&lt;/div&gt;
@@ -200,7 +238,10 @@ Is the main software component of their product.
 &lt;div class=&quot;figure&quot;&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;Final prototype before development.&lt;/div&gt;
 &lt;iframe src=&quot;https://drive.google.com/file/d/1eiqLl0Hn0jTagWXFEmX9cK7_aUiFYOLE/preview&quot; width=&quot;100%&quot; height=&quot;480&quot; allow=&quot;autoplay&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Context ERPsimLab is an academic laboratory that develops curricula on management information systems and data analysis, by repurposing business software into learning platforms. Their main product is the ERPsim, a business simulation game for SAP ERP and SAP S/4HANA in which participants use a real ERP system to manage their virtual company in a simulated market. It is currently being used in 170 universities around the world at courses in Bacherlors, Masters and MBA levels.</summary></entry><entry><title type="html">Crowd-Sourced Price Monitoring Web-App</title><link href="http://localhost:4000/blog/2021/07/09/monitor/" rel="alternate" type="text/html" title="Crowd-Sourced Price Monitoring Web-App" /><published>2021-07-09T00:00:00-06:00</published><updated>2021-07-09T00:00:00-06:00</updated><id>http://localhost:4000/blog/2021/07/09/monitor</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/09/monitor/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;!-- end of id: process-content --&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Context ERPsimLab is an academic laboratory that develops curricula on management information systems and data analysis, by repurposing business software into learning platforms. Their main product is the ERPsim, a business simulation game for SAP ERP and SAP S/4HANA in which participants use a real ERP system to manage their virtual company in a simulated market. It is currently being used in 170 universities around the world at courses in Bacherlors, Masters and MBA levels.</summary></entry><entry><title type="html">Crowd-Sourced Price Monitoring Web-App</title><link href="http://localhost:4000/blog/2021/07/09/monitor/" rel="alternate" type="text/html" title="Crowd-Sourced Price Monitoring Web-App" /><published>2021-07-09T00:00:00-04:00</published><updated>2021-07-09T00:00:00-04:00</updated><id>http://localhost:4000/blog/2021/07/09/monitor</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/09/monitor/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;div style=&quot;padding:62.5% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/583836820?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;Avg Monitor Recording wide&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
 &lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
@@ -212,6 +253,25 @@ Is the main software component of their product.
 &lt;p&gt;Libertad vigilada (reportar los precios)
 Variación de precios:
 Importados (mayormente)
+Avgust Crop Protection operations in Colombia consist on comercialization of &quot;agricultural inputs&quot;.
+**Some of the products are highly comoditized.
+**They experience tight competition.
+**Substitue products
+**Calculate margins of competitors + Compare with import pricing
+**How certain products behave through time. Capturing that information for longterm analysis.
+**Provide information for pricing.
+**Concurrence / Competiton per region
+**Control who has access to what information.
+**
+
+Regions in Colombia are diverse. Climates and crops.
+High variations in pricing for those products from region to region.
+Volatility of th Colombian currency.
+
+Managers need precise information, comming from the regions, which are mostly rural.
+
+Compiling information thrugh a callcenter
+
 &lt;/p&gt;&lt;/div&gt;
 
 &lt;h3 class=&quot;article-sub&quot;&gt;Challenge&lt;/h3&gt;
@@ -234,7 +294,22 @@ Es conveniente tener claridad de los cambios que se van presentando, en tiempo r
 
 &lt;h3 class=&quot;article-sub&quot;&gt;Outcome&lt;/h3&gt;
 &lt;div class=&quot;article-text&quot;&gt;
-&lt;p&gt;Herramienta para hacer el seguimiento de los precios de marcado (competidores)
+&lt;p&gt;
+  An MVP with the following features:
+  Allows to register the price for a product in a specific municipality in Colombia, including other relavant details. ()
+  &amp;lt;o;&amp;gt;
+    &lt;li&gt;Compare homologous products&lt;/li&gt;
+    &lt;li&gt;Search tool inside entries&lt;/li&gt;
+    &lt;li&gt;Currency conversion for each e&lt;/li&gt;
+    &lt;li&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;/li&gt;
+&lt;/p&gt;
+
+It allows to:
+Participate in quotes (licitaciones)
+Roles
+&lt;p&gt;
+ Herramienta para hacer el seguimiento de los precios de marcado (competidores)
 Tool to follow/monitor prices on the market (competitors)
 They received offers from marketing firms:
 Ofertas de un par de empresas de marketing:
@@ -467,7 +542,7 @@ Ver la competitividad por región.
 Caso de uso:
 Lectura rápida de un producto:
 Enviar mensaje a los vendedores sobre un producto específico
-En día, tener 40-50 datos/lecturas/observaciones&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">IoT Water and Freeze Detector Setup</title><link href="http://localhost:4000/blog/2021/07/08/alerte/" rel="alternate" type="text/html" title="IoT Water and Freeze Detector Setup" /><published>2021-07-08T00:00:00-06:00</published><updated>2021-07-08T00:00:00-06:00</updated><id>http://localhost:4000/blog/2021/07/08/alerte</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/08/alerte/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+En día, tener 40-50 datos/lecturas/observaciones&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">IoT Water and Freeze Detector Setup</title><link href="http://localhost:4000/blog/2021/07/08/alerte/" rel="alternate" type="text/html" title="IoT Water and Freeze Detector Setup" /><published>2021-07-08T00:00:00-04:00</published><updated>2021-07-08T00:00:00-04:00</updated><id>http://localhost:4000/blog/2021/07/08/alerte</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/08/alerte/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;div class=&quot;figure&quot;&gt;
   &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626467593/Desjardins/photo_comp-02_ndxtub.png&quot; data-lightbox=&quot;image-3&quot;&gt;&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626467593/Desjardins/photo_comp-02_ndxtub.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
 &lt;/div&gt;
@@ -532,7 +607,7 @@ Describe Desjardins assurance
 &lt;div class=&quot;figure&quot;&gt;
 &lt;div class=&quot;figure-caption&quot;&gt;Executive summary&lt;/div&gt;
 &lt;iframe src=&quot;https://drive.google.com/file/d/1RNcJrwdk_WrX5M28BFgBu5-V0qqIgA9U/preview&quot; style=&quot;width: 100%; height: 470px;&quot; allow=&quot;autoplay&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Dynamic Class Enrollment Platform</title><link href="http://localhost:4000/blog/2021/07/08/unicours/" rel="alternate" type="text/html" title="Dynamic Class Enrollment Platform" /><published>2021-07-08T00:00:00-06:00</published><updated>2021-07-08T00:00:00-06:00</updated><id>http://localhost:4000/blog/2021/07/08/unicours</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/08/unicours/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Dynamic Class Enrollment Platform</title><link href="http://localhost:4000/blog/2021/07/08/unicours/" rel="alternate" type="text/html" title="Dynamic Class Enrollment Platform" /><published>2021-07-08T00:00:00-04:00</published><updated>2021-07-08T00:00:00-04:00</updated><id>http://localhost:4000/blog/2021/07/08/unicours</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/08/unicours/">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;div style=&quot;padding:62.5% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/583841479?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;Video Mobile Unicours&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
 &lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
 
@@ -544,10 +619,6 @@ Describe Desjardins assurance
 &lt;div&gt;
 &lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
 &lt;div class=&quot;article-text&quot;&gt;
-
-
-
-
 
 
 &lt;p&gt;As an exercise in the UX Design course within the MSc. in User Experience in a Business Context. Following a systemic/structured process of empathizing, ideation, user testing and iterative prototyping.
@@ -737,7 +808,7 @@ https://et35qh.axshare.com/#g=1&amp;amp;p=principale__post-tests_&amp;amp;c=1
 
 
 
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Context</summary></entry><entry><title type="html">Product &amp;amp; Service Portfolio Structure</title><link href="http://localhost:4000/blog/2021/07/06/coem/" rel="alternate" type="text/html" title="Product &amp;amp; Service Portfolio Structure" /><published>2021-07-06T00:00:00-06:00</published><updated>2021-07-06T00:00:00-06:00</updated><id>http://localhost:4000/blog/2021/07/06/coem</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/06/coem/">&lt;p&gt;Web-site re-structuring
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Context</summary></entry><entry><title type="html">Product &amp;amp; Service Portfolio Structure</title><link href="http://localhost:4000/blog/2021/07/06/coem/" rel="alternate" type="text/html" title="Product &amp;amp; Service Portfolio Structure" /><published>2021-07-06T00:00:00-04:00</published><updated>2021-07-06T00:00:00-04:00</updated><id>http://localhost:4000/blog/2021/07/06/coem</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/06/coem/">&lt;p&gt;Web-site re-structuring
 Sorting workshop with individual experts&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;General Sales Manager&lt;/li&gt;

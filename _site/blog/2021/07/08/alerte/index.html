@@ -8,6 +8,14 @@
     <meta name='keywords' content='User Experience Evaluation'>
     <meta name='author' content='David Aguirre'>
 
+
+<!-- BOOTSTRAP -->
+<!--     <link href='/css/bootstrap-theme.css' rel='stylesheet'/>
+    <script type="text/javascript" src="/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+ -->
+
+<!-- MD STYLES -->
     <link href='/css/styles.css' rel='stylesheet'/>
     <link href='/css/trac.css' rel='stylesheet'/>
     <link href='/css/markdown.css' rel='stylesheet'/>
@@ -40,16 +48,16 @@ MathJax.Hub.Config({
             <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
 
-<div class='nav' >
+<div class='md-nav' >
     <ul class='wrap'>
-        <span class="nav-name">DAVID AGUIRRE | BA & UX </span>
+        <span class="md-nav-name">DAVID AGUIRRE | BA & UX </span>
         <li><a id='about' href='/'>About</a></li>
         <li><a id='work' href='/work' >Work</a></li>
     </ul>
 </div>
 
 <div class='content'>
-    <div class='front-matter'>
+    <div class='front-matter' style= "text-align:center">
         <div class='wrap blog'>
                 <div class="post-label-onpage">
                         USER EXPERIENCE EVALUATION
@@ -57,22 +65,58 @@ MathJax.Hub.Config({
                 <br>
                 <a href="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,q_50,w_1000/v1625344900/Desjardins/mainphotoalerte_gv3rbj.jpg" data-lightbox="image-0">
                        <img src= "https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,q_50,w_1000/v1625344900/Desjardins/mainphotoalerte_gv3rbj.jpg" class="header-image"></a>
-                       <h1>IoT Water and Freeze Detector Setup</h1>
+                       <h1 class="on-article-title">IoT Water and Freeze Detector Setup</h1>
                        <h3 class="on-article-subtitle">A look into the experience of installing and synchronizing a IoT device, as part of a property insurance service.</h3>
                </div>
                <div class='clear'></div>
        </div>
 </div>
 
+<!-- <div class="scrollspy">
+<nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+  <a class="navbar-brand" href="#">Content</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading1">Project Facts</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading2">Second</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div> -->
+
 <div class='wrap article blog'>
 
-        <div class="project-facts">
+<!-- <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+  <h4 id="scrollspyHeading1">First heading</h4>
+  <p>...</p>
+  <h4 id="scrollspyHeading2">Second heading</h4>
+  <p>...</p>
+  <h4 id="scrollspyHeading3">Third heading</h4>
+  <p>...</p>
+  <h4 id="scrollspyHeading4">Fourth heading</h4>
+  <p>...</p>
+  <h4 id="scrollspyHeading5">Fifth heading</h4>
+  <p>...</p> -->
+<!-- </div> -->
+        <div class="project-facts" id="scrollspyHeading1">
                 <ul>
                         <h3 class="article-sub project-facts-title">Project Facts</h3>
-                        <li><span class="titles">Client:</span> Desjardins Insurance</li>
+                        <li><span class="titles">Client: </span> Desjardins Insurance</li>
+                        <li><span class="titles">Timespan: </span> October - November 2018</li>
                         <li><span class="titles">Project Type: </span> Graduate Studies Project</li>
-                        <li><span class="titles">Tools:</span> Adobe XD & Illustrator, HTML/CSS/JS, React, Git</li>
-                        <li><span class="titles">My Role:</span> Researcher, Student / Interviews, Analysis, Visualization</li>
+                        <li><span class="titles">Tools: </span> Adobe XD & Illustrator, HTML/CSS/JS, React, Git</li>
+                        <li><span class="titles">My Role: </span> Researcher, Student / Interviews, Analysis, Visualization</li>
                 </ul>
                 <div style="width:100%; height: 3px; background-color:gainsboro;"> </div>
                 <ul>
@@ -89,8 +133,9 @@ MathJax.Hub.Config({
                                  Pierre-Majorique Léger <i style="opacity: 0.6">(Supervisor-Professor)</i>
                         </li>
                 </ul>
-
+                <div class="spacer"></div>
         </div>
+        <br>
         <p><br /></p>
 <div class="figure">
   <a href="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626467593/Desjardins/photo_comp-02_ndxtub.png" data-lightbox="image-3"><img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626467593/Desjardins/photo_comp-02_ndxtub.png" style="width: 100%" /></a>
@@ -173,6 +218,23 @@ Describe Desjardins assurance
             'fitImagesInViewport': true,
             'showImageNumberLabel':false
     })
+</script>
+
+<!-- Process display -->
+<script type="text/javascript">
+const targetDiv = document.getElementById("process-content");
+const btn = document.getElementById("toggle");
+const showhide = document.getElementById("showhide");
+btn.onclick = function () {
+  if (targetDiv.style.display !== "none") {
+    targetDiv.style.display = "none";
+    document.getElementById("showhide").innerHTML = "Show";
+  } else {
+    targetDiv.style.display = "block";
+        document.getElementById("showhide").innerHTML = "Hide";
+
+  }
+};
 </script>
 </body>
 </html>

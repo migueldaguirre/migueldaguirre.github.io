@@ -29,9 +29,9 @@ layout: empty
 </head>
 <body>
   <!-- {% include nav.html %} -->
-  <div class='nav'>
+  <div class='md-nav'>
     <ul class='wrap'>
-      <span class="nav-name">DAVID AGUIRRE | BA & UX </span>
+      <span class="md-nav-name">DAVID AGUIRRE | BA & UX </span>
       <li><a id='about'  href='/'>About</a></li>
       <li><a id='work' class="selected" href='/work' >Work</a></li>
     </ul>
