@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-08-26T12:21:39-04:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">ERPsim Admin Console Front-End</title><link href="http://localhost:4000/blog/2021/07/10/erpsim/" rel="alternate" type="text/html" title="ERPsim Admin Console Front-End" /><published>2021-07-10T00:00:00-04:00</published><updated>2021-07-10T00:00:00-04:00</updated><id>http://localhost:4000/blog/2021/07/10/erpsim</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/10/erpsim/">&lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-08-26T13:08:23-04:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">ERPsim Admin Console Front-End</title><link href="http://localhost:4000/blog/2021/07/10/erpsim/" rel="alternate" type="text/html" title="ERPsim Admin Console Front-End" /><published>2021-07-10T00:00:00-04:00</published><updated>2021-07-10T00:00:00-04:00</updated><id>http://localhost:4000/blog/2021/07/10/erpsim</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/10/erpsim/">&lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
 &lt;div class=&quot;article-text&quot;&gt;
 &lt;p&gt;&lt;a href=&quot;https://erpsim.hec.ca/&quot;&gt;&lt;strong&gt;ERPsimLab&lt;/strong&gt;&lt;/a&gt; is an academic laboratory that develops curricula on management information systems and data analysis, by repurposing business software into learning platforms.
 &lt;/p&gt;
@@ -55,7 +55,9 @@ HTML components
 &lt;div class=&quot;spacer&quot;&gt;&lt;/div&gt;
 &lt;hr id=&quot;process-start&quot; /&gt;
 
-&lt;p&gt;&lt;button id=&quot;toggle&quot; class=&quot;process-toggle-title&quot;&gt;&lt;span class=&quot;competencies-title-process&quot;&gt;&lt;span id=&quot;showhide&quot;&gt;Show&lt;/span&gt; Process&lt;span class=&quot;down-arrow-accordion&quot;&gt;▼&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;toggle&quot;&gt;
+&lt;div class=&quot;process-toggle-title&quot;&gt;&lt;span class=&quot;competencies-title-process&quot;&gt;&lt;span id=&quot;showhide&quot;&gt;Show&lt;/span&gt; Process&lt;span class=&quot;down-arrow-accordion-process&quot;&gt;&amp;#9660;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
 &lt;div id=&quot;process-content&quot; style=&quot;display: none&quot;&gt;
 
 
