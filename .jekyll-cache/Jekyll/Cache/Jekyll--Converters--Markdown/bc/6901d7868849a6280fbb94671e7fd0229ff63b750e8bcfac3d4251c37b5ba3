@@ -1,4 +1,4 @@
-I"!<html>
+I"€<html>
 <head>
   <title>David Aguirre - Work</title>
   <meta charset="UTF-8" />
@@ -26,17 +26,17 @@
   <!--     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
 
-<div class='nav' >
+<div class='md-nav' >
     <ul class='wrap'>
-        <span class="nav-name">DAVID AGUIRRE | BA & UX </span>
+        <span class="md-nav-name">DAVID AGUIRRE | BA & UX </span>
         <li><a id='about' href='/'>About</a></li>
         <li><a id='work' href='/work' >Work</a></li>
     </ul>
 </div>
  -->
-  <div class="nav">
+  <div class="md-nav">
     <ul class="wrap">
-      <span class="nav-name">DAVID AGUIRRE | BA &amp; UX </span>
+      <span class="md-nav-name">DAVID AGUIRRE | BA &amp; UX </span>
       <li><a id="about" href="/">About</a></li>
       <li><a id="work" class="selected" href="/work">Work</a></li>
     </ul>
@@ -64,7 +64,7 @@
             </p>
             <br />
             <p class="post-date">
-              2020
+              Summer 2019 - Fall 2020
             </p>
           </div>
         </div>
@@ -87,7 +87,7 @@
             </p>
             <br />
             <p class="post-date">
-              2018-19
+              July - October 2018
             </p>
           </div>
         </div>
@@ -110,7 +110,7 @@
             </p>
             <br />
             <p class="post-date">
-              2019
+              February - April 2019
             </p>
           </div>
         </div>
@@ -133,7 +133,7 @@
             </p>
             <br />
             <p class="post-date">
-              2018
+              October - November 2018
             </p>
           </div>
         </div>
@@ -156,7 +156,7 @@
             </p>
             <br />
             <p class="post-date">
-              2017
+              January - March 2017
             </p>
           </div>
         </div>

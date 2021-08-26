@@ -1,4 +1,4 @@
-I"“$<h3 class="article-sub">Context</h3>
+I"_*<h3 class="article-sub">Context</h3>
 <div class="article-text">
 <p><a href="https://erpsim.hec.ca/"><strong>ERPsimLab</strong></a> is an academic laboratory that develops curricula on management information systems and data analysis, by repurposing business software into learning platforms.
 </p>
@@ -16,7 +16,7 @@ Their main product is the <strong>ERPsim</strong>, a business simulation game fo
 Improve the experience of using the ERPsim Simulation Administration Console, for instructors and students, by:
 </p>
 <p>
-<ol style="color: rgba(0,0,0,0.8);">
+<ol style="color: rgba(0,0,0,0.8); font-size:1.1em;">
 <li>Simplifying first time usage (ease of learning)</li>
 <li>Making the game debriefing data more revelant and focused</li>
 <li>Updating visual components to current standards of the web</li>
@@ -47,34 +47,70 @@ Application, developed using React.JS
 HTML components
 </p>
 </div>
-<div class="figure-caption">Implemented application</div>
-<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/583229819?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="ERPSIM Console App Recording.mp4"></iframe></div>
+<div style="padding:54.88% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/583229819?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="ERPSIM Console App Recording.mp4"></iframe></div>
 <script src="https://player.vimeo.com/api/player.js"></script>
 
-<h2 class="process-title">Process</h2>
+<div class="spacer"></div>
+<div class="spacer"></div>
+<div class="spacer"></div>
+<hr id="process-start" />
 
-<div class="article-text">
-<h3 class="stage-title">1. Context of use</h3>
-Three stages : Briefing, Game and Debriefing.
-The console is used throughtout the experience.
-Is the main software component of their product.
+<p><button id="toggle" class="process-toggle-title"><span class="competencies-title-process"><span id="showhide">Show</span> Process<span class="down-arrow-accordion">â–¼</span></span></button></p>
+<div id="process-content" style="display: none">
+
+
+<div class="scrollspy">
+<nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+  <a class="navbar-brand process-index-title" href="#process-start">Process Index</a>
+  <ol class="nav nav-pills">
+    <li class="nav-item">
+      <a class="process-index-subtitle" href="#scrollspyIndex1">Context of Use</a>
+    </li>
+    <li class="nav-item">
+      <a class="process-index-subtitle" href="#scrollspyIndex2">Scope</a>
+    </li>
+    <li class="nav-item">
+      <a class="process-index-subtitle" href="#scrollspyIndex3">1st Workshop: Identify Issues</a>
+ </li>
+    <li class="nav-item">
+      <a class="process-index-subtitle" href="#scrollspyIndex4">2nd Workshop: Redesign</a>
+    </li>
+    <li class="nav-item">
+      <a class="process-index-subtitle" href="#scrollspyIndex5">Design Iterations</a>
+    </li>
+    <li class="nav-item">
+      <a class="process-index-subtitle" href="#scrollspyIndex6">Development</a>
+    </li>
+  </ol>
+
+<a class="hide-process-scrollspy" href="#">(Back to top)</a>
+</nav>
 </div>
 
-<div class="figure-caption">Original user interface of the administration console</div>
-<div style="padding:54.88% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/583253082?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Legacy UI"></iframe></div>
-<script src="https://player.vimeo.com/api/player.js"></script>
+<div class="article-text">
+  <h3 class="stage-title" id="scrollspyIndex1">1. Context of use</h3>
+  <p>
+  Three stages : Briefing, Game and Debriefing.
+  The console is used throughtout the experience.
+  Is the main software component of their product.
+  </p>
+  </div>
 
-<p><br /></p>
+<div class="figure-caption">Original user interface of the administration console</div>
+<div style="padding:54.88% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/583253082?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Legacy UI"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<br />
 
 <div class="figure">
     <div class="figure-caption">Applications involved in an ERPsim simulation.</div>
 <img class="stage-photo" src="/assets/img/erpsim/erpsimarch.jpg" style="width: 100%" />
 </div>
 
+
 <div class="figure">
       <div class="figure-caption">Stages of use of the console</div>
   <a href="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1624560879/ERPsim/stages1_z0ecnp.jpg" data-lightbox="image-3"><img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1624560879/ERPsim/stages1_z0ecnp.jpg" style="width: 100%" /></a>
 </div>
+
 
 <div class="figure" style="margin-bottom: 0px;">
 <div class="figure-caption">Components of the interface and their context of use</div>
@@ -93,7 +129,7 @@ Is the main software component of their product.
 </div> -->
 
 <div class="article-text">
-<h3 class="stage-title">2. Scope</h3>
+<h3 class="stage-title" id="scrollspyIndex2">2. Scope</h3>
 
 </div>
 <div class="figure">
@@ -104,9 +140,8 @@ Is the main software component of their product.
 </div>
 
 <hr />
-
 <div class="article-text">
-<h3 class="stage-title">3. First Workshop: Identify Issues</h3>
+<h3 class="stage-title" id="scrollspyIndex3">3. First Workshop: Identify Issues</h3>
 <p>The objective of the first workshop was to consolidate comments, issue reports,
   </p>
 </div>
@@ -124,7 +159,7 @@ Is the main software component of their product.
 </div>
 <hr />
 
-<h3 class="stage-title">4. Second Workshop : Redesign </h3>
+<h3 class="stage-title" id="scrollspyIndex4">4. Second Workshop : Redesign </h3>
 
 <div class="figure">
     <div class="figure-caption">
@@ -148,8 +183,7 @@ Is the main software component of their product.
 </div>
 
 <hr />
-
-<h3 class="stage-title">6. Design iterations </h3>
+<h3 class="stage-title" id="scrollspyIndex5">5. Design iterations </h3>
 
 <div class="figure">
     <div class="figure-caption">
@@ -158,16 +192,20 @@ Is the main software component of their product.
 <img class="stage-photo" src="/assets/img/erpsim/sketches.jpg" style="width: 100%" />
 </div>
 
+
 <div class="figure">
     <div class="figure-caption">Layout sketches, defining the structure and distribution of information</div>
 <img src="https://res.cloudinary.com/davidaguirre-info/image/upload/v1625527949/ERPsim/components-11_bozfpg.png" class="stage-photo" id="animated-gif" />
   </div>
+
+
 
 <div class="figure">
   <a href="/assets/img/erpsim/Slide24.gif" data-lightbox="image-1">
     <div class="figure-caption">First interactive prototype showing the flow of interactions.</div>
 <img src="/assets/img/erpsim/Slide24.gif" class="stage-photo" id="animated-gif" /></a>
   </div>
+
 
 <div class="figure">
     <div class="figure-caption">Notes on component resizing.</div>
@@ -179,8 +217,7 @@ Is the main software component of their product.
 <img src="/assets/img/erpsim/erpsim_ctl_states.jpg" class="stage-photo" />
   </div>
 <hr />
-
-<h3 class="stage-title">7. Development</h3>
+<h3 class="stage-title" id="scrollspyIndex6">6. Development</h3>
 
 <div class="figure">
     <div class="figure-caption">State diagram for the front-end. This diagram was used to describe the user flow within different views inside the console.</div>
@@ -201,5 +238,8 @@ Is the main software component of their product.
 <div class="figure">
     <div class="figure-caption">Final prototype before development.</div>
 <iframe src="https://drive.google.com/file/d/1eiqLl0Hn0jTagWXFEmX9cK7_aUiFYOLE/preview" width="100%" height="480" allow="autoplay"></iframe>
+</div>
+
+<!-- end of id: process-content -->
 </div>
 :ET

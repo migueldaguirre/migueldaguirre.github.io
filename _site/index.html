@@ -22,21 +22,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap" rel="stylesheet" />
   <link rel="icon" type="image/png" href="assets/img/favicon.png" />
   <link rel="apple-touch-icon" href="assets/img/favicon.png" />
-
 </head>
 <body>
   <!--         <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
 
-<div class='nav' >
+<div class='md-nav' >
     <ul class='wrap'>
-        <span class="nav-name">DAVID AGUIRRE | BA & UX </span>
+        <span class="md-nav-name">DAVID AGUIRRE | BA & UX </span>
         <li><a id='about' href='/'>About</a></li>
         <li><a id='work' href='/work' >Work</a></li>
     </ul>
 </div>
  -->
-  <div class="nav">
+  <div class="md-nav">
     <ul class="wrap">
       <li><a id="about" class="selected" href="/">About</a></li>
       <li><a id="work" href="/work">Work</a></li>
@@ -63,21 +62,29 @@
     <h2 style="text-align:center">What do I bring to the table?</h2>
   <div class="project-facts">
     <div class="competencies-container">
-          <p><img src="assets/img/about/competences_icon-17.png" class="competencies-icon" /><span class="competencies-title">Process and Systems Visualization</span></p>
-          <p class="competencies-text"><span>Build a <b>shared vision</b> between collaborators that allows them to navigate the intricacies of IT and business operations, using multiple tools for descriptive modeling such as activity diagrams, process flowcharts, use cases, user flows, customer journey maps, service blueprints, value constellations, data models, state diagrams and application architectures.</span></p>
-          <p>
-          <img src="assets/img/about/competences_icon-15.png" class="competencies-icon" /><span class="competencies-title">User and Context Awareness</span></p>
-          <p class="competencies-text">
+
+<button class="accordion"><img src="assets/img/about/competences_icon-17.png" class="competencies-icon" /><span class="competencies-title">Process and Systems Visualization<span class="down-arrow-accordion">&#9660;</span></span></button>
+<div class="panel">
+  <p class="competencies-text"><span>Build a <b>shared vision</b> between collaborators that allows them to navigate the intricacies of IT and business operations, using multiple tools for descriptive modeling such as activity diagrams, process flowcharts, use cases, user flows, customer journey maps, service blueprints, value constellations, data models, state diagrams and application architectures.</span></p>
+</div>
+
+<button class="accordion"><img src="assets/img/about/competences_icon-15.png" class="competencies-icon" /><span class="competencies-title">User and Context Awareness<span class="down-arrow-accordion">&#9660;</span></span></button>
+<div class="panel">
+  <p class="competencies-text">
           <span>Reveal important <b>particularities</b> about users and their environments, through user research, rapid assessment procedures, design probes, and participatory workshops; understanding physical and social constraints, mapping out interactions between stakeholders, identifying interests and expectations, spotting opportunities, and mitigating biases.</span>
           </p>
-          <p><img src="assets/img/about/competences_icon-16.png" class="competencies-icon" /><span class="competencies-title">Information Design and Prototyping</span></p>
-          <p class="competencies-text">
+</div>
+
+<button class="accordion"><img src="assets/img/about/competences_icon-16.png" class="competencies-icon" /><span class="competencies-title">Information Design and Prototyping<span class="down-arrow-accordion">&#9660;</span></span></button>
+<div class="panel">
+  <p class="competencies-text">
           <span>Participate in the process of defining and modelling <b>solutions</b>. This includes gathering, classifying and managing requirements, describing scope and features, generating and visualizing alternatives, developing prototypes, and testing hypotheses. Giving special attention to usability and visual design (layout, typography, and aesthetics). </span></p>
+</div>
       </div>
       </div>
     </div>
       <br />
-      <div id="contact" style="text-align:left">
+      <div id="contact" style="text-align:left;">
       <h2>Where can you find me?</h2>
       <ul class="contact">
       <li>
@@ -100,4 +107,6 @@
       </div>
     </body>
     </html>
+<script src="/js/accordion.js"></script>
+
 
