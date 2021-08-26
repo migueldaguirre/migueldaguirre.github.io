@@ -390,7 +390,7 @@ color: rgba(0,0,0,0.5);
 
 
 .competencies-icon{
-  height:1.8em;
+  height:1.6em;
   position: relative;
   padding-right: 0.4em;
   padding-left: 1em;
@@ -497,12 +497,11 @@ hr {
 
 @media (max-width: 450px) {
 .competencies-icon{
-  display: block;
-  float: left;
-  padding-right: 1em;
-  position: relative;
-  top: -0em;
+    display: none;
   }
+.competencies-title{
+  padding-left: 0.5em;
+}
 }
 
 .project-facts{
@@ -724,10 +723,14 @@ opacity: 0.7;
 
 .process-toggle-title{
   width: 100%;
+  background-color: #E7E7E7;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  text-align:  center;
 }
 
 .process-toggle-title:hover{
-background-color: #E7E7E7;
+background-color: gainsboro;
 border: 2px solid #1C3D4F;
 border-radius: 3px;
 }
@@ -740,15 +743,17 @@ border-radius: 3px;
   line-height: 2.8em;
   /* border: solid 2px rgba(41,78,103,0.1); */
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1.3em;
+  padding-left: 2em;
 }
 
 .process-index-title{
 text-decoration: none;
     font-family: -apple-system, 'Source Sans Pro', sans-serif;
     font-size: 1.2em;
-    line-height: 1.7em;
+    line-height: 1.5em;
     color: var(--md-color);
+    font-weight: 200;
 }
 
 .process-index-subtitle{
@@ -766,5 +771,11 @@ color: var(--md-color);
 
 .hide-process-scrollspy{
   color: var(--md-grey);
+}
+.down-arrow-accordion-process{
+float:right;
+padding-right:2em;
+font-size: 0.5em;
+opacity: 0.7;
 }
 
