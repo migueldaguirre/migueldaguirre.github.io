@@ -129,10 +129,10 @@ const showhide = document.getElementById("showhide");
 btn.onclick = function () {
   if (targetDiv.style.display !== "none") {
     targetDiv.style.display = "none";
-    document.getElementById("showhide").innerHTML = "Show";
+    document.getElementById("showhide").innerHTML = "(&#xFF0B;) Show";
   } else {
     targetDiv.style.display = "block";
-        document.getElementById("showhide").innerHTML = "Hide";
+        document.getElementById("showhide").innerHTML = "( &#x2212; ) Hide";
 
   }
 };
