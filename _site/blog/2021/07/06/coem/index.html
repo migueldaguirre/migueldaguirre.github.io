@@ -124,7 +124,7 @@ MathJax.Hub.Config({
                                 
                                 
                                 
-                                Carlos Rojas <i style="opacity: 0.6">(Marketing Strategy)</i> ||
+                                Carlos Rojas <i style="opacity: 0.6">(Marketing Strategy)</i> |
                         
                                 
                                  <i style="opacity: 0.6">Interviewed:</i>
@@ -188,10 +188,38 @@ Renaming - Grouping</li>
 <img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626450626/Coem/Artboard_28_0.75x-100_xsmvlg.jpg" style="width: 100%" /></a>
 </div>
 
-<h2 class="process-title">Process</h2>
+<hr id="process-start" />
+
+<div id="toggle">
+<div class="process-toggle-title"><span class="competencies-title-process"><span id="showhide">(&#xFF0B;) Show</span> Process</span></div>
+</div>
+
+<div id="process-content" style="display: none">
+
+<div class="scrollspy">
+<nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+  <a class="navbar-brand process-index-title" href="#process-start">Process Index</a>
+  <ol class="nav nav-pills">
+    <li class="nav-item">
+      <a class="process-index-subtitle" href="#scrollspyIndex1">Scope &amp; Porkplan</a>
+    </li>
+    <li class="nav-item">
+      <a class="process-index-subtitle" href="#scrollspyIndex2">Interviews &amp; Card Sorting</a>
+    </li>
+    <li class="nav-item">
+      <a class="process-index-subtitle" href="#scrollspyIndex3">Website Strategy</a>
+ </li>
+    <li class="nav-item">
+      <a class="process-index-subtitle" href="#scrollspyIndex4">Structure (Website and Solution Portfolio)</a>
+    </li>
+  </ol>
+
+<a class="hide-process-scrollspy" href="#">(Back to top)</a>
+</nav>
+</div>
 
 <div class="article-text">
-<h3 class="stage-title">1. Scope</h3>
+<h3 class="stage-title" id="scrollspyIndex1">1. Scope</h3>
 <p>
   Redesign the website.
   Marketing.
@@ -209,8 +237,8 @@ Renaming - Grouping</li>
 <img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628262265/Coem/Plan_de_Trabajo_-_Scope-01_seokc7.png" style="width: 100%" /></a>
 </div>
 
+<h3 class="stage-title" id="scrollspyIndex2">2. Interviews and Card Sorting</h3>
 <div class="article-text">
-<h3 class="stage-title">2. Interviews</h3>
 <p>
   Building mind map of all the content produced by the company.
   Gathering information.
@@ -242,6 +270,8 @@ Renaming - Grouping</li>
 <img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626446202/Coem/Iconos_soluciones_componentes-01_xkpsyu.png" style="width: 100%" /></a>
 </div>
 
+
+<h3 class="stage-title" id="scrollspyIndex3">3. Website Strategy</h3>
 <div class="figure">
     <div class="figure-caption">
         Website structure
@@ -258,6 +288,15 @@ Renaming - Grouping</li>
 <img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626446207/Coem/Mapa_WebCoem_componentes-01_lerlax.png" style="width: 100%" /></a>
 </div>
 
+<div class="figure">
+    <div class="figure-caption">
+        Website structure 2
+    </div>
+    <a href="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626445396/Coem/wireframes-04_y5muwp.png" data-lightbox="image-1">
+<img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626445396/Coem/wireframes-04_y5muwp.png" style="width: 100%" /></a>
+</div>
+
+<h3 class="stage-title" id="scrollspyIndex4">4. Structure (Website and Solution Portfolio)</h3>
 <div class="figure">
     <div class="figure-caption">
         Basic style guides
@@ -279,12 +318,6 @@ Renaming - Grouping</li>
 <img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1500/v1628456510/Soluciones_Print-01_xlxj3v.png" style="width: 100%" /></a>
 </div>
 
-<div class="figure">
-    <div class="figure-caption">
-        Website structure 2
-    </div>
-    <a href="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626445396/Coem/wireframes-04_y5muwp.png" data-lightbox="image-1">
-<img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626445396/Coem/wireframes-04_y5muwp.png" style="width: 100%" /></a>
 </div>
 
 
@@ -312,10 +345,10 @@ const showhide = document.getElementById("showhide");
 btn.onclick = function () {
   if (targetDiv.style.display !== "none") {
     targetDiv.style.display = "none";
-    document.getElementById("showhide").innerHTML = "Show";
+    document.getElementById("showhide").innerHTML = "(&#xFF0B;) Show";
   } else {
     targetDiv.style.display = "block";
-        document.getElementById("showhide").innerHTML = "Hide";
+        document.getElementById("showhide").innerHTML = "( &#x2212; ) Hide";
 
   }
 };

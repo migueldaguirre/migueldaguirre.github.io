@@ -206,11 +206,13 @@ HTML components
 <div class="spacer"></div>
 <div class="spacer"></div>
 <div class="spacer"></div>
+
 <hr id="process-start" />
 
 <div id="toggle">
-<div class="process-toggle-title"><span class="competencies-title-process"><span id="showhide">Show</span> Process<span class="down-arrow-accordion-process">&#9660;</span></span></div>
+<div class="process-toggle-title"><span class="competencies-title-process"><span id="showhide">(&#xFF0B;) Show</span> Process</span></div>
 </div>
+
 <div id="process-content" style="display: none">
 
 
@@ -225,10 +227,10 @@ HTML components
       <a class="process-index-subtitle" href="#scrollspyIndex2">Scope</a>
     </li>
     <li class="nav-item">
-      <a class="process-index-subtitle" href="#scrollspyIndex3">1st Workshop: Identify Issues</a>
+      <a class="process-index-subtitle" href="#scrollspyIndex3">First Workshop: Identify Issues</a>
  </li>
     <li class="nav-item">
-      <a class="process-index-subtitle" href="#scrollspyIndex4">2nd Workshop: Redesign</a>
+      <a class="process-index-subtitle" href="#scrollspyIndex4">Second Workshop: Redesign</a>
     </li>
     <li class="nav-item">
       <a class="process-index-subtitle" href="#scrollspyIndex5">Design Iterations</a>
@@ -422,10 +424,10 @@ const showhide = document.getElementById("showhide");
 btn.onclick = function () {
   if (targetDiv.style.display !== "none") {
     targetDiv.style.display = "none";
-    document.getElementById("showhide").innerHTML = "Show";
+    document.getElementById("showhide").innerHTML = "(&#xFF0B;) Show";
   } else {
     targetDiv.style.display = "block";
-        document.getElementById("showhide").innerHTML = "Hide";
+        document.getElementById("showhide").innerHTML = "( &#x2212; ) Hide";
 
   }
 };

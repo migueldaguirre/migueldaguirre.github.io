@@ -392,7 +392,7 @@ color: rgba(0,0,0,0.5);
 .competencies-icon{
   height:1.6em;
   position: relative;
-  padding-right: 0.4em;
+  padding-right: 0.7em;
   padding-left: 1em;
   top:0.5em;
   /*filter: grayscale(100%);*/
@@ -455,7 +455,7 @@ hr {
   }
 }
 
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 1200px) {
   .scrollspy {
     display: none;
   }
@@ -672,6 +672,7 @@ width: 100%;
 .scrollspy{
   border: 1px solid #48606B;
   min-width: 180px;
+  max-width: 240;
   position:fixed;
   right:1em;
   top:1em;
@@ -736,9 +737,9 @@ border-radius: 3px;
 }
 
 .competencies-title-process{
-  color: #48606B;
+  color: var(--md-color);
   font-weight: 500;
-  padding: 0em 0em 0.05em 0em;
+  padding: 0em 0em 0em 0em;
   margin-right: 0.5em;
   line-height: 2.8em;
   /* border: solid 2px rgba(41,78,103,0.1); */
@@ -748,14 +749,17 @@ border-radius: 3px;
 }
 
 .process-index-title{
-text-decoration: none;
     font-family: -apple-system, 'Source Sans Pro', sans-serif;
     font-size: 1.2em;
     line-height: 1.5em;
     color: var(--md-color);
-    font-weight: 200;
+    font-weight: 300;
+    text-decoration: none;
 }
 
+.process-index-title:hover{
+  color: var(--md-grey);
+}
 .process-index-subtitle{
 text-decoration: none;
 }
@@ -766,7 +770,7 @@ color: var(--md-color);
 }
 
 .scrollspy ol{
-  padding-left: 1em;
+  padding-left: 1.5em;
 }
 
 .hide-process-scrollspy{

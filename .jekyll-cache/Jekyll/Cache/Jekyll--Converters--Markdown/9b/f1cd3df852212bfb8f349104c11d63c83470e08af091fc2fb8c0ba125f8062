@@ -1,0 +1,164 @@
+I"b<h3 class="article-sub">Context</h3>
+<div class="article-text">
+<p>Libertad vigilada (reportar los precios)
+Variación de precios:
+Importados (mayormente)
+Avgust Crop Protection operations in Colombia consist on comercialization of "agricultural inputs".
+**Some of the products are highly comoditized.
+**They experience tight competition.
+**Substitue products
+**Calculate margins of competitors + Compare with import pricing
+**How certain products behave through time. Capturing that information for longterm analysis.
+**Provide information for pricing.
+**Concurrence / Competiton per region
+**Control who has access to what information.
+**
+
+Regions in Colombia are diverse. Climates and crops.
+High variations in pricing for those products from region to region.
+Volatility of th Colombian currency.
+
+Managers need precise information, comming from the regions, which are mostly rural.
+
+Compiling information thrugh a callcenter
+
+</p></div>
+
+<h3 class="article-sub">Challenge</h3>
+<div class="article-text">
+<p>Libertad vigilada (reportar los precios)
+Variación de precios:
+Importados (mayormente)
+Terminados
+Materias primas - Fabricación local
+Sujetos al mercado cambiario
+Variaciones todos los meses
+TRM, cambia todos los días
+No existe un único precio nacional.
+Costos de logística
+Condiciones de negociación (Crédito o contado)
+Tipos de mercado
+Tamaño de los negocios (volumen)
+Es conveniente tener claridad de los cambios que se van presentando, en tiempo real.
+</p></div>
+
+<h3 class="article-sub">Outcome</h3>
+<div class="article-text">
+<p>
+  An MVP with the following features:
+  Allows to register the price for a product in a specific municipality in Colombia, including other relavant details.
+  <ol>
+    <li>Compare homologous products</li>
+    <li>Search tool inside entries</li>
+    <li>Currency conversion for each e</li>
+    <li></li>
+    <li></li>
+  </ol>
+</p>
+
+It allows to:
+Participate in quotes (licitaciones)
+Roles
+<p>
+ Herramienta para hacer el seguimiento de los precios de marcado (competidores)
+Tool to follow/monitor prices on the market (competitors)
+They received offers from marketing firms:
+Ofertas de un par de empresas de marketing:
+Servicio de monitoreo de precios
+Una vez por mes el reporte.
+Comparar un producto de la empresa frente a otros dos.
+Cobraban por producto. 70 productos.
+Ahora cerca de 90.
+No garantizaban que el precio fuera por presentación, almacén, usuario final.
+No ofrecía confiabilidad sobre la fuente de información. A través de terceros.
+</p>
+</div>
+
+<div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/583836820?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Avg Monitor Recording wide"></iframe></div>
+<script src="https://player.vimeo.com/api/player.js"></script>
+
+<hr id="process-start" />
+
+<div id="toggle">
+<div class="process-toggle-title"><span class="competencies-title-process"><span id="showhide">(&#xFF0B;) Show</span> Process</span></div>
+</div>
+<div id="process-content" style="display: none">
+
+<div class="scrollspy">
+<nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+  <a class="navbar-brand process-index-title" href="#process-start">Process Index</a>
+  <ol class="nav nav-pills">
+    <li class="nav-item">
+      <a class="process-index-subtitle" href="#scrollspyIndex1">Scope and Requirements</a>
+    </li>
+    <li class="nav-item">
+      <a class="process-index-subtitle" href="#scrollspyIndex2">Modelling (Classes &amp; Sequence)</a>
+    </li>
+    <li class="nav-item">
+      <a class="process-index-subtitle" href="#scrollspyIndex3">Application Development</a>
+ </li>
+  </ol>
+
+<a class="hide-process-scrollspy" href="#">(Back to top)</a>
+</nav>
+</div>
+
+
+<h3 class="stage-title" id="scrollspyIndex1">1. Scope and Requirements</h3>
+
+<div class="figure">
+<div class="figure-caption">Initial user stories</div>
+<a href="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628276952/AVGMonitor/User_Stories2-04-05_psukro.png" data-lightbox="image-1">
+<img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628276952/AVGMonitor/User_Stories2-04-05_psukro.png" style="width: 100%; margin-bottom: 0px;" /></a>
+</div>
+
+<br />
+
+<div class="figure">
+<div class="figure-caption">First sketch of the data models for the application, made with the client during the briefing meeting.</div>
+<a href="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628277217/AVGMonitor/Sketch_class_diagram-023-03_qhvvhx.png" data-lightbox="image-1">
+<img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628277217/AVGMonitor/Sketch_class_diagram-023-03_qhvvhx.png" style="width: 100%; margin-bottom: 0px;" /></a>
+</div>
+
+<h4 class="stage-title">Visualize user flow</h4>
+
+<br />
+<h3 class="stage-title" id="scrollspyIndex2">2. Modelling (Classes &amp; Sequence)</h3>
+
+<div class="figure" style="margin-bottom: 0px;">
+<div class="figure-caption">Class diagram of the completed application.<a href="https://www.google.com">(See full-size image)</a></div>
+<a href="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628288528/AVGMonitor/Class_Diagram_AVG_Monitor-01_xydvbv.png" data-lightbox="image-1">
+<img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628288528/AVGMonitor/Class_Diagram_AVG_Monitor-01_xydvbv.png" style="width: 100%; margin-bottom: 0px;" /></a>
+</div>
+
+<br />
+
+<div class="figure">
+<div class="figure-caption">Sequence diagram visualizing the creation of a new price record, made after development.</div>
+<a href="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628288523/AVGMonitor/12-02_lehr0a.png" data-lightbox="image-1">
+<img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628288523/AVGMonitor/12-02_lehr0a.png" style="width: 100%; margin-bottom: 0px;" /></a>
+</div>
+
+<br />
+
+<div class="figure">
+<div class="figure-caption">Sequence diagram depicting the tasks executed when the application is deployed.</div>
+<a href="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628288522/AVGMonitor/12-01_ue3ian.png" data-lightbox="image-1">
+<img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628288522/AVGMonitor/12-01_ue3ian.png" style="width: 100%; margin-bottom: 0px;" /></a>
+</div>
+
+<br />
+
+<h3 class="stage-title" id="scrollspyIndex3">3. Application Development</h3>
+<div class="figure" style="margin-bottom: 0px;">
+<div class="figure-caption">Git Repository</div>
+<a href="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628127886/AVGMonitor/github.com_migueldaguirre_AVMonitor_tree_69e69d88beca79c93e2327edc757b04710dae440_1_vrswhu.png" data-lightbox="image-1">
+<img class="stage-photo" src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628127886/AVGMonitor/github.com_migueldaguirre_AVMonitor_tree_69e69d88beca79c93e2327edc757b04710dae440_1_vrswhu.png" style="width: 100%; margin-bottom: 0px;" /></a>
+</div><br />
+<h5>Elastic Search Autocomplete</h5>
+<h5>TRM Scheduler</h5>
+<h5>Analysis allowed by the data in the app</h5>
+<h5>USD - COP currency API</h5>
+<hr />
+</div>
+:ET
