@@ -5,7 +5,7 @@ layout: empty
 
 <html>
 <head>
-  <title>David Aguirre | BA & UX</title>
+  <title>David Aguirre | Business Analysis & Product Design</title>
   <meta charset='UTF-8'>
   <meta content='width=device-width, initial-scale=1' name='viewport'/>
   <meta name='description' content='David Aguirre is a Designer and Business Analyst'>
@@ -21,6 +21,7 @@ layout: empty
   '>
   <meta name='author' content='David Aguirre'>
   <link rel='shortcut icon' href='/assets/img/favicon.png' />
+  <link rel="apple-touch-icon" href="/assets/img/favicon.png">
   <link href='/css/styles.css' rel='stylesheet'/>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -40,7 +41,7 @@ layout: empty
     <div id='intro'>
       <img src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_400/v1625816252/Profile_Whatsapp_d0lnik.jpg" class="profile-picture">
       <h1 style="margin-top:0.2em">David Aguirre</h1>
-      <h2 class="sub">Business Analyst & UX Designer</h2>
+      <h2 class="sub">Business Analyst & Product Designer</h2>
     </div>
     <div id="profile">
     <div class="article-text">

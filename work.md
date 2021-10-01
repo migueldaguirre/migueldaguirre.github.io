@@ -21,6 +21,7 @@ layout: empty
   '>
   <meta name='author' content='David Aguirre'>
   <link rel="icon" type="image/png" href="/assets/img/favicon.png"/>
+  <link rel="apple-touch-icon" href="/assets/img/favicon.png">
   <link rel='shortcut icon' href='/assets/img/favicon.png' />
   <link href='/css/styles.css' rel='stylesheet'/>
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -31,7 +32,7 @@ layout: empty
   <!-- {% include nav.html %} -->
   <div class='md-nav'>
     <ul class='wrap'>
-      <span class="md-nav-name">DAVID AGUIRRE | BA & UX </span>
+      <span class="md-nav-name">DAVID AGUIRRE | BA & PDD </span>
       <li><a id='about'  href='/'>About</a></li>
       <li><a id='work' class="selected" href='/work' >Work</a></li>
     </ul>

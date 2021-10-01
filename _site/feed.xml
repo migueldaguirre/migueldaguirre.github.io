@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-08-26T17:54:42-04:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">ERPsim Admin Console Front-End</title><link href="http://localhost:4000/blog/2021/07/10/erpsim/" rel="alternate" type="text/html" title="ERPsim Admin Console Front-End" /><published>2021-07-10T00:00:00-04:00</published><updated>2021-07-10T00:00:00-04:00</updated><id>http://localhost:4000/blog/2021/07/10/erpsim</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/10/erpsim/">&lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-10-01T10:01:55-04:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">ERPsim Admin Console Front-End</title><link href="http://localhost:4000/blog/2021/07/10/erpsim/" rel="alternate" type="text/html" title="ERPsim Admin Console Front-End" /><published>2021-07-10T00:00:00-04:00</published><updated>2021-07-10T00:00:00-04:00</updated><id>http://localhost:4000/blog/2021/07/10/erpsim</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/10/erpsim/">&lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
 &lt;div class=&quot;article-text&quot;&gt;
 &lt;p&gt;&lt;a href=&quot;https://erpsim.hec.ca/&quot;&gt;&lt;strong&gt;ERPsimLab&lt;/strong&gt;&lt;/a&gt; is an academic laboratory that develops curricula on management information systems and data analysis, by repurposing business software into learning platforms.
 &lt;/p&gt;
@@ -11,29 +11,50 @@ Their main product is the &lt;strong&gt;ERPsim&lt;/strong&gt;, a business simula
 
 &lt;h3 class=&quot;article-sub&quot;&gt;Challenge&lt;/h3&gt;
 &lt;div class=&quot;article-text&quot;&gt;
+&lt;p&gt;
+The simulations are set up and controlled from through the &lt;strong&gt;ERPsim Simulation Administration Console &lt;/strong&gt;, a web application that serves as an interface between the SAP system, the Simulation Event Generator, and the end users (Professors and Students). 
+&lt;/p&gt;
 
 &lt;p&gt;
-Improve the experience of using the ERPsim Simulation Administration Console, for instructors and students, by:
+This project was focused on improving the the experience of using that web application, by pusuing the following objectives:
 &lt;/p&gt;
 &lt;p&gt;
 &lt;ol style=&quot;color: rgba(0,0,0,0.8); font-size:1.1em;&quot;&gt;
 &lt;li&gt;Simplifying first time usage (ease of learning)&lt;/li&gt;
+  &lt;!-- &lt;ul&gt;
+  &lt;li&gt;Replacing/evaluating labels, comments, progression, reducing cognitve load, &lt;/li&gt;
+  &lt;/ul&gt; --&gt;
+  &lt;br /&gt;
 &lt;li&gt;Making the game debriefing data more revelant and focused&lt;/li&gt;
+  &lt;!-- &lt;ul&gt;
+  &lt;li&gt;By adding charts and single metric rankings&lt;/li&gt;
+  &lt;/ul&gt; --&gt;
+  &lt;br /&gt;
 &lt;li&gt;Updating visual components to current standards of the web&lt;/li&gt;
+  &lt;!-- &lt;ul&gt;
+  &lt;li&gt;Replacing/evaluating labels, comments, progression, reducing cognitve load, &lt;/li&gt;
+  &lt;/ul&gt; --&gt;
+  &lt;br /&gt;
 &lt;li&gt;Preparing the interface for incremental development&lt;/li&gt;
+  &lt;!-- &lt;ul&gt;
+  &lt;li&gt;Replacing/evaluating labels, comments, progression, reducing cognitve load, &lt;/li&gt;
+  &lt;/ul&gt; --&gt;
+  &lt;br /&gt;
 &lt;li&gt;Adapting the content to multiple screen sizes (tablet, mobile, desktop)&lt;/li&gt;
+  &lt;!-- &lt;ul&gt;
+  &lt;li&gt;Replacing/evaluating labels, comments, progression, reducing cognitve load, &lt;/li&gt;
+  &lt;/ul&gt; --&gt;
+  &lt;br /&gt;
 &lt;/ol&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
-Whith the hypothesis that perceived quality, ease of learning and student engagement can all be enhanced by
+&lt;!-- Whith the hypothesis that perceived quality, ease of learning and student engagement can all be enhanced by
 intervening the graphical user interface: layout and control components, data tables and graphics, and the
 sequence in which information is displayed or accessed.
-
+ --&gt;
 &lt;!-- It is expected that this will have a positive impact in reducing the friction of “adoption” by instructors and improving the debriefing phase of simulations thus positively impacting student learning.
-
-The simulator administration console is a web application used by teachers and trainers for setting up and controlling the simulations. Incremental improvements were made since its development, but some underlying structures  were no longer
-Some of the lables adn tools were deemed unintuitive, and the frontend was not optimized for multiple screens. Responsive Uodate + Better looking UI. Appeal + New features - Improving Post Game Debriefing. Improve the debrefing and visualization, eliminate ambiguities and make the steup process simpler, more understandable for new users. --&gt;
+ --&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -41,10 +62,8 @@ Some of the lables adn tools were deemed unintuitive, and the frontend was not o
 
 &lt;div class=&quot;article-text&quot;&gt;
 &lt;p&gt;
-An upgrade from the previous application.
-Briging together comments and reviews users.
-Application, developed using React.JS
-HTML components
+An new web application, developped in using the React.JS framework. Released in June 2021.
+This application was the product of multiple elicitation, ideation and validation workshops; multiple mockup iterations and html/css ready components. You can see the end-to-end user flow of the first functionning version in the following video:
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;div style=&quot;padding:54.88% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/583229819?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;ERPSIM Console App Recording.mp4&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
@@ -245,81 +264,34 @@ HTML components
 &lt;/div&gt;
 
 &lt;!-- end of id: process-content --&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Context ERPsimLab is an academic laboratory that develops curricula on management information systems and data analysis, by repurposing business software into learning platforms. Their main product is the ERPsim, a business simulation game for SAP ERP and SAP S/4HANA in which participants use a real ERP system to manage their virtual company in a simulated market. It is currently being used in 170 universities around the world at courses in Bacherlors, Masters and MBA levels.</summary></entry><entry><title type="html">Crowd-Sourced Price Monitoring Web-App</title><link href="http://localhost:4000/blog/2021/07/09/monitor/" rel="alternate" type="text/html" title="Crowd-Sourced Price Monitoring Web-App" /><published>2021-07-09T00:00:00-04:00</published><updated>2021-07-09T00:00:00-04:00</updated><id>http://localhost:4000/blog/2021/07/09/monitor</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/09/monitor/">&lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Context ERPsimLab is an academic laboratory that develops curricula on management information systems and data analysis, by repurposing business software into learning platforms. Their main product is the ERPsim, a business simulation game for SAP ERP and SAP S/4HANA in which participants use a real ERP system to manage their virtual company in a simulated market. It is currently being used in 170 universities around the world at courses in Bacherlors, Masters and MBA levels.</summary></entry><entry><title type="html">Crowd-Sourced Price Monitoring Web-App</title><link href="http://localhost:4000/blog/2021/07/09/monitor/" rel="alternate" type="text/html" title="Crowd-Sourced Price Monitoring Web-App" /><published>2021-07-09T00:00:00-04:00</published><updated>2021-07-09T00:00:00-04:00</updated><id>http://localhost:4000/blog/2021/07/09/monitor</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/09/monitor/">&lt;!-- 
+&lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
 &lt;div class=&quot;article-text&quot;&gt;
-&lt;p&gt;Libertad vigilada (reportar los precios)
-Variación de precios:
-Importados (mayormente)
-Avgust Crop Protection operations in Colombia consist on comercialization of &quot;agricultural inputs&quot;.
-**Some of the products are highly comoditized.
-**They experience tight competition.
-**Substitue products
-**Calculate margins of competitors + Compare with import pricing
-**How certain products behave through time. Capturing that information for longterm analysis.
-**Provide information for pricing.
-**Concurrence / Competiton per region
-**Control who has access to what information.
-**
-
-Regions in Colombia are diverse. Climates and crops.
-High variations in pricing for those products from region to region.
-Volatility of th Colombian currency.
-
-Managers need precise information, comming from the regions, which are mostly rural.
-
-Compiling information thrugh a callcenter
-
-&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;
+...
+&lt;/p&gt;
+&lt;/div&gt;
 
 &lt;h3 class=&quot;article-sub&quot;&gt;Challenge&lt;/h3&gt;
 &lt;div class=&quot;article-text&quot;&gt;
-&lt;p&gt;Libertad vigilada (reportar los precios)
-Variación de precios:
-Importados (mayormente)
-Terminados
-Materias primas - Fabricación local
-Sujetos al mercado cambiario
-Variaciones todos los meses
-TRM, cambia todos los días
-No existe un único precio nacional.
-Costos de logística
-Condiciones de negociación (Crédito o contado)
-Tipos de mercado
-Tamaño de los negocios (volumen)
-Es conveniente tener claridad de los cambios que se van presentando, en tiempo real.
+&lt;p&gt;
+...
 &lt;/p&gt;&lt;/div&gt;
 
 &lt;h3 class=&quot;article-sub&quot;&gt;Outcome&lt;/h3&gt;
 &lt;div class=&quot;article-text&quot;&gt;
 &lt;p&gt;
-  An MVP with the following features:
-  Allows to register the price for a product in a specific municipality in Colombia, including other relavant details.
-  &lt;ol&gt;
-    &lt;li&gt;Compare homologous products&lt;/li&gt;
-    &lt;li&gt;Search tool inside entries&lt;/li&gt;
-    &lt;li&gt;Currency conversion for each e&lt;/li&gt;
-    &lt;li&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;/li&gt;
-  &lt;/ol&gt;
+...
 &lt;/p&gt;
+&lt;/div&gt; --&gt;
 
-It allows to:
-Participate in quotes (licitaciones)
-Roles
-&lt;p&gt;
- Herramienta para hacer el seguimiento de los precios de marcado (competidores)
-Tool to follow/monitor prices on the market (competitors)
-They received offers from marketing firms:
-Ofertas de un par de empresas de marketing:
-Servicio de monitoreo de precios
-Una vez por mes el reporte.
-Comparar un producto de la empresa frente a otros dos.
-Cobraban por producto. 70 productos.
-Ahora cerca de 90.
-No garantizaban que el precio fuera por presentación, almacén, usuario final.
-No ofrecía confiabilidad sobre la fuente de información. A través de terceros.
-&lt;/p&gt;
+&lt;div class=&quot;figure&quot;&gt;
+&lt;div class=&quot;figure-caption&quot;&gt;Project visual summary&lt;/div&gt;
+&lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1632367776/AVGMonitor/AVGMonitor-summary_gfuemq.jpg&quot; data-lightbox=&quot;image-1&quot;&gt;
+&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1632367776/AVGMonitor/AVGMonitor-summary_gfuemq.jpg&quot; style=&quot;width: 100%; margin-bottom: 0px;&quot; /&gt;&lt;/a&gt;
 &lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;div style=&quot;padding:62.5% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/583836820?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;Avg Monitor Recording wide&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
 &lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
@@ -402,22 +374,20 @@ No ofrecía confiabilidad sobre la fuente de información. A través de terceros
 &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628127886/AVGMonitor/github.com_migueldaguirre_AVMonitor_tree_69e69d88beca79c93e2327edc757b04710dae440_1_vrswhu.png&quot; data-lightbox=&quot;image-1&quot;&gt;
 &lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628127886/AVGMonitor/github.com_migueldaguirre_AVMonitor_tree_69e69d88beca79c93e2327edc757b04710dae440_1_vrswhu.png&quot; style=&quot;width: 100%; margin-bottom: 0px;&quot; /&gt;&lt;/a&gt;
 &lt;/div&gt;&lt;br /&gt;
-&lt;h5&gt;Elastic Search Autocomplete&lt;/h5&gt;
-&lt;h5&gt;TRM Scheduler&lt;/h5&gt;
-&lt;h5&gt;Analysis allowed by the data in the app&lt;/h5&gt;
-&lt;h5&gt;USD - COP currency API&lt;/h5&gt;
+
 &lt;hr /&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Context Libertad vigilada (reportar los precios) Variación de precios: Importados (mayormente) Avgust Crop Protection operations in Colombia consist on comercialization of &quot;agricultural inputs&quot;. **Some of the products are highly comoditized. **They experience tight competition. **Substitue products **Calculate margins of competitors + Compare with import pricing **How certain products behave through time. Capturing that information for longterm analysis. **Provide information for pricing. **Concurrence / Competiton per region **Control who has access to what information. **</summary></entry><entry><title type="html">IoT Water and Freeze Detector Setup</title><link href="http://localhost:4000/blog/2021/07/08/alerte/" rel="alternate" type="text/html" title="IoT Water and Freeze Detector Setup" /><published>2021-07-08T00:00:00-04:00</published><updated>2021-07-08T00:00:00-04:00</updated><id>http://localhost:4000/blog/2021/07/08/alerte</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/08/alerte/">&lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">&amp;lt;!– Context ...</summary></entry><entry><title type="html">IoT Water and Freeze Detector Setup</title><link href="http://localhost:4000/blog/2021/07/08/alerte/" rel="alternate" type="text/html" title="IoT Water and Freeze Detector Setup" /><published>2021-07-08T00:00:00-04:00</published><updated>2021-07-08T00:00:00-04:00</updated><id>http://localhost:4000/blog/2021/07/08/alerte</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/08/alerte/">&lt;!-- &lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
 &lt;div class=&quot;article-text&quot;&gt;
 &lt;p&gt;
-  The main objective was to determine the strengths and weaknesses, in terms of usability, of the various steps required to install the detector on the application. The results of these tests will be used to inform the development team of adjustments and modifications to consider to improve the experience of its users. These results will also make it possible to verify whether the installation steps are sufficiently understandable. This report will present, among other things, the results observed as well as the appropriate recommendations.
+...
 &lt;/p&gt;
 &lt;/div&gt;
+
 
 &lt;h3 class=&quot;article-sub&quot;&gt;Challenge&lt;/h3&gt;
 &lt;div class=&quot;article-text&quot;&gt;
 &lt;p&gt;
-  ...
+...
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -426,7 +396,7 @@ No ofrecía confiabilidad sobre la fuente de información. A través de terceros
 &lt;p&gt;
   ...
 &lt;/p&gt;
-&lt;/div&gt;
+&lt;/div&gt; --&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
   &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626467593/Desjardins/photo_comp-02_ndxtub.png&quot; data-lightbox=&quot;image-3&quot;&gt;&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626467593/Desjardins/photo_comp-02_ndxtub.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
@@ -481,7 +451,7 @@ No ofrecía confiabilidad sobre la fuente de información. A través de terceros
 &lt;h3 class=&quot;stage-title&quot; id=&quot;scrollspyIndex2&quot;&gt;2. Approach&lt;/h3&gt;
 
 &lt;div class=&quot;article-text&quot;&gt;
-&lt;p&gt;Afin de rendre les tests aussi réalistes que possible, les participants ont dû installer le détecteur dans le confort de leur habitation où deux évaluateurs avec une expérience dans le domaine ont observé et guidé le processus de déroulement des tests. Les évaluateurs se sont également assurés que les utilisateurs conservent une certaine autonomie pour et qu’ils soient en mesure de prendre leurs propres décisions.&lt;/p&gt;
+&lt;!-- &lt;p&gt;Afin de rendre les tests aussi réalistes que possible, les participants ont dû installer le détecteur dans le confort de leur habitation où deux évaluateurs avec une expérience dans le domaine ont observé et guidé le processus de déroulement des tests. Les évaluateurs se sont également assurés que les utilisateurs conservent une certaine autonomie pour et qu’ils soient en mesure de prendre leurs propres décisions.&lt;/p&gt; --&gt;
 &lt;/div&gt;
 
 
@@ -495,7 +465,7 @@ No ofrecía confiabilidad sobre la fuente de información. A través de terceros
 
 &lt;h3 class=&quot;stage-title&quot; id=&quot;scrollspyIndex3&quot;&gt;3. Findings&lt;/h3&gt;
 &lt;div class=&quot;article-text&quot;&gt;
-&lt;p&gt;L’analyse des données a été basée sur les commentaires des participants lors de la réalisation des tâches demandées ainsi qu’une fois qu’ils les avaient accomplis. De plus, un questionnaire quantitatif a été distribué aux participants et analysé par la suite afin de fournir une comparaison de l’utilisabilité de l’application avec d’autres systèmes.&lt;/p&gt;
+&lt;!-- &lt;p&gt;L’analyse des données a été basée sur les commentaires des participants lors de la réalisation des tâches demandées ainsi qu’une fois qu’ils les avaient accomplis. De plus, un questionnaire quantitatif a été distribué aux participants et analysé par la suite afin de fournir une comparaison de l’utilisabilité de l’application avec d’autres systèmes.&lt;/p&gt; --&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
@@ -525,7 +495,12 @@ No ofrecía confiabilidad sobre la fuente de información. A través de terceros
 
 
 
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Context The main objective was to determine the strengths and weaknesses, in terms of usability, of the various steps required to install the detector on the application. The results of these tests will be used to inform the development team of adjustments and modifications to consider to improve the experience of its users. These results will also make it possible to verify whether the installation steps are sufficiently understandable. This report will present, among other things, the results observed as well as the appropriate recommendations.</summary></entry><entry><title type="html">Dynamic Class Enrollment Platform</title><link href="http://localhost:4000/blog/2021/07/08/unicours/" rel="alternate" type="text/html" title="Dynamic Class Enrollment Platform" /><published>2021-07-08T00:00:00-04:00</published><updated>2021-07-08T00:00:00-04:00</updated><id>http://localhost:4000/blog/2021/07/08/unicours</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/08/unicours/">&lt;div&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">&amp;lt;!– &amp;lt;h3 class=&quot;article-sub&quot;&amp;gt;Context&amp;lt;/h3&amp;gt; ...</summary></entry><entry><title type="html">Dynamic Class Enrollment Platform</title><link href="http://localhost:4000/blog/2021/07/08/unicours/" rel="alternate" type="text/html" title="Dynamic Class Enrollment Platform" /><published>2021-07-08T00:00:00-04:00</published><updated>2021-07-08T00:00:00-04:00</updated><id>http://localhost:4000/blog/2021/07/08/unicours</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/08/unicours/">&lt;div&gt;
+&lt;h3 class=&quot;article-sub&quot;&gt;Summary&lt;/h3&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/v1632367835/Unicours/Unicours-summary_zdfono.jpg&quot; style=&quot;width:100%&quot; /&gt;&lt;/p&gt;
+
+&lt;!-- &lt;div&gt;
 &lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
 &lt;div class=&quot;article-text&quot;&gt;
 &lt;p&gt;As an exercise in the UX Design course within the MSc. in User Experience in a Business Context. Following a systemic/structured process of empathizing, ideation, user testing and iterative prototyping.
@@ -534,66 +509,27 @@ No ofrecía confiabilidad sobre la fuente de información. A través de terceros
 
 &lt;h3 class=&quot;article-sub&quot;&gt;Challenge&lt;/h3&gt;
 &lt;div class=&quot;article-text&quot;&gt;
-&lt;p&gt;Reinvent the online experience for enrolling into university courses by setting up a course selection system that can be used by all schools in Quebec to standardize practices in the community and give students a better experience. Using the current platform as a staring point.
-Concept Testing
-Refining the idea: Card sorting
-
-As an exercise in the UX Design course within the MSc. in User Experience in a Business Context. Following a systemic/structured process of empathizing, ideation, user testing and iterative prototyping.
-
-Card sorting for defining information hierarchy.
-All the information that was relevant during each step of the enrollment process. Then was prioritized using card sorting software.
-
-The heart of the experience is like going shopping in a store or an e-commerce site. The goal is to find one's way easily inside, to choose the product that perfectly meets our expectations, to be able to buy it without stress and to exchange it in the future if one wishes.
-
-This text was developed during / as part of the UX design course with the MSC in User Experience in a Business Context, at HEC Montréal.
-
-The main objective was to explore alternative interactions fro an existing experience, while applying a well structured process for ideation, exploration and prototyping.
-
-Getting some exposure / experience using standard tools like personas, user journeys, value diagrams, ideation, etc.
-
-The prototype was built on Axure 9.0. and had three cycles of iteration - user testing.
-
-After defining our persona, we made 10 interviews. This provided content for detailing the profiles as well as confirmation about the relevance of the project.
-
-The values / principles behind the new interface were:
-Enhance visibility during the process.
-
-Explore alternatives for fragmented / multiscreen flows.
-
-This was particularly important because the consequences / effects of some choices were not evident right away.
-
-The linear interaction didn’t allow for visualizing the calendar
-
-Remove the need for keeping the information in another file
-Include new features
-
-Sequences in which most of the contextual elements are persistent, a sen sense of space, of physicality, as a tangible artifact.
-
-The case for single page applications vs. Multiscreen
-
-We decided to make a card sorting, to decide which elements were more relevant and also how they were related to each other. Todo so, we used Optimal Workshop. And got responses from x people
-
-Icons, colors, contrast, legibility
-
-Feature prioritization - Value vs. Effort
-
-Summary of notes / value proposition
-
+&lt;p&gt;
+...
 &lt;/p&gt;
 &lt;/div&gt;
 
 &lt;h3 class=&quot;article-sub&quot;&gt;Result&lt;/h3&gt;
 &lt;div class=&quot;article-text&quot;&gt;
 &lt;p&gt;Result: Outcome: A single page web app with a fluid (non-fragmented interaction) that is also adaptive. It includes all the features previously available in the original version.&lt;/p&gt;
-&lt;/div&gt;
+&lt;/div&gt; --&gt;
 
-&lt;div style=&quot;padding:62.5% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/583841479?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;Video Mobile Unicours&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
-&lt;br /&gt;
-  &lt;div style=&quot;padding:56.25% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/583978982?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;Course Enrollment - Flow&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
-&lt;br /&gt;
+&lt;div style=&quot;padding:62.5% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/583841479?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;Video Mobile Unicours&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div style=&quot;padding:56.25% 0 0 0;position:relative;&quot;&gt;&lt;iframe src=&quot;https://player.vimeo.com/video/583978982?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen; picture-in-picture&quot; allowfullscreen=&quot;&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;Course Enrollment - Flow&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;script src=&quot;https://player.vimeo.com/api/player.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;hr id=&quot;process-start&quot; /&gt;
+
 &lt;div id=&quot;toggle&quot;&gt;
 &lt;div class=&quot;process-toggle-title&quot;&gt;&lt;span class=&quot;competencies-title-process&quot;&gt;&lt;span id=&quot;showhide&quot;&gt;(&amp;#xFF0B;) Show&lt;/span&gt; Process&lt;span class=&quot;down-arrow-accordion-process&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
 &lt;/div&gt;
@@ -644,8 +580,6 @@ Summary of notes / value proposition
     &lt;/div&gt;
 &lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1200/v1624568434/Unicours/presentation_Unicours_1_3._Exp_copy_esmdaw.jpg&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/div&gt;
-
-
 
 
 &lt;h3 class=&quot;stage-title&quot; id=&quot;scrollspyIndex2&quot;&gt;2. Ideation &amp;amp; Concept Development&lt;/h3&gt;
@@ -766,27 +700,27 @@ https://et35qh.axshare.com/#g=1&amp;amp;p=principale__post-tests_&amp;amp;c=1
 
 
 
-&lt;/div&gt;
-
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Context As an exercise in the UX Design course within the MSc. in User Experience in a Business Context. Following a systemic/structured process of empathizing, ideation, user testing and iterative prototyping.</summary></entry><entry><title type="html">Product &amp;amp; Service Portfolio Structure</title><link href="http://localhost:4000/blog/2021/07/06/coem/" rel="alternate" type="text/html" title="Product &amp;amp; Service Portfolio Structure" /><published>2021-07-06T00:00:00-04:00</published><updated>2021-07-06T00:00:00-04:00</updated><id>http://localhost:4000/blog/2021/07/06/coem</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/06/coem/">&lt;p&gt;Web-site re-structuring
-Sorting workshop with individual experts&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;General Sales Manager&lt;/li&gt;
-  &lt;li&gt;Technical Architect Manager&lt;/li&gt;
-  &lt;li&gt;General Service Commercial Manager&lt;/li&gt;
-  &lt;li&gt;Consulting and Enterprise Architecture Director&lt;/li&gt;
-  &lt;li&gt;Multiple account managers from SMB, CTM &amp;amp; EPG Segments
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Summary</summary></entry><entry><title type="html">Product &amp;amp; Service Portfolio Structure</title><link href="http://localhost:4000/blog/2021/07/06/coem/" rel="alternate" type="text/html" title="Product &amp;amp; Service Portfolio Structure" /><published>2021-07-06T00:00:00-04:00</published><updated>2021-07-06T00:00:00-04:00</updated><id>http://localhost:4000/blog/2021/07/06/coem</id><content type="html" xml:base="http://localhost:4000/blog/2021/07/06/coem/">&lt;!-- 
+Web-site re-structuring
+Sorting workshop with individual experts
+  - General Sales Manager
+  - Technical Architect Manager
+  - General Service Commercial Manager
+  - Consulting and Enterprise Architecture Director
+  - Multiple account managers from SMB, CTM &amp; EPG Segments
 Website architecture
 Soluton Architecture
-Renaming - Grouping&lt;/li&gt;
-&lt;/ul&gt;
+Renaming - Grouping
+ --&gt;
+&lt;!-- / Software de Gestión, Consultoría en Procesos, Administración de Recursos, Aplicaciones Web, Manejo de Seguridad y Soluciones de Infraestructura. --&gt;
 
-&lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
+&lt;!-- &lt;h3 class=&quot;article-sub&quot;&gt;Context&lt;/h3&gt;
 &lt;div class=&quot;article-text&quot;&gt;
 &lt;p&gt;
-  &lt;a href=&quot;https://www.coem.co&quot;&gt;Controles Empresariales&lt;/a&gt; // Software, hardware, and consulting services integrator, serving 30% of Microsoft’s market share in Colombia.// Software de Gestión, Consultoría en Procesos, Administración de Recursos, Aplicaciones Web, Manejo de Seguridad y Soluciones de Infraestructura.
+  &lt;a href=&quot;https://www.coem.co&quot;&gt;Controles Empresariales&lt;/a&gt; is a software, hardware, and consulting services integrator, serving 30% of Microsoft’s market share in Colombia.
 &lt;/p&gt;
 &lt;/div&gt;
+
 
 &lt;h3 class=&quot;article-sub&quot;&gt;Challenge&lt;/h3&gt;
 &lt;div class=&quot;article-text&quot;&gt;
@@ -800,10 +734,10 @@ Renaming - Grouping&lt;/li&gt;
 &lt;p&gt;
  Content maketing / unified languge and structure / website structure / Categorías para mercadeo / Taxonomy for classifying new products / Improved visibility
 &lt;/p&gt;
-&lt;/div&gt;
+&lt;/div&gt; --&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
-    &lt;div class=&quot;figure-caption&quot;&gt;Website with content&lt;/div&gt;
+    &lt;!-- &lt;div class='figure-caption'&gt;Website with content&lt;/div&gt; --&gt;
 &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626450626/Coem/Artboard_28_0.75x-100_xsmvlg.jpg&quot; data-lightbox=&quot;image-1&quot;&gt;
 &lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626450626/Coem/Artboard_28_0.75x-100_xsmvlg.jpg&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
 &lt;/div&gt;
@@ -840,13 +774,13 @@ Renaming - Grouping&lt;/li&gt;
 
 &lt;div class=&quot;article-text&quot;&gt;
 &lt;h3 class=&quot;stage-title&quot; id=&quot;scrollspyIndex1&quot;&gt;1. Scope&lt;/h3&gt;
-&lt;p&gt;
+&lt;!-- &lt;p&gt;
   Redesign the website.
   Marketing.
   Implement a content marketing.
   Organize the portfolio was foundamental for further progress in marketing initiatives.
 
-&lt;/p&gt;
+&lt;/p&gt; --&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
@@ -859,11 +793,11 @@ Renaming - Grouping&lt;/li&gt;
 
 &lt;h3 class=&quot;stage-title&quot; id=&quot;scrollspyIndex2&quot;&gt;2. Interviews and Card Sorting&lt;/h3&gt;
 &lt;div class=&quot;article-text&quot;&gt;
-&lt;p&gt;
+&lt;!-- &lt;p&gt;
   Building mind map of all the content produced by the company.
   Gathering information.
   Combining products, with concepts.
-&lt;/p&gt;
+&lt;/p&gt; --&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
@@ -902,7 +836,7 @@ Renaming - Grouping&lt;/li&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
-        Website structure 2
+        Website structure and wireframe templates per page type. 
     &lt;/div&gt;
     &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626446207/Coem/Mapa_WebCoem_componentes-01_lerlax.png&quot; data-lightbox=&quot;image-1&quot;&gt;
 &lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626446207/Coem/Mapa_WebCoem_componentes-01_lerlax.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
@@ -910,7 +844,7 @@ Renaming - Grouping&lt;/li&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
-        Website structure 2
+        All page type wireframes for the first release
     &lt;/div&gt;
     &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626445396/Coem/wireframes-04_y5muwp.png&quot; data-lightbox=&quot;image-1&quot;&gt;
 &lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1626445396/Coem/wireframes-04_y5muwp.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
@@ -927,7 +861,7 @@ Renaming - Grouping&lt;/li&gt;
 
 &lt;div class=&quot;figure&quot;&gt;
     &lt;div class=&quot;figure-caption&quot;&gt;
-        Print 1
+        Solution summary templates and examples - Content for landing-pages and layout for print (pdf)
     &lt;/div&gt;
         &lt;a href=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628456510/Soluciones_Print-02_qiuq60.png&quot; data-lightbox=&quot;image-1&quot;&gt;
 &lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1000/v1628456510/Soluciones_Print-02_qiuq60.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
@@ -938,4 +872,4 @@ Renaming - Grouping&lt;/li&gt;
 &lt;img class=&quot;stage-photo&quot; src=&quot;https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_1500/v1628456510/Soluciones_Print-01_xlxj3v.png&quot; style=&quot;width: 100%&quot; /&gt;&lt;/a&gt;
 &lt;/div&gt;
 
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Web-site re-structuring Sorting workshop with individual experts General Sales Manager Technical Architect Manager General Service Commercial Manager Consulting and Enterprise Architecture Director Multiple account managers from SMB, CTM &amp;amp; EPG Segments Website architecture Soluton Architecture Renaming - Grouping</summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
