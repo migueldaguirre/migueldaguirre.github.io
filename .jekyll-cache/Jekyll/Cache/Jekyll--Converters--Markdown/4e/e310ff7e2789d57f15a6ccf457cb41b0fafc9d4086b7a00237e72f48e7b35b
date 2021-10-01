@@ -1,4 +1,4 @@
-<html>
+I"Î<html>
 <head>
   <title>David Aguirre - Work</title>
   <meta charset="UTF-8" />
@@ -172,4 +172,4 @@ var dt = new Date();
 document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
 </script>
 </html>
-
+:ET
