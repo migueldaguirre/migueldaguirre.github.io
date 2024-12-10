@@ -41,24 +41,19 @@ layout: empty
     <div id='intro'>
       <img src="https://res.cloudinary.com/dk8sybtxo/image/upload/v1733802480/IMG_1123_copy_2_squared_copy_qdhutc.jpg" class="profile-picture">
       <h1 style="margin-top:0.2em">David Aguirre</h1>
-      <h2 class="sub">Business Analyst & Product Designer</h2>
+      <h2 class="sub">Consultant at Deloitte Technology & Transformation <br>Human-Centered Design in Enterprise Systems </h2>
     </div>
     <div id="profile">
     <div class="article-text">
         <p>
-        I'm a Designer working at the intersection of information systems, business, and user interfaces.
-        I have 4 years of experience in the IT industry, co-creating digital solutions that combine design-thinking and web technologies.</p>
+        As a Consultant at Deloitte's Technology & Transformation practice, I apply knowledge and expertise from the design disciplines to the analysis, development and implementation of information systems.</p>
         <p>
-        I majored in Product and Communication Design at <em>Universidad de los Andes</em>, Colombia, with a Minor in Entrepreneurship Studies, and more recently, studied User Experience and Business Analysis in IT at <em>HEC Montréal</em>, obtaining a Graduate Specialization Degree in 2020.</p>
-        <p>
-        In 2021, I became a certified Application Associate in <em>Integrated Business Processes with SAP S/4 HANA</em>, following my interest in large-scale business applications.</p>
-        <p>
-        My long-term goal as a professional is to advance the disciplines of <em class="md-color">design thinking</em>, <em class="md-color">integrative thinking,</em> and <em class="md-color">systems thinking</em> through practice, particularly in innovation management and socio-technical interventions.</p>
+        My latest work includes doing functional analysis and design in CRM implementations (Salesforce), formulating CX strategies (establishing technology roadmaps to achieve a 360-degree view of customers, with target operating models, systems architecture, and service design), and collaborating with  functional teams in the preparation of custom developments within ERP implementation programs (SAP Fiori, Work Zone), and explorations in applied AI (data generation using diffusion models and LLM workflows for qualitative data analysis). I also focus on digital accessibility compliance for the public sector and nonprofit organizations</p>
         </div>
         <!-- <hr> -->
 
   <!-- <h2 style="text-align:center">What do I bring to the table?</h2> -->
-  <div class="project-facts">
+  <!-- <div class="project-facts">
     <!-- <div class="competencies-container">
     <button class="accordion"><img src="assets/img/about/competences_icon-17.png" class="competencies-icon"><span class="competencies-title">Process and Systems Visualization<span class="down-arrow-accordion">&#9660;</span></span></button> <div class="panel">
     <p class="competencies-text"><span >Build a <b>shared vision</b> between collaborators that allows them to navigate the intricacies of IT and business operations, using multiple tools for descriptive modeling such as activity diagrams, process flowcharts, use cases, user flows, customer journey maps, service blueprints, value constellations, data models, state diagrams and application architectures.</span></p>
@@ -74,15 +69,18 @@ layout: empty
   <p class="competencies-text">
           <span >Participate in the process of defining and modelling <b>solutions</b>. This includes gathering, classifying and managing requirements, describing scope and features, generating and visualizing alternatives, developing prototypes, and testing hypotheses. Giving special attention to usability and visual design (layout, typography, and aesthetics). </span></p>
 </div> -->
-      <!-- </div> -->
-      </div>
+<!-- </div> -->
+<!-- </div> -->
     </div>
-      <br>
+      <hr>
       <div id="contact" style="text-align:left;">
       <h2 >Where can you find me?</h2>
       <ul class="contact" >
       <li>
-      <a href = "mailto: david.aguirre@hec.ca"><i class="fas fa-envelope-square" style="color:  #FBAD4F">&nbsp;</i>Email: <u>david.aguirre@hec.ca</u></a>
+      <a href = "mailto: david.aguirre@hec.ca"><i class="fas fa-envelope-square" style="color:  #FBAD4F">&nbsp;</i>Personal Email: <u>david.aguirre@hec.ca</u></a>
+      </li>
+      <li>
+      <a href = "mailto: david.aguirre@hec.ca"><i class="fas fa-envelope-square" style="color:  #FBAD4F">&nbsp;</i>Work Email: <u>davaguirre@deloitte.ca</u></a>
       </li>
       <li>
       <a href="https://www.linkedin.com/in/mdaguirre/"><i class="fab fa-linkedin" style="color:  #0e76a8">&nbsp;</i>LinkedIn: <u>/mdaguirre</u></a>
