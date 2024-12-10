@@ -45,21 +45,25 @@ layout: empty
       {% for post in site.posts %}
         <a href="{{ post.url }}" style="text-decoration: none;">
       <div class='post-row' class="post-container {% if post.underconstruction == true %}under-construction{% endif %}">
-          <div class="project-info-container">
-            <div class="post-label">
-              {{ post.keywords | upcase }}
-            </div>
-            <img src="{{post.client-logo}}" class="logo-thumbnail">
-            <h2 class='post-title'>
-              {{ post.title }}
-            </h2>
-            <p class='post-subtitle'>
-              {{ post.subtitle }}
-            </p>
-            <p class='post-date'>
-              {{ post.year}}
-            </p>
-            <img src="{{ post.thumbnail | prepend: '/assets/img/thumbnails/' | append: '.png' | relative_url }}" class="project-thumbnail">
+          <div class="project-info-container custom-two-columns">
+          <div class="custom-column-1">
+              <img src="{{ post.thumbnail | prepend: '/assets/img/thumbnails/' | append: '.png' | relative_url }}" class="project-thumbnail">
+          </div>
+          <div class="custom-column-2">
+               <h2 class='post-title'>
+                {{ post.title }}
+              </h2>
+              <p class='post-subtitle'>
+                {{ post.subtitle }}
+              </p>
+              <div class="post-label">
+                {{ post.keywords | upcase }}
+              </div>
+              <img src="{{post.client-logo}}" class="logo-thumbnail">
+              <p class='post-date'>
+                {{ post.year}}
+              </p>
+          </div>
           </div>
         </div>
       </a>

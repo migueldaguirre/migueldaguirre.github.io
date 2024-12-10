@@ -233,7 +233,7 @@ margin-bottom: 3em;
   color: rgba(0, 0, 0, 0.5);
 }
 #blog {
-  margin-top: 50px;
+  margin-top: 0.5em;
   margin-bottom: 100px;
   padding: 0px 0.5em 0px 0.5em;
 }
@@ -245,6 +245,7 @@ margin-bottom: 3em;
 #blog #intro {
   margin-bottom: 30px;
   text-align: center;
+  margin-top: 3em;
 }
 
 #blog #intro .sub{
@@ -276,13 +277,14 @@ margin-bottom: 3em;
 }
 
 .project-thumbnail{
-  min-width: 130px;
+  /* min-width: 130px;
   min-height: 130px;
   max-width: 130px;
-  max-height: 130px;
+  max-height: 130px; */
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
-  border-radius: 50%;
+  border-radius: 0.01em;
   filter: grayscale(100%);
   border: 1px solid  rgba(0,0,0,0.1);
 }
@@ -294,7 +296,7 @@ margin-bottom: 3em;
 .post-container{
   display: flex;
   flex-direction: row;
-  max-width:350px;
+  max-width:450px;
   flex-direction: column;
   text-align: center;
   padding: 1em;
@@ -371,8 +373,8 @@ color: rgba(0,0,0,0.5);
   letter-spacing: 0.6;
   opacity: 0.8;
   line-height: 1.5em;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
 .post-label-onpage{
@@ -482,6 +484,10 @@ hr {
     font-size: 13px;
   }
 
+  .post-container .custom-column-2{
+    text-align: center;
+  }
+
   .post-container {
     flex-direction: column;
     margin: 0em 1em 0em 1em;
@@ -491,9 +497,10 @@ hr {
   }
   .post-container .project-thumbnail{
     /*display: none;*/
-    border-radius: 50%;
+    border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
+    max-width: 10em;
   }
   .post-container .post-date{
     display: none;
@@ -672,12 +679,12 @@ width: 100%;
 }
 
 .mosaic-container{
-    display: flex;
-    flex-flow: wrap;
-    max-width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
+  display: flex;
+  flex-flow: wrap;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
 }
 
 .scrollspy{
@@ -793,4 +800,24 @@ padding-right:2em;
 font-size: 0.5em;
 opacity: 0.7;
 }
+
+.custom-two-columns{
+  display: flex;
+  overflow: hidden;
+  flex-wrap: wrap; /* Allow columns to wrap */
+  gap: 0.5em;
+}
+
+.custom-column-1{
+  flex: 1;
+  min-width: 80px; /* Set a minimum width for each column */
+  padding: 10px;
+}
+.custom-column-2{
+  flex: 2;
+  min-width: 200px; /* Set a minimum width for each column */
+  padding: 10px;
+  text-align: left;
+}
+
 
