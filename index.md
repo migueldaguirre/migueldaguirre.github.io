@@ -39,7 +39,7 @@ layout: empty
   </div>
   <div id='blog' class='wrap'>
     <div id='intro'>
-      <img src="https://res.cloudinary.com/davidaguirre-info/image/upload/c_scale,w_400/v1625816252/Profile_Whatsapp_d0lnik.jpg" class="profile-picture">
+      <img src="https://res.cloudinary.com/dk8sybtxo/image/upload/v1733802480/IMG_1123_copy_2_squared_copy_qdhutc.jpg" class="profile-picture">
       <h1 style="margin-top:0.2em">David Aguirre</h1>
       <h2 class="sub">Business Analyst & Product Designer</h2>
     </div>
@@ -54,29 +54,27 @@ layout: empty
         In 2021, I became a certified Application Associate in <em>Integrated Business Processes with SAP S/4 HANA</em>, following my interest in large-scale business applications.</p>
         <p>
         My long-term goal as a professional is to advance the disciplines of <em class="md-color">design thinking</em>, <em class="md-color">integrative thinking,</em> and <em class="md-color">systems thinking</em> through practice, particularly in innovation management and socio-technical interventions.</p>
-        </div><hr>
-    <h2 style="text-align:center">What do I bring to the table?</h2>
+        </div>
+        <!-- <hr> -->
+
+  <!-- <h2 style="text-align:center">What do I bring to the table?</h2> -->
   <div class="project-facts">
-    <div class="competencies-container">
-
-<button class="accordion"><img src="assets/img/about/competences_icon-17.png" class="competencies-icon"><span class="competencies-title">Process and Systems Visualization<span class="down-arrow-accordion">&#9660;</span></span></button>
-<div class="panel">
-  <p class="competencies-text"><span >Build a <b>shared vision</b> between collaborators that allows them to navigate the intricacies of IT and business operations, using multiple tools for descriptive modeling such as activity diagrams, process flowcharts, use cases, user flows, customer journey maps, service blueprints, value constellations, data models, state diagrams and application architectures.</span></p>
-</div>
-
-<button class="accordion"><img src="assets/img/about/competences_icon-15.png" class="competencies-icon"><span class="competencies-title">User and Context Awareness<span class="down-arrow-accordion">&#9660;</span></span></button>
-<div class="panel">
-  <p class="competencies-text">
+    <!-- <div class="competencies-container">
+    <button class="accordion"><img src="assets/img/about/competences_icon-17.png" class="competencies-icon"><span class="competencies-title">Process and Systems Visualization<span class="down-arrow-accordion">&#9660;</span></span></button> <div class="panel">
+    <p class="competencies-text"><span >Build a <b>shared vision</b> between collaborators that allows them to navigate the intricacies of IT and business operations, using multiple tools for descriptive modeling such as activity diagrams, process flowcharts, use cases, user flows, customer journey maps, service blueprints, value constellations, data models, state diagrams and application architectures.</span></p>
+    </div>
+    <button class="accordion"><img src="assets/img/about/competences_icon-15.png" class="competencies-icon"><span class="competencies-title">User and Context Awareness<span class="down-arrow-accordion">&#9660;</span></span></button>
+    <div class="panel">
+      <p class="competencies-text">
           <span >Reveal important <b>particularities</b> about users and their environments, through user research, rapid assessment procedures, design probes, and participatory workshops; understanding physical and social constraints, mapping out interactions between stakeholders, identifying interests and expectations, spotting opportunities, and mitigating biases.</span>
           </p>
-</div>
-
+  </div>
 <button class="accordion"><img src="assets/img/about/competences_icon-16.png" class="competencies-icon"><span class="competencies-title">Information Design and Prototyping<span class="down-arrow-accordion">&#9660;</span></span></button>
 <div class="panel">
   <p class="competencies-text">
           <span >Participate in the process of defining and modelling <b>solutions</b>. This includes gathering, classifying and managing requirements, describing scope and features, generating and visualizing alternatives, developing prototypes, and testing hypotheses. Giving special attention to usability and visual design (layout, typography, and aesthetics). </span></p>
-</div>
-      </div>
+</div> -->
+      <!-- </div> -->
       </div>
     </div>
       <br>
