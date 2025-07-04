@@ -5,7 +5,7 @@ layout: empty
 
 <html>
 <head>
-  <title>David Aguirre | Business Analysis & Product Design</title>
+  <title>David Aguirre - About</title>
   <meta charset='UTF-8'>
   <meta content='width=device-width, initial-scale=1' name='viewport'/>
   <meta name='description' content='David Aguirre is a Designer and Business Analyst'>
@@ -41,7 +41,7 @@ layout: empty
     <div id='intro'>
       <img src="https://res.cloudinary.com/dk8sybtxo/image/upload/v1733802480/IMG_1123_copy_2_squared_copy_qdhutc.jpg" class="profile-picture">
       <h1 style="margin-top:0.2em">David Aguirre</h1>
-      <h2 class="sub">Consultant at Deloitte Technology & Transformation <br>Human-Centered Design in Enterprise Systems </h2>
+      <h2 class="sub">Consultant at Deloitte Technology & Transformation,<br>Human-Centered Design in Enterprise Systems </h2>
     </div>
     <div id="profile">
     <div class="article-text">

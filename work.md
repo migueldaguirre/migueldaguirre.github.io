@@ -5,7 +5,7 @@ layout: empty
 
 <html>
 <head>
-  <title>David Aguirre - Work</title>
+  <title>David Aguirre | Work</title>
   <meta charset='UTF-8'>
   <meta content='width=device-width, initial-scale=1' name='viewport'/>
   <meta name='description' content='David Aguirre is a Designer and Business Analyst'>
@@ -37,6 +37,7 @@ layout: empty
     </ul>
   </div>
       <br>
+      <h1 hidden>Work</h1>
 <!--     <div id='intro' style="margin-left: auto; margin-right: auto; text-align:center; width: 100%;border: 1px solid gainsboro; color: var(--md-color); padding-top:1em; padding-bottom:1em; max-width:600px; border-radius: 5px; opacity: 40%">
 <span>Content is under construction</span> (<span id="datetime"></span>) <br>
     </div> -->
