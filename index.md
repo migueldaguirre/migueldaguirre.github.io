@@ -41,14 +41,14 @@ layout: empty
     <div id='intro'>
       <img src="https://res.cloudinary.com/dk8sybtxo/image/upload/v1733802480/IMG_1123_copy_2_squared_copy_qdhutc.jpg" class="profile-picture">
       <h1 style="margin-top:0.2em">David Aguirre</h1>
-      <h2 class="sub">Consultant at Deloitte Technology & Transformation,<br>Human-Centered Design in Enterprise Systems </h2>
+      <h2 class="sub">Human-Computer Interaction & Solution Architecture</h2>
     </div>
     <div id="profile">
     <div class="article-text">
         <p>
-        As a Consultant at Deloitte's Technology & Transformation practice, I apply knowledge and expertise from the design disciplines to the analysis, development and implementation of information systems.</p>
-        <p>
-        My latest work includes doing functional analysis and design in CRM implementations (Salesforce), formulating CX strategies (establishing technology roadmaps to achieve a 360-degree view of customers, with target operating models, systems architecture, and service design), and collaborating with  functional teams in the preparation of custom developments within ERP implementation programs (SAP Fiori, Work Zone), and explorations in applied AI (data generation using diffusion models and LLM workflows for qualitative data analysis). I also focus on digital accessibility compliance for the public sector and nonprofit organizations</p>
+I’m a Consultant in Deloitte’s Technology & Transformation practice in Montréal, where I blend product & service design, human-factors insight and hands-on technical know-how to analyse, build and roll out enterprise systems and public-sector services. My work spans user-centred design, HCI, digital ethics and strategic marketing: from AI-powered content-evaluation pipelines to rapid SAP Fiori and Salesforce prototyping, and from privacy-consent strategy to WCAG-compliant accessibility audits.</p>
+<p>
+       Fluent in English and French (native Spanish, conversational Portuguese), I’m proficient with Python, Figma, SAP S/4HANA, Salesforce, Azure and more. I thrive at the intersection of technology, design and strategy, turning complex challenges into intuitive, impactful experiences.</p>
         </div>
         <!-- <hr> -->
 
