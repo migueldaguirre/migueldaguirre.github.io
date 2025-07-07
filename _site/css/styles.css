@@ -828,12 +828,4 @@ opacity: 0.7;
   text-align: left;
 }
 
-.head-note{
-  background-color: rgb(255, 255, 255);
-  border-radius: 10px;
-  padding: 0.2em 2em;
-  text-align: center;
-  color:#4881A0;
-  opacity: 70%;
-  font-size: 0.8em;
-}
+
