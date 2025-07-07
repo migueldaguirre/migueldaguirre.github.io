@@ -43,6 +43,7 @@ layout: empty
     </div> -->
   <div id='blog' class=''>
     <div id='posts' class='section mosaic-container'>
+            <div class="head-note"><p><strong>Note: </strong>Projects from 2022–2025 are being updated during the week of July 7–11, 2025</p></div> 
       {% for post in site.posts %}
         <a href="{{ post.url }}" style="text-decoration: none;">
       <div class='post-row' class="post-container {% if post.underconstruction == true %}under-construction{% endif %}">
